@@ -1,0 +1,568 @@
+@font-face {
+    font-family: 'Uptown Market Upright';
+    src: url('fonts/UptownMarketUpright.woff2') format('woff2'),
+        url('fonts/UptownMarketUpright.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uptown Market';
+    src: url('fonts/UptownMarket.woff2') format('woff2'),
+        url('fonts/UptownMarket.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk';
+    src: url('fonts/AlteHaasGrotesk_Bold.woff2') format('woff2'),
+        url('fonts/AlteHaasGrotesk_Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk';
+    src: url('fonts/AlteHaasGrotesk.woff2') format('woff2'),
+        url('fonts/AlteHaasGrotesk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import "variables";
+
+#main{
+    padding-top: 0 !important;
+}
+
+.wf-wrap{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.wf-container-main{
+    display: block !important;
+}
+
+//#bb{
+
+section{
+    width: 100%;
+}
+
+a{
+    transition: 0.3s;
+    &:hover{
+        //color: @orange;
+    }
+}
+
+.aqua{
+    color: @aqua;
+}
+
+.saqua{
+    color: @Saqua;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.center-h {
+        justify-content: center;
+        text-align: center;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        width: 50%;    
+        padding: 0px;
+        box-sizing: border-box;
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+
+p{
+    font-size: 24px;
+    color: @Saqua;
+    //line-height: 100%;
+    font-family: 'Alte Haas Grotesk';
+}
+
+.uptown{
+   
+    font-family: 'Uptown Market';
+}
+
+.shadow{
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.fcentered{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Alte Haas Grotesk';
+    color: @Saqua;
+    margin-bottom: 0px;
+}
+
+.container{
+        max-width: 1350px;
+        margin: auto;
+        padding: 0px 40px;
+}
+
+ ul li::before {
+          //content: "• ";
+          //font-weight: 900; 
+          //font-size: 18px;
+          //color: @brown; 
+    }
+    li{
+             p::before {
+                      content: "• ";
+                      font-weight: 900; 
+                      font-size: 26px;
+                      color: @brown; 
+                }
+    }
+
+
+.btn-brown{
+    background-color: @brown;
+    padding: 20px 36px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Alte Haas Grotesk';
+    text-decoration: none !important;
+}
+
+.btn-saqua{
+    background-color: @Saqua;
+    padding: 20px 36px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Alte Haas Grotesk';
+    text-decoration: none !important;
+}
+
+.relative-top{
+    position: relative;      
+}
+
+.heavy{
+    font-size: 36px;
+}
+
+
+
+.white{
+    color: white;
+}
+.navy, .blue{
+    //color: @navy;
+}
+    
+    
+
+.small-h2{
+    color: white;
+    font-size: 26px;
+    line-height: 50%;
+}
+
+.title-h2{
+    color: white;
+    font-size: 76px;
+    line-height: 50%;
+}
+
+    #tumeta, #byevello{
+        padding-top: 200px;
+        min-height: 666px;
+        background: url(../img/home/legs.jpg) center center no-repeat;
+        background-size: cover;
+        .uptown{
+            font-size: 88px;
+        }
+        h2{
+            padding-bottom: 30px;
+            font-size: 40px;
+            line-height: 150%;
+        }
+        .container{
+            width: 75%;
+        }
+        .w-box{
+            
+            margin-bottom: 40px;
+            //opacity: .75;
+            //z-index: -1;
+            p{
+                //color: white;
+                font-size: 30px;
+                line-height: 130%;
+                padding: 20px;
+                 z-index: 1 !important;
+                position: relative;
+                &::before{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    background-color: white;
+                    opacity: .7;
+                    content: "";
+                    z-index: -1;
+                }
+            }
+            
+            
+            width: 60%;
+        }
+    }
+
+#bodyb{
+    
+    .flex{
+        padding-top: 70px;    
+    }
+    
+    h1{
+        color: @Saqua;
+        font-size: 36px;
+        line-height: 106%;
+        padding-bottom: 60px;
+        padding-right: 50px;
+    }
+    
+    p{
+        line-height: 128%;
+        margin-bottom: 55px;
+    }
+    
+    .col-txt{
+        padding-right: 70px;
+        padding-top: 5px;
+    }
+    
+    .relative-top{
+        top: 100px;     
+    }
+    a{
+        font-size: 30px;
+    }
+}
+
+#consultas{
+    padding-top: 130px;
+    background-color: @aqua;
+    
+    .relative-top{
+        position: relative;
+        top: 30px;
+    }
+    
+     .col-txt{
+         padding: 70px 90px 5px 10px;
+         h2{
+             //padding-bottom: 10px;
+         }
+         
+         img{
+             padding: 22px 0px;
+         }
+         p{
+             padding-bottom: 35px;
+         }
+    }
+    
+}
+
+#servicios{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: @Saqua;
+    
+    .container{
+        padding: 0;    
+    }
+    
+    .flex{
+        //flex-wrap: nowrap;
+    }
+    .col{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 600px;
+        
+        h2{
+            color: @brown;
+            padding-bottom: 30px;
+        }
+        padding: 0;
+        
+        margin: 0px 10px;
+        width: 33.3%;
+        
+        .fix-h{
+            height: 300px;
+        }
+        
+        p{    
+            // flex-grow: 1;
+            //margin-bottom: 40px;
+            //margin-bottom: auto; 
+        }
+        
+        a{
+            
+            align-self: flex-end;
+            //margin-top: auto;
+        }
+        
+        .txt{
+            padding: 20px 48px;
+        }
+    }
+}
+
+#contacto{
+    background: url(../img/home/contacto.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    
+    a{
+        text-decoration: none;
+        &:hover{
+            color: @Saqua;
+        }
+        
+        p{
+            transition: 0.3s;
+        }
+        
+        p:hover{
+            color: @Saqua;
+        }
+    }
+    
+    .btn-saqua{
+        &:hover{
+            color: @brown;
+            background-color: #45706b;
+        }
+    }
+    
+    .pad-top{
+        padding-top: 25px;
+    }
+    
+    h2, p {
+        color: white;
+    }
+    
+    
+    
+    
+    h2{
+        font-size: 62px;
+        line-height: 150%;
+        font-style: normal;
+    }
+    
+    .uptown{
+        font-size: 100px;
+    }
+    
+    
+    
+    .icon{
+        width: 18%;
+        img{
+        //width: 180px;
+        }
+    }
+    
+    #siguenos{
+        width: 30%;
+            p{
+                font-size: 32px !important;
+            }
+    }
+    
+    .icons-bot{
+        margin-bottom: 25px;
+    }
+    
+    .mar-bot{
+        margin-bottom: 60px;
+    }
+    
+    .pad-left{
+        padding-left: 22px;
+    }
+    
+    #mapa{
+        p{
+            font-size: 18px;
+        }
+        padding-top: 180px;
+
+    }
+}
+
+
+/////////////// CONSULTA //////////////////
+
+#tumeta{
+    background: url(../img/consulta/banner-cintametrica.jpg) center no-repeat;
+    background-size: cover;
+    
+    h2{
+        line-height: 105%;
+        .big{
+            font-size: 96px;
+        }
+    }
+    
+    .fcentered{
+        .w-box{
+            width: 80%;
+             p{
+                //color: white;
+                font-size: 30px;
+                line-height: 130%;
+                padding: 45px 20px;
+                 z-index: 1 !important;
+                position: relative;
+                &::before{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    background-color: white;
+                    opacity: .7;
+                    content: "";
+                    z-index: -1;
+                }
+            }
+    }
+    }
+    
+    
+}
+
+#obtienes{
+    
+    .container{
+        padding: 0px;
+    }
+    
+    #pills{
+        background: url(../img/consulta/white-pills.jpg) center no-repeat;
+        background-size: cover;
+    }
+    
+    .col-txt{
+        
+        h2{
+            font-size: 40px;
+        }
+        
+        padding: 85px 70px;
+        
+        img{
+            width: 95%;
+            height: 7px
+        }
+        
+        ul{
+            padding-top: 50px;
+            li{
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+#clock, #money{
+    h2, p{
+        color: white;
+    }
+    .relative-top{
+        position: relative;
+        top: 25px;
+    }
+}
+
+#clock{
+    padding-top: 70px;
+    background-color: @aqua;
+    h2{
+        font-size: 68px;
+        .big{
+            font-size: 96px;
+        }
+        font-weight: 400;
+        line-height: 110%;
+    }
+    
+    .col-txt{
+        padding-right: 20%;
+    }
+    
+    .flex{
+        padding-top: 50px;
+    }
+}
+
+#money{
+    .col-txt{
+        padding-top: 4%;
+    }
+    background-color: @Saqua;
+    .relative-top{
+        top: 70px;
+    }
+    
+}
+
+#howtopay{
+    background-color: @white;
+    padding: 80px 0px;
+    .col-txt{
+        p{
+            padding-right: 150px;
+        }
+    }
+}
+
+@import "responsive";
+//}

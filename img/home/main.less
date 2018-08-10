@@ -1,0 +1,125 @@
+#bb{
+
+a{
+    transition: 0.3s;
+    &:hover{
+        //color: @orange;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.center-h {
+        justify-content: center;
+        text-align: center;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        width: 50%;    
+        padding: 0px;
+        box-sizing: border-box;
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+
+p{
+    font-size: 26px;
+    color: black;
+    //line-height: 100%;
+    font-family: 'avenir';
+}
+
+.shadow{
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.fcentered{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Akzidenz-Grotesk BQ';
+    margin-bottom: 0px;
+}
+
+.container{
+        max-width: 1350px;
+        margin: auto;
+}
+
+.btn-navy{
+    padding: 22px 36px;
+    box-shadow: 5px 3px 16px black;
+     -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      width: t150px;
+      //height: 55px;
+      border: none;
+      font-family: 'Akzidenz-Grotesk BQ';
+        font-size: 20px;
+        font-style: italic;
+    font-weight: 600;
+      color: white;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      background: #1a365b;
+      -webkit-transform: rotateY(0deg)   skewX(13deg);
+      transform: rotateY(0degdeg)   skewX(13deg);
+    
+        .rotated{
+             -webkit-transform: rotateY(0deg)   skewX(-12deg) !important;
+              transform: rotateY(0degdeg)   skewX(-12deg) !important;
+         }
+}
+
+
+
+.heavy{
+    font-family: 'Akzidenz-Grotesk BQ';
+    font-size: 36px;
+}
+
+
+
+.white{
+    color: white;
+}
+.navy, .blue{
+    //color: @navy;
+}
+    
+    
+
+.small-h2{
+    color: white;
+    font-size: 26px;
+    line-height: 50%;
+}
+
+.title-h2{
+    color: white;
+    font-size: 76px;
+    line-height: 50%;
+}
+
+
+@import "responsive";
+}
