@@ -142,6 +142,7 @@ li p::before {
   font-size: 76px;
   line-height: 50%;
 }
+#peel,
 #tumeta,
 #byevello {
   padding-top: 200px;
@@ -149,25 +150,30 @@ li p::before {
   background: url(../img/home/legs.jpg) center center no-repeat;
   background-size: cover;
 }
+#peel .uptown,
 #tumeta .uptown,
 #byevello .uptown {
   font-size: 88px;
 }
+#peel h2,
 #tumeta h2,
 #byevello h2 {
   padding-bottom: 30px;
   font-size: 40px;
   line-height: 150%;
 }
+#peel .container,
 #tumeta .container,
 #byevello .container {
   width: 75%;
 }
+#peel .w-box,
 #tumeta .w-box,
 #byevello .w-box {
   margin-bottom: 40px;
   width: 60%;
 }
+#peel .w-box p,
 #tumeta .w-box p,
 #byevello .w-box p {
   font-size: 30px;
@@ -176,6 +182,7 @@ li p::before {
   z-index: 1 !important;
   position: relative;
 }
+#peel .w-box p::before,
 #tumeta .w-box p::before,
 #byevello .w-box p::before {
   position: absolute;
@@ -350,64 +357,91 @@ li p::before {
   content: "";
   z-index: -1;
 }
+#beneficios .container,
 #obtienes .container {
   padding: 0px;
 }
+#beneficios #pills,
 #obtienes #pills {
   background: url(../img/consulta/white-pills.jpg) center no-repeat;
   background-size: cover;
 }
+#beneficios .col-txt,
 #obtienes .col-txt {
   padding: 85px 70px;
 }
+#beneficios .col-txt h2,
 #obtienes .col-txt h2 {
   font-size: 40px;
 }
+#beneficios .col-txt img,
 #obtienes .col-txt img {
   width: 95%;
   height: 7px;
 }
+#beneficios .col-txt ul,
 #obtienes .col-txt ul {
   padding-top: 50px;
 }
+#beneficios .col-txt ul li,
 #obtienes .col-txt ul li {
   padding-bottom: 20px;
 }
+#no-en h2,
+#resultado h2,
+#money-brown h2,
 #clock h2,
 #money h2,
+#no-en p,
+#resultado p,
+#money-brown p,
 #clock p,
 #money p {
   color: white;
 }
+#no-en .relative-top,
+#resultado .relative-top,
+#money-brown .relative-top,
 #clock .relative-top,
 #money .relative-top {
   position: relative;
   top: 25px;
 }
+#resultado,
 #clock {
   padding-top: 70px;
   background-color: #68aeaa;
 }
+#resultado h2,
 #clock h2 {
   font-size: 68px;
   font-weight: 400;
   line-height: 110%;
 }
+#resultado h2 .big,
 #clock h2 .big {
   font-size: 96px;
 }
+#resultado .col-txt,
 #clock .col-txt {
   padding-right: 20%;
 }
+#resultado .flex,
 #clock .flex {
   padding-top: 50px;
 }
+#no-en,
+#money-brown,
 #money {
   background-color: #508b86;
 }
+#no-en .col-txt,
+#money-brown .col-txt,
 #money .col-txt {
   padding-top: 4%;
 }
+#no-en .relative-top,
+#money-brown .relative-top,
 #money .relative-top {
   top: 70px;
 }
@@ -417,4 +451,79 @@ li p::before {
 }
 #howtopay .col-txt p {
   padding-right: 150px;
+}
+#peel {
+  background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 350px;
+  padding-bottom: 80px;
+}
+#peel .w-box {
+  width: 75%;
+}
+#peel h2 {
+  padding-bottom: 0px;
+}
+#money-brown {
+  background-color: #eee5bd !important;
+}
+#money-brown p,
+#money-brown h2 {
+  color: #508b86;
+}
+#beneficios {
+  padding-top: 120px;
+  background-color: #f8f5e9;
+}
+#beneficios .col-txt .line {
+  width: 95%;
+  height: 7px;
+}
+#beneficios .col-txt img {
+  width: 120%;
+  height: auto;
+}
+#beneficios .col-txt li {
+  padding: 0px !important;
+}
+#beneficios .col-txt li p {
+  margin-bottom: 5px !important;
+}
+#resultado h2 {
+  font-size: 50px ;
+  padding-bottom: 40px;
+}
+#resultado h2 .big {
+  font-size: 66px ;
+}
+#resultado .col-txt {
+  padding-right: 66px;
+  padding-left: 15px;
+}
+#resultado .col-txt h2 {
+  font-size: 34px;
+  font-weight: 600;
+}
+#resultado .col-txt p {
+  padding-bottom: 35px;
+}
+.ejemplo {
+  font-size: 18px;
+  font-weight: 100;
+}
+#no-en {
+  min-height: 400px;
+}
+#no-en .col-txt {
+  padding: 0px;
+  padding-right: 50px;
+}
+#no-en .col-txt h2 {
+  padding-bottom: 40px;
+}
+#no-en .col .fcentered img {
+  width: 100%;
+}
+.pad-top-section {
+  padding-top: 180px !important;
 }
