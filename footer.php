@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section id="contacto">
     <div class="container">
         <div class="flex">
-            <div class="col">
+            <div class="col c-col">
                 <h2>
                   ¡Contáctanos
                    <br>
@@ -40,9 +40,14 @@ if ( ! defined( 'ABSPATH' ) ) {
                     <div class="col txt fcentered">
                         
                          <a href="mailto:contacto@bodybalance.com?subject=Contacto%20Bodybalance"><p class="big">contacto@bodybalance.com</p></a>.
+                         
+                        
                     </div>
                 </div>
                 
+                <div id="cform">
+                     <?php echo do_shortcode("[caldera_form id=CF5b726614a247d]"); ?>
+                </div>
                 
             </div>
             

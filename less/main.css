@@ -26,6 +26,9 @@
 #main {
   padding-top: 0 !important;
 }
+.uptown {
+  font-weight: 100 !important;
+}
 .wf-wrap {
   margin: 0 !important;
   padding: 0 !important;
@@ -142,6 +145,8 @@ li p::before {
   font-size: 76px;
   line-height: 50%;
 }
+#modelamiento,
+#office,
 #peel,
 #tumeta,
 #byevello {
@@ -150,11 +155,15 @@ li p::before {
   background: url(../img/home/legs.jpg) center center no-repeat;
   background-size: cover;
 }
+#modelamiento .uptown,
+#office .uptown,
 #peel .uptown,
 #tumeta .uptown,
 #byevello .uptown {
   font-size: 88px;
 }
+#modelamiento h2,
+#office h2,
 #peel h2,
 #tumeta h2,
 #byevello h2 {
@@ -162,17 +171,23 @@ li p::before {
   font-size: 40px;
   line-height: 150%;
 }
+#modelamiento .container,
+#office .container,
 #peel .container,
 #tumeta .container,
 #byevello .container {
   width: 75%;
 }
+#modelamiento .w-box,
+#office .w-box,
 #peel .w-box,
 #tumeta .w-box,
 #byevello .w-box {
   margin-bottom: 40px;
   width: 60%;
 }
+#modelamiento .w-box p,
+#office .w-box p,
 #peel .w-box p,
 #tumeta .w-box p,
 #byevello .w-box p {
@@ -182,6 +197,8 @@ li p::before {
   z-index: 1 !important;
   position: relative;
 }
+#modelamiento .w-box p::before,
+#office .w-box p::before,
 #peel .w-box p::before,
 #tumeta .w-box p::before,
 #byevello .w-box p::before {
@@ -219,21 +236,21 @@ li p::before {
 #bodyb a {
   font-size: 30px;
 }
-#consultas {
+#queremos #consultas {
   padding-top: 130px;
   background-color: #68aeaa;
 }
-#consultas .relative-top {
+#queremos #consultas .relative-top {
   position: relative;
   top: 30px;
 }
-#consultas .col-txt {
+#queremos #consultas .col-txt {
   padding: 70px 90px 5px 10px;
 }
-#consultas .col-txt img {
+#queremos #consultas .col-txt img {
   padding: 22px 0px;
 }
-#consultas .col-txt p {
+#queremos #consultas .col-txt p {
   padding-bottom: 35px;
 }
 #servicios {
@@ -271,6 +288,17 @@ li p::before {
   padding-top: 80px;
   padding-bottom: 40px;
 }
+#contacto .c-col {
+  padding-left: 0px;
+  padding-right: 60px;
+}
+#contacto .c-col .flex {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#contacto .c-col .txt {
+  width: 63%;
+}
 #contacto a {
   text-decoration: none;
 }
@@ -303,7 +331,7 @@ li p::before {
   font-size: 100px;
 }
 #contacto .icon {
-  width: 18%;
+  width: 20%;
 }
 #contacto #siguenos {
   width: 30%;
@@ -325,6 +353,64 @@ li p::before {
 }
 #contacto #mapa p {
   font-size: 18px;
+}
+#contacto .big {
+  font-size: 24px;
+  font-weight: 900;
+}
+#contacto .col #cform .caldera-grid .form-control::-webkit-input-placeholder {
+  color: white !important;
+}
+#contacto .col #cform #CF5b726614a247d_1-row-2 .col-sm-12 .form-control {
+  border-width: 3px !important;
+  border-color: white !important;
+  border-radius: 8px;
+  background: transparent !important;
+  color: white !important;
+  font-family: "Alte Haas Grotesk" !important;
+  padding: 23px;
+  font-size: 20px;
+}
+#contacto .caldera-grid .form-control::-webkit-input-placeholder {
+  color: white;
+  font-size: 20px;
+}
+#contacto .caldera-grid .checkbox label,
+#contacto .caldera-grid .radio label {
+  color: white !important;
+  font-family: "Alte Haas Grotesk" !important;
+  font-size: 20px;
+}
+#contacto .fld_5824425_1 {
+  height: 20px;
+  width: 90px;
+  margin-top: 10px;
+}
+#contacto #fld_2388358_1-wrap {
+  float: right;
+}
+#contacto #fld_2388358_1-wrap #fld_2388358_1,
+#contacto #fld_2388358_1-wrap .btn-form-class {
+  background: #508b86 !important;
+  padding: 10px 46px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Alte Haas Grotesk';
+  text-decoration: none !important;
+  transition: 0.3s;
+}
+#contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
+#contacto #fld_2388358_1-wrap .btn-form-class:hover {
+  color: #d6c780;
+  background: #45706b !important;
+}
+#contacto .caldera-grid input[type=submit] {
+  background-color: #508b86 !important;
+}
+#contacto input[type="submit"]:not([name="update_cart"]) {
+  background-color: #508b86 !important;
 }
 #tumeta {
   background: url(../img/consulta/banner-cintametrica.jpg) center no-repeat;
@@ -452,15 +538,18 @@ li p::before {
 #howtopay .col-txt p {
   padding-right: 150px;
 }
+#modelamiento,
 #peel {
   background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
   background-size: cover;
   padding-top: 350px;
   padding-bottom: 80px;
 }
+#modelamiento .w-box,
 #peel .w-box {
   width: 75%;
 }
+#modelamiento h2,
 #peel h2 {
   padding-bottom: 0px;
 }
@@ -526,4 +615,118 @@ li p::before {
 }
 .pad-top-section {
   padding-top: 180px !important;
+}
+#office {
+  background: url(../img/whoweare/banner.jpg) center no-repeat;
+  background-size: cover;
+}
+#office .w-box {
+  width: 85% !important;
+}
+#office h2 {
+  padding: 0;
+  font-weight: 100;
+}
+#atendido {
+  background-color: #f8f5e9;
+  padding-top: 45px;
+}
+#atendido p {
+  padding-right: 100px;
+}
+#queremos {
+  background-color: #f8f5e9;
+  padding-top: 0px;
+  padding-left: 76px;
+}
+#queremos h2 {
+  padding-top: 90px;
+  padding-bottom: 15px;
+}
+#queremos .col-txt {
+  padding-right: 80px;
+}
+#queremos .col-txt img {
+  padding-bottom: 10px;
+  width: 95%;
+  height: 7px;
+}
+#queremos .col-txt p {
+  padding-bottom: 25px;
+}
+#queremos .col-txt h2 {
+  font-size: 36px;
+}
+#queremos .relative-top {
+  position: relative;
+  top: 38px;
+}
+#vision,
+#mision {
+  height: 550px;
+  background-color: #68aeaa;
+}
+#vision p,
+#mision p,
+#vision h2,
+#mision h2 {
+  color: white;
+}
+#vision #girl-mision,
+#mision #girl-mision {
+  background: url(../img/whoweare/mision-girlRed.jpg) center no-repeat;
+  background-size: cover;
+}
+#vision #boy-vision,
+#mision #boy-vision {
+  background: url(../img/whoweare/vision-boySmile.jpg) center no-repeat;
+  background-size: cover;
+}
+#vision .flex,
+#mision .flex {
+  height: 550px;
+}
+#vision .flex h2,
+#mision .flex h2 {
+  font-size: 120px;
+  font-weight: 100;
+}
+#vision .flex .col-txt,
+#mision .flex .col-txt {
+  padding: 0px 120px;
+}
+#vision .container,
+#mision .container {
+  padding: 0px;
+}
+#vision {
+  background-color: #508b86 !important;
+}
+#valores {
+  padding-top: 120px;
+  background: url(../img/whoweare/brocoliCASABLANCA.jpg) center no-repeat;
+  background-size: cover;
+}
+#valores .container {
+  padding: 20px 6%;
+}
+#valores h2 {
+  font-size: 120px;
+  font-weight: 100;
+  padding-bottom: 45px;
+}
+#valores ul {
+  padding-bottom: 200px;
+}
+#valores ul li {
+  padding-left: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#valores ul li p {
+  font-size: 33px;
+  font-weight: 600;
+}
+#valores ul li p::before {
+  font-size: 35px;
 }
