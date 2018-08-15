@@ -27,7 +27,7 @@
      
 </section>
 
-<section id="beneficios">
+<section class="template-section" id="beneficios">
     <div class="container">
         <div class="flex ">
             <div class="col col-txt" id="faces">
@@ -83,7 +83,7 @@
 
 
 
-<section id="resultado">
+<section class="template-section" id="resultado">
   <div class="container">
        <div class="relative-top">
            <h2 class="uptown center">
@@ -119,7 +119,7 @@
 
 
 
-<section id="no-en">
+<section class="template-section" id="no-en">
   <div class="container">
       
        <div class="relative-top">
@@ -161,7 +161,7 @@
   </div>
 </section>
 
-<section class="pad-top-section" id="howtopay">
+<section class="template-section pad-top-section" id="howtopay">
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
@@ -183,7 +183,7 @@
     </div>
 </section>
 
-<section id="money-brown">
+<section class="template-section" id="money-brown">
   <div class="container">
       
       

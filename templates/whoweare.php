@@ -21,7 +21,7 @@
      
 </section>
 
-<section id="atendido">
+<section class="template-section" id="atendido">
     <div class="container">
         <div class="flex">
             <div class="col fcentered">
@@ -34,7 +34,7 @@
     </div>
 </section>
 
-<section id="queremos">
+<section class="template-section" id="queremos">
     <div class="container">
         <div class="flex">
             <div class="col col-txt">
@@ -56,7 +56,7 @@
     </div>
 </section>
 
-<section id="mision">
+<section class="template-section" id="mision">
     <div class="container">
         <div class="flex">
            
@@ -75,7 +75,7 @@
 
 
 
-<section id="vision">
+<section class="template-section" id="vision">
     <div class="container">
         <div class="flex">
            
@@ -95,7 +95,7 @@
     </div>
 </section>
 
-<section id="valores">
+<section class="template-section" id="valores">
     <div class="container">
         <div class="left">
             <h2 class="uptown">Valores</h2>

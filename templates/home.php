@@ -23,7 +23,7 @@
      
 </section>
 
-<section id="bodyb">
+<section class="template-section" id="bodyb">
   <div class="container">
        <div class="relative-top">
             <div class="fcentered">
@@ -52,7 +52,7 @@
   </div>
 </section>
 
-<section id="consultas">
+<section class="template-section" id="consultas">
     <div class="container">
         <div class="flex">
             <div class="col col-txt">
@@ -74,7 +74,7 @@
     </div>
 </section>
 
-<section id="servicios">
+<section class="template-section" id="servicios">
     <div class="container">
         <div class="flex">
            <div class="fcentered">

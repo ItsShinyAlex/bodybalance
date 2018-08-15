@@ -236,21 +236,26 @@ li p::before {
 #bodyb a {
   font-size: 30px;
 }
-#queremos #consultas {
+#queremos,
+#consultas {
   padding-top: 130px;
   background-color: #68aeaa;
 }
-#queremos #consultas .relative-top {
+#queremos .relative-top,
+#consultas .relative-top {
   position: relative;
   top: 30px;
 }
-#queremos #consultas .col-txt {
+#queremos .col-txt,
+#consultas .col-txt {
   padding: 70px 90px 5px 10px;
 }
-#queremos #consultas .col-txt img {
+#queremos .col-txt img,
+#consultas .col-txt img {
   padding: 22px 0px;
 }
-#queremos #consultas .col-txt p {
+#queremos .col-txt p,
+#consultas .col-txt p {
   padding-bottom: 35px;
 }
 #servicios {
@@ -729,4 +734,93 @@ li p::before {
 }
 #valores ul li p::before {
   font-size: 35px;
+}
+#modelamiento {
+  padding-top: 280px;
+  background: url(../img/Tratamientos/banner.jpg) center no-repeat;
+}
+#modelamiento h1 {
+  font-size: 70px !important;
+  font-weight: 100 !important;
+}
+.payschedule {
+  background-color: #f8f5e9;
+}
+.payschedule .container {
+  padding: 0px;
+}
+.payschedule .vcentered {
+  display: flex;
+}
+.payschedule .flex {
+  flex-wrap: nowrap;
+}
+.payschedule .col {
+  height: 400px;
+}
+.payschedule .icon {
+  width: 22%;
+}
+.payschedule .txt {
+  padding-left: 15px;
+  width: 90%;
+  flex-direction: column;
+  text-align: left;
+}
+.payschedule .h2like,
+.payschedule h2 {
+  font-size: 28px;
+}
+.payschedule .realtive-top {
+  z-index: 100;
+}
+#depilacion,
+#faciales {
+  height: 500px;
+  background-color: #68aeaa;
+}
+#depilacion .col,
+#faciales .col {
+  padding: 0px 60px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+#depilacion .col img,
+#faciales .col img {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+#depilacion .col,
+#faciales .col {
+  flex-direction: column;
+}
+#depilacion .container,
+#faciales .container {
+  padding: 0px;
+}
+#depilacion h2,
+#faciales h2,
+#depilacion p,
+#faciales p {
+  color: white;
+}
+#depilacion #legs,
+#faciales #legs {
+  background: url(../img/Tratamientos/legs.jpg) center no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+#depilacion #clean-face,
+#faciales #clean-face {
+  background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
+  background-size: cover;
+}
+.blue-howtopay {
+  background-color: #508b86 !important;
+}
+.blue-howtopay h2,
+.blue-howtopay p {
+  color: white !important;
 }

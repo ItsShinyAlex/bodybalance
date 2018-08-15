@@ -25,7 +25,7 @@
      
 </section>
 
-<section id="obtienes">
+<section class="template-section" id="obtienes">
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
@@ -64,7 +64,7 @@
 
 
 
-<section id="clock">
+<section class="template-section" id="clock">
   <div class="container">
        <div class="relative-top">
            <h2 class="uptown center">
@@ -98,7 +98,7 @@
   </div>
 </section>
 
-<section id="money">
+<section class="template-section" id="money">
   <div class="container">
       
        <div class="relative-top">
@@ -134,7 +134,7 @@
   </div>
 </section>
 
-<section id="howtopay">
+<section class="template-section" id="howtopay">
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
