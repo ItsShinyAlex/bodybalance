@@ -98,7 +98,7 @@
   transition: 0.3s !important;
 }
 #shiny-template #tumeta-online #call-icons .col {
-  width: 15%;
+  width: 17%;
 }
 #shiny-template #money {
   min-height: 780px;
@@ -1175,6 +1175,8 @@
 }
 @media screen and (max-width: 650px) {
   #shiny-template #tumeta-online {
+    padding-top: 200px !important;
+    background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
     padding-bottom: 40px;
   }
   #shiny-template #tumeta-online .container {
