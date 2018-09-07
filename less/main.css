@@ -68,6 +68,7 @@
   font-weight: 100 !important;
 }
 #shiny-template #tumeta-online {
+  padding-top: 390px !important;
   background: url(../img/consulta/online-banner.jpg) center no-repeat !important;
 }
 #shiny-template #tumeta-online .container {
