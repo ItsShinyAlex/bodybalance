@@ -470,6 +470,7 @@
 #shiny-template #bodyb a {
   font-size: 30px;
 }
+<<<<<<< HEAD
 #shiny-template #bodyb .btn-brown:hover {
   background-color: #508b86;
   color: lightgoldenrodyellow;
@@ -498,6 +499,28 @@
 }
 #shiny-template #queremos .col-txt p,
 #shiny-template #consultas .col-txt p {
+=======
+#queremos,
+#consultas {
+  padding-top: 130px;
+  background-color: #68aeaa;
+}
+#queremos .relative-top,
+#consultas .relative-top {
+  position: relative;
+  top: 30px;
+}
+#queremos .col-txt,
+#consultas .col-txt {
+  padding: 70px 90px 5px 10px;
+}
+#queremos .col-txt img,
+#consultas .col-txt img {
+  padding: 22px 0px;
+}
+#queremos .col-txt p,
+#consultas .col-txt p {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
   padding-bottom: 35px;
 }
 #shiny-template #servicios {
@@ -1080,6 +1103,7 @@
 #shiny-template #valores ul li p::before {
   font-size: 35px;
 }
+<<<<<<< HEAD
 #shiny-template #modelamiento {
   padding-top: 280px;
   background: url(../img/Tratamientos/banner.jpg) center no-repeat;
@@ -1104,11 +1128,41 @@
   width: 22%;
 }
 #shiny-template .payschedule .txt {
+=======
+#modelamiento {
+  padding-top: 280px;
+  background: url(../img/Tratamientos/banner.jpg) center no-repeat;
+}
+#modelamiento h1 {
+  font-size: 70px !important;
+  font-weight: 100 !important;
+}
+.payschedule {
+  background-color: #f8f5e9;
+}
+.payschedule .container {
+  padding: 0px;
+}
+.payschedule .vcentered {
+  display: flex;
+}
+.payschedule .flex {
+  flex-wrap: nowrap;
+}
+.payschedule .col {
+  height: 400px;
+}
+.payschedule .icon {
+  width: 22%;
+}
+.payschedule .txt {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
   padding-left: 15px;
   width: 90%;
   flex-direction: column;
   text-align: left;
 }
+<<<<<<< HEAD
 #shiny-template .payschedule .h2like,
 #shiny-template .payschedule h2 {
   font-size: 28px;
@@ -1123,11 +1177,28 @@
 }
 #shiny-template #depilacion .col,
 #shiny-template #faciales .col {
+=======
+.payschedule .h2like,
+.payschedule h2 {
+  font-size: 28px;
+}
+.payschedule .realtive-top {
+  z-index: 100;
+}
+#depilacion,
+#faciales {
+  height: 500px;
+  background-color: #68aeaa;
+}
+#depilacion .col,
+#faciales .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
   padding: 0px 60px;
   height: 500px;
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
 #shiny-template #depilacion .col img,
 #shiny-template #faciales .col img {
   padding-top: 18px;
@@ -1149,11 +1220,35 @@
 }
 #shiny-template #depilacion #legs,
 #shiny-template #faciales #legs {
+=======
+#depilacion .col img,
+#faciales .col img {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+#depilacion .col,
+#faciales .col {
+  flex-direction: column;
+}
+#depilacion .container,
+#faciales .container {
+  padding: 0px;
+}
+#depilacion h2,
+#faciales h2,
+#depilacion p,
+#faciales p {
+  color: white;
+}
+#depilacion #legs,
+#faciales #legs {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
   background: url(../img/Tratamientos/legs.jpg) center no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
 }
+<<<<<<< HEAD
 #shiny-template #depilacion #clean-face,
 #shiny-template #faciales #clean-face {
   background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
@@ -1368,10 +1463,41 @@
     padding: 15px;
   }
   #shiny-template .fcentered {
+=======
+#depilacion #clean-face,
+#faciales #clean-face {
+  background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
+  background-size: cover;
+}
+.blue-howtopay {
+  background-color: #508b86 !important;
+}
+.blue-howtopay h2,
+.blue-howtopay p {
+  color: white !important;
+}
+@media screen and (max-width: 650px) {
+  p {
+    font-size: 14px;
+  }
+  li p::before {
+    font-size: 16px;
+  }
+  .btn-brown {
+    padding: 20px 36px;
+    font-size: 20px;
+  }
+  .btn-saqua {
+    padding: 20px 36px;
+    font-size: 20px;
+  }
+  .fcentered {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     display: flex;
     justify-content: center;
     align-items: center;
   }
+<<<<<<< HEAD
   #shiny-template #t-faciales,
   #shiny-template #t-depilaciones,
   #shiny-template #modelamiento,
@@ -1380,10 +1506,18 @@
   #shiny-template #tumeta,
   #shiny-template #tumeta-online,
   #shiny-template #byevello {
+=======
+  #modelamiento,
+  #office,
+  #peel,
+  #tumeta,
+  #byevello {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding-top: 160px;
     min-height: 500px;
     background-size: cover;
   }
+<<<<<<< HEAD
   #shiny-template #t-faciales .uptown,
   #shiny-template #t-depilaciones .uptown,
   #shiny-template #modelamiento .uptown,
@@ -1402,10 +1536,25 @@
   #shiny-template #tumeta h2,
   #shiny-template #tumeta-online h2,
   #shiny-template #byevello h2 {
+=======
+  #modelamiento .uptown,
+  #office .uptown,
+  #peel .uptown,
+  #tumeta .uptown,
+  #byevello .uptown {
+    font-size: 48px !important;
+  }
+  #modelamiento h2,
+  #office h2,
+  #peel h2,
+  #tumeta h2,
+  #byevello h2 {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding-bottom: 30px;
     font-size: 30px;
     line-height: 150%;
   }
+<<<<<<< HEAD
   #shiny-template #t-faciales .container,
   #shiny-template #t-depilaciones .container,
   #shiny-template #modelamiento .container,
@@ -1414,6 +1563,13 @@
   #shiny-template #tumeta .container,
   #shiny-template #tumeta-online .container,
   #shiny-template #byevello .container {
+=======
+  #modelamiento .container,
+  #office .container,
+  #peel .container,
+  #tumeta .container,
+  #byevello .container {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     width: 100%;
     padding: 0;
     display: flex;
@@ -1421,6 +1577,7 @@
     align-items: center;
     flex-direction: column;
   }
+<<<<<<< HEAD
   #shiny-template #t-faciales .w-box,
   #shiny-template #t-depilaciones .w-box,
   #shiny-template #modelamiento .w-box,
@@ -1440,12 +1597,28 @@
   #shiny-template #tumeta .w-box p,
   #shiny-template #tumeta-online .w-box p,
   #shiny-template #byevello .w-box p {
+=======
+  #modelamiento .w-box,
+  #office .w-box,
+  #peel .w-box,
+  #tumeta .w-box,
+  #byevello .w-box {
+    margin-bottom: 40px;
+    width: 85% !important;
+  }
+  #modelamiento .w-box p,
+  #office .w-box p,
+  #peel .w-box p,
+  #tumeta .w-box p,
+  #byevello .w-box p {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     font-size: 18px;
     line-height: 130%;
     padding: 20px;
     z-index: 1 !important;
     position: relative;
   }
+<<<<<<< HEAD
   #shiny-template #t-faciales .w-box p::before,
   #shiny-template #t-depilaciones .w-box p::before,
   #shiny-template #modelamiento .w-box p::before,
@@ -1454,6 +1627,13 @@
   #shiny-template #tumeta .w-box p::before,
   #shiny-template #tumeta-online .w-box p::before,
   #shiny-template #byevello .w-box p::before {
+=======
+  #modelamiento .w-box p::before,
+  #office .w-box p::before,
+  #peel .w-box p::before,
+  #tumeta .w-box p::before,
+  #byevello .w-box p::before {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     position: absolute;
     top: 0;
     left: 0;
@@ -1464,6 +1644,7 @@
     content: "";
     z-index: -1;
   }
+<<<<<<< HEAD
   #shiny-template #bodyb .fcentered img {
     width: 100%;
   }
@@ -1471,13 +1652,26 @@
     width: 100%;
   }
   #shiny-template #bodyb h1 {
+=======
+  #bodyb .fcentered img {
+    width: 100%;
+  }
+  #bodyb .col {
+    width: 100%;
+  }
+  #bodyb h1 {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     color: #508b86;
     font-size: 28px;
     line-height: 106%;
     padding-bottom: 30px;
     padding-right: 0px;
   }
+<<<<<<< HEAD
   #shiny-template #bodyb .col-txt {
+=======
+  #bodyb .col-txt {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding-right: 0px;
     padding-top: 30px;
     text-align: center;
@@ -1486,6 +1680,7 @@
     align-items: center;
     flex-direction: column;
   }
+<<<<<<< HEAD
   #shiny-template #queremos .relative-top,
   #shiny-template #consultas .relative-top {
     position: inherit;
@@ -1501,6 +1696,23 @@
   }
   #shiny-template #queremos .col-txt,
   #shiny-template #consultas .col-txt {
+=======
+  #queremos .relative-top,
+  #consultas .relative-top {
+    position: inherit;
+    top: 0px;
+  }
+  #queremos .relative-top img,
+  #consultas .relative-top img {
+    width: 100%;
+  }
+  #queremos .col,
+  #consultas .col {
+    width: 100%;
+  }
+  #queremos .col-txt,
+  #consultas .col-txt {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding: 10px;
     text-align: center;
     display: flex;
@@ -1508,6 +1720,7 @@
     align-items: center;
     flex-direction: column;
   }
+<<<<<<< HEAD
   #shiny-template #queremos .col-txt img,
   #shiny-template #consultas .col-txt img {
     width: 100%;
@@ -1526,6 +1739,26 @@
     flex-wrap: wrap;
   }
   #shiny-template #servicios .col {
+=======
+  #queremos .col-txt img,
+  #consultas .col-txt img {
+    width: 100%;
+    padding: 22px 0px;
+  }
+  #servicios img {
+    width: 100%;
+  }
+  #servicios .fcentered {
+    flex-direction: column;
+  }
+  #servicios .container {
+    padding: 0;
+  }
+  #servicios .flex {
+    flex-wrap: wrap;
+  }
+  #servicios .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     flex-direction: column;
     justify-content: center;
     height: 650px;
@@ -1534,6 +1767,7 @@
     margin: 0px;
     width: 100% !important;
   }
+<<<<<<< HEAD
   #shiny-template #servicios .col h2 {
     padding-bottom: 30px;
   }
@@ -1569,10 +1803,41 @@
     padding-left: 15px;
   }
   #shiny-template #contacto .c-col {
+=======
+  #servicios .col h2 {
+    padding-bottom: 30px;
+  }
+  #servicios .col .fix-h {
+    height: 300px;
+  }
+  #servicios .col a {
+    align-self: flex-end;
+  }
+  #servicios .col .txt {
+    padding: 20px 48px;
+  }
+  #contacto {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  #contacto .col,
+  #contacto #mapa,
+  #contacto c-col {
+    text-align: center ;
+  }
+  #contacto img {
+    width: 100%;
+  }
+  #contacto .col p {
+    padding-left: 15px;
+  }
+  #contacto .c-col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
   }
+<<<<<<< HEAD
   #shiny-template #contacto .c-col .flex {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -1591,10 +1856,28 @@
     color: white;
   }
   #shiny-template #contacto h2 {
+=======
+  #contacto .c-col .flex {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  #contacto .c-col .txt {
+    width: 80%;
+  }
+  #contacto .pad-top {
+    padding-top: 25px;
+  }
+  #contacto h2,
+  #contacto p {
+    color: white;
+  }
+  #contacto h2 {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     font-size: 40px;
     line-height: 150%;
     font-style: normal;
   }
+<<<<<<< HEAD
   #shiny-template #contacto .uptown {
     font-size: 60px;
   }
@@ -1679,10 +1962,59 @@
   }
   #shiny-template #contacto .fld_2494155_1,
   #shiny-template #contacto .fld_5824425_1 {
+=======
+  #contacto .uptown {
+    font-size: 60px;
+  }
+  #contacto .icon {
+    width: 20%;
+  }
+  #contacto #siguenos {
+    width: 80%;
+  }
+  #contacto #siguenos p {
+    font-size: 28px !important;
+  }
+  #contacto .icons-bot {
+    margin-bottom: 25px;
+  }
+  #contacto .mar-bot {
+    margin-bottom: 60px;
+  }
+  #contacto .pad-left {
+    padding-left: 0px;
+  }
+  #contacto #mapa {
+    width: 100%;
+    padding-top: 50px;
+  }
+  #contacto #mapa p {
+    font-size: 14px;
+  }
+  #contacto .big {
+    font-size: 18px;
+  }
+  #contacto .col #cform .caldera-grid .form-control::-webkit-input-placeholder {
+    color: white !important;
+  }
+  #contacto .col #cform #CF5b726614a247d_1-row-2 .col-sm-12 .form-control {
+    padding: 18px;
+    font-size: 16px;
+  }
+  #contacto .caldera-grid .form-control::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  #contacto .caldera-grid .checkbox label,
+  #contacto .caldera-grid .radio label {
+    font-size: 16px;
+  }
+  #contacto .fld_5824425_1 {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     height: 16px;
     width: 70px;
     margin-top: 10px;
   }
+<<<<<<< HEAD
   #shiny-template #contacto #fld_2494155_1-wrap {
     float: left !important;
     text-align: left;
@@ -1701,6 +2033,13 @@
   #shiny-template #contacto #fld_2388358_1-wrap #fld_2388358_1,
   #shiny-template #contacto #fld_5573142_1-wrap .btn-form-class,
   #shiny-template #contacto #fld_2388358_1-wrap .btn-form-class {
+=======
+  #contacto #fld_2388358_1-wrap {
+    float: right;
+  }
+  #contacto #fld_2388358_1-wrap #fld_2388358_1,
+  #contacto #fld_2388358_1-wrap .btn-form-class {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     background: #508b86 !important;
     padding: 10px 46px;
     border-radius: 8px;
@@ -1711,6 +2050,7 @@
     text-decoration: none !important;
     transition: 0.3s;
   }
+<<<<<<< HEAD
   #shiny-template #contacto #fld_5573142_1-wrap #fld_5573142_1:hover,
   #shiny-template #contacto #fld_2388358_1-wrap #fld_5573142_1:hover,
   #shiny-template #contacto #fld_5573142_1-wrap #fld_2388358_1:hover,
@@ -1741,14 +2081,41 @@
   }
   #shiny-template #tumeta .fcentered .w-box p,
   #shiny-template #tumeta-online .fcentered .w-box p {
+=======
+  #contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
+  #contacto #fld_2388358_1-wrap .btn-form-class:hover {
+    color: #d6c780;
+    background: #45706b !important;
+  }
+  #contacto .caldera-grid input[type=submit] {
+    background-color: #508b86 !important;
+  }
+  #contacto input[type="submit"]:not([name="update_cart"]) {
+    background-color: #508b86 !important;
+  }
+  #tumeta h2 {
+    line-height: 105%;
+  }
+  #tumeta h2 .big {
+    font-size: 46px;
+  }
+  #tumeta .fcentered .w-box {
+    width: 80%;
+  }
+  #tumeta .fcentered .w-box p {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     font-size: 16px;
     line-height: 130%;
     padding: 45px 20px;
     z-index: 1 !important;
     position: relative;
   }
+<<<<<<< HEAD
   #shiny-template #tumeta .fcentered .w-box p::before,
   #shiny-template #tumeta-online .fcentered .w-box p::before {
+=======
+  #tumeta .fcentered .w-box p::before {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     position: absolute;
     top: 0;
     left: 0;
@@ -1759,6 +2126,7 @@
     content: "";
     z-index: -1;
   }
+<<<<<<< HEAD
   #shiny-template #incluye .container,
   #shiny-template #beneficios .container,
   #shiny-template #obtienes .container {
@@ -1767,6 +2135,14 @@
   #shiny-template #incluye .col,
   #shiny-template #beneficios .col,
   #shiny-template #obtienes .col {
+=======
+  #beneficios .container,
+  #obtienes .container {
+    padding: 0px;
+  }
+  #beneficios .col,
+  #obtienes .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center;
     display: flex;
     justify-content: center;
@@ -1774,6 +2150,7 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #incluye .col-txt,
   #shiny-template #beneficios .col-txt,
   #shiny-template #obtienes .col-txt {
@@ -1834,6 +2211,56 @@
   }
   #shiny-template #resultado .col,
   #shiny-template #clock .col {
+=======
+  #beneficios .col-txt,
+  #obtienes .col-txt {
+    padding: 45px 20px;
+  }
+  #beneficios .col-txt h2,
+  #obtienes .col-txt h2 {
+    font-size: 40px;
+  }
+  #beneficios .col-txt img,
+  #obtienes .col-txt img {
+    width: 95%;
+    height: 7px;
+  }
+  #beneficios .col-txt ul,
+  #obtienes .col-txt ul {
+    padding-top: 50px;
+  }
+  #beneficios .col-txt ul li,
+  #obtienes .col-txt ul li {
+    padding-bottom: 8px;
+  }
+  #no-en .relative-top,
+  #resultado .relative-top,
+  #money-brown .relative-top,
+  #clock .relative-top,
+  #money .relative-top {
+    position: relative;
+    top: 0px;
+  }
+  #resultado h2,
+  #clock h2 {
+    font-size: 28px;
+    line-height: 110%;
+  }
+  #resultado h2 .big,
+  #clock h2 .big {
+    font-size: 40px;
+  }
+  #resultado .col-txt,
+  #clock .col-txt {
+    padding-right: 0%;
+  }
+  #resultado .flex,
+  #clock .flex {
+    padding-top: 40px;
+  }
+  #resultado .col,
+  #clock .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center;
     display: flex;
     justify-content: center;
@@ -1841,6 +2268,7 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #resultado .col img,
   #shiny-template #clock .col img {
     width: 40%;
@@ -1858,6 +2286,25 @@
   #shiny-template #no-en .col,
   #shiny-template #money-brown .col,
   #shiny-template #money .col {
+=======
+  #resultado .col img,
+  #clock .col img {
+    width: 40%;
+  }
+  #no-en .col-txt,
+  #money-brown .col-txt,
+  #money .col-txt {
+    padding-top: 3%;
+  }
+  #no-en .relative-top,
+  #money-brown .relative-top,
+  #money .relative-top {
+    top: 0px;
+  }
+  #no-en .col,
+  #money-brown .col,
+  #money .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     flex-wrap: wrap-reverse;
     text-align: center;
     display: flex;
@@ -1866,6 +2313,7 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #no-en .col img,
   #shiny-template #money-brown .col img,
   #shiny-template #money .col img {
@@ -1878,6 +2326,20 @@
     padding-right: 0px;
   }
   #shiny-template #howtopay .col {
+=======
+  #no-en .col img,
+  #money-brown .col img,
+  #money .col img {
+    width: 40%;
+  }
+  #howtopay {
+    padding: 50px 0px;
+  }
+  #howtopay .col-txt p {
+    padding-right: 0px;
+  }
+  #howtopay .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center;
     display: flex;
     justify-content: center;
@@ -1885,6 +2347,7 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #howtopay .col img {
     width: 60%;
     margin: 15px 0px;
@@ -1896,6 +2359,19 @@
   }
   #shiny-template #modelamiento .container,
   #shiny-template #peel .container {
+=======
+  #howtopay .col img {
+    width: 60%;
+    margin: 15px 0px;
+  }
+  #modelamiento,
+  #peel {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  #modelamiento .container,
+  #peel .container {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding: 100px 20px;
     text-align: center !important;
     display: flex !important;
@@ -1904,6 +2380,7 @@
     flex-direction: column !important;
     width: 90% !important;
   }
+<<<<<<< HEAD
   #shiny-template #modelamiento .w-box,
   #shiny-template #peel .w-box {
     margin-bottom: 20px !important;
@@ -1979,6 +2456,81 @@
     padding-right: 0px;
   }
   #shiny-template #atendido .col {
+=======
+  #modelamiento .w-box,
+  #peel .w-box {
+    width: 100% !important;
+  }
+  #modelamiento h2,
+  #peel h2 {
+    padding-bottom: 0px;
+  }
+  #beneficios {
+    padding-top: 30px;
+    background-color: #f8f5e9;
+  }
+  #beneficios .col-txt .line {
+    width: 95%;
+    height: 7px;
+  }
+  #beneficios .col-txt img {
+    width: 120%;
+    height: auto;
+  }
+  #beneficios .col-txt li {
+    padding: 0px !important;
+  }
+  #beneficios .col-txt li p {
+    margin-bottom: 5px !important;
+  }
+  #resultado h2 {
+    font-size: 26px ;
+    padding-bottom: 10px;
+  }
+  #resultado h2 .big {
+    font-size: 35px ;
+  }
+  #resultado .col-txt {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #resultado .col-txt h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #resultado .col-txt p {
+    padding-bottom: 15px;
+  }
+  #resultado img {
+    width: 100%;
+  }
+  #resultado .flex {
+    padding-top: 0px;
+  }
+  .ejemplo {
+    font-size: 13px;
+  }
+  #no-en {
+    padding-top: 40px;
+    min-height: 400px;
+  }
+  #no-en .col-txt {
+    padding-right: 0px;
+  }
+  #no-en .col-txt h2 {
+    padding-bottom: 30px;
+  }
+  .pad-top-section {
+    padding-top: 20px !important;
+  }
+  #atendido {
+    padding-top: 0px;
+  }
+  #atendido p {
+    padding-right: 0px;
+  }
+  #atendido .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center !important;
     display: flex !important;
     justify-content: center !important;
@@ -1987,10 +2539,17 @@
     width: 100%;
     padding-bottom: 25px;
   }
+<<<<<<< HEAD
   #shiny-template #queremos {
     padding-left: 0px;
   }
   #shiny-template #queremos .col {
+=======
+  #queremos {
+    padding-left: 0px;
+  }
+  #queremos .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center !important;
     display: flex !important;
     justify-content: center !important;
@@ -1998,6 +2557,7 @@
     flex-direction: column !important;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #queremos h2 {
     padding-top: 0px;
     padding-bottom: 15px;
@@ -2006,10 +2566,21 @@
     padding-right: 0px;
   }
   #shiny-template #queremos .col-txt img {
+=======
+  #queremos h2 {
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+  #queremos .col-txt {
+    padding-right: 0px;
+  }
+  #queremos .col-txt img {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding-bottom: 10px;
     width: 95%;
     height: 7px;
   }
+<<<<<<< HEAD
   #shiny-template #queremos .col-txt p {
     padding-bottom: 25px;
   }
@@ -2039,6 +2610,37 @@
   }
   #shiny-template #vision .col,
   #shiny-template #mision .col {
+=======
+  #queremos .col-txt p {
+    padding-bottom: 25px;
+  }
+  #queremos .col-txt h2 {
+    font-size: 30px;
+  }
+  #queremos .relative-top {
+    position: relative;
+    top: 0px;
+  }
+  #vision .flex,
+  #mision .flex {
+    height: 550px;
+  }
+  #vision .flex h2,
+  #mision .flex h2 {
+    font-size: 52px;
+    font-weight: 100;
+  }
+  #vision .flex .col-txt,
+  #mision .flex .col-txt {
+    padding: 15px;
+  }
+  #vision .container,
+  #mision .container {
+    padding: 0px;
+  }
+  #vision .col,
+  #mision .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center;
     display: flex;
     justify-content: center;
@@ -2046,6 +2648,7 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #vision {
     flex-wrap: wrap-reverse;
   }
@@ -2067,10 +2670,30 @@
     padding-bottom: 150px;
   }
   #shiny-template #valores ul li {
+=======
+  #vision {
+    flex-wrap: wrap-reverse;
+  }
+  #vision .flex {
+    flex-wrap: wrap-reverse;
+  }
+  #valores .container {
+    padding: 20px 6%;
+  }
+  #valores h2 {
+    font-size: 80px;
+    padding-bottom: 35px;
+  }
+  #valores ul {
+    padding-bottom: 150px;
+  }
+  #valores ul li {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding-left: 25px;
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
+<<<<<<< HEAD
   #shiny-template #valores ul li p {
     font-size: 30px;
     font-weight: 600;
@@ -2082,10 +2705,26 @@
     background-color: #f8f5e9;
   }
   #shiny-template .payschedule .container {
+=======
+  #valores ul li p {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #valores ul li p::before {
+    font-size: 32px;
+  }
+  .payschedule {
+    min-height: 600px;
+    background-color: #f8f5e9;
+  }
+  .payschedule .container {
+    min-height: 800px;
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
   #shiny-template .payschedule .vcentered {
     display: flex;
     flex-wrap: wrap;
@@ -2105,22 +2744,57 @@
     width: 100%;
   }
   #shiny-template .payschedule .txt {
+=======
+  .payschedule .vcentered {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .payschedule .flex {
+    flex-wrap: wrap;
+  }
+  .payschedule .col {
+    flex-wrap: wrap;
+    height: 230px;
+    width: 100%;
+  }
+  .payschedule .col li,
+  .payschedule .col p {
+    margin: 0;
+  }
+  .payschedule .icon {
+    width: 100%;
+    height: 110px;
+  }
+  .payschedule .txt {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     padding-bottom: 30px;
     padding-left: 0px;
     width: 100%;
     flex-direction: column;
     text-align: left;
   }
+<<<<<<< HEAD
   #shiny-template .payschedule .h2like,
   #shiny-template .payschedule h2 {
     font-size: 26px;
   }
   #shiny-template .payschedule .realtive-top {
+=======
+  .payschedule .h2like,
+  .payschedule h2 {
+    font-size: 26px;
+  }
+  .payschedule .realtive-top {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     z-index: 1;
     top: 0px;
     position: absolute;
   }
+<<<<<<< HEAD
   #shiny-template .payschedule .col {
+=======
+  .payschedule .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center;
     display: flex;
     justify-content: center;
@@ -2128,7 +2802,11 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template .payschedule .fcentered {
+=======
+  .payschedule .fcentered {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center;
     display: flex;
     justify-content: center;
@@ -2136,6 +2814,7 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #depilacion,
   #shiny-template #faciales {
     height: 440px;
@@ -2147,12 +2826,30 @@
   }
   #shiny-template #depilacion .col img,
   #shiny-template #faciales .col img {
+=======
+  #depilacion,
+  #faciales {
+    height: 440px;
+  }
+  #depilacion .col,
+  #faciales .col {
+    padding: 0px;
+    height: 500px;
+  }
+  #depilacion .col img,
+  #faciales .col img {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     width: 95%;
     padding-top: 18px;
     padding-bottom: 10px;
   }
+<<<<<<< HEAD
   #shiny-template #depilacion .col,
   #shiny-template #faciales .col {
+=======
+  #depilacion .col,
+  #faciales .col {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     text-align: center;
     display: flex;
     justify-content: center;
@@ -2160,20 +2857,34 @@
     flex-direction: column;
     width: 100%;
   }
+<<<<<<< HEAD
   #shiny-template #depilacion .txt,
   #shiny-template #faciales .txt {
     padding: 0px 20px;
   }
   #shiny-template #depilacion #legs,
   #shiny-template #faciales #legs {
+=======
+  #depilacion .txt,
+  #faciales .txt {
+    padding: 0px 20px;
+  }
+  #depilacion #legs,
+  #faciales #legs {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     background: url(../img/Tratamientos/legs.jpg) center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;
     display: none;
   }
+<<<<<<< HEAD
   #shiny-template #depilacion #clean-face,
   #shiny-template #faciales #clean-face {
+=======
+  #depilacion #clean-face,
+  #faciales #clean-face {
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
     background-size: cover;
     display: none;

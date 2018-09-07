@@ -148,8 +148,12 @@ echo "<section id ='shiny-template'>";
 
 
 
+<<<<<<< HEAD
 <!--
  <section class="template-section" id="clock">
+=======
+<section class="template-section" id="clock">
+>>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
   <div class="container">
        <div class="relative-top">
            <h2 class="uptown center">
