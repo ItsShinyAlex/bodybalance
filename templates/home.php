@@ -1,29 +1,17 @@
 <?php
     /* Template Name:  home*/ 
+echo "<section id ='shiny-template'>";
     get_header();
 ?>
 
 
 
 
-<section class="template-section" id="byevello">
-    
-    <div class="container">
-        <h2 class="saqua">¡Olvídate del vello<br>
-            <span class="uptown aqua">para siempre!</span></h2>
-
-        <div class="w-box">
-            <p>Con nuestro servicio de depilación
-                láser diodo eliminamos el vello
-                corporal de forma permanente</p>
-        </div>
-        
-         <a href="" class="btn-brown">¡Me interesa!</a>
-    </div>
-     
+<section id="slider-home" >
+    <?php putRevSlider("home1", "home-new.php"); ?>
 </section>
 
-<section id="bodyb">
+<section class="template-section" id="bodyb">
   <div class="container">
        <div class="relative-top">
             <div class="fcentered">
@@ -42,9 +30,9 @@
                         Es un centro integral de nutrición y metabolismo.
                     </h1>
                     <p>
-                        Ofrecemos consulta  médico-nutricional, venta de suplementos  y  tratamientos complementarios cómo modelado corporal con ondas de choque tecnología suiza Cellacor®, faciales y depilación laser diodo. 
+                        Ofrecemos consulta  médico-nutricional, venta de suplementos  y  tratamientos complementarios cómo modelado corporal con ondas de choque tecnología suiza Cellactor SC1®, faciales y depilación laser diodo. 
                     </p>
-                    <a href="" class="btn-brown">¡Saber más!</a>
+                    <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Saber más!</a>
                 </div>
             </div>
        </div>
@@ -52,7 +40,7 @@
   </div>
 </section>
 
-<section id="consultas">
+<section class="template-section" id="consultas">
     <div class="container">
         <div class="flex">
             <div class="col col-txt">
@@ -60,10 +48,10 @@
                 </h2>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/w-bar.png" alt="----------">
                 <p class="white">
-                    Te ofrecemos tu consulta médico nutricional personalizada, analizando composición corporal con tecnología inbody, estilo de vida y necesidades, para obtener la mejor opción de tratamiento.
+                    Te ofrecemos tu consulta médico nutricional personalizada, analizando composición corporal con tecnología InBody, estilo de vida y necesidades, para obtener la mejor opción de tratamiento.
                 </p>
                 <p class="white"><b>¡Te acompañaremos hasta alcanzar la meta deseada!</b></p>
-                 <a href="" class="btn-brown">¡Saber más!</a>
+                 <a href="http://bodybalance.mx/consultas-de-nutricion/" class="btn-brown">¡Saber más!</a>
             </div>
             <div class="col">
                 <div class="relative-top">
@@ -74,7 +62,7 @@
     </div>
 </section>
 
-<section id="servicios">
+<section class="template-section" id="servicios">
     <div class="container">
         <div class="flex">
            <div class="fcentered">
@@ -86,13 +74,13 @@
 
                                  <h2 class="brown">Modelamiento 
                                 Corporal</h2>
-                                <p class="white">Con Cellacor de Storz Medical™  tecnología suiza, resultados rápidos y efectivos.</p>
+                                <p class="white">Con Cellactor de Storz Medical™ tecnología suiza, resultados rápidos, efectivos y duraderos.</p>
 
 
                             </div>
                         </div>
                         
-                         <a href="" class="btn-brown">¡Saber más!</a>
+                         <a href="http://bodybalance.mx/tratamientos/#modelamiento" class="btn-brown">¡Saber más!</a>
                         
                        
                     </div>
@@ -106,13 +94,13 @@
                             <div class="txt">
                                 <h2 class="brown">Depilación con  
                                 láser diodo</h2>
-                                <p class="white">Depilación definitiva en menos sesiones y virtualmente sin dolor.</p>
+                                <p class="white">Depilación definitiva en menos sesiones.</p>
 
 
                             </div>
                         
                          </div>
-                           <a href="" class="btn-brown">¡Saber más!</a>
+                           <a href="http://bodybalance.mx/tratamientos/#depilacion" class="btn-brown">¡Saber más!</a>
                            
                     </div>
 
@@ -126,7 +114,7 @@
                             <div class="txt">
                                 <h2 class="brown">Faciales</h2>
                                 <p class="white">
-                                    Microdermoabrasión con punta diamante, USG, fototerapia, limpieza y aplicación de mascarilla.
+                                    Microdermoabrasión con punta diamante, USG, fototerapia, limpieza profunda y aplicación de mascarillas.
                                 </p>
                                 
                             
@@ -136,7 +124,7 @@
                             
                         </div>
                         
-                        <a href="" class="btn-brown">¡Saber más!</a>
+                        <a href="http://bodybalance.mx/tratamientos/#faciales" class="btn-brown">¡Saber más!</a>
                         
                         
                     </div>
@@ -152,6 +140,7 @@
 
 
 <?php 
+    include("shiny-footer.php");
     get_footer();
 ?>
 

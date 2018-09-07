@@ -1,5 +1,5 @@
 <?php
-    /* Template Name:  Consulta Nutri*/ 
+    /* Template Name:  Consulta Online*/ 
 echo "<section id ='shiny-template'>";
     get_header();
 ?>
@@ -7,30 +7,47 @@ echo "<section id ='shiny-template'>";
 
 
 
-<section class="template-section" id="tumeta">
+<section class="template-section" id="tumeta-online">
     
-    <div class="container center desktop-r-space">
-        <h2 class="saqua uptown">¡Queremos que<br>
-            <span class="big">logres tu meta!</span></h2>
+    <div class="container desktop-r-space fcentered col-dir">
+      
+       <div class="fcentered h1-contain">
+           
+           
+            <h1 class="saqua uptown">¡La nutrición que 
+            <span class="">necesitas está a un clic! </span></h1>
+           
+       </div>
+       
             
-        <div class="fcentered">
+        <div class="fcentered col-dir">
             <div class="w-box">
-            <p>Te ofrecemos tu consulta médico nutricional
-             personalizada, analizando composición corporal con tecnología InBody,
-              estilo de vida y necesidades, 
-              para obtener la mejor opción de tratamiento.
+            <p>En nuestra consulta médico nutricional online analizamos  estilo de vida, gustos y necesidades, para darte la mejor opción de tratamiento desde la comodidad de tu casa. 
               <br>
                 <br>
-                 <b>Existen dos modalidades de Consulta:</b>
-                 <br>
-              <br>
-              La consulta presencial (sólo en CDMX) y la consulta online disponible para toda la República Mexicana. Ambas tienen los mismos beneficios.  <b>¡Elige la que más te convenga!</b>
+                 <b>Y está disponible para toda la República Mexicana via:</b>
               </p>
               
               
+                <div id="call-icons">
               
+                        <div class="flex">
+                            <div class="col fcentered">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/001-skype.png" alt="Skype">
+                            </div>    
+                            <div class="col fcentered">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/002-whatsapp.png" alt="WhatsApp">
+                            </div>
+                            <div class="col fcentered">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/003-mobile-phone.png" alt="Teléfono">
+                            </div>
+                        </div>
+                </div>
             </div>
+            
         </div>
+        
+      
         
         <div class="desktop-hide">
             <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
@@ -43,26 +60,27 @@ echo "<section id ='shiny-template'>";
 <section class="template-section" id="obtienes">
     <div class="container">
         <div class="flex ">
-            <div class="col" id="pills">
+            <div class="col" id="online-food">
                 
             </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">¿Qué obtienes?
+                <h2 class="saqua">Beneficios
                 </h2>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
                 <ul>
                     <li>
-                        <p>Atención médica profesional para perder peso sin riesgos para tu salud. </p>
+                        <p>Recibirás atención médica profesional para perder peso sin salir de casa y sin riesgos para tu salud. 
+ </p>
                     </li>
                     <li>
-                        <p>Creamos para ti un plan de alimentación totalmente personalizado con comidas fáciles de preparar y deliciosas. </p>
+                        <p>Creamos para ti un menú totalmente personalizado con comidas sanas,  fáciles de preparar y deliciosas. </p>
                     </li>
                     <li>
-                        <p>Prescribimos los suplementos  si  los necesitas.  </p>
+                        <p>Prescribimos los suplementos si los necesitas.    </p>
                     </li>
                     <li>
-                        <p>Te orientamos en cuanto a la actividad física que puedes y necesitas realizar. </p>
+                        <p>Te orientamos en cuanto a la actividad física que puedes y necesitas realizar.  </p>
                     </li>
                     <li>
                         <p>Realizamos educación nutrimental para ir establecer contigo hábitos alimenticios permanentes, que te ayuden a obtener resultados duraderos.</p>
@@ -190,10 +208,10 @@ echo "<section id ='shiny-template'>";
        <div class="relative-top">
            
            <h2 id="clock-in" class="uptown center">
-              ¡Y te acompañaremos  hasta
+              ¡Logra tu meta
                 <br>
                <span class="big">
-                   lograr la meta deseada!
+                   sin salir de casa!
                </span>
            </h2>
             
@@ -204,26 +222,17 @@ echo "<section id ='shiny-template'>";
                        
                     <ul>
                         <li>
-                            <p><b>Primera Consulta Médico Nutricional: </b><br>800 MXN</p>
+                            <p><b>Primera Consulta Médico Nutricional: </b><br>650 MXN</p>
                         </li>
                         <li>
-                            <p><b>Consulta subsecuente:</b><br>750 MXN</p>
+                            <p><b>Consecutivas:</b><br>600 MXN</p>
                         </li>
-                        <li>
-                            <p><b>Consulta Nutricional Embarazo: </b><br>1,000 MXN</p>
-                        </li>
-                        <li>
-                            <p><b>Consulta Online </b><br>600 MXN</p>
-                        </li>
-                        <li>
-                            <p><b>Asesoría Nutricional Pediátrica </b><br>650 MXN</p>
-                        </li>
+
                         <p class="prepago">
                         ¡Consulta la promoción prepago!</p>
                         <div class="pad-top">
                             <a href="https://bodybalance.mx/tienda/consulta-nutricional/" class="btn-brown">¡ME INTERESA!</a>
-                        </div>
-                        
+                        </div> 
                     </ul>
                     
                     
@@ -232,10 +241,6 @@ echo "<section id ='shiny-template'>";
                    <div class="fcentered">
                        
                    </div>
-                   
-                   
-                    
-                   
                     
                 </div>
                 

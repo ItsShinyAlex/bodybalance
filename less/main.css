@@ -23,90 +23,264 @@
   font-weight: normal;
   font-style: normal;
 }
-#main {
+/*.branding a img, .branding img {
+    width: 247px !important;
+    height: 69px !important;
+
+}*/
+.light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a,
+.light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a .menu-text,
+.light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a .subtitle-text {
+  color: #508b86 !important;
+  transition: 0.3s !important;
+}
+.light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li.act > a:active > span {
+  color: #68aeaa !important;
+}
+.light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a:hover span {
+  color: #68aeaa !important;
+}
+#bottom-bar .wf-float-left {
+  margin-left: 15px;
+}
+#shiny-template {
+  width: 100% !important;
+}
+#shiny-template .wf-container-main {
+  background-color: #f8f5e9 !important;
+}
+#shiny-template #main {
   padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
-.uptown {
-  font-weight: 100 !important;
-}
-.wf-wrap {
+#shiny-template .wf-wrap {
   margin: 0 !important;
   padding: 0 !important;
   width: 100% !important;
 }
-.wf-container-main {
+#shiny-template .wf-container-main {
   display: block !important;
 }
-section {
-  width: 100%;
+#shiny-template .desktop-hide {
+  display: none;
 }
-a {
-  transition: 0.3s;
+#shiny-template .uptown {
+  font-weight: 100 !important;
 }
-.aqua {
+#shiny-template #tumeta-online {
+  background: url(../img/consulta/online-banner.jpg) center no-repeat !important;
+}
+#shiny-template #tumeta-online .container {
+  padding-right: 27%;
+}
+#shiny-template #tumeta-online .container h1 {
+  font-size: 60px;
+  width: 60%;
+  padding-left: 3%;
+  text-shadow: 1px 3px 4px #626363;
   color: #68aeaa;
 }
-.saqua {
+#shiny-template #tumeta-online .w-box {
+  width: 66% !important;
+}
+#shiny-template #tumeta-online .w-box p {
+  padding: 30px !important;
+}
+#shiny-template #tumeta-online .col-dir {
+  display: flex;
+  flex-direction: column;
+}
+#shiny-template #tumeta-online #call-icons {
+  min-width: 200px;
+}
+#shiny-template #tumeta-online #call-icons img:hover {
+  transform: scale(1.2) !important;
+  transition: 0.3s !important;
+}
+#shiny-template #tumeta-online #call-icons .col {
+  width: 15%;
+}
+#shiny-template #money {
+  min-height: 780px;
+}
+#shiny-template #money .pad-top {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+#shiny-template .pork {
+  padding: 0px 100px;
+  padding-top: 20px;
+  width: auto !important;
+  background-color: #f8f5e9 ;
+}
+#shiny-template .pork .realtive-top {
+  position: relative;
+  top: 18px;
+}
+#shiny-template .pork .flex .col {
+  flex-direction: column !important;
+}
+#shiny-template .pork .flex .col .uptown {
+  font-size: 36px;
+  padding: 0px 85px;
+}
+#shiny-template .pork .flex .col .small {
+  padding: 0px 30%;
+}
+#shiny-template .pork .flex .col p,
+#shiny-template .pork .flex .col h2 {
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+#shiny-template .pork .flex .col .small,
+#shiny-template .pork .flex .col .smallest {
+  font-weight: 600;
+}
+#shiny-template .pork .flex .col .small {
+  font-size: 18px;
+}
+#shiny-template .pork .flex .col .smallest {
+  font-size: 14px;
+}
+#shiny-template .pork .flex .col img {
+  width: 30%;
+}
+#shiny-template #t-depilaciones {
+  background: url(../img/Tratamientos/depilacion-banner.jpg) center no-repeat !important;
+  background-size: cover;
+  padding-top: 380px !important;
+}
+#shiny-template #t-depilaciones .container {
+  padding: 0;
+  width: 95% !important ;
+}
+#shiny-template #t-depilaciones .container img {
+  width: 40%;
+  padding-bottom: 30px;
+}
+#shiny-template #t-depilaciones .desktop-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#shiny-template #t-depilaciones .desktop-center h1 {
+  padding: 0 !important;
+}
+#shiny-template #t-depilaciones .w-box {
+  width: 70% !important;
+}
+#shiny-template #t-depilaciones h1 {
+  padding-right: 15%;
+  line-height: 111%;
+}
+#shiny-template .prepago {
+  font-size: 30px !important;
+  color: #d6c780 !important;
+  font-weight: 600 !important;
+  padding-top: 25px;
+}
+#shiny-template #clock-in {
+  padding-bottom: 40px !important;
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 110%;
+}
+#shiny-template #clock-in .big {
+  font-size: 96px;
+}
+#shiny-template .saqua-back {
+  background-color: #508b86 !important;
+}
+#shiny-template .saqua-back h2,
+#shiny-template .saqua-back p {
+  color: white !important;
+}
+#shiny-template #t-faciales {
+  min-height: 600px !important;
+  height: 600px !important;
+  background: url(../img/Tratamientos/facial-banner.png) center no-repeat !important;
+  background-size: cover;
+}
+#shiny-template #t-faciales .flex,
+#shiny-template #t-faciales .center,
+#shiny-template #t-faciales .fcentered {
+  flex-direction: column;
+}
+#shiny-template #t-faciales .w-box {
+  width: 80% !important;
+}
+#shiny-template section {
+  width: 100%;
+}
+#shiny-template a {
+  transition: 0.3s;
+}
+#shiny-template .aqua {
+  color: #68aeaa;
+}
+#shiny-template .saqua {
   color: #508b86;
 }
-.flex {
+#shiny-template .flex {
   display: flex;
   flex-wrap: wrap;
 }
-.flex.center-h {
+#shiny-template .flex.center-h {
   justify-content: center;
   text-align: center;
 }
-.flex.nowrap {
+#shiny-template .flex.nowrap {
   flex-wrap: nowrap;
 }
-.flex .col {
+#shiny-template .flex .col {
   width: 50%;
   padding: 0px;
   box-sizing: border-box;
 }
-.flex .col.align-self-center {
+#shiny-template .flex .col.align-self-center {
   align-self: center;
 }
-.flex .col.align-self-end {
+#shiny-template .flex .col.align-self-end {
   align-self: flex-end;
 }
-p {
+#shiny-template p {
   font-size: 24px;
   color: #508b86;
   font-family: 'Alte Haas Grotesk';
 }
-.uptown {
+#shiny-template .uptown {
   font-family: 'Uptown Market';
 }
-.shadow {
+#shiny-template .shadow {
   text-shadow: 2px 2px 8px #000000;
 }
-.fcentered {
+#shiny-template .fcentered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.center {
+#shiny-template .center {
   text-align: center;
 }
-h2 {
+#shiny-template h2 {
   font-family: 'Alte Haas Grotesk';
   color: #508b86;
   margin-bottom: 0px;
 }
-.container {
+#shiny-template .container {
   max-width: 1350px;
   margin: auto;
   padding: 0px 40px;
 }
-li p::before {
+#shiny-template li p::before {
   content: "• ";
   font-weight: 900;
   font-size: 26px;
   color: #d6c780;
 }
-.btn-brown {
+#shiny-template .btn-brown {
   background-color: #d6c780;
   padding: 20px 36px;
   border-radius: 8px;
@@ -116,7 +290,11 @@ li p::before {
   font-family: 'Alte Haas Grotesk';
   text-decoration: none !important;
 }
-.btn-saqua {
+#shiny-template .btn-brown:hover {
+  background-color: #68aeaa;
+  color: lightgoldenrodyellow;
+}
+#shiny-template .btn-saqua {
   background-color: #508b86;
   padding: 20px 36px;
   border-radius: 8px;
@@ -126,82 +304,50 @@ li p::before {
   font-family: 'Alte Haas Grotesk';
   text-decoration: none !important;
 }
-.relative-top {
+#shiny-template .relative-top {
   position: relative;
 }
-.heavy {
+#shiny-template .heavy {
   font-size: 36px;
 }
-.white {
+#shiny-template .white {
   color: white;
 }
-.small-h2 {
+#shiny-template .small-h2 {
   color: white;
   font-size: 26px;
   line-height: 50%;
 }
-.title-h2 {
+#shiny-template .title-h2 {
   color: white;
   font-size: 76px;
   line-height: 50%;
 }
-#modelamiento,
-#office,
-#peel,
-#tumeta,
-#byevello {
-  padding-top: 200px;
-  min-height: 666px;
-  background: url(../img/home/legs.jpg) center center no-repeat;
-  background-size: cover;
+#shiny-template #slider-home a {
+  transition: 0.3s !important;
 }
-#modelamiento .uptown,
-#office .uptown,
-#peel .uptown,
-#tumeta .uptown,
-#byevello .uptown {
-  font-size: 88px;
+#shiny-template #slider-home h2 {
+  font-size: 68px !important;
+  line-height: 70px !important;
 }
-#modelamiento h2,
-#office h2,
-#peel h2,
-#tumeta h2,
-#byevello h2 {
-  padding-bottom: 30px;
-  font-size: 40px;
-  line-height: 150%;
+#shiny-template #slider-home h2 .small {
+  font-size: 40px !important;
 }
-#modelamiento .container,
-#office .container,
-#peel .container,
-#tumeta .container,
-#byevello .container {
-  width: 75%;
+#shiny-template #slider-home h2 .big {
+  font-size: 90px !important;
 }
-#modelamiento .w-box,
-#office .w-box,
-#peel .w-box,
-#tumeta .w-box,
-#byevello .w-box {
-  margin-bottom: 40px;
-  width: 60%;
+#shiny-template #slider-home .w-box {
+  margin-bottom: 0px;
+  width: 100%;
 }
-#modelamiento .w-box p,
-#office .w-box p,
-#peel .w-box p,
-#tumeta .w-box p,
-#byevello .w-box p {
-  font-size: 30px;
+#shiny-template #slider-home .w-box p {
+  font-size: 28px;
   line-height: 130%;
-  padding: 20px;
+  padding: 18px;
   z-index: 1 !important;
   position: relative;
 }
-#modelamiento .w-box p::before,
-#office .w-box p::before,
-#peel .w-box p::before,
-#tumeta .w-box p::before,
-#byevello .w-box p::before {
+#shiny-template #slider-home .w-box p::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -212,56 +358,157 @@ li p::before {
   content: "";
   z-index: -1;
 }
-#bodyb .flex {
+#shiny-template #t-faciales,
+#shiny-template #t-depilaciones,
+#shiny-template #modelamiento,
+#shiny-template #office,
+#shiny-template #peel,
+#shiny-template #tumeta,
+#shiny-template #tumeta-online,
+#shiny-template #byevello {
+  padding-top: 200px;
+  min-height: 666px;
+  background: url(../img/home/legs.jpg) center center no-repeat;
+  background-size: cover;
+}
+#shiny-template #t-faciales .uptown,
+#shiny-template #t-depilaciones .uptown,
+#shiny-template #modelamiento .uptown,
+#shiny-template #office .uptown,
+#shiny-template #peel .uptown,
+#shiny-template #tumeta .uptown,
+#shiny-template #tumeta-online .uptown,
+#shiny-template #byevello .uptown {
+  font-size: 88px;
+}
+#shiny-template #t-faciales h2,
+#shiny-template #t-depilaciones h2,
+#shiny-template #modelamiento h2,
+#shiny-template #office h2,
+#shiny-template #peel h2,
+#shiny-template #tumeta h2,
+#shiny-template #tumeta-online h2,
+#shiny-template #byevello h2 {
+  padding-bottom: 30px;
+  font-size: 40px;
+  line-height: 150%;
+}
+#shiny-template #t-faciales .container,
+#shiny-template #t-depilaciones .container,
+#shiny-template #modelamiento .container,
+#shiny-template #office .container,
+#shiny-template #peel .container,
+#shiny-template #tumeta .container,
+#shiny-template #tumeta-online .container,
+#shiny-template #byevello .container {
+  width: 75%;
+}
+#shiny-template #t-faciales .w-box,
+#shiny-template #t-depilaciones .w-box,
+#shiny-template #modelamiento .w-box,
+#shiny-template #office .w-box,
+#shiny-template #peel .w-box,
+#shiny-template #tumeta .w-box,
+#shiny-template #tumeta-online .w-box,
+#shiny-template #byevello .w-box {
+  margin-bottom: 40px;
+  width: 60%;
+}
+#shiny-template #t-faciales .w-box p,
+#shiny-template #t-depilaciones .w-box p,
+#shiny-template #modelamiento .w-box p,
+#shiny-template #office .w-box p,
+#shiny-template #peel .w-box p,
+#shiny-template #tumeta .w-box p,
+#shiny-template #tumeta-online .w-box p,
+#shiny-template #byevello .w-box p {
+  font-size: 30px;
+  line-height: 130%;
+  padding: 20px;
+  z-index: 1 !important;
+  position: relative;
+}
+#shiny-template #t-faciales .w-box p::before,
+#shiny-template #t-depilaciones .w-box p::before,
+#shiny-template #modelamiento .w-box p::before,
+#shiny-template #office .w-box p::before,
+#shiny-template #peel .w-box p::before,
+#shiny-template #tumeta .w-box p::before,
+#shiny-template #tumeta-online .w-box p::before,
+#shiny-template #byevello .w-box p::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  opacity: .7;
+  content: "";
+  z-index: -1;
+}
+#shiny-template #bodyb .flex {
   padding-top: 70px;
 }
-#bodyb h1 {
+#shiny-template #bodyb h1 {
   color: #508b86;
   font-size: 36px;
   line-height: 106%;
   padding-bottom: 60px;
   padding-right: 50px;
 }
-#bodyb p {
+#shiny-template #bodyb p {
   line-height: 128%;
   margin-bottom: 55px;
 }
-#bodyb .col-txt {
+#shiny-template #bodyb .col-txt {
   padding-right: 70px;
   padding-top: 5px;
 }
-#bodyb .relative-top {
+#shiny-template #bodyb .relative-top {
   top: 100px;
 }
-#bodyb a {
+#shiny-template #bodyb a {
   font-size: 30px;
 }
-#queremos #consultas {
+#shiny-template #bodyb .btn-brown:hover {
+  background-color: #508b86;
+  color: lightgoldenrodyellow;
+}
+#shiny-template #consultas .btn-brown:hover {
+  background-color: #508b86;
+  color: lightgoldenrodyellow;
+}
+#shiny-template #queremos,
+#shiny-template #consultas {
   padding-top: 130px;
   background-color: #68aeaa;
 }
-#queremos #consultas .relative-top {
+#shiny-template #queremos .relative-top,
+#shiny-template #consultas .relative-top {
   position: relative;
   top: 30px;
 }
-#queremos #consultas .col-txt {
+#shiny-template #queremos .col-txt,
+#shiny-template #consultas .col-txt {
   padding: 70px 90px 5px 10px;
 }
-#queremos #consultas .col-txt img {
+#shiny-template #queremos .col-txt img,
+#shiny-template #consultas .col-txt img {
   padding: 22px 0px;
 }
-#queremos #consultas .col-txt p {
+#shiny-template #queremos .col-txt p,
+#shiny-template #consultas .col-txt p {
   padding-bottom: 35px;
 }
-#servicios {
+#shiny-template #servicios {
   padding-top: 80px;
   padding-bottom: 60px;
   background-color: #508b86;
 }
-#servicios .container {
+#shiny-template #servicios .container {
   padding: 0;
 }
-#servicios .col {
+#shiny-template #servicios .col {
   flex-direction: column;
   justify-content: space-between;
   height: 600px;
@@ -269,99 +516,140 @@ li p::before {
   margin: 0px 10px;
   width: 33.3%;
 }
-#servicios .col h2 {
+#shiny-template #servicios .col h2 {
   color: #d6c780;
   padding-bottom: 30px;
 }
-#servicios .col .fix-h {
+#shiny-template #servicios .col .fix-h {
   height: 300px;
 }
-#servicios .col a {
+#shiny-template #servicios .col a {
   align-self: flex-end;
 }
-#servicios .col .txt {
+#shiny-template #servicios .col .txt {
   padding: 20px 48px;
 }
-#contacto {
+#shiny-template #contacto {
   background: url(../img/home/contacto.jpg) center no-repeat;
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 40px;
 }
-#contacto .c-col {
+#shiny-template #contacto #responsable {
+  padding: 10px 3px 8px 15px;
+  margin-top: 15%;
+  flex-direction: column;
+  text-align: left;
+}
+#shiny-template #contacto #responsable p {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+#shiny-template #contacto .c-col {
   padding-left: 0px;
   padding-right: 60px;
 }
-#contacto .c-col .flex {
+#shiny-template #contacto .c-col .flex {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-#contacto .c-col .txt {
+#shiny-template #contacto .c-col .txt {
   width: 63%;
 }
-#contacto a {
+#shiny-template #contacto a {
   text-decoration: none;
 }
-#contacto a:hover {
+#shiny-template #contacto a:hover {
   color: #508b86;
 }
-#contacto a p {
+#shiny-template #contacto a p {
   transition: 0.3s;
 }
-#contacto a p:hover {
+#shiny-template #contacto a p:hover {
   color: #508b86;
 }
-#contacto .btn-saqua:hover {
+#shiny-template #contacto .btn-saqua:hover {
   color: #d6c780;
   background-color: #45706b;
 }
-#contacto .pad-top {
+#shiny-template #contacto .pad-top {
   padding-top: 25px;
 }
-#contacto h2,
-#contacto p {
+#shiny-template #contacto h2,
+#shiny-template #contacto p {
   color: white;
 }
-#contacto h2 {
+#shiny-template #contacto h2 {
   font-size: 62px;
   line-height: 150%;
   font-style: normal;
 }
-#contacto .uptown {
+#shiny-template #contacto .uptown {
   font-size: 100px;
 }
-#contacto .icon {
+#shiny-template #contacto .icon {
   width: 20%;
 }
-#contacto #siguenos {
-  width: 30%;
+#shiny-template #contacto #followus #siguenos {
+  width: 36%;
 }
-#contacto #siguenos p {
+#shiny-template #contacto #followus #siguenos p {
   font-size: 32px !important;
 }
-#contacto .icons-bot {
+#shiny-template #contacto #followus .icon {
+  width: 17%;
+}
+#shiny-template #contacto #followus img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+#shiny-template #contacto .icons-bot {
   margin-bottom: 25px;
 }
-#contacto .mar-bot {
+#shiny-template #contacto .mar-bot {
   margin-bottom: 60px;
 }
-#contacto .pad-left {
+#shiny-template #contacto .pad-left {
   padding-left: 22px;
 }
-#contacto #mapa {
+#shiny-template #contacto #mapa {
   padding-top: 180px;
 }
-#contacto #mapa p {
+#shiny-template #contacto #mapa p {
   font-size: 18px;
 }
-#contacto .big {
+#shiny-template #contacto #mapa p.phone {
+  padding-top: 5%;
+  font-size: 22px;
+}
+#shiny-template #contacto .big {
   font-size: 24px;
   font-weight: 900;
 }
-#contacto .col #cform .caldera-grid .form-control::-webkit-input-placeholder {
+#shiny-template #contacto .col #cform #fld_2494155_1 {
+  border-width: 3px !important;
+  border-color: white !important;
+  border-radius: 12px;
+  background: transparent !important;
+  color: white !important;
+  font-family: "Alte Haas Grotesk" !important;
+  padding: 8px;
+  font-size: 20px;
+  height: 60px;
+  text-transform: uppercase !important;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+#shiny-template #contacto .col #cform #fld_2494155_1 option {
+  color: black;
+  font-size: 18px;
+}
+#shiny-template #contacto .col #cform .caldera-grid .form-control::-webkit-input-placeholder {
   color: white !important;
 }
-#contacto .col #cform #CF5b726614a247d_1-row-2 .col-sm-12 .form-control {
+#shiny-template #contacto .col #cform #CF5b766908b0b8a_1-row-2 .col-sm-12 .form-control,
+#shiny-template #contacto .col #cform #CF5b726614a247d_1-row-2 .col-sm-12 .form-control {
   border-width: 3px !important;
   border-color: white !important;
   border-radius: 8px;
@@ -371,26 +659,28 @@ li p::before {
   padding: 23px;
   font-size: 20px;
 }
-#contacto .caldera-grid .form-control::-webkit-input-placeholder {
-  color: white;
-  font-size: 20px;
-}
-#contacto .caldera-grid .checkbox label,
-#contacto .caldera-grid .radio label {
+#shiny-template #contacto .caldera-grid .checkbox label,
+#shiny-template #contacto .caldera-grid .radio label {
   color: white !important;
   font-family: "Alte Haas Grotesk" !important;
   font-size: 20px;
 }
-#contacto .fld_5824425_1 {
+#shiny-template #contacto .fld_2494155_1,
+#shiny-template #contacto .fld_5824425_1 {
   height: 20px;
   width: 90px;
   margin-top: 10px;
 }
-#contacto #fld_2388358_1-wrap {
+#shiny-template #contacto #fld_5573142_1-wrap,
+#shiny-template #contacto #fld_2388358_1-wrap {
   float: right;
 }
-#contacto #fld_2388358_1-wrap #fld_2388358_1,
-#contacto #fld_2388358_1-wrap .btn-form-class {
+#shiny-template #contacto #fld_5573142_1-wrap #fld_5573142_1,
+#shiny-template #contacto #fld_2388358_1-wrap #fld_5573142_1,
+#shiny-template #contacto #fld_5573142_1-wrap #fld_2388358_1,
+#shiny-template #contacto #fld_2388358_1-wrap #fld_2388358_1,
+#shiny-template #contacto #fld_5573142_1-wrap .btn-form-class,
+#shiny-template #contacto #fld_2388358_1-wrap .btn-form-class {
   background: #508b86 !important;
   padding: 10px 46px;
   border-radius: 8px;
@@ -401,38 +691,56 @@ li p::before {
   text-decoration: none !important;
   transition: 0.3s;
 }
-#contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
-#contacto #fld_2388358_1-wrap .btn-form-class:hover {
+#shiny-template #contacto #fld_5573142_1-wrap #fld_5573142_1:hover,
+#shiny-template #contacto #fld_2388358_1-wrap #fld_5573142_1:hover,
+#shiny-template #contacto #fld_5573142_1-wrap #fld_2388358_1:hover,
+#shiny-template #contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
+#shiny-template #contacto #fld_5573142_1-wrap .btn-form-class:hover,
+#shiny-template #contacto #fld_2388358_1-wrap .btn-form-class:hover {
   color: #d6c780;
   background: #45706b !important;
 }
-#contacto .caldera-grid input[type=submit] {
+#shiny-template #contacto .caldera-grid input[type=submit] {
   background-color: #508b86 !important;
 }
-#contacto input[type="submit"]:not([name="update_cart"]) {
+#shiny-template #contacto input[type="submit"]:not([name="update_cart"]) {
   background-color: #508b86 !important;
 }
-#tumeta {
+#shiny-template #tumeta,
+#shiny-template tumeta-online {
   background: url(../img/consulta/banner-cintametrica.jpg) center no-repeat;
   background-size: cover;
 }
-#tumeta h2 {
+@media screen and (min-width: 1000px) {
+  #shiny-template #tumeta .desktop-r-space,
+  #shiny-template tumeta-online .desktop-r-space {
+    padding-right: 20%;
+    padding-left: 0px;
+    padding-bottom: 100px;
+  }
+}
+#shiny-template #tumeta h2,
+#shiny-template tumeta-online h2 {
   line-height: 105%;
 }
-#tumeta h2 .big {
-  font-size: 96px;
+#shiny-template #tumeta h2 .big,
+#shiny-template tumeta-online h2 .big {
+  font-size: 108px;
 }
-#tumeta .fcentered .w-box {
+#shiny-template #tumeta .fcentered .w-box,
+#shiny-template tumeta-online .fcentered .w-box {
   width: 80%;
 }
-#tumeta .fcentered .w-box p {
+#shiny-template #tumeta .fcentered .w-box p,
+#shiny-template tumeta-online .fcentered .w-box p {
   font-size: 30px;
   line-height: 130%;
   padding: 45px 20px;
   z-index: 1 !important;
   position: relative;
 }
-#tumeta .fcentered .w-box p::before {
+#shiny-template #tumeta .fcentered .w-box p::before,
+#shiny-template tumeta-online .fcentered .w-box p::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -443,290 +751,1431 @@ li p::before {
   content: "";
   z-index: -1;
 }
-#beneficios .container,
-#obtienes .container {
+#shiny-template #incluye .container,
+#shiny-template #beneficios .container,
+#shiny-template #obtienes .container {
   padding: 0px;
 }
-#beneficios #pills,
-#obtienes #pills {
+#shiny-template #incluye #pills,
+#shiny-template #beneficios #pills,
+#shiny-template #obtienes #pills {
   background: url(../img/consulta/white-pills.jpg) center no-repeat;
   background-size: cover;
 }
-#beneficios .col-txt,
-#obtienes .col-txt {
+#shiny-template #incluye #online-food,
+#shiny-template #beneficios #online-food,
+#shiny-template #obtienes #online-food {
+  background: url(../img/consulta/healthy-food.jpg) center no-repeat;
+  background-size: cover;
+}
+#shiny-template #incluye .col-txt,
+#shiny-template #beneficios .col-txt,
+#shiny-template #obtienes .col-txt {
   padding: 85px 70px;
 }
-#beneficios .col-txt h2,
-#obtienes .col-txt h2 {
+#shiny-template #incluye .col-txt h2,
+#shiny-template #beneficios .col-txt h2,
+#shiny-template #obtienes .col-txt h2 {
   font-size: 40px;
 }
-#beneficios .col-txt img,
-#obtienes .col-txt img {
+#shiny-template #incluye .col-txt img,
+#shiny-template #beneficios .col-txt img,
+#shiny-template #obtienes .col-txt img {
   width: 95%;
   height: 7px;
+  margin-top: 25px;
 }
-#beneficios .col-txt ul,
-#obtienes .col-txt ul {
+#shiny-template #incluye .col-txt ul,
+#shiny-template #beneficios .col-txt ul,
+#shiny-template #obtienes .col-txt ul {
   padding-top: 50px;
 }
-#beneficios .col-txt ul li,
-#obtienes .col-txt ul li {
+#shiny-template #incluye .col-txt ul li,
+#shiny-template #beneficios .col-txt ul li,
+#shiny-template #obtienes .col-txt ul li {
   padding-bottom: 20px;
 }
-#no-en h2,
-#resultado h2,
-#money-brown h2,
-#clock h2,
-#money h2,
-#no-en p,
-#resultado p,
-#money-brown p,
-#clock p,
-#money p {
+#shiny-template #incluye .col-txt {
+  width: 55%;
+  background-color: #508b86;
+}
+#shiny-template #incluye .col-txt h2,
+#shiny-template #incluye .col-txt p {
   color: white;
 }
-#no-en .relative-top,
-#resultado .relative-top,
-#money-brown .relative-top,
-#clock .relative-top,
-#money .relative-top {
+#shiny-template #incluye .col-txt ul {
+  padding-top: 6px;
+}
+#shiny-template #incluye #food {
+  width: 45%;
+  background: url(../img/consulta/comida-sana.jpg) center no-repeat;
+  background-size: cover;
+}
+#shiny-template #no-en h2,
+#shiny-template #resultado h2,
+#shiny-template #money-brown h2,
+#shiny-template #clock h2,
+#shiny-template #money h2,
+#shiny-template #no-en p,
+#shiny-template #resultado p,
+#shiny-template #money-brown p,
+#shiny-template #clock p,
+#shiny-template #money p {
+  color: white;
+}
+#shiny-template #no-en .relative-top,
+#shiny-template #resultado .relative-top,
+#shiny-template #money-brown .relative-top,
+#shiny-template #clock .relative-top,
+#shiny-template #money .relative-top {
   position: relative;
   top: 25px;
 }
-#resultado,
-#clock {
+#shiny-template #resultado,
+#shiny-template #clock {
   padding-top: 70px;
   background-color: #68aeaa;
 }
-#resultado h2,
-#clock h2 {
+#shiny-template #resultado h2,
+#shiny-template #clock h2 {
   font-size: 68px;
   font-weight: 400;
   line-height: 110%;
 }
-#resultado h2 .big,
-#clock h2 .big {
+#shiny-template #resultado h2 .big,
+#shiny-template #clock h2 .big {
   font-size: 96px;
 }
-#resultado .col-txt,
-#clock .col-txt {
+#shiny-template #resultado .col-txt,
+#shiny-template #clock .col-txt {
   padding-right: 20%;
 }
-#resultado .flex,
-#clock .flex {
+#shiny-template #resultado .flex,
+#shiny-template #clock .flex {
   padding-top: 50px;
 }
-#no-en,
-#money-brown,
-#money {
+#shiny-template #no-en,
+#shiny-template #money-brown,
+#shiny-template #money {
   background-color: #508b86;
 }
-#no-en .col-txt,
-#money-brown .col-txt,
-#money .col-txt {
-  padding-top: 4%;
+#shiny-template #no-en .col-txt,
+#shiny-template #money-brown .col-txt,
+#shiny-template #money .col-txt {
+  padding-top: 1%;
 }
-#no-en .relative-top,
-#money-brown .relative-top,
-#money .relative-top {
+#shiny-template #no-en .relative-top,
+#shiny-template #money-brown .relative-top,
+#shiny-template #money .relative-top {
   top: 70px;
 }
-#howtopay {
+#shiny-template #howtopay {
   background-color: #f8f5e9;
   padding: 80px 0px;
 }
-#howtopay .col-txt p {
+#shiny-template #howtopay .col-txt p {
   padding-right: 150px;
 }
-#modelamiento,
-#peel {
+#shiny-template #modelamiento,
+#shiny-template #peel {
   background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
   background-size: cover;
   padding-top: 350px;
   padding-bottom: 80px;
 }
-#modelamiento .w-box,
-#peel .w-box {
+#shiny-template #modelamiento .w-box,
+#shiny-template #peel .w-box {
   width: 75%;
 }
-#modelamiento h2,
-#peel h2 {
+#shiny-template #modelamiento h2,
+#shiny-template #peel h2 {
   padding-bottom: 0px;
 }
-#money-brown {
+#shiny-template #money-brown {
   background-color: #eee5bd !important;
 }
-#money-brown p,
-#money-brown h2 {
+#shiny-template #money-brown p,
+#shiny-template #money-brown h2 {
   color: #508b86;
 }
-#beneficios {
+#shiny-template #money-brown .pad-hz {
+  padding: 40px 0px;
+}
+#shiny-template #money-brown .pad-v {
+  padding: 0px 6% 0 12%;
+}
+#shiny-template #money-brown .pad-top {
+  padding-top: 20px;
+}
+#shiny-template #money-brown img {
+  padding: 55px 0;
+}
+#shiny-template #beneficios {
   padding-top: 120px;
   background-color: #f8f5e9;
 }
-#beneficios .col-txt .line {
+#shiny-template #beneficios .col-txt .line {
   width: 95%;
   height: 7px;
 }
-#beneficios .col-txt img {
+#shiny-template #beneficios .col-txt img {
   width: 120%;
   height: auto;
 }
-#beneficios .col-txt li {
+#shiny-template #beneficios .col-txt li {
   padding: 0px !important;
 }
-#beneficios .col-txt li p {
+#shiny-template #beneficios .col-txt li p {
   margin-bottom: 5px !important;
 }
-#resultado h2 {
+#shiny-template #resultado h2 {
   font-size: 50px ;
   padding-bottom: 40px;
 }
-#resultado h2 .big {
+#shiny-template #resultado h2 .big {
   font-size: 66px ;
 }
-#resultado .col-txt {
+#shiny-template #resultado .col-txt {
   padding-right: 66px;
   padding-left: 15px;
 }
-#resultado .col-txt h2 {
+#shiny-template #resultado .col-txt h2 {
   font-size: 34px;
   font-weight: 600;
 }
-#resultado .col-txt p {
+#shiny-template #resultado .col-txt p {
   padding-bottom: 35px;
 }
-.ejemplo {
+#shiny-template .ejemplo {
   font-size: 18px;
   font-weight: 100;
 }
-#no-en {
+#shiny-template #no-en {
   min-height: 400px;
 }
-#no-en .col-txt {
+#shiny-template #no-en .col-txt {
   padding: 0px;
   padding-right: 50px;
 }
-#no-en .col-txt h2 {
+#shiny-template #no-en .col-txt h2 {
   padding-bottom: 40px;
 }
-#no-en .col .fcentered img {
+#shiny-template #no-en .col .fcentered img {
   width: 100%;
 }
-.pad-top-section {
+#shiny-template .pad-top-section {
   padding-top: 180px !important;
 }
-#office {
+#shiny-template #office {
   background: url(../img/whoweare/banner.jpg) center no-repeat;
   background-size: cover;
 }
-#office .w-box {
+#shiny-template #office .w-box {
   width: 85% !important;
 }
-#office h2 {
+#shiny-template #office h2 {
   padding: 0;
   font-weight: 100;
 }
-#atendido {
+#shiny-template #atendido {
   background-color: #f8f5e9;
   padding-top: 45px;
 }
-#atendido p {
+#shiny-template #atendido p {
   padding-right: 100px;
 }
-#queremos {
+#shiny-template #queremos {
   background-color: #f8f5e9;
   padding-top: 0px;
   padding-left: 76px;
 }
-#queremos h2 {
+#shiny-template #queremos h2 {
   padding-top: 90px;
   padding-bottom: 15px;
 }
-#queremos .col-txt {
+#shiny-template #queremos .col-txt {
   padding-right: 80px;
 }
-#queremos .col-txt img {
+#shiny-template #queremos .col-txt img {
   padding-bottom: 10px;
   width: 95%;
   height: 7px;
 }
-#queremos .col-txt p {
+#shiny-template #queremos .col-txt p {
   padding-bottom: 25px;
 }
-#queremos .col-txt h2 {
+#shiny-template #queremos .col-txt h2 {
   font-size: 36px;
 }
-#queremos .relative-top {
+#shiny-template #queremos .relative-top {
   position: relative;
   top: 38px;
 }
-#vision,
-#mision {
+#shiny-template #vision,
+#shiny-template #mision {
   height: 550px;
   background-color: #68aeaa;
 }
-#vision p,
-#mision p,
-#vision h2,
-#mision h2 {
+#shiny-template #vision p,
+#shiny-template #mision p,
+#shiny-template #vision h2,
+#shiny-template #mision h2 {
   color: white;
 }
-#vision #girl-mision,
-#mision #girl-mision {
+#shiny-template #vision #girl-mision,
+#shiny-template #mision #girl-mision {
   background: url(../img/whoweare/mision-girlRed.jpg) center no-repeat;
   background-size: cover;
 }
-#vision #boy-vision,
-#mision #boy-vision {
+#shiny-template #vision #boy-vision,
+#shiny-template #mision #boy-vision {
   background: url(../img/whoweare/vision-boySmile.jpg) center no-repeat;
   background-size: cover;
 }
-#vision .flex,
-#mision .flex {
+#shiny-template #vision .flex,
+#shiny-template #mision .flex {
   height: 550px;
 }
-#vision .flex h2,
-#mision .flex h2 {
+#shiny-template #vision .flex h2,
+#shiny-template #mision .flex h2 {
   font-size: 120px;
   font-weight: 100;
 }
-#vision .flex .col-txt,
-#mision .flex .col-txt {
+#shiny-template #vision .flex .col-txt,
+#shiny-template #mision .flex .col-txt {
   padding: 0px 120px;
 }
-#vision .container,
-#mision .container {
+#shiny-template #vision .container,
+#shiny-template #mision .container {
   padding: 0px;
 }
-#vision {
+#shiny-template #vision {
   background-color: #508b86 !important;
 }
-#valores {
+#shiny-template #valores {
   padding-top: 120px;
   background: url(../img/whoweare/brocoliCASABLANCA.jpg) center no-repeat;
   background-size: cover;
 }
-#valores .container {
+#shiny-template #valores .container {
   padding: 20px 6%;
 }
-#valores h2 {
+#shiny-template #valores h2 {
   font-size: 120px;
   font-weight: 100;
   padding-bottom: 45px;
 }
-#valores ul {
+#shiny-template #valores ul {
   padding-bottom: 200px;
 }
-#valores ul li {
+#shiny-template #valores ul li {
   padding-left: 25px;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-#valores ul li p {
+#shiny-template #valores ul li p {
   font-size: 33px;
   font-weight: 600;
 }
-#valores ul li p::before {
+#shiny-template #valores ul li p::before {
   font-size: 35px;
+}
+#shiny-template #modelamiento {
+  padding-top: 280px;
+  background: url(../img/Tratamientos/banner.jpg) center no-repeat;
+}
+#shiny-template #modelamiento h1 {
+  font-size: 70px !important;
+  font-weight: 100 !important;
+}
+#shiny-template .payschedule {
+  background-color: #f8f5e9;
+}
+#shiny-template .payschedule .container {
+  padding: 0px;
+}
+#shiny-template .payschedule .vcentered {
+  display: flex;
+}
+#shiny-template .payschedule .flex {
+  flex-wrap: nowrap;
+}
+#shiny-template .payschedule .icon {
+  width: 22%;
+}
+#shiny-template .payschedule .txt {
+  padding-left: 15px;
+  width: 90%;
+  flex-direction: column;
+  text-align: left;
+}
+#shiny-template .payschedule .h2like,
+#shiny-template .payschedule h2 {
+  font-size: 28px;
+}
+#shiny-template .payschedule .realtive-top {
+  z-index: 100;
+}
+#shiny-template #depilacion,
+#shiny-template #faciales {
+  height: 500px;
+  background-color: #68aeaa;
+}
+#shiny-template #depilacion .col,
+#shiny-template #faciales .col {
+  padding: 0px 60px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+#shiny-template #depilacion .col img,
+#shiny-template #faciales .col img {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+#shiny-template #depilacion .col,
+#shiny-template #faciales .col {
+  flex-direction: column;
+}
+#shiny-template #depilacion .container,
+#shiny-template #faciales .container {
+  padding: 0px;
+}
+#shiny-template #depilacion h2,
+#shiny-template #faciales h2,
+#shiny-template #depilacion p,
+#shiny-template #faciales p {
+  color: white;
+}
+#shiny-template #depilacion #legs,
+#shiny-template #faciales #legs {
+  background: url(../img/Tratamientos/legs.jpg) center no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+#shiny-template #depilacion #clean-face,
+#shiny-template #faciales #clean-face {
+  background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
+  background-size: cover;
+}
+#shiny-template .blue-howtopay {
+  background-color: #508b86 !important;
+}
+#shiny-template .blue-howtopay h2,
+#shiny-template .blue-howtopay p {
+  color: white !important;
+}
+#shiny-template .menu-text {
+  color: #508b86;
+  transition: 0.3s;
+}
+#shiny-template .light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a .menu-text {
+  color: #508b86;
+}
+@media screen and (max-width: 650px) {
+  #shiny-template #tumeta-online {
+    padding-bottom: 40px;
+  }
+  #shiny-template #tumeta-online .container {
+    padding-right: 0%;
+  }
+  #shiny-template #tumeta-online .container .h1-contain {
+    text-align: center;
+  }
+  #shiny-template #tumeta-online .container h1 {
+    font-size: 40px;
+    width: 95%;
+    padding-left: 3%;
+    text-shadow: 1px 3px 4px #626363;
+    color: #68aeaa;
+  }
+  #shiny-template #tumeta-online .w-box {
+    text-align: center;
+    width: 95% !important;
+  }
+  #shiny-template #tumeta-online .w-box p {
+    padding: 20px !important;
+  }
+  #shiny-template #tumeta-online #call-icons {
+    min-width: 200px;
+  }
+  #shiny-template #tumeta-online #call-icons .col {
+    width: 33%;
+  }
+  #shiny-template #tumeta-online #call-icons .col img {
+    width: 60%;
+  }
+  #shiny-template .desktop-hide {
+    display: flex;
+  }
+  #shiny-template #peel {
+    background: url(../img/Tratamientos/responsive-peel.jpg) center no-repeat;
+  }
+  #shiny-template #peel .container {
+    padding-top: 400px !important;
+  }
+  #shiny-template #peel h2,
+  #shiny-template #peel p {
+    text-align: justify !important;
+  }
+  #shiny-template #peel h2 {
+    color: #68aeaa;
+  }
+  #shiny-template #peel .res-bigger {
+    font-size: 100px !important;
+  }
+  #shiny-template #mapa iframe {
+    display: none;
+  }
+  #shiny-template #mapDiv {
+    display: none;
+  }
+  #shiny-template .pork {
+    padding: 0px 15px;
+    width: auto !important;
+  }
+  #shiny-template .pork .realtive-top {
+    position: inherit!important;
+  }
+  #shiny-template .pork .flex .col {
+    flex-direction: column !important;
+    width: 100%;
+    margin: 30px 0px;
+  }
+  #shiny-template .pork .flex .col .uptown {
+    font-size: 30px;
+    padding: 0;
+  }
+  #shiny-template .pork .flex .col .small {
+    padding: 0;
+  }
+  #shiny-template .pork .flex .col p,
+  #shiny-template .pork .flex .col h2 {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  #shiny-template .pork .flex .col .small,
+  #shiny-template .pork .flex .col .smallest {
+    font-weight: 600;
+  }
+  #shiny-template .pork .flex .col .small {
+    font-size: 18px;
+  }
+  #shiny-template .pork .flex .col .smallest {
+    font-size: 14px;
+  }
+  #shiny-template .pork .flex .col img {
+    width: 33%;
+  }
+  #shiny-template #t-depilaciones {
+    padding-top: 200px !important;
+    padding-bottom: 35px;
+    background: url(../img/Tratamientos/responsive-depilacion-b.jpg) center no-repeat !important;
+  }
+  #shiny-template #t-depilaciones .container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #t-depilaciones .container .fcentered-mov {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #t-depilaciones .container img {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  #shiny-template #t-depilaciones .w-box {
+    width: 80% !important;
+  }
+  #shiny-template #t-depilaciones h1 {
+    width: 80%;
+    text-align: left;
+    padding-right: 0;
+    line-height: 111%;
+    text-shadow: -1px 1px 2px black;
+  }
+  #shiny-template .prepago {
+    font-size: 22px !important;
+  }
+  #shiny-template #clock-in {
+    padding-top: 50px;
+    padding-bottom: 30px !important;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 110%;
+  }
+  #shiny-template #clock-in .big {
+    font-size: 36px;
+  }
+  #shiny-template .saqua-back {
+    background-color: #508b86 !important;
+  }
+  #shiny-template .saqua-back h2,
+  #shiny-template .saqua-back p {
+    color: white !important;
+  }
+  #shiny-template #t-faciales {
+    background: url(../img/Tratamientos/responsive-faciales-banner.jpg) center no-repeat !important;
+    background-size: 100% !important;
+    min-height: 400px !important;
+    height: 400px !important;
+  }
+  #shiny-template #t-faciales .w-box {
+    width: 80% !important;
+    margin-bottom: 20px !important;
+  }
+  #shiny-template .mini-search {
+    display: none !important;
+  }
+  #shiny-template p {
+    font-size: 16px;
+  }
+  #shiny-template li p::before {
+    font-size: 16px;
+  }
+  #shiny-template .btn-brown {
+    padding: 20px 36px;
+    font-size: 20px;
+  }
+  #shiny-template .btn-saqua {
+    padding: 20px 36px;
+    font-size: 20px;
+  }
+  #shiny-template #slider-home h2 {
+    font-size: 32px !important;
+    line-height: 40px !important;
+  }
+  #shiny-template #slider-home h2 .small {
+    font-size: 22px !important;
+  }
+  #shiny-template #slider-home h2 .big {
+    font-size: 40px !important;
+  }
+  #shiny-template #slider-home .w-box {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  #shiny-template #slider-home .w-box p {
+    font-size: 18px !important;
+    line-height: 120%;
+    padding: 15px;
+  }
+  #shiny-template .fcentered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #shiny-template #t-faciales,
+  #shiny-template #t-depilaciones,
+  #shiny-template #modelamiento,
+  #shiny-template #office,
+  #shiny-template #peel,
+  #shiny-template #tumeta,
+  #shiny-template #tumeta-online,
+  #shiny-template #byevello {
+    padding-top: 160px;
+    min-height: 500px;
+    background-size: cover;
+  }
+  #shiny-template #t-faciales .uptown,
+  #shiny-template #t-depilaciones .uptown,
+  #shiny-template #modelamiento .uptown,
+  #shiny-template #office .uptown,
+  #shiny-template #peel .uptown,
+  #shiny-template #tumeta .uptown,
+  #shiny-template #tumeta-online .uptown,
+  #shiny-template #byevello .uptown {
+    font-size: 48px !important;
+  }
+  #shiny-template #t-faciales h2,
+  #shiny-template #t-depilaciones h2,
+  #shiny-template #modelamiento h2,
+  #shiny-template #office h2,
+  #shiny-template #peel h2,
+  #shiny-template #tumeta h2,
+  #shiny-template #tumeta-online h2,
+  #shiny-template #byevello h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    line-height: 150%;
+  }
+  #shiny-template #t-faciales .container,
+  #shiny-template #t-depilaciones .container,
+  #shiny-template #modelamiento .container,
+  #shiny-template #office .container,
+  #shiny-template #peel .container,
+  #shiny-template #tumeta .container,
+  #shiny-template #tumeta-online .container,
+  #shiny-template #byevello .container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #t-faciales .w-box,
+  #shiny-template #t-depilaciones .w-box,
+  #shiny-template #modelamiento .w-box,
+  #shiny-template #office .w-box,
+  #shiny-template #peel .w-box,
+  #shiny-template #tumeta .w-box,
+  #shiny-template #tumeta-online .w-box,
+  #shiny-template #byevello .w-box {
+    margin-bottom: 40px;
+    width: 85% !important;
+  }
+  #shiny-template #t-faciales .w-box p,
+  #shiny-template #t-depilaciones .w-box p,
+  #shiny-template #modelamiento .w-box p,
+  #shiny-template #office .w-box p,
+  #shiny-template #peel .w-box p,
+  #shiny-template #tumeta .w-box p,
+  #shiny-template #tumeta-online .w-box p,
+  #shiny-template #byevello .w-box p {
+    font-size: 18px;
+    line-height: 130%;
+    padding: 20px;
+    z-index: 1 !important;
+    position: relative;
+  }
+  #shiny-template #t-faciales .w-box p::before,
+  #shiny-template #t-depilaciones .w-box p::before,
+  #shiny-template #modelamiento .w-box p::before,
+  #shiny-template #office .w-box p::before,
+  #shiny-template #peel .w-box p::before,
+  #shiny-template #tumeta .w-box p::before,
+  #shiny-template #tumeta-online .w-box p::before,
+  #shiny-template #byevello .w-box p::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    opacity: .7;
+    content: "";
+    z-index: -1;
+  }
+  #shiny-template #bodyb .fcentered img {
+    width: 100%;
+  }
+  #shiny-template #bodyb .col {
+    width: 100%;
+  }
+  #shiny-template #bodyb h1 {
+    color: #508b86;
+    font-size: 28px;
+    line-height: 106%;
+    padding-bottom: 30px;
+    padding-right: 0px;
+  }
+  #shiny-template #bodyb .col-txt {
+    padding-right: 0px;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #queremos .relative-top,
+  #shiny-template #consultas .relative-top {
+    position: inherit;
+    top: 0px;
+  }
+  #shiny-template #queremos .relative-top img,
+  #shiny-template #consultas .relative-top img {
+    width: 100%;
+  }
+  #shiny-template #queremos .col,
+  #shiny-template #consultas .col {
+    width: 100%;
+  }
+  #shiny-template #queremos .col-txt,
+  #shiny-template #consultas .col-txt {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #queremos .col-txt img,
+  #shiny-template #consultas .col-txt img {
+    width: 100%;
+    padding: 22px 0px;
+  }
+  #shiny-template #servicios img {
+    width: 100%;
+  }
+  #shiny-template #servicios .fcentered {
+    flex-direction: column;
+  }
+  #shiny-template #servicios .container {
+    padding: 0;
+  }
+  #shiny-template #servicios .flex {
+    flex-wrap: wrap;
+  }
+  #shiny-template #servicios .col {
+    flex-direction: column;
+    justify-content: center;
+    height: 650px;
+    padding: 0;
+    padding-bottom: 100px;
+    margin: 0px;
+    width: 100% !important;
+  }
+  #shiny-template #servicios .col h2 {
+    padding-bottom: 30px;
+  }
+  #shiny-template #servicios .col .fix-h {
+    height: 300px;
+  }
+  #shiny-template #servicios .col a {
+    align-self: flex-end;
+  }
+  #shiny-template #servicios .col .txt {
+    padding: 20px 48px;
+  }
+  #shiny-template #contacto {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  #shiny-template #contacto #responsable {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #contacto .col,
+  #shiny-template #contacto #mapa,
+  #shiny-template #contacto c-col {
+    text-align: center ;
+  }
+  #shiny-template #contacto img {
+    width: 100%;
+  }
+  #shiny-template #contacto .col .big {
+    padding-left: 15px;
+  }
+  #shiny-template #contacto .c-col {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #shiny-template #contacto .c-col .flex {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  #shiny-template #contacto .c-col .txt {
+    width: 80%;
+  }
+  #shiny-template #contacto .c-col p {
+    font-size: 18px;
+  }
+  #shiny-template #contacto .pad-top {
+    padding-top: 25px;
+  }
+  #shiny-template #contacto h2,
+  #shiny-template #contacto p {
+    color: white;
+  }
+  #shiny-template #contacto h2 {
+    font-size: 40px;
+    line-height: 150%;
+    font-style: normal;
+  }
+  #shiny-template #contacto .uptown {
+    font-size: 60px;
+  }
+  #shiny-template #contacto .icon {
+    width: 20%;
+  }
+  #shiny-template #contacto #followus {
+    padding: 0px 20%;
+  }
+  #shiny-template #contacto #followus .col,
+  #shiny-template #contacto #followus .txt {
+    width: 100%;
+  }
+  #shiny-template #contacto #followus .icon {
+    width: 50%;
+  }
+  #shiny-template #contacto #followus #siguenos {
+    padding: 0;
+    width: 100%;
+  }
+  #shiny-template #contacto #followus #siguenos p {
+    font-size: 28px !important;
+  }
+  #shiny-template #contacto .icons-bot {
+    margin-bottom: 25px;
+  }
+  #shiny-template #contacto .mar-bot {
+    margin-bottom: 60px;
+  }
+  #shiny-template #contacto .pad-left {
+    padding-left: 0px;
+  }
+  #shiny-template #contacto #mail-cols .txt,
+  #shiny-template #contacto #mail-cols .icon {
+    width: 100%;
+  }
+  #shiny-template #contacto #mail-cols .icon img {
+    width: 25%;
+    padding-bottom: 20px;
+  }
+  #shiny-template #contacto #mapa {
+    width: 100%;
+    padding-top: 50px;
+  }
+  #shiny-template #contacto #mapa p {
+    font-size: 17px;
+  }
+  #shiny-template #contacto #mapa .txt {
+    width: 77%;
+    padding-left: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #contacto .big {
+    font-size: 18px;
+  }
+  #shiny-template #contacto .col #cform #fld_2494155_1 {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #shiny-template #contacto .col #cform #fld_2494155_1 option {
+    font-size: 16px;
+  }
+  #shiny-template #contacto .col #cform .caldera-grid .form-control::-webkit-input-placeholder {
+    color: white !important;
+  }
+  #shiny-template #contacto .col #cform #CF5b766908b0b8a_1-row-2 .col-sm-12 .form-control,
+  #shiny-template #contacto .col #cform #CF5b726614a247d_1-row-2 .col-sm-12 .form-control {
+    padding: 18px;
+    font-size: 16px;
+  }
+  #shiny-template #contacto .caldera-grid .form-control::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  #shiny-template #contacto .caldera-grid .checkbox label,
+  #shiny-template #contacto .caldera-grid .radio label {
+    font-size: 16px;
+  }
+  #shiny-template #contacto .fld_2494155_1,
+  #shiny-template #contacto .fld_5824425_1 {
+    height: 16px;
+    width: 70px;
+    margin-top: 10px;
+  }
+  #shiny-template #contacto #fld_2494155_1-wrap {
+    float: left !important;
+    text-align: left;
+  }
+  #shiny-template #contacto .first_row {
+    float: left !important;
+    text-align: left;
+  }
+  #shiny-template #contacto #fld_5573142_1-wrap,
+  #shiny-template #contacto #fld_2388358_1-wrap {
+    float: none;
+  }
+  #shiny-template #contacto #fld_5573142_1-wrap #fld_5573142_1,
+  #shiny-template #contacto #fld_2388358_1-wrap #fld_5573142_1,
+  #shiny-template #contacto #fld_5573142_1-wrap #fld_2388358_1,
+  #shiny-template #contacto #fld_2388358_1-wrap #fld_2388358_1,
+  #shiny-template #contacto #fld_5573142_1-wrap .btn-form-class,
+  #shiny-template #contacto #fld_2388358_1-wrap .btn-form-class {
+    background: #508b86 !important;
+    padding: 10px 46px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Alte Haas Grotesk';
+    text-decoration: none !important;
+    transition: 0.3s;
+  }
+  #shiny-template #contacto #fld_5573142_1-wrap #fld_5573142_1:hover,
+  #shiny-template #contacto #fld_2388358_1-wrap #fld_5573142_1:hover,
+  #shiny-template #contacto #fld_5573142_1-wrap #fld_2388358_1:hover,
+  #shiny-template #contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
+  #shiny-template #contacto #fld_5573142_1-wrap .btn-form-class:hover,
+  #shiny-template #contacto #fld_2388358_1-wrap .btn-form-class:hover {
+    color: #d6c780;
+    background: #45706b !important;
+  }
+  #shiny-template #contacto .caldera-grid input[type=submit] {
+    background-color: #508b86 !important;
+  }
+  #shiny-template #contacto input[type="submit"]:not([name="update_cart"]) {
+    background-color: #508b86 !important;
+  }
+  #shiny-template #tumeta h2,
+  #shiny-template #tumeta-online h2 {
+    line-height: 105%;
+  }
+  #shiny-template #tumeta h2 .big,
+  #shiny-template #tumeta-online h2 .big {
+    font-size: 46px;
+  }
+  #shiny-template #tumeta .fcentered .w-box,
+  #shiny-template #tumeta-online .fcentered .w-box {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  #shiny-template #tumeta .fcentered .w-box p,
+  #shiny-template #tumeta-online .fcentered .w-box p {
+    font-size: 16px;
+    line-height: 130%;
+    padding: 45px 20px;
+    z-index: 1 !important;
+    position: relative;
+  }
+  #shiny-template #tumeta .fcentered .w-box p::before,
+  #shiny-template #tumeta-online .fcentered .w-box p::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    opacity: .7;
+    content: "";
+    z-index: -1;
+  }
+  #shiny-template #incluye .container,
+  #shiny-template #beneficios .container,
+  #shiny-template #obtienes .container {
+    padding: 0px;
+  }
+  #shiny-template #incluye .col,
+  #shiny-template #beneficios .col,
+  #shiny-template #obtienes .col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template #incluye .col-txt,
+  #shiny-template #beneficios .col-txt,
+  #shiny-template #obtienes .col-txt {
+    padding: 45px 20px;
+  }
+  #shiny-template #incluye .col-txt h2,
+  #shiny-template #beneficios .col-txt h2,
+  #shiny-template #obtienes .col-txt h2 {
+    font-size: 40px;
+  }
+  #shiny-template #incluye .col-txt img,
+  #shiny-template #beneficios .col-txt img,
+  #shiny-template #obtienes .col-txt img {
+    width: 95%;
+    height: 7px;
+  }
+  #shiny-template #incluye .col-txt ul,
+  #shiny-template #beneficios .col-txt ul,
+  #shiny-template #obtienes .col-txt ul {
+    padding-top: 50px;
+  }
+  #shiny-template #incluye .col-txt ul li,
+  #shiny-template #beneficios .col-txt ul li,
+  #shiny-template #obtienes .col-txt ul li {
+    padding-bottom: 8px;
+  }
+  #shiny-template #no-en,
+  #shiny-template #resultado,
+  #shiny-template #money-brown,
+  #shiny-template #clock,
+  #shiny-template #money {
+    padding-bottom: 40px;
+  }
+  #shiny-template #no-en .relative-top,
+  #shiny-template #resultado .relative-top,
+  #shiny-template #money-brown .relative-top,
+  #shiny-template #clock .relative-top,
+  #shiny-template #money .relative-top {
+    position: relative;
+    top: 0px;
+  }
+  #shiny-template #resultado h2,
+  #shiny-template #clock h2 {
+    font-size: 28px;
+    line-height: 110%;
+  }
+  #shiny-template #resultado h2 .big,
+  #shiny-template #clock h2 .big {
+    font-size: 40px;
+  }
+  #shiny-template #resultado .col-txt,
+  #shiny-template #clock .col-txt {
+    padding-right: 0%;
+  }
+  #shiny-template #resultado .flex,
+  #shiny-template #clock .flex {
+    padding-top: 40px;
+  }
+  #shiny-template #resultado .col,
+  #shiny-template #clock .col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template #resultado .col img,
+  #shiny-template #clock .col img {
+    width: 40%;
+  }
+  #shiny-template #no-en .col-txt,
+  #shiny-template #money-brown .col-txt,
+  #shiny-template #money .col-txt {
+    padding-top: 3%;
+  }
+  #shiny-template #no-en .relative-top,
+  #shiny-template #money-brown .relative-top,
+  #shiny-template #money .relative-top {
+    top: 0px;
+  }
+  #shiny-template #no-en .col,
+  #shiny-template #money-brown .col,
+  #shiny-template #money .col {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template #no-en .col img,
+  #shiny-template #money-brown .col img,
+  #shiny-template #money .col img {
+    width: 40%;
+  }
+  #shiny-template #howtopay {
+    padding: 50px 0px;
+  }
+  #shiny-template #howtopay .col-txt p {
+    padding-right: 0px;
+  }
+  #shiny-template #howtopay .col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template #howtopay .col img {
+    width: 60%;
+    margin: 15px 0px;
+  }
+  #shiny-template #modelamiento,
+  #shiny-template #peel {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  #shiny-template #modelamiento .container,
+  #shiny-template #peel .container {
+    padding: 100px 20px;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 90% !important;
+  }
+  #shiny-template #modelamiento .w-box,
+  #shiny-template #peel .w-box {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+  #shiny-template #modelamiento h2,
+  #shiny-template #peel h2 {
+    padding-bottom: 0px;
+  }
+  #shiny-template #beneficios {
+    padding-top: 30px;
+    background-color: #f8f5e9;
+  }
+  #shiny-template #beneficios .col-txt .line {
+    width: 95%;
+    height: 7px;
+  }
+  #shiny-template #beneficios .col-txt img {
+    width: 120%;
+    height: auto;
+  }
+  #shiny-template #beneficios .col-txt li {
+    padding: 0px !important;
+  }
+  #shiny-template #beneficios .col-txt li p {
+    margin-bottom: 5px !important;
+  }
+  #shiny-template #resultado h2 {
+    font-size: 26px ;
+    padding-bottom: 10px;
+  }
+  #shiny-template #resultado h2 .big {
+    font-size: 35px ;
+  }
+  #shiny-template #resultado .col-txt {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #shiny-template #resultado .col-txt h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #shiny-template #resultado .col-txt p {
+    padding-bottom: 15px;
+  }
+  #shiny-template #resultado img {
+    width: 130% !important;
+    padding: 30px 0px;
+  }
+  #shiny-template #resultado .flex {
+    padding-top: 0px;
+  }
+  #shiny-template .ejemplo {
+    font-size: 13px;
+  }
+  #shiny-template #no-en {
+    padding-top: 40px;
+    min-height: 400px;
+  }
+  #shiny-template #no-en .col-txt {
+    padding-right: 0px;
+  }
+  #shiny-template #no-en .col-txt h2 {
+    padding-bottom: 30px;
+  }
+  #shiny-template .pad-top-section {
+    padding-top: 20px !important;
+  }
+  #shiny-template #atendido {
+    padding-top: 0px;
+  }
+  #shiny-template #atendido p {
+    padding-right: 0px;
+  }
+  #shiny-template #atendido .col {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  #shiny-template #queremos {
+    padding-left: 0px;
+  }
+  #shiny-template #queremos .col {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  #shiny-template #queremos h2 {
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+  #shiny-template #queremos .col-txt {
+    padding-right: 0px;
+  }
+  #shiny-template #queremos .col-txt img {
+    padding-bottom: 10px;
+    width: 95%;
+    height: 7px;
+  }
+  #shiny-template #queremos .col-txt p {
+    padding-bottom: 25px;
+  }
+  #shiny-template #queremos .col-txt h2 {
+    font-size: 30px;
+  }
+  #shiny-template #queremos .relative-top {
+    position: relative;
+    top: 0px;
+  }
+  #shiny-template #vision .flex,
+  #shiny-template #mision .flex {
+    height: 550px;
+  }
+  #shiny-template #vision .flex h2,
+  #shiny-template #mision .flex h2 {
+    font-size: 52px;
+    font-weight: 100;
+  }
+  #shiny-template #vision .flex .col-txt,
+  #shiny-template #mision .flex .col-txt {
+    padding: 15px;
+  }
+  #shiny-template #vision .container,
+  #shiny-template #mision .container {
+    padding: 0px;
+  }
+  #shiny-template #vision .col,
+  #shiny-template #mision .col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template #vision {
+    flex-wrap: wrap-reverse;
+  }
+  #shiny-template #vision .flex {
+    flex-wrap: wrap-reverse;
+  }
+  #shiny-template #valores {
+    background: url(../img/whoweare/Responsive-brocoliCASABLANCA.jpg) center no-repeat;
+    background-size: 185%;
+  }
+  #shiny-template #valores .container {
+    padding: 20px 6%;
+  }
+  #shiny-template #valores h2 {
+    font-size: 80px;
+    padding-bottom: 35px;
+  }
+  #shiny-template #valores ul {
+    padding-bottom: 150px;
+  }
+  #shiny-template #valores ul li {
+    padding-left: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #shiny-template #valores ul li p {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #shiny-template #valores ul li p::before {
+    font-size: 32px;
+  }
+  #shiny-template .payschedule {
+    background-color: #f8f5e9;
+  }
+  #shiny-template .payschedule .container {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #shiny-template .payschedule .vcentered {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #shiny-template .payschedule .flex {
+    flex-wrap: wrap;
+  }
+  #shiny-template .payschedule .col {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #shiny-template .payschedule .col li,
+  #shiny-template .payschedule .col p {
+    margin: 0;
+  }
+  #shiny-template .payschedule .icon {
+    width: 100%;
+  }
+  #shiny-template .payschedule .txt {
+    padding-bottom: 30px;
+    padding-left: 0px;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+  }
+  #shiny-template .payschedule .h2like,
+  #shiny-template .payschedule h2 {
+    font-size: 26px;
+  }
+  #shiny-template .payschedule .realtive-top {
+    z-index: 1;
+    top: 0px;
+    position: absolute;
+  }
+  #shiny-template .payschedule .col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template .payschedule .fcentered {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template #depilacion,
+  #shiny-template #faciales {
+    height: 440px;
+  }
+  #shiny-template #depilacion .col,
+  #shiny-template #faciales .col {
+    padding: 0px;
+    height: 500px;
+  }
+  #shiny-template #depilacion .col img,
+  #shiny-template #faciales .col img {
+    width: 95%;
+    padding-top: 18px;
+    padding-bottom: 10px;
+  }
+  #shiny-template #depilacion .col,
+  #shiny-template #faciales .col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #shiny-template #depilacion .txt,
+  #shiny-template #faciales .txt {
+    padding: 0px 20px;
+  }
+  #shiny-template #depilacion #legs,
+  #shiny-template #faciales #legs {
+    background: url(../img/Tratamientos/legs.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    display: none;
+  }
+  #shiny-template #depilacion #clean-face,
+  #shiny-template #faciales #clean-face {
+    background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
+    background-size: cover;
+    display: none;
+  }
 }

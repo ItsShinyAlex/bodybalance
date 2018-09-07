@@ -1,5 +1,6 @@
 <?php
-    /* Template Name:  Hollywood*/ 
+    /* Template Name:  Hollywood*/
+echo "<section id ='shiny-template'>";
     get_header();
 ?>
 
@@ -9,25 +10,30 @@
 <section class="template-section" id="peel">
     
     <div class="container">
-        <h2 class="saqua uptown">Hollywood Peel
+        <h2 class="saqua uptown">Hollywood <span class="res-bigger">Peel</span> 
             </h2>
             
         <div class="">
             <div class="w-box">
-            <p>Consiste en la aplicación de una crema de carbón que penetra la capa superficial de  la piel y absorbe un poco de calor. Posteriormente se vaporiza y elimina la capa de células muertas de la piel. 
+            <p>El tratamiento consiste en una crema de carbón superficial que sirve como un potenciado entre la piel y el láser
+                1064 nanometros: el carbón nano activo, vitamina b3, vitamina b5, aminoácidos y minerales marinos.
             
-            <br><br>Este procedimiento ayuda al rejuvenecimiento del rostro,  es seguro y aplicable a la mayoría de los tipos de piel. 
+            <br><br>Este procedimiento ayuda al rejuvenecimiento del rostro,  es seguro y aplicable a la mayoría de los tipos de piel.  
             
             <br><br><b>No necesita tiempo de recuperación ya que no es invasivo, ni doloroso. </b></p>
             
             </div>
         </div>
         
+        <div class="desktop-hide">
+            <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+        </div>
+        
     </div>
      
 </section>
 
-<section id="beneficios">
+<section class="template-section" id="beneficios">
     <div class="container">
         <div class="flex ">
             <div class="col col-txt" id="faces">
@@ -46,8 +52,7 @@
                         <p>Mejora el tono general de la piel.  </p>
                     </li>
                     <li>
-                        <p>Reduce o elimina manchas, por sol o 
-                           edad. </p>
+                        <p>Trabaja sobre el daño solar  y manchas por la edad</p>
                     </li>
                     <li>
                         <p>Sensación de suavidad en zona tratada.</p>
@@ -83,7 +88,7 @@
 
 
 
-<section id="resultado">
+<section class="template-section" id="resultado">
   <div class="container">
        <div class="relative-top">
            <h2 class="uptown center">
@@ -103,8 +108,8 @@
                 
                 <div class="col col-txt">
                     <h2>¿Cómo puede hacerse?</h2>
-                    <p>Para mejores resultados es conveniente realizar varias sesiones consecutivas (mínimo 3).</p>
-                    <p>Las sesiones pueden ser cada 15 días o cada mes, dependiendo de las necesidades de tu piel.</p>
+                    <p>Para mejores resultados es conveniente realizar varias sesiones consecutivas (mínimo 4).</p>
+                    <p>Las sesiones pueden ser cada semana dependiendo de tus necesidades.</p>
                     
                 </div>
                 
@@ -118,8 +123,8 @@
 
 
 
-
-<section id="no-en">
+<!--
+<section class="template-section" id="no-en">
   <div class="container">
       
        <div class="relative-top">
@@ -150,7 +155,7 @@
                 
                 <div class="col">
                    <div class="fcentered">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hollywood/maskpro.jpg" alt="Aplicación de crema de carbón">
+                        <img src="<?php //echo get_stylesheet_directory_uri(); ?>/img/hollywood/maskpro.jpg" alt="Aplicación de crema de carbón">
                    </div>
                    
                 </div>
@@ -161,7 +166,9 @@
   </div>
 </section>
 
-<section class="pad-top-section" id="howtopay">
+-->
+
+<section class="template-section pad-top-section saqua-back" id="howtopay">
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
@@ -171,7 +178,7 @@
             <div class="col col-txt">
                 <h2 class="">¿Cómo Pagar?
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/w-bar.png" alt="-----">
                 <p>
                     Efectivo, debito, crédito. 3 meses sin intereses todas las tarjetas de crédito y todos los bancos.
                 </p>
@@ -183,15 +190,15 @@
     </div>
 </section>
 
-<section id="money-brown">
+<section class="template-section" id="money-brown">
   <div class="container">
       
       
             
             <div class="flex">
            
-                <div class="col col-txt">
-                    <h2>¿Cuánto cuesta?</h2>
+                <div class="col col-txt pad-v">
+                    <h2 class="pad-hz">¿Cuánto cuesta?</h2>
                        
                     <ul>
                         <li>
@@ -202,13 +209,13 @@
                         </li>
                     </ul>
                     
-                    <p><b>Tratamiento mínimo recomendo: 3 sesiones </b></p>
+                    <p class="pad-top"><b>Tratamiento mínimo recomendo: 4 sesiones </b></p>
 
                     
                 </div>
                 
                 <div class="col">
-                   <div class="relative-top">
+                   <div class="">
                        <div class="fcentered">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/money.png" alt="Dinero en efectivo">
                        </div>
@@ -226,6 +233,7 @@
 
 
 <?php 
+    include("shiny-footer.php");
     get_footer();
 ?>
 
