@@ -123,11 +123,7 @@ echo "<section id ='shiny-template'>";
 
 
 
-<<<<<<< HEAD
 <!--
-=======
-
->>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
 <section class="template-section" id="no-en">
   <div class="container">
       
@@ -170,13 +166,9 @@ echo "<section id ='shiny-template'>";
   </div>
 </section>
 
-<<<<<<< HEAD
 -->
 
 <section class="template-section pad-top-section saqua-back" id="howtopay">
-=======
-<section class="template-section pad-top-section" id="howtopay">
->>>>>>> ac95be3b5dcff33766a430e26f4ebd01b0e9192b
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
