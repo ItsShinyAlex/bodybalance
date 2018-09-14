@@ -65,13 +65,11 @@ echo "<section id ='shiny-template'>";
             </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">Beneficios
-                </h2>
+                <h2 class="saqua">Beneficios de tener una Nutrióloga en Línea</h2>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
                 <ul>
                     <li>
-                        <p>Recibirás atención médica profesional para perder peso sin salir de casa y sin riesgos para tu salud. 
- </p>
+                        <p>Recibirás atención y asesoría médica profesional para perder peso sin salir de casa y sin riesgos para tu salud.  </p>
                     </li>
                     <li>
                         <p>Creamos para ti un menú totalmente personalizado con comidas sanas,  fáciles de preparar y deliciosas. </p>
@@ -84,6 +82,10 @@ echo "<section id ='shiny-template'>";
                     </li>
                     <li>
                         <p>Realizamos educación nutrimental para ir establecer contigo hábitos alimenticios permanentes, que te ayuden a obtener resultados duraderos.</p>
+                    </li>
+                    <li>
+                        <div class="mcwidget-embed" data-widget-id="3094365"></div>
+
                     </li>
                 </ul>
             </div>
@@ -99,13 +101,11 @@ echo "<section id ='shiny-template'>";
         <div class="flex ">
            
            <div class="col col-txt">
-                <h2 class="saqua">¿Qué incluye la consulta presencial y en línea?
+                <h2 class="saqua">¿Qué incluye la consulta nutricional en línea?
                 </h2>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
                 <ul>
-                    <li>
-                        <p>Estudio de composición corporal InBody (% de grasa corporal, % de masa muscular, % grasa visceral, agua corporal, IMC, tasa metabólica basal, relación cintura cadera, etc.). </p>
-                    </li>
+             
                     <li>
                         <p>Plan de alimentación personalizado.
                          </p>
@@ -222,7 +222,7 @@ echo "<section id ='shiny-template'>";
                        
                     <ul>
                         <li>
-                            <p><b>Primera Consulta Médico Nutricional: </b><br>650 MXN</p>
+                            <p><b>Costo de primera Consulta Médico Nutricional: </b><br>650 MXN</p>
                         </li>
                         <li>
                             <p><b>Consecutivas:</b><br>600 MXN</p>
@@ -231,7 +231,7 @@ echo "<section id ='shiny-template'>";
                         <p class="prepago">
                         ¡Consulta la promoción prepago!</p>
                         <div class="pad-top">
-                            <a href="https://bodybalance.mx/tienda/consulta-nutricional/" class="btn-brown">¡ME INTERESA!</a>
+                            <a href="https://bodybalance.mx/tienda/consulta-medico-nutricional-online/" class="btn-brown" title="Comprar consulta de Nutricionista Online">¡ME INTERESA!</a>
                         </div> 
                     </ul>
                     
