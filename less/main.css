@@ -627,7 +627,7 @@
   font-size: 24px;
   font-weight: 900;
 }
-#shiny-template #contacto .col #cform #fld_2494155_1 {
+#shiny-template #contacto .col #cform #caldera_form_1 select {
   border-width: 3px !important;
   border-color: white !important;
   border-radius: 12px;
@@ -639,18 +639,19 @@
   height: 60px;
   text-transform: uppercase !important;
   font-weight: 600;
+  height: 1%;
   margin-bottom: 0px;
   margin-top: 20px;
 }
-#shiny-template #contacto .col #cform #fld_2494155_1 option {
+#shiny-template #contacto .col #cform #caldera_form_1 select option {
   color: black;
   font-size: 18px;
 }
-#shiny-template #contacto .col #cform .caldera-grid .form-control::-webkit-input-placeholder {
+#shiny-template #contacto .col #cform #caldera_form_1 .caldera-grid .form-control::-webkit-input-placeholder {
   color: white !important;
 }
-#shiny-template #contacto .col #cform #CF5b766908b0b8a_1-row-2 .col-sm-12 .form-control,
-#shiny-template #contacto .col #cform #CF5b726614a247d_1-row-2 .col-sm-12 .form-control {
+#shiny-template #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control,
+#shiny-template #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control {
   border-width: 3px !important;
   border-color: white !important;
   border-radius: 8px;
@@ -659,6 +660,10 @@
   font-family: "Alte Haas Grotesk" !important;
   padding: 23px;
   font-size: 20px;
+}
+#shiny-template #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control::-webkit-input-placeholder,
+#shiny-template #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control::-webkit-input-placeholder {
+  color: white !important;
 }
 #shiny-template #contacto .caldera-grid .checkbox label,
 #shiny-template #contacto .caldera-grid .radio label {
@@ -1657,19 +1662,19 @@
   #shiny-template #contacto .big {
     font-size: 18px;
   }
-  #shiny-template #contacto .col #cform #fld_2494155_1 {
+  #shiny-template #contacto .col #cform #caldera_form_1 select {
     padding: 8px;
     font-size: 16px;
     margin-bottom: 10px;
   }
-  #shiny-template #contacto .col #cform #fld_2494155_1 option {
+  #shiny-template #contacto .col #cform #caldera_form_1 select option {
     font-size: 16px;
   }
-  #shiny-template #contacto .col #cform .caldera-grid .form-control::-webkit-input-placeholder {
+  #shiny-template #contacto .col #cform #caldera_form_1 .caldera-grid .form-control::-webkit-input-placeholder {
     color: white !important;
   }
-  #shiny-template #contacto .col #cform #CF5b766908b0b8a_1-row-2 .col-sm-12 .form-control,
-  #shiny-template #contacto .col #cform #CF5b726614a247d_1-row-2 .col-sm-12 .form-control {
+  #shiny-template #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control,
+  #shiny-template #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control {
     padding: 18px;
     font-size: 16px;
   }
