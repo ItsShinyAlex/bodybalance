@@ -65,7 +65,7 @@
 
 </section>
 
-<section class="template-section blue-faq padding-50" id="faq">
+<section class="template-section gris-faq padding-50" id="faq">
     <div class="container">
       <h2>Preguntas <i>frecuentes</i></h2>
     <div class="faq card">

@@ -1412,10 +1412,10 @@ h2{
 
 }
 
-.blue-faq{
-    background-color: @aqua !important;
+.gris-faq{
+    background-color: @gris;
     h2, p{
-        color: white !important;
+        color: @faq_color2;
     }
 }
     
@@ -1484,7 +1484,7 @@ h2{
         position: relative;
         font-family: 'Roboto', sans-serif;
         transition: all .3s;
-        background: @brown;
+        background: @faq_color;
     }
     article.selected {
         -webkit-transform: scale(1.1);
@@ -1496,7 +1496,7 @@ h2{
     h1 {
         font-family: 'Avenir LT Std Medium';
         position: relative;
-        background:@brown;
+        background:@faq_color;
         padding: 20px 30px;
         font-size: 20px;
         line-height: 30px;
@@ -1508,7 +1508,7 @@ h2{
     h1:hover,
     .selected h1 {
         cursor: pointer;
-        background: #87782c;
+        background: @faq_color2;
     }
     h1:before,
     h1:after {
@@ -1561,10 +1561,10 @@ h2{
     p {
         font-family: 'Avenir LT Std Medium';
         padding: 25px 30px 40px;
-        background: @brown;
+        background: @faq_color;
         font-size: 16px;
         line-height: 24px;
-        color:@brown;
+        color:@white;
     }
 
     @-webkit-keyframes close-line-one-out {

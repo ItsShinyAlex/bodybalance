@@ -1165,12 +1165,12 @@
   background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
   background-size: cover;
 }
-#shiny-template .blue-faq {
-  background-color: #68aeaa !important;
+#shiny-template .gris-faq {
+  background-color: #e3e3e3;
 }
-#shiny-template .blue-faq h2,
-#shiny-template .blue-faq p {
-  color: white !important;
+#shiny-template .gris-faq h2,
+#shiny-template .gris-faq p {
+  color: #128d85;
 }
 #shiny-template .blue-howtopay {
   background-color: #508b86 !important;
@@ -1221,7 +1221,7 @@
   position: relative;
   font-family: 'Roboto', sans-serif;
   transition: all .3s;
-  background: #d6c780;
+  background: #0c7770;
 }
 #shiny-template .faq article.selected {
   -webkit-transform: scale(1.1);
@@ -1232,7 +1232,7 @@
 #shiny-template .faq h1 {
   font-family: 'Avenir LT Std Medium';
   position: relative;
-  background: #d6c780;
+  background: #0c7770;
   padding: 20px 30px;
   font-size: 20px;
   line-height: 30px;
@@ -1243,7 +1243,7 @@
 #shiny-template .faq h1:hover,
 #shiny-template .faq .selected h1 {
   cursor: pointer;
-  background: #87782c;
+  background: #128d85;
 }
 #shiny-template .faq h1:before,
 #shiny-template .faq h1:after {
@@ -1294,10 +1294,10 @@
 #shiny-template .faq p {
   font-family: 'Avenir LT Std Medium';
   padding: 25px 30px 40px;
-  background: #d6c780;
+  background: #0c7770;
   font-size: 16px;
   line-height: 24px;
-  color: #d6c780;
+  color: #f8f5e9;
 }
 @-webkit-keyframes close-line-one-out {
   0%,
