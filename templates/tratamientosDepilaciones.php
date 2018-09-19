@@ -65,6 +65,103 @@
 
 </section>
 
+<section class="template-section blue-faq padding-50" id="faq">
+    <div class="container">
+      <h2>Preguntas <i>frecuentes</i></h2>
+    <div class="faq card">
+    <article>
+    <h1 data-accordion-element-trigger>¿En cuántas sesiones son las depilaciones?</h1>
+    <div data-accordion-element-content class="content">
+      <p> Las sesiones son 6 dependiendo del fototipo de cada persona y el grueso del vello, estas se espacian 1 vez por mes los primeros 3 meses y posteriormente es de mes y medio a dos meses ya que se tiene que evaluar el vello existente.</p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger>¿Es dolorosa la depilación láser o precisa anestesia?</h1>
+    <div data-accordion-element-content class="content">
+      <p>Es virtualmente sin dolor, no requiere ninguna anestesia. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger>¿Funciona para cualquier tipo de vello y color? </h1>
+    <div data-accordion-element-content class="content">
+      <p>Si. Funciona para cualquier tipo de vello con pigmento, para vello cano esta contraindicado, ya que el laser diodo se dirige hacia el cromóforo en este caso el pigmento de vello. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger>¿Cuáles son los cuidados posteriores?  </h1>
+    <div data-accordion-element-content class="content">
+      <p>Uso de protector solar FPS 50, no exponer directamente las zonas tratadas el día de la sesión a saunas, ejercicio, vapor o cualquier fuente de calor solo ese día.</p>
+    </div>
+  </article>
+    <article>
+    <h1 data-accordion-element-trigger>¿Es un tratamiento seguro y autorizado? </h1>
+    <div data-accordion-element-content class="content">
+      <p>Si, ya que está aprobado y autorizado por la FDA y Cofepris.</p>
+    </div>
+  </article>
+    <article>
+    <h1 data-accordion-element-trigger>¿Quiénes no pueden hacerse una depilación? </h1>
+    <div data-accordion-element-content class="content">
+      <p>Pacientes con vello blanco, Pacientes tomando tratamiento con medicamentos fotosensibles (por ejemplo, Isotetrinoina), Embarazadas, Lactancia, alguna infección cutánea o heridas abiertas.</p>
+    </div>
+  </article>
+      <article>
+    <h1 data-accordion-element-trigger>¿Se puede aplicar el tratamiento a niños? </h1>
+    <div data-accordion-element-content class="content">
+      <p>Si es posible con autorización del tutor del menor. Sin embargo,  en este caso puede existir brotes de vello en la pubertad y hasta el final de su desarrollo. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger>¿Qué zonas no se pueden depilar o cuando está contraindicada? </h1>
+    <div data-accordion-element-content class="content">
+      <p>Áreas de piel con tatuajes y en personas con piel no sana. Está contraindicado en embarazo y lactancia. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> ¿Aplica en bronceado?  </h1>
+    <div data-accordion-element-content class="content">
+      <p>Se recomienda que sean dos semanas antes de la exposición al sol o dos semanas después. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> ¿Aplica en bronceado?  </h1>
+    <div data-accordion-element-content class="content">
+      <p>Se recomienda que sean dos semanas antes de la exposición al sol o dos semanas después. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> ¿La depilación es definitiva o surge algún rebote ?   </h1>
+    <div data-accordion-element-content class="content">
+      <p>El tratamiento es permanente por que elimina el vello. Pero no es definitivo ya que el organismo puede pasar por diversos cambios hormonales que puede provocar que vuelva a nacer el vello, sin embargo, el crecimiento y grosor disminuyen, nunca vuelve a salir de la misma manera. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> ¿Puedo depilarme si estoy embaraza?    </h1>
+    <div data-accordion-element-content class="content">
+      <p>Está contraindicado en embarazo y lactancia.</p>
+    </div>
+  </article>
+    <article>
+    <h1 data-accordion-element-trigger> ¿Me puedo depilar si tengo tatuajes?    </h1>
+    <div data-accordion-element-content class="content">
+      <p>Si, a excepción de la zona donde tengas el tatuaje.</p>
+    </div>
+  </article>
+   <article>
+    <h1 data-accordion-element-trigger> ¿Cómo tengo que ir preparada a la cita?    </h1>
+    <div data-accordion-element-content class="content">
+      <p>Rasurada un día antes de la sesión, sin cremas, lociones y /o desodorantes.</p>
+    </div>
+  </article>
+   <article>
+    <h1 data-accordion-element-trigger> ¿Se puede depilar la zona intima?    </h1>
+    <div data-accordion-element-content class="content">
+      <p>Si ya que el láser no es abrasivo y la depilación es personalizando parámetros para que sea segura para cada paciente.</p>
+    </div>
+  </article>
+   </div>
+    </div>
+</section>
 
 
 
