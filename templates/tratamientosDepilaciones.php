@@ -124,12 +124,6 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger> ¿Aplica en bronceado?  </h1>
-    <div data-accordion-element-content class="content">
-      <p>Se recomienda que sean dos semanas antes de la exposición al sol o dos semanas después. </p>
-    </div>
-  </article>
-  <article>
     <h1 data-accordion-element-trigger> ¿La depilación es definitiva o surge algún rebote ?   </h1>
     <div data-accordion-element-content class="content">
       <p>El tratamiento es permanente por que elimina el vello. Pero no es definitivo ya que el organismo puede pasar por diversos cambios hormonales que puede provocar que vuelva a nacer el vello, sin embargo, el crecimiento y grosor disminuyen, nunca vuelve a salir de la misma manera. </p>
