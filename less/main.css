@@ -23,11 +23,16 @@
   font-weight: normal;
   font-style: normal;
 }
-/*.branding a img, .branding img {
-    width: 247px !important;
-    height: 69px !important;
-
-}*/
+.branding a img,
+.branding img {
+  width: 270px;
+}
+.logo-box .preload-me {
+  width: 90%;
+}
+.mobile-header-bar .mobile-branding img {
+  width: 80%;
+}
 .light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a,
 .light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a .menu-text,
 .light-preset-color .masthead:not(#phantom):not(.sticky-on) .main-nav > li > a .subtitle-text {
@@ -112,7 +117,7 @@
   padding: 0px 100px;
   padding-top: 20px;
   width: auto !important;
-  background-color: #f8f5e9 ;
+  background-color: #f8f5e9;
 }
 #shiny-template .pork .realtive-top {
   position: relative;
@@ -153,7 +158,7 @@
 }
 #shiny-template #t-depilaciones .container {
   padding: 0;
-  width: 95% !important ;
+  width: 95% !important;
 }
 #shiny-template #t-depilaciones .container img {
   width: 40%;
@@ -935,11 +940,11 @@
   margin-bottom: 5px !important;
 }
 #shiny-template #resultado h2 {
-  font-size: 50px ;
+  font-size: 50px;
   padding-bottom: 40px;
 }
 #shiny-template #resultado h2 .big {
-  font-size: 66px ;
+  font-size: 66px;
 }
 #shiny-template #resultado .col-txt {
   padding-right: 66px;
@@ -1170,7 +1175,7 @@
 }
 #shiny-template .gris-faq h2,
 #shiny-template .gris-faq p {
-  color: #128d85;
+  color: #d6c780;
 }
 #shiny-template .blue-howtopay {
   background-color: #508b86 !important;
@@ -1199,7 +1204,8 @@
   transition: height .5s;
 }
 #shiny-template .card {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   margin: 50px auto;
   border-radius: 2px;
   background: white;
@@ -1230,7 +1236,6 @@
   z-index: 2;
 }
 #shiny-template .faq h1 {
-  font-family: 'Avenir LT Std Medium';
   position: relative;
   background: #0c7770;
   padding: 20px 30px;
@@ -1243,7 +1248,7 @@
 #shiny-template .faq h1:hover,
 #shiny-template .faq .selected h1 {
   cursor: pointer;
-  background: #128d85;
+  background: #d6c780;
 }
 #shiny-template .faq h1:before,
 #shiny-template .faq h1:after {
@@ -1292,7 +1297,6 @@
   opacity: 1;
 }
 #shiny-template .faq p {
-  font-family: 'Avenir LT Std Medium';
   padding: 25px 30px 40px;
   background: #0c7770;
   font-size: 16px;
@@ -1449,7 +1453,52 @@
     transform: rotate(90deg);
   }
 }
+#shiny-template #listar-servicios {
+  padding: 50px 0;
+}
+#shiny-template #listar-servicios h2 {
+  margin-bottom: 50px;
+}
+#shiny-template #listar-servicios img.is-loaded {
+  opacity: 1 !important;
+}
+#shiny-template #listar-servicios .owl-carousel .owl-prev {
+  top: 50%;
+  transform: translateY(calc(-50%));
+  left: 0px;
+  background: #0c8e88;
+  width: 30px;
+  height: 80px;
+}
+#shiny-template #listar-servicios .owl-carousel .owl-next {
+  top: 50%;
+  transform: translateY(calc(-50%));
+  right: 0;
+  width: 30px;
+  height: 80px;
+  border-radius: 0px;
+  color: #fff;
+  background: #0c8e88;
+}
+#shiny-template #listar-servicios .owl-carousel .owl-nav i:before {
+  color: #fff;
+}
+#shiny-template #listar-servicios .add_to_cart_button {
+  font-size: 1em;
+  padding: 15px;
+}
 @media screen and (max-width: 650px) {
+  #shiny-template .no-padding-mobile .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #shiny-template #faq h1 {
+    padding: 20px 80px 20px 20px;
+  }
+  #shiny-template #faq h1:before,
+  #shiny-template #faq h1:after {
+    width: 20px;
+  }
   #shiny-template #tumeta-online {
     padding-top: 200px !important;
     background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
@@ -1838,7 +1887,7 @@
   #shiny-template #contacto .col,
   #shiny-template #contacto #mapa,
   #shiny-template #contacto c-col {
-    text-align: center ;
+    text-align: center;
   }
   #shiny-template #contacto img {
     width: 100%;
@@ -2210,11 +2259,11 @@
     margin-bottom: 5px !important;
   }
   #shiny-template #resultado h2 {
-    font-size: 26px ;
+    font-size: 26px;
     padding-bottom: 10px;
   }
   #shiny-template #resultado h2 .big {
-    font-size: 35px ;
+    font-size: 35px;
   }
   #shiny-template #resultado .col-txt {
     padding-right: 0px;

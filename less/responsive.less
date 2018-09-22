@@ -1,335 +1,341 @@
 // main: main.less
+@media screen and (max-width:650px) {
 
+    .no-padding-mobile {
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 
+    #faq {
+        h1 {
+            padding: 20px 80px 20px 20px;
 
-@media screen and (max-width:1225px){
-
-    
-}
-
-
-   @media screen and (max-width:650px){
-       
-       // NEW CHANGES ////////////////////////////////////////7//-<<<<<<<<<<<
-       
-           #tumeta-online{
-               padding-top: 200px !important;
-               background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
-               padding-bottom: 40px;
-
-        .container{
-            
-            
-            .h1-contain{
-                text-align: center;
-                //width: 74%;
+            &:before,
+            &:after {
+                width: 20px;
             }
-            
-             padding-right: 0%;
-            h1{
+        }
+    }
+
+
+    #tumeta-online {
+        padding-top: 200px !important;
+        background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
+        padding-bottom: 40px;
+
+        .container {
+
+            .h1-contain {
+                text-align: center; //width: 74%;
+            }
+
+            padding-right: 0%;
+            h1 {
                 font-size: 40px;
-                    width: 95%;
+                width: 95%;
                 padding-left: 3%;
-               text-shadow: 1px 3px 4px #626363;
+                text-shadow: 1px 3px 4px #626363;
                 color: @aqua;
             }
         }
-       
-        .w-box{
+
+        .w-box {
             text-align: center;
-           width: 95% !important; 
-            p{
-                padding: 20px !important; 
+            width: 95% !important;
+            p {
+                padding: 20px !important;
             }
-               
+
         }
 
-        #call-icons{
+        #call-icons {
 
             min-width: 200px;
-            .col{
+            .col {
                 width: 33%;
-                img{
+                img {
                     width: 60%;
                 }
             }
         }
-        
+
     }
-       
-       .desktop-hide{
-           display: flex;
-       }
-       
-       #peel{
-           
-           .container{
-               padding-top: 400px !important;
-           }
-           h2, p{
-               text-align: justify !important;
-           }
-           background: url(../img/Tratamientos/responsive-peel.jpg) center no-repeat;
-           
-           h2{
-               .uptown{
-                   //font-size: 64px !important;
-               }
-               color: @aqua;
-           }
-           .res-bigger{
-               font-size: 100px !important;
-           }
-       }
-       
-       #mapa{
-           iframe{
-               display: none;
-           }
-       }     
-       
-       #mapDiv{
-           display: none;
-       }
 
-.pork{
-
-    padding: 0px 15px;
-    width: auto !important;
-
-    
-    .realtive-top{
-        position: inherit!important;
-        //top: 18px;
+    .desktop-hide {
+        display: flex;
     }
-    
-    .flex{
-        .col{
-            flex-direction: column !important;
-            width: 100%;
-            
-            margin: 30px 0px;
-            
-            
-            .uptown{
-                font-size: 30px;
-                padding: 0;
+
+    #peel {
+
+        .container {
+            padding-top: 400px !important;
+        }
+        h2,
+        p {
+            text-align: justify !important;
+        }
+        background: url(../img/Tratamientos/responsive-peel.jpg) center no-repeat;
+
+        h2 {
+            .uptown {
+                //font-size: 64px !important;
             }
-            
-            .small{
-                padding: 0;
-            }
-            
-            p, h2{
-                padding-top: 0px;
-                margin-bottom: 0px;
-            }
-            
-            .small, .smallest{
-                font-weight: 600;
-                
-            }
-            .small{
-                font-size: 18px;
-            }
-            .smallest{
-                font-size: 14px;
-            }
-            
-            img{
-                width: 33%;
+            color: @aqua;
+        }
+        .res-bigger {
+            font-size: 100px !important;
+        }
+    }
+
+    #mapa {
+        iframe {
+            display: none;
+        }
+    }
+
+    #mapDiv {
+        display: none;
+    }
+
+    .pork {
+
+        padding: 0px 15px;
+        width: auto !important;
+
+
+        .realtive-top {
+            position: inherit!important; //top: 18px;
+        }
+
+        .flex {
+            .col {
+                flex-direction: column !important;
+                width: 100%;
+
+                margin: 30px 0px;
+
+
+                .uptown {
+                    font-size: 30px;
+                    padding: 0;
+                }
+
+                .small {
+                    padding: 0;
+                }
+
+                p,
+                h2 {
+                    padding-top: 0px;
+                    margin-bottom: 0px;
+                }
+
+                .small,
+                .smallest {
+                    font-weight: 600;
+
+                }
+                .small {
+                    font-size: 18px;
+                }
+                .smallest {
+                    font-size: 14px;
+                }
+
+                img {
+                    width: 33%;
+                }
             }
         }
     }
-}
 
-#t-depilaciones{
-    padding-top: 200px !important;
-    padding-bottom: 35px;
-    background: url(../img/Tratamientos/responsive-depilacion-b.jpg) center no-repeat !important;
-    
-    
-    .container{
-        
-        .fcentered-mov{
+    #t-depilaciones {
+        padding-top: 200px !important;
+        padding-bottom: 35px;
+        background: url(../img/Tratamientos/responsive-depilacion-b.jpg) center no-repeat !important;
+
+
+        .container {
+
+            .fcentered-mov {
+                text-align: center; //THE
+                display: flex; //SUPER
+                justify-content: center; //RESPONSIVE
+                align-items: center; //TOOL
+                flex-direction: column; // OMEGA
+            }
             text-align: center; //THE
             display: flex; //SUPER
-          justify-content: center; //RESPONSIVE
-          align-items: center; //TOOL
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
             flex-direction: column; // OMEGA
+            img {
+                width: 80%;
+                padding-bottom: 20px;
+            }
         }
-         text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        
-        img{
+
+        .w-box {
+            width: 80% !important;
+        }
+
+        h1 {
             width: 80%;
-            padding-bottom: 20px;
+            text-align: left;
+            padding-right: 0;
+            line-height: 111%;
+            text-shadow: -1px 1px 2px black;
         }
     }
 
-    .w-box{
-        width: 80% !important;
+    .prepago {
+        font-size: 22px !important;
+
+
     }
-    
-    h1{
-        width: 80%;
-        text-align: left;
-        padding-right: 0;
-        line-height: 111%;
-        text-shadow: -1px 1px 2px black;
-    }
-}
 
-.prepago{
-    font-size: 22px !important;
-
-    
-}
-
- #clock-in{
-         padding-top: 50px;
-         padding-bottom: 30px !important;
+    #clock-in {
+        padding-top: 50px;
+        padding-bottom: 30px !important;
         font-size: 30px;
-        .big{
+        .big {
             font-size: 36px;
         }
         font-weight: 400;
         line-height: 110%;
     }
 
-.saqua-back{
-    background-color: @Saqua !important;
-    h2, p {
-        color: white !important;
+    .saqua-back {
+        background-color: @Saqua !important;
+        h2,
+        p {
+            color: white !important;
+        }
     }
-}
 
-#t-faciales{
-    background: url(../img/Tratamientos/responsive-faciales-banner.jpg) center no-repeat !important;
-    background-size: 100% !important;
-    min-height: 400px !important;
-    height: 400px !important;
-    
+    #t-faciales {
+        background: url(../img/Tratamientos/responsive-faciales-banner.jpg) center no-repeat !important;
+        background-size: 100% !important;
+        min-height: 400px !important;
+        height: 400px !important;
 
 
-     .w-box{
-        width: 80% !important;
-        margin-bottom: 20px !important;
+
+        .w-box {
+            width: 80% !important;
+            margin-bottom: 20px !important;
+        }
+    } /////////////////////////////////////////////////////////77----------->
+    .mini-search {
+        display: none !important;
     }
-}
 
-/////////////////////////////////////////////////////////77----------->
-       
-       
-       
-       .mini-search{
-           display: none !important;
-       }
-       
-    p{
+    p {
         font-size: 16px;
     }
-    
-     li{
-             p::before {
-                      font-size: 16px;
-                }
-    }
-    
-    .btn-brown{
-    padding: 20px 36px;
-    font-size: 20px;
-   
-}
 
-.btn-saqua{
-    padding: 20px 36px;
-    font-size: 20px;
-
-}
-    //home------------------------------------------------------------
-       
-       #slider-home{
-
-    
-    h2{
-        .small{
-            font-size: 22px !important;
-        }
-        font-size: 32px !important;
-        line-height: 40px !important;
-        
-        .big{
-            font-size: 40px !important;
+    li {
+        p::before {
+            font-size: 16px;
         }
     }
-    .w-box{
-            
-            margin-bottom: 0px;
-            //opacity: .75;
+
+    .btn-brown {
+        padding: 20px 36px;
+        font-size: 20px;
+
+    }
+
+    .btn-saqua {
+        padding: 20px 36px;
+        font-size: 20px;
+
+    } //home------------------------------------------------------------
+    #slider-home {
+
+
+        h2 {
+            .small {
+                font-size: 22px !important;
+            }
+            font-size: 32px !important;
+            line-height: 40px !important;
+
+            .big {
+                font-size: 40px !important;
+            }
+        }
+        .w-box {
+
+            margin-bottom: 0px; //opacity: .75;
             //z-index: -1;
-            p{
+            p {
                 //color: white;
                 font-size: 18px !important;
                 line-height: 120%;
                 padding: 15px;
-             
-          
+
+
             }
-            
-            
+
+
             width: 100%;
         }
-}
-       
-       
-       
-       
-       
-       
-       .fcentered{
-              display: flex;
-              justify-content: center;
-              align-items: center;
-        }
-    
-       #t-faciales, #t-depilaciones, #modelamiento, #office, #peel, #tumeta,#tumeta-online, #byevello{
+    }
+
+
+
+
+
+
+    .fcentered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #t-faciales,
+    #t-depilaciones,
+    #modelamiento,
+    #office,
+    #peel,
+    #tumeta,
+    #tumeta-online,
+    #byevello {
         padding-top: 160px;
         min-height: 500px;
 
         background-size: cover;
-        .uptown{
+        .uptown {
             font-size: 48px !important;
         }
-        h2{
+        h2 {
             padding-bottom: 30px;
             font-size: 30px;
             line-height: 150%;
         }
-        .container{
+        .container {
             width: 100%;
             padding: 0;
             display: flex;
-              justify-content: center;
-              align-items: center;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
         }
-        .w-box{
-            
-            margin-bottom: 40px;
-            //opacity: .75;
+        .w-box {
+
+            margin-bottom: 40px; //opacity: .75;
             //z-index: -1;
-            p{
+            p {
                 //color: white;
                 font-size: 18px;
                 line-height: 130%;
                 padding: 20px;
-                 z-index: 1 !important;
+                z-index: 1 !important;
                 position: relative;
-                &::before{
+                &::before {
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -341,380 +347,386 @@
                     z-index: -1;
                 }
             }
-            
-            
+
+
             width: 85% !important;
         }
     }
-       
-       
-       
-       
-       
-       
-       
-    #bodyb{
-        
-        .fcentered{
-            img{
+
+
+
+
+
+
+
+    #bodyb {
+
+        .fcentered {
+            img {
                 width: 100%;
             }
         }
-    
-   
-        .col{
+
+
+        .col {
             width: 100%;
         }
-    
-    h1{
-        color: @Saqua;
-        font-size: 28px;
-        line-height: 106%;
-        padding-bottom: 30px;
-        padding-right: 0px;
-    }
-    
 
-    .col-txt{
-        padding-right: 0px;
-        padding-top: 30px;
-        text-align: center;
-        display: flex;
-      justify-content: center;
-      align-items: center;
-        flex-direction: column;
-    }
-    
-
-}
-       
-#queremos, #consultas{
-
-    
-    .relative-top{
-        position: inherit;
-        top: 0px;
-        img{
-            width: 100%;
-        }
-    }
-    
-    .col{
-        width: 100%;
-    }
-    
-     .col-txt{
-         padding: 10px;
-         h2{
-             //padding-bottom: 10px;
-         }
-         
-         img{
-             width: 100%;
-             padding: 22px 0px;
-         }
-
-         
-         text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-    }
-    
-}
-       
-
-       
-       
-       
-       
-       
-       
-       
-       
-#servicios{
-    
-   
-
-    img{
-        width: 100%;
-    }
-    
-    .fcentered{
-        flex-direction: column;
-    }
-    
-    .container{
-        padding: 0;    
-    }
-    
-    .flex{
-        flex-wrap: wrap;
-    }
-    .col{
-        flex-direction: column;
-        justify-content: center;
-        height: 650px;
-         padding: 0;
-        padding-bottom: 100px;
-        
-        margin: 0px;
-        width: 100% !important;
-        
-        h2{
+        h1 {
+            color: @Saqua;
+            font-size: 28px;
+            line-height: 106%;
             padding-bottom: 30px;
+            padding-right: 0px;
         }
-       
-        
-        .fix-h{
-            height: 300px;
-        }
-        
-        p{    
-            // flex-grow: 1;
-            //margin-bottom: 40px;
-            //margin-bottom: auto; 
-        }
-        
-        a{
-            
-            align-self: flex-end;
-            //margin-top: auto;
-        }
-        
-        .txt{
-            padding: 20px 48px;
-        }
-    }
-}
-       
-       
-       
-       #contacto{
-           
-           #responsable{
-                text-align: center; //THE
-            display: flex; //SUPER
-          justify-content: center; //RESPONSIVE
-          align-items: center; //TOOL
-            flex-direction: column; // OMEGA
-           }
-           
-            .col, #mapa, c-col{
-         text-align: center ; //THE
- 
-    }
-           
-           img{
-               width: 100%;
-           }
-           
-           .col{
-               .big{
-                   padding-left: 15px;
-               }
-           }
 
-    padding-top: 80px;
-    padding-bottom: 40px;
-    
-    .c-col{
-        
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        
-        .flex{
+
+        .col-txt {
+            padding-right: 0px;
             padding-top: 30px;
-                padding-bottom: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
-        
-        .txt{
-            width: 80%;
-        }
-        
-        p{
-            font-size: 18px;
-        }
-            
-    }
-    
 
-    
-    .pad-top{
-        padding-top: 25px;
+
     }
-    
-    h2, p {
-        color: white;
-    }
-    
-    
-    
-    
-    h2{
-        font-size: 40px;
-        line-height: 150%;
-        font-style: normal;
-    }
-    
-    .uptown{
-        font-size: 60px;
-    }
-    
-    
-    
-    .icon{
-        width: 20%;
-        img{
-        //width: 180px;
-        }
-    }
-    
-           #followus{
-                   padding: 0px 20%;
-            .col, .txt{
+
+    #queremos,
+    #consultas {
+
+
+        .relative-top {
+            position: inherit;
+            top: 0px;
+            img {
                 width: 100%;
             }
-               .icon{
-                    width: 50%;   
-               }
-                   #siguenos{
-                       padding: 0;
-                        width: 100%;
-                            p{
-                                font-size: 28px !important;
-                            }
-                    }
-           }
-    
+        }
 
-    
-    .icons-bot{
-        margin-bottom: 25px;
-    }
-    
-    .mar-bot{
-        margin-bottom: 60px;
-    }
-    
-    .pad-left{
-        padding-left: 0px;
-    }
-           
-           #mail-cols{
-               .txt, .icon{
-                   width: 100%;
-               }
-               .icon{
-                   img{
-                       width: 25%;
-                       padding-bottom: 20px;
-                   }
-               }
-           }
-    
-    #mapa{
-           width: 100%;
-        p{
-            font-size: 17px;
+        .col {
+            width: 100%;
         }
-        padding-top: 50px;
-        .icon{
-            //width: 25%;
-        }
-        .txt{
-            width: 77%;
-            padding-left: 30px;
+
+        .col-txt {
+            padding: 10px;
+            h2 {
+                //padding-bottom: 10px;
+            }
+
+            img {
+                width: 100%;
+                padding: 22px 0px;
+            }
+
+
             text-align: center; //THE
             display: flex; //SUPER
-          justify-content: center; //RESPONSIVE
-          align-items: center; //TOOL
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
             flex-direction: column; // OMEGA
         }
 
     }
-    
-    .big{
-        font-size: 18px;
 
+
+
+
+
+
+
+
+
+
+    #servicios {
+
+
+
+        img {
+            width: 100%;
+        }
+
+        .fcentered {
+            flex-direction: column;
+        }
+
+        .container {
+            padding: 0;
+        }
+
+        .flex {
+            flex-wrap: wrap;
+        }
+        .col {
+            flex-direction: column;
+            justify-content: center;
+            height: 650px;
+            padding: 0;
+            padding-bottom: 100px;
+
+            margin: 0px;
+            width: 100% !important;
+
+            h2 {
+                padding-bottom: 30px;
+            }
+
+
+            .fix-h {
+                height: 300px;
+            }
+
+            p {
+                // flex-grow: 1;
+                //margin-bottom: 40px;
+                //margin-bottom: auto; 
+            }
+
+            a {
+
+                align-self: flex-end; //margin-top: auto;
+            }
+
+            .txt {
+                padding: 20px 48px;
+            }
+        }
     }
-    
-    .col{
-        #cform{
-            
-                #caldera_form_1{
-                    
-                    select{ 
-             
+
+
+
+    #contacto {
+
+        #responsable {
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+        }
+
+        .col,
+        #mapa,
+        c-col {
+            text-align: center; //THE
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .col {
+            .big {
+                padding-left: 15px;
+            }
+        }
+
+        padding-top: 80px;
+        padding-bottom: 40px;
+
+        .c-col {
+
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+
+            .flex {
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+
+            .txt {
+                width: 80%;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+        }
+
+
+
+        .pad-top {
+            padding-top: 25px;
+        }
+
+        h2,
+        p {
+            color: white;
+        }
+
+
+
+
+        h2 {
+            font-size: 40px;
+            line-height: 150%;
+            font-style: normal;
+        }
+
+        .uptown {
+            font-size: 60px;
+        }
+
+
+
+        .icon {
+            width: 20%;
+            img {
+                //width: 180px;
+            }
+        }
+
+        #followus {
+            padding: 0px 20%;
+            .col,
+            .txt {
+                width: 100%;
+            }
+            .icon {
+                width: 50%;
+            }
+            #siguenos {
+                padding: 0;
+                width: 100%;
+                p {
+                    font-size: 28px !important;
+                }
+            }
+        }
+
+
+
+        .icons-bot {
+            margin-bottom: 25px;
+        }
+
+        .mar-bot {
+            margin-bottom: 60px;
+        }
+
+        .pad-left {
+            padding-left: 0px;
+        }
+
+        #mail-cols {
+            .txt,
+            .icon {
+                width: 100%;
+            }
+            .icon {
+                img {
+                    width: 25%;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+
+        #mapa {
+            width: 100%;
+            p {
+                font-size: 17px;
+            }
+            padding-top: 50px;
+            .icon {
+                //width: 25%;
+            }
+            .txt {
+                width: 77%;
+                padding-left: 30px;
+                text-align: center; //THE
+                display: flex; //SUPER
+                justify-content: center; //RESPONSIVE
+                align-items: center; //TOOL
+                flex-direction: column; // OMEGA
+            }
+
+        }
+
+        .big {
+            font-size: 18px;
+
+        }
+
+        .col {
+            #cform {
+
+                #caldera_form_1 {
+
+                    select {
+
                         padding: 8px;
                         font-size: 16px;
-                     
-                
-                option{
-                    font-size: 16px;
-                }
-                
-                margin-bottom: 10px;
-            }
-            
-             .caldera-grid .form-control::-webkit-input-placeholder {
-            color: white !important;
-            }
-            
-            .row ,.single{
-                .col-sm-12{
-                    
-                
-                    .form-control{
-                  
-                        padding: 18px;
-                        font-size: 16px;
-              
 
+
+                        option {
+                            font-size: 16px;
+                        }
+
+                        margin-bottom: 10px;
                     }
+
+                    .caldera-grid .form-control::-webkit-input-placeholder {
+                        color: white !important;
+                    }
+
+                    .row,
+                    .single {
+                        .col-sm-12 {
+
+
+                            .form-control {
+
+                                padding: 18px;
+                                font-size: 16px;
+
+
+                            }
+                        }
+                    }
+
+
                 }
             }
-            
-            
         }
+
+
+        .caldera-grid .form-control::-webkit-input-placeholder {
+            font-size: 16px;
         }
-    }
-    
-    
-     .caldera-grid .form-control::-webkit-input-placeholder {
-         font-size: 16px;
-    }
 
-    
-    
-    
-    .caldera-grid .checkbox label, .caldera-grid .radio label {
 
-        font-size: 16px;
-    }
-    
-    //checkbox
-    .fld_2494155_1, .fld_5824425_1{
+
+
+        .caldera-grid .checkbox label,
+        .caldera-grid .radio label {
+
+            font-size: 16px;
+        } //checkbox
+        .fld_2494155_1,
+        .fld_5824425_1 {
             height: 16px;
             width: 70px;
             margin-top: 10px;
-    }
-           #fld_2494155_1-wrap{
-               float: left !important;
-                   text-align: left;
-           }
-           
-           .first_row{
-                float: left !important;
-                   text-align: left;
-           }
-           
-    //button
-    #fld_5573142_1-wrap, #fld_2388358_1-wrap{
-        float: none;
-        #fld_5573142_1, #fld_2388358_1, .btn-form-class{
+        }
+        #fld_2494155_1-wrap {
+            float: left !important;
+            text-align: left;
+        }
+
+        .first_row {
+            float: left !important;
+            text-align: left;
+        } //button
+        #fld_5573142_1-wrap,
+        #fld_2388358_1-wrap {
+            float: none;
+            #fld_5573142_1,
+            #fld_2388358_1,
+            .btn-form-class {
                 background: @Saqua !important;
                 padding: 10px 46px;
                 border-radius: 8px;
@@ -724,575 +736,574 @@
                 font-family: 'Alte Haas Grotesk';
                 text-decoration: none !important;
                 transition: 0.3s;
-            &:hover{
-                color: @brown;
-                background: #45706b !important;
-            }
-        }
-    }
-    
-    .caldera-grid input[type=submit]{
-        background-color: @Saqua !important;
-    }
-    input[type="submit"]:not([name="update_cart"]){
-        background-color: @Saqua !important;
-    }
-    
-}
-       
-       
-/////////////// CONSULTA //////////////////
-
-#tumeta, #tumeta-online{
-
-    
-    h2{
-        line-height: 105%;
-        .big{
-            font-size: 46px;
-        }
-    }
-    
-    .fcentered{
-        .w-box{
-            margin-bottom: 20px;
-            width: 80%;
-             p{
-                //color: white;
-                font-size: 16px;
-                line-height: 130%;
-                padding: 45px 20px;
-                 z-index: 1 !important;
-                position: relative;
-                &::before{
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    bottom: 0;
-                    right: 0;
-                    background-color: white;
-                    opacity: .7;
-                    content: "";
-                    z-index: -1;
+                &:hover {
+                    color: @brown;
+                    background: #45706b !important;
                 }
             }
-    }
-    }
-    
-    
-}
-       
-       
-#incluye, #beneficios, #obtienes{
-    
-    .container{
-        padding: 0px;
-    }
-    
-    .col{
-           text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-    }
-    
-    .col-txt{
-        
-        h2{
-            font-size: 40px;
         }
-        
-        padding: 45px 20px;
-        
-        img{
-            width: 95%;
-            height: 7px
+
+        .caldera-grid input[type=submit] {
+            background-color: @Saqua !important;
         }
-        
-        ul{
-            padding-top: 50px;
-            li{
-                padding-bottom: 8px;
+        input[type="submit"]:not([name="update_cart"]) {
+            background-color: @Saqua !important;
+        }
+
+    } /////////////// CONSULTA //////////////////
+    #tumeta,
+    #tumeta-online {
+
+
+        h2 {
+            line-height: 105%;
+            .big {
+                font-size: 46px;
+            }
+        }
+
+        .fcentered {
+            .w-box {
+                margin-bottom: 20px;
+                width: 80%;
+                p {
+                    //color: white;
+                    font-size: 16px;
+                    line-height: 130%;
+                    padding: 45px 20px;
+                    z-index: 1 !important;
+                    position: relative;
+                    &::before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        background-color: white;
+                        opacity: .7;
+                        content: "";
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+    #incluye,
+    #beneficios,
+    #obtienes {
+
+        .container {
+            padding: 0px;
+        }
+
+        .col {
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+        }
+
+        .col-txt {
+
+            h2 {
+                font-size: 40px;
+            }
+
+            padding: 45px 20px;
+
+            img {
+                width: 95%;
+                height: 7px
+            }
+
+            ul {
+                padding-top: 50px;
+                li {
+                    padding-bottom: 8px;
+                }
             }
         }
     }
-}
-       
-#no-en, #resultado, #money-brown, #clock, #money{
-    
-    padding-bottom: 40px;
 
-    .relative-top{
-        position: relative;
-        top: 0px;
-    }
-}
-       
-#resultado, #clock{
+    #no-en,
+    #resultado,
+    #money-brown,
+    #clock,
+    #money {
 
+        padding-bottom: 40px;
 
-    h2{
-        font-size: 28px;
-        .big{
-            font-size: 40px;
+        .relative-top {
+            position: relative;
+            top: 0px;
         }
-        line-height: 110%;
     }
-    
-    .col-txt{
-        padding-right: 0%;
+
+    #resultado,
+    #clock {
+
+
+        h2 {
+            font-size: 28px;
+            .big {
+                font-size: 40px;
+            }
+            line-height: 110%;
+        }
+
+        .col-txt {
+            padding-right: 0%;
+        }
+
+        .flex {
+            padding-top: 40px;
+        }
+
+        .col {
+
+            img {
+                width: 40%;
+            }
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+
+        }
+        .col-txt {
+            // width: 50%;
+        }
     }
-    
-    .flex{
+
+
+
+    #no-en,
+    #money-brown,
+    #money {
+        .col-txt {
+            padding-top: 3%;
+        }
+
+        .relative-top {
+            top: 0px;
+        }
+
+        .col {
+            flex-wrap: wrap-reverse;
+            img {
+                width: 40%;
+            }
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+
+        }
+
+    }
+
+    #howtopay {
+        padding: 50px 0px;
+        .col-txt {
+            p {
+                padding-right: 0px;
+            }
+        }
+
+        .col {
+            //flex-wrap: wrap-reverse;    
+            img {
+                width: 60%;
+                margin: 15px 0px;
+            }
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+
+        }
+
+    }
+
+    #modelamiento,
+    #peel {
+        //background-size: 300%;
+        .container {
+            padding: 100px 20px;
+
+            text-align: center !important; //THE
+            display: flex !important; //SUPER
+            justify-content: center !important; //RESPONSIVE
+            align-items: center !important; //TOOL
+            flex-direction: column !important; // OMEGA
+            width: 90% !important;
+
+        }
+
+
+        .w-box {
+            margin-bottom: 20px !important;
+            width: 100% !important;
+        }
+        h2 {
+            padding-bottom: 0px;
+        }
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+    }
+
+
+
+
+
+
+    #beneficios {
+        padding-top: 30px;
+        background-color: @white;
+
+        .col-txt {
+            .line {
+                width: 95%;
+                height: 7px
+            }
+            img {
+                width: 120%;
+                height: auto;
+            }
+
+            li {
+                padding: 0px !important;
+                p {
+                    margin-bottom: 5px !important;
+                }
+
+            }
+        }
+    }
+
+
+    #resultado {
+        h2 {
+            font-size: 26px;
+            padding-bottom: 10px;
+            .big {
+                font-size: 35px;
+            }
+        }
+
+        .col-txt {
+            padding-right: 0px;
+            padding-left: 0px;
+            h2 {
+                font-size: 24px;
+                font-weight: 600;
+            }
+            p {
+                padding-bottom: 15px;
+            }
+
+        }
+
+        img {
+            width: 130% !important;
+            padding: 30px 0px;
+        }
+
+        .flex {
+            padding-top: 0px;
+        }
+    }
+
+    .ejemplo {
+        font-size: 13px;
+
+    }
+
+    #no-en {
         padding-top: 40px;
-    }
-    
-    .col{
+        min-height: 400px;
+        .col-txt {
+            padding-right: 0px;
+            h2 {
+                padding-bottom: 30px;
+            }
 
-        img{
-            width: 40%;
+
         }
-        text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-        
+
+
+
     }
-    .col-txt{
-       // width: 50%;
-    }
-}
-       
-       
-       
-    #no-en, #money-brown, #money{
-    .col-txt{
-        padding-top: 3%;
+    .pad-top-section {
+        padding-top: 20px !important;
     }
 
-    .relative-top{
-        top: 0px;
-    }
-        
-    .col{
-        flex-wrap: wrap-reverse;    
-        img{
-            width: 40%;
-        }
-        text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-        
-    }
-    
-}
-       
-    #howtopay{
-    padding: 50px 0px;
-    .col-txt{
-        p{
+    #atendido {
+        padding-top: 0px;
+        p {
             padding-right: 0px;
         }
-    }
-        
-     .col{
-        //flex-wrap: wrap-reverse;    
-        img{
-            width: 60%;
-            margin: 15px 0px;
-        }
-        text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-        
-    }
-        
-}
-       
-    #modelamiento, #peel{
-     //background-size: 300%;
-        .container{
-         padding: 100px 20px;   
 
-        text-align: center !important; //THE
-        display: flex !important; //SUPER
-  justify-content: center !important; //RESPONSIVE
-      align-items: center !important; //TOOL
-        flex-direction: column !important; // OMEGA
-    width: 90% !important;
-        
+        .col {
+            text-align: center !important; //THE
+            display: flex !important; //SUPER
+            justify-content: center !important; //RESPONSIVE
+            align-items: center !important; //TOOL
+            flex-direction: column !important; // OMEGA
+            width: 100%;
+            padding-bottom: 25px;
+
+        }
     }
-        
-    
-    .w-box{
-        margin-bottom: 20px !important;
-        width: 100% !important;
-    }
-    h2{
-        padding-bottom: 0px;
-    }
-    padding-top: 80px;
-    padding-bottom: 80px;
-    
-}
-       
-       
-       
+
+    #queremos {
+
+        .col {
+            text-align: center !important; //THE
+            display: flex !important; //SUPER
+            justify-content: center !important; //RESPONSIVE
+            align-items: center !important; //TOOL
+            flex-direction: column !important; // OMEGA
+            width: 100%;
 
 
+        }
 
-#beneficios{
-    padding-top:  30px;
-    background-color: @white;
-    
-    .col-txt{
-        .line{
-            width: 95%;
-            height: 7px
-        }
-        img{
-            width: 120%;
-            height: auto;
-        }
-        
-        li{
-            padding: 0px !important;
-            p{
-                margin-bottom: 5px !important;
-            }
-            
-        }
-    }
-}
-       
-       
-#resultado{
-    h2{
-        font-size: 26px ;
-        padding-bottom: 10px;
-        .big{
-            font-size: 35px ;
-        }
-    }
-    
-    .col-txt{
-        padding-right: 0px;
-        padding-left: 0px;
-        h2{
-            font-size: 24px;
-            font-weight: 600;
-        }
-        p{
+        h2 {
+            padding-top: 0px;
             padding-bottom: 15px;
         }
 
-    }
-    
-    img{
-        width: 130% !important;
-        padding: 30px 0px;
-    }
-    
-    .flex{
-        padding-top: 0px;
-    }
-}
-       
-.ejemplo{
-    font-size: 13px;
-
-}
-    
-    #no-en{
-        padding-top: 40px;
-    min-height: 400px;
-    .col-txt{
-        padding-right: 0px;
-        h2{
-            padding-bottom: 30px;
-        }
-        
-        
-    }
-    
-   
-    
-}
-       .pad-top-section{
-    padding-top: 20px !important;    
-}
-       
-#atendido{
-    padding-top: 0px;
-    p{
-        padding-right: 0px;
-    }
-    
-    .col{
-        text-align: center !important; //THE
-        display: flex !important; //SUPER
-  justify-content: center !important; //RESPONSIVE
-      align-items: center !important; //TOOL
-        flex-direction: column !important; // OMEGA
-        width: 100%;
-        padding-bottom: 25px;
-        
-    }
-}
-       
-#queremos{
-    
-    .col{
-        text-align: center !important; //THE
-        display: flex !important; //SUPER
-  justify-content: center !important; //RESPONSIVE
-      align-items: center !important; //TOOL
-        flex-direction: column !important; // OMEGA
-        width: 100%;
-        
-        
-    }
-
-    h2{
-        padding-top: 0px;
-        padding-bottom: 15px;
-    }
-   
-    padding-left: 0px;
-    .col-txt{
-        padding-right: 0px;
-          img{
-              padding-bottom: 10px;
-            width: 95%;
-            height: 7px;
-        }
-        p{
-            padding-bottom: 25px;
-        }
-        h2{
-            font-size: 30px;     
-        }
-    }
-    
-    .relative-top{
-        position: relative;
-        top: 0px;
-    }
-}
-       
-    
-       
-#vision, #mision{
-
-    .flex{
-        height: 550px;
-        
-        h2{
-            font-size: 52px;
-            font-weight: 100;
-        }
-        
-        .col-txt{
-            padding: 15px;
-        }
-    }
-    .container{
-        padding: 0px;
-    }
-    
-    .col{
-        
-        text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-        
-    }
-}
-       
-#vision{
-      flex-wrap: wrap-reverse;
-    .flex{
-        flex-wrap: wrap-reverse;
-    }
-   
-}
-       
-       
-       
-#valores{
-    background: url(../img/whoweare/Responsive-brocoliCASABLANCA.jpg) center no-repeat;
-    background-size: 185%;
-    .container{
-        padding: 20px 6%;
-    }
-    h2{
-        font-size: 80px;
-        padding-bottom: 35px;
-    }
-    ul{
-        padding-bottom: 150px;
-        li{
-            padding-left: 25px;
-            padding-bottom: 0px;
-            margin-bottom: 0px;
-            p{
+        padding-left: 0px;
+        .col-txt {
+            padding-right: 0px;
+            img {
+                padding-bottom: 10px;
+                width: 95%;
+                height: 7px;
+            }
+            p {
+                padding-bottom: 25px;
+            }
+            h2 {
                 font-size: 30px;
-                font-weight: 600;
-                &::before{
-                    font-size: 32px;
-                }
             }
         }
-        
-    }
-}
-       
-       
-       
-       
-       
-       
-       //////////////// TRATAMIENTO //////////////////////////////////////------------**************[][][][][]
 
-
-
-.payschedule{
-   // min-height: 600px;
-    .container{
-        //min-height: 800px;
-        padding: 0px;
-         display: flex;
-         flex-wrap: wrap;
-    }
-    
-   
-    .vcentered{
-        display: flex;
-         flex-wrap: wrap;
-         //justify-content: center;
-    }
-    
-    .flex{
-        flex-wrap: wrap;
-    }
-    
-    background-color: @white;
-    .col{
-         flex-wrap: wrap;
-        //height: 230px;
-        width: 100%;
-        li, p{
-            margin: 0;
+        .relative-top {
+            position: relative;
+            top: 0px;
         }
     }
-    .icon{
-        width: 100%;
-       // height: 110px;
-    }
-    .txt{
-        padding-bottom: 30px;
-        padding-left: 0px;
-        width: 100%;
-        flex-direction: column;
-        text-align: left;
-    }
-    
-    .h2like, h2{
-        font-size: 26px;
-    }
-    
-    .realtive-top{
-        z-index: 1;
-        top: 0px;
-        position: absolute;
-    }
-    
-     .col{
-        
-        text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-        
-    }
-    
-    .fcentered{
-             text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-    }
-}
-       
-       
-       
-       
-       #depilacion, #faciales{
-    height: 440px;
-    
-    .col{
-        padding: 0px;
-        height: 500px;
-        
-        img{
-            width: 95%;
-            padding-top: 18px;
-            padding-bottom: 10px;
-            
+
+
+
+    #vision,
+    #mision {
+
+        .flex {
+            height: 550px;
+
+            h2 {
+                font-size: 52px;
+                font-weight: 100;
+            }
+
+            .col-txt {
+                padding: 15px;
+            }
+        }
+        .container {
+            padding: 0px;
+        }
+
+        .col {
+
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+
         }
     }
-           
-           .col{
-        
-        text-align: center; //THE
-        display: flex; //SUPER
-      justify-content: center; //RESPONSIVE
-      align-items: center; //TOOL
-        flex-direction: column; // OMEGA
-        width: 100%;
-        
-    }
-    
-           .txt{
-               padding: 0px 20px;
-           }
 
-    
+    #vision {
+        flex-wrap: wrap-reverse;
+        .flex {
+            flex-wrap: wrap-reverse;
+        }
 
-    
-    #legs{
-         background: url(../img/Tratamientos/legs.jpg) center no-repeat;
-        background-size: cover;
-        position: relative;
-        //left: 0px;
-        //top: 0px;
-        z-index: 1;
-        display: none;
-    }
-    #clean-face{
-        background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
-        background-size: cover;
-         display: none;
     }
 
-}
+
+
+    #valores {
+        background: url(../img/whoweare/Responsive-brocoliCASABLANCA.jpg) center no-repeat;
+        background-size: 185%;
+        .container {
+            padding: 20px 6%;
+        }
+        h2 {
+            font-size: 80px;
+            padding-bottom: 35px;
+        }
+        ul {
+            padding-bottom: 150px;
+            li {
+                padding-left: 25px;
+                padding-bottom: 0px;
+                margin-bottom: 0px;
+                p {
+                    font-size: 30px;
+                    font-weight: 600;
+                    &::before {
+                        font-size: 32px;
+                    }
+                }
+            }
+
+        }
+    } //////////////// TRATAMIENTO //////////////////////////////////////------------**************[][][][][]
+    .payschedule {
+        // min-height: 600px;
+        .container {
+            //min-height: 800px;
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .vcentered {
+            display: flex;
+            flex-wrap: wrap; //justify-content: center;
+        }
+
+        .flex {
+            flex-wrap: wrap;
+        }
+
+        background-color: @white;
+        .col {
+            flex-wrap: wrap; //height: 230px;
+            width: 100%;
+            li,
+            p {
+                margin: 0;
+            }
+        }
+        .icon {
+            width: 100%; // height: 110px;
+        }
+        .txt {
+            padding-bottom: 30px;
+            padding-left: 0px;
+            width: 100%;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .h2like,
+        h2 {
+            font-size: 26px;
+        }
+
+        .realtive-top {
+            z-index: 1;
+            top: 0px;
+            position: absolute;
+        }
+
+        .col {
+
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+
+        }
+
+        .fcentered {
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+        }
+    }
+
+
+
+
+    #depilacion,
+    #faciales {
+        height: 440px;
+
+        .col {
+            padding: 0px;
+            height: 500px;
+
+            img {
+                width: 95%;
+                padding-top: 18px;
+                padding-bottom: 10px;
+
+            }
+        }
+
+        .col {
+
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            width: 100%;
+
+        }
+
+        .txt {
+            padding: 0px 20px;
+        }
+
+
+
+
+        #legs {
+            background: url(../img/Tratamientos/legs.jpg) center no-repeat;
+            background-size: cover;
+            position: relative; //left: 0px;
+            //top: 0px;
+            z-index: 1;
+            display: none;
+        }
+        #clean-face {
+            background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
+            background-size: cover;
+            display: none;
+        }
+
+    }
+
+
 
 
 }
