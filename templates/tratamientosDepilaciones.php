@@ -36,7 +36,7 @@
 </section>
 
 <section id="listar-servicios" class="plantilla-seccion">
-   <h2 class="center uptown">¿En qué zona te interesa aplicar la depilicación permanente?</h2>
+   <h2 class="center uptown">¿Qué consulta médica te interesa?</h2>
     <?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" arrow_icon_size="25px" arrow_bg_width="36x" arrow_border_width="0px" arrows_bg_show="n" arrow_icon_color_hover="rgba(0,0,0,0.75)" arrow_bg_color_hover="#34afbc" r_arrow_icon_paddings="0px 0px 0px 0px" r_arrow_v_offset="0px" l_arrow_icon_paddings="0px 0px 0px 0px" l_arrow_v_offset="0px" category_ids="26"][/vc_column][/vc_row]');
     ?>
     

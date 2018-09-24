@@ -202,7 +202,7 @@ echo "<section id ='shiny-template'>";
 </section>
 -->
 
-<section class="template-section" id="money">
+<section  class="plantilla-seccion" id="money">
   <div class="container">
       
        <div class="relative-top">
@@ -221,12 +221,14 @@ echo "<section id ='shiny-template'>";
                    <div class="fcentered">
                        
                     <ul>
-                        <li>
+                       <p class="listar-servicios2"><?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" dis_posts_total="1" slides_on_wide_desk="1" slides_on_desk="1" slides_on_lapt="1" slides_on_h_tabs="1" slides_on_v_tabs="1" item_space="0" speed="0" arrows="n" category_ids="42" css_dt_blog_carousel=".vc_custom_1537813311573{padding-right: 40px !important;padding-left: 40px !important;}"][/vc_column][/vc_row]');
+    ?></p>
+                        <!--<li>
                             <p><b>Costo de primera Consulta Médico Nutricional: </b><br>650 MXN</p>
                         </li>
                         <li>
                             <p><b>Consecutivas:</b><br>600 MXN</p>
-                        </li>
+                        </li>-->
 
                         <p class="prepago">
                         ¡Consulta la promoción prepago!</p>
