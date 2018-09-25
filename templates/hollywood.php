@@ -190,7 +190,7 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section" id="money-brown">
+<section class="plantilla-seccion" id="money-brown">
   <div class="container">
       
       
@@ -198,7 +198,7 @@ echo "<section id ='shiny-template'>";
             <div class="flex">
            
                 <div class="col col-txt pad-v">
-                    <h2 class="pad-hz">¿Cuánto cuesta?</h2>
+                   <!-- <h2 class="pad-hz">¿Cuánto cuesta?</h2>
                        
                     <ul>
                         <li>
@@ -210,7 +210,9 @@ echo "<section id ='shiny-template'>";
                     </ul>
                     
                     <p class="pad-top"><b>Tratamiento mínimo recomendo: 4 sesiones </b></p>
-
+-->
+                   <p class="listar-servicios2"><?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" dis_posts_total="1" slides_on_wide_desk="1" slides_on_desk="1" slides_on_lapt="1" slides_on_h_tabs="1" slides_on_v_tabs="1" item_space="0" speed="0" arrows="n" category_ids="22" css_dt_blog_carousel=".vc_custom_1537892777528{padding-right: 40px !important;padding-left: 40px !important;}"][/vc_column][/vc_row]');
+    ?></p>
                     
                 </div>
                 

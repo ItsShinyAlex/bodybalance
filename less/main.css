@@ -109,6 +109,10 @@
 #shiny-template #money {
   min-height: 780px;
 }
+#shiny-template #money .add_to_cart_button {
+  font-size: 1em;
+  padding: 15px;
+}
 #shiny-template #money .pad-top {
   padding-top: 40px;
   padding-bottom: 30px;
@@ -904,6 +908,10 @@
 }
 #shiny-template #money-brown {
   background-color: #eee5bd !important;
+}
+#shiny-template #money-brown .add_to_cart_button {
+  font-size: 1em;
+  padding: 15px;
 }
 #shiny-template #money-brown p,
 #shiny-template #money-brown h2 {
