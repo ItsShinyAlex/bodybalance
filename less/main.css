@@ -107,20 +107,11 @@
   width: 17%;
 }
 #shiny-template #money {
-  min-height: 980px;
+  min-height: 780px;
 }
 #shiny-template #money .pad-top {
   padding-top: 40px;
-  padding-bottom: 50px;
-}
-#shiny-template #money .container {
-  max-width: 1350px;
-  margin: auto;
-  padding: 0px 40px 100px 80px!imporant;
-}
-#shiny-template #money .add_to_cart_button {
-  font-size: 1em;
-  padding: 15px;
+  padding-bottom: 30px;
 }
 #shiny-template .pork {
   padding: 0px 100px;
@@ -1493,40 +1484,6 @@
   color: #fff;
 }
 #shiny-template #listar-servicios .add_to_cart_button {
-  font-size: 1em;
-  padding: 15px;
-}
-#shiny-template #listar-servicios2 {
-  padding: 50px 0px;
-}
-#shiny-template #listar-servicios2 h2 {
-  margin-bottom: 50px;
-}
-#shiny-template #listar-servicios2 img.is-loaded {
-  opacity: 1 !important;
-}
-#shiny-template #listar-servicios2 .owl-carousel .owl-prev {
-  top: 50%;
-  transform: translateY(calc(-50%));
-  left: 0px;
-  background: #0c8e88;
-  width: 30px;
-  height: 80px;
-}
-#shiny-template #listar-servicios2 .owl-carousel .owl-next {
-  top: 50%;
-  transform: translateY(calc(-50%));
-  right: 0;
-  width: 30px;
-  height: 80px;
-  border-radius: 0px;
-  color: #fff;
-  background: #0c8e88;
-}
-#shiny-template #listar-servicios2 .owl-carousel .owl-nav i:before {
-  color: #fff;
-}
-#shiny-template #listar-servicios2 .add_to_cart_button {
   font-size: 1em;
   padding: 15px;
 }

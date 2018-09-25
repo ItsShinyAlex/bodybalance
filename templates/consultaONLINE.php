@@ -229,12 +229,6 @@ echo "<section id ='shiny-template'>";
                         <li>
                             <p><b>Consecutivas:</b><br>600 MXN</p>
                         </li>-->
-
-                        <p class="prepago">
-                        ¡Consulta la promoción prepago!</p>
-                        <div class="pad-top">
-                            <a href="https://bodybalance.mx/tienda/consulta-medico-nutricional-online/" class="btn-brown" title="Comprar consulta de Nutricionista Online">¡ME INTERESA!</a>
-                        </div> 
                     </ul>
                     
                     
