@@ -82,15 +82,19 @@ echo "<section id ='shiny-template'>";
            
          
             <div class="col col-txt fcentered">
-                 
-            <p>
-            Ser el primer lugar en México especializado en el tratamiento de clínico integral de la obesidad mediante la nutrición celular, la instalación de hábitos alimenticios y auto cuidado para que nuestros pacientes puedan conseguir resultados efectivos y duraderos, causando un verdadero impacto en la salud.
-            </p>
-
+            <div class="">
+                
+                   <h2 class="uptown">Visión</h2>     
+                    <p>
+                    Ser el primer lugar en México especializado en el tratamiento de clínico integral de la obesidad mediante la nutrición celular, la instalación de hábitos alimenticios y auto cuidado para que nuestros pacientes puedan conseguir resultados efectivos y duraderos, causando un verdadero impacto en la salud.
+                    </p> 
+                
+            </div>
+         
             </div>
             
             <div id="boy-vision" class="col title fcentered">
-                <h2 class="uptown">Visión</h2>
+                
             </div>
             
             
@@ -127,49 +131,6 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-//juztox
-
-<div id="contacto-footer">
-	<div class="flex">
-		<div class="column logo">
-			<img class="logo-pie" src="https://juztox.com/wp-content/uploads/2016/10/logo_footer.svg" alt="Juztox - Detox DF, CDMX">
-		</div>
-		<div class="column linea">
-			<div class="bloque">
-				<img src="https://juztox.com/wp-content/uploads/2016/10/footer_reloj.svg" alt="">
-				<p>9:00 am - 4:00 pm</p>
-			</div>
-			<div class="bloque">
-				<img src="https://juztox.com/wp-content/uploads/2016/10/mail.svg" alt="correo electrónico">
-				<a href="mailto:info@juztox.com?subject=¡Hola%20Juztox!"><p>info@juztox.com </p></a>
-			</div>
-			<div class="bloque">
-				<img src="https://juztox.com/wp-content/uploads/2016/10/footer_tel.svg" alt="">
-				<p><a href="tel:(55) 1718 0825">(55) 1718 0825</a></p>
-			</div>
-			<div class="bloque">
-				<img src="https://juztox.com/wp-content/uploads/2016/10/footer_pointer.svg" alt="">
-				<p>Avenida Toluca 585 , local 8 , Colonia Olivar  de los Padres , Álvaro Obregón , México D.F</p>
-			</div>
-		</div>
-	</div>
-
-	<p class="copyright">
-		<strong>Juztox ® Marca Registrada. Todos los Derechos Reservados.</strong> <br>
-		Diseño Web por <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" id="esbrillante" title="Diseño profesional de páginas Web">Esbrillante</a>
-	</p>
-
-<div class="flex redes-sociales">
-	<div class="bloque"><a href="https://www.facebook.com/juztoxmx/">
-		<img src="https://juztox.com/wp-content/themes/jupiter-child/img/facebook.svg" alt="facebook">
-	</a></div>
-	<div class="bloque"><a href="https://www.instagram.com/juztoxmx/?hl=es">
-		<img src="https://juztox.com/wp-content/themes/jupiter-child/img/instagram.svg" alt="instagram">
-	</a></div>
-</div>
-</div>
-
-/juztox/////
 
 
 <?php 

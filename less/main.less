@@ -116,7 +116,62 @@
 
     .uptown {
         font-weight: 100 !important;
-    } //#bb{
+    }
+    
+    //changes 04/10/2018
+    #tumeta{
+        background-size: cover;
+        
+        @media screen and (max-width:1270px) {
+            background-position: -666px center !important;            
+        }
+        
+        @media screen and (min-width: 1271px) and (max-width:1350px) {
+            background-position: -440px center !important;            
+        }
+        
+             .w-box {
+
+            margin-bottom: 40px; //opacity: .75;
+            //z-index: -1;
+            p {
+                //color: white;
+                font-size: 30px;
+                line-height: 130%;
+                padding: 20px;
+                z-index: 1 !important;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    background-color: white;
+                    opacity: 0 !important;
+                    content: "";
+                    z-index: -1;
+                }
+            }
+
+
+            width: 80% !important;
+        }
+        
+        
+        
+      .desktop-r-space{
+                padding-right: 33% !important;
+                padding-left: 0px;
+                padding-bottom: 100px;
+            }
+        
+        .container{
+            width: 64% !important;
+        }
+    }
+    
+    //#bb{
     // NEW CHANGES ////////////////////////////////////////7//-<<<<<<<<<<<
     #tumeta-online {
         padding-top: 390px !important;
@@ -466,6 +521,10 @@
     }
 
     #slider-home {
+        
+        .shadow{
+            text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff;
+        }
 
         a {
             transition: 0.3s !important;
@@ -987,9 +1046,11 @@
     #incluye,
     #beneficios,
     #obtienes {
+        //changes 04/10 here too
         //background-color: white;
         .container {
             padding: 0px;
+            max-width: 2000px;
         }
 
         #pills {
@@ -1315,12 +1376,17 @@
             }
         }
         .container {
+            max-width: 2000px;
             padding: 0px;
         }
     }
 
     #vision {
         background-color: @Saqua !important;
+        
+        h2{
+            line-height: 100%;
+        }
     }
 
     #valores {

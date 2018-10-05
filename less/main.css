@@ -72,6 +72,49 @@
 #shiny-template .uptown {
   font-weight: 100 !important;
 }
+#shiny-template #tumeta {
+  background-size: cover;
+}
+@media screen and (max-width: 1270px) {
+  #shiny-template #tumeta {
+    background-position: -666px center !important;
+  }
+}
+@media screen and (min-width: 1271px) and (max-width: 1350px) {
+  #shiny-template #tumeta {
+    background-position: -440px center !important;
+  }
+}
+#shiny-template #tumeta .w-box {
+  margin-bottom: 40px;
+  width: 80% !important;
+}
+#shiny-template #tumeta .w-box p {
+  font-size: 30px;
+  line-height: 130%;
+  padding: 20px;
+  z-index: 1 !important;
+  position: relative;
+}
+#shiny-template #tumeta .w-box p::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  opacity: 0 !important;
+  content: "";
+  z-index: -1;
+}
+#shiny-template #tumeta .desktop-r-space {
+  padding-right: 33% !important;
+  padding-left: 0px;
+  padding-bottom: 100px;
+}
+#shiny-template #tumeta .container {
+  width: 64% !important;
+}
 #shiny-template #tumeta-online {
   padding-top: 390px !important;
   background: url(../img/consulta/online-banner.jpg) center no-repeat !important;
@@ -332,6 +375,9 @@
   color: white;
   font-size: 76px;
   line-height: 50%;
+}
+#shiny-template #slider-home .shadow {
+  text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff;
 }
 #shiny-template #slider-home a {
   transition: 0.3s !important;
@@ -770,6 +816,7 @@
 #shiny-template #beneficios .container,
 #shiny-template #obtienes .container {
   padding: 0px;
+  max-width: 2000px;
 }
 #shiny-template #incluye #pills,
 #shiny-template #beneficios #pills,
@@ -1066,10 +1113,14 @@
 }
 #shiny-template #vision .container,
 #shiny-template #mision .container {
+  max-width: 2000px;
   padding: 0px;
 }
 #shiny-template #vision {
   background-color: #508b86 !important;
+}
+#shiny-template #vision h2 {
+  line-height: 100%;
 }
 #shiny-template #valores {
   padding-top: 120px;
