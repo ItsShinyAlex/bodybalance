@@ -62,11 +62,15 @@ echo "<section id ='shiny-template'>";
         <div class="flex">
            
             <div id="girl-mision" class="col title fcentered">
-                <h2 class="uptown">Misión</h2>
+                
             </div>
             
             <div class="col col-txt fcentered">
-                 <p>Brindar a los pacientes consultas de nutrición clínica integral  para enseñarlos a comer de forma adecuada y lograr sus metas con seguridad sin riesgos en la salud. Ofreciendo al mismo tiempo tecnología de punta en tratamientos complementarios cómo modelado corporal, faciales y depilación definitiva.</p>
+                <div class="">
+                    <h2 class="uptown">Misión</h2>
+                    <p>Brindar a los pacientes consultas de nutrición clínica integral  para enseñarlos a comer de forma adecuada y lograr sus metas con seguridad sin riesgos en la salud. Ofreciendo al mismo tiempo tecnología de punta en tratamientos complementarios cómo modelado corporal, faciales y depilación definitiva.</p>
+                </div>
+                 
 
  
             </div>

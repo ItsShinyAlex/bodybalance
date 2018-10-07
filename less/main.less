@@ -288,7 +288,7 @@
     #t-depilaciones {
         background: url(../img/Tratamientos/depilacion-banner.jpg) center no-repeat !important;
         background-size: cover;
-        padding-top: 380px !important;
+        padding-top: 280px !important;
         .container {
             padding: 0;
             width: 95% !important;
@@ -306,7 +306,7 @@
             align-items: center; //TOOL
             flex-direction: column; // OMEGA
             h1 {
-                padding: 0 !important;
+                padding: 0 22%;
             }
         }
 
@@ -315,7 +315,7 @@
         }
 
         h1 {
-            padding-right: 15%;
+            
             line-height: 111%;
         }
     }
@@ -346,12 +346,20 @@
         }
     }
 
-    #t-faciales {
+    #t-faciales {// changes 07/10
+        
+        .flex{
+            margin-top: 200px;
+        }
+        
+        .shadow{
+            text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
+        }
 
         min-height: 600px !important;
         height: 600px !important;
 
-        background: url(../img/Tratamientos/facial-banner.png) center no-repeat !important;
+        background: url(../img/Tratamientos/facial-banner.jpg) center no-repeat !important;
         background-size: cover;
 
         .flex,
@@ -1165,25 +1173,63 @@
         padding: 80px 0px;
         .col-txt {
             p {
-                padding-right: 150px;
+                padding-right: 152px;
+            }
+            img{
+                padding: 15px 0;
             }
         }
     } //////////////// HOLLYWOOD //////////////////////////
     #modelamiento,
-    #peel {
+    #peel { //07/10 changes
 
         background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
         background-size: cover;
-
-        .w-box {
-            width: 75%;
+        .p56{
+            font-size: 77px;
+            font-weight: 600;
         }
+
         h2 {
-            padding-bottom: 0px;
+            padding-bottom: 10px;
+            font-size: 130px !important;
         }
-        padding-top: 350px;
-        padding-bottom: 80px;
+        
+        
+        .btn-brown{
+            font-size: 36px;
+        }
+        padding-top: 800px;
+        padding-bottom: 90px;
 
+    }
+    
+    #peel-des, #mc-des{
+        
+        p{
+            color: white;
+            margin-bottom: 30px;
+            font-size: 30px;
+            line-height: 100%;
+            b{
+                color: @brown;
+            }
+        }
+        
+        .container{
+            height: 555px;
+            padding: 0px 20%;
+        }
+        
+        background-color: @Saqua;
+        .col-type{
+            flex-direction: column;
+        }
+        
+        .center{
+            text-align: justify;
+            text-align-last: center;
+        }
     }
 
     #money-brown {
@@ -1220,17 +1266,23 @@
     }
 
 
-    #beneficios {
-        padding-top: 120px;
+    #beneficios { //changes 07/10
+        padding-top: 20px;
         background-color: @white;
+        
+        #faces{
+            padding: 0 0 0 40px;
+            margin: 0;
+        }
 
         .col-txt {
+            padding-top: 200px;
             .line {
                 width: 95%;
-                height: 7px
+                height: 7px;
             }
             img {
-                width: 120%;
+                width: 90%;
                 height: auto;
             }
 
@@ -1245,23 +1297,53 @@
     }
 
     #resultado {
-        h2 {
-            font-size: 50px;
-            padding-bottom: 40px;
-            .big {
-                font-size: 66px;
+        padding-top: 0;
+        .flex{
+            width: 106%;
+            .col{
+                width: 50%;
             }
+            padding: 0;
+            #bed{
+                width: 50%;
+                margin: 0;
+                background: url(../img/hollywood/bed-bodybalance.jpg) center no-repeat;
+                background-size: cover;
+            }
+        }
+        
+        .container{
+            margin: 0;
+            padding: 0;
+        }
+        
+        //changes 07/10
+        h2,h3 {
+            margin-top: 60px;
+            line-height: 190%;
+            font-size: 50px;
+            padding-bottom: 30px;
+            .big {
+                font-size: 55px;
+                font-weight: 100;
+            }
+        }
+        
+        h3{
+            color: white;
+            padding-bottom: 20px;
+            margin-top: 0;
         }
 
         .col-txt {
-            padding-right: 66px;
-            padding-left: 15px;
-            h2 {
+            padding-right: 75px;
+            padding-left: 30px;
+            h2, h3 {
                 font-size: 34px;
                 font-weight: 600;
             }
             p {
-                padding-bottom: 35px;
+                padding-bottom: 25px;
             }
 
         }
@@ -1367,6 +1449,7 @@
             height: 550px;
 
             h2 {
+                line-height: 100%;
                 font-size: 120px;
                 font-weight: 100;
             }
@@ -1419,14 +1502,25 @@
 
         }
     } //////////////// TRATAMIENTO //////////////////////////////////////------------**************[][][][][]
-    #modelamiento {
-        padding-top: 280px;
+    #modelamiento { //changes 07/10
+        padding-top: 0;
+        
+        .container{
+            padding-top: 400px;
+        }
+        
+        @media screen and (min-width: 1000px){
+            height: 1000px !important;
+            max-height: 1020px !important;
+        }
+        
         background: url(../img/Tratamientos/banner.jpg) center no-repeat;
         h1 {
 
             font-size: 70px !important;
             font-weight: 100 !important;
         }
+        padding-bottom: 0px;
     }
 
     .payschedule {

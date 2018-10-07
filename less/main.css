@@ -201,7 +201,7 @@
 #shiny-template #t-depilaciones {
   background: url(../img/Tratamientos/depilacion-banner.jpg) center no-repeat !important;
   background-size: cover;
-  padding-top: 380px !important;
+  padding-top: 280px !important;
 }
 #shiny-template #t-depilaciones .container {
   padding: 0;
@@ -219,13 +219,12 @@
   flex-direction: column;
 }
 #shiny-template #t-depilaciones .desktop-center h1 {
-  padding: 0 !important;
+  padding: 0 22%;
 }
 #shiny-template #t-depilaciones .w-box {
   width: 70% !important;
 }
 #shiny-template #t-depilaciones h1 {
-  padding-right: 15%;
   line-height: 111%;
 }
 #shiny-template .prepago {
@@ -253,8 +252,14 @@
 #shiny-template #t-faciales {
   min-height: 600px !important;
   height: 600px !important;
-  background: url(../img/Tratamientos/facial-banner.png) center no-repeat !important;
+  background: url(../img/Tratamientos/facial-banner.jpg) center no-repeat !important;
   background-size: cover;
+}
+#shiny-template #t-faciales .flex {
+  margin-top: 200px;
+}
+#shiny-template #t-faciales .shadow {
+  text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
 }
 #shiny-template #t-faciales .flex,
 #shiny-template #t-faciales .center,
@@ -936,22 +941,60 @@
   padding: 80px 0px;
 }
 #shiny-template #howtopay .col-txt p {
-  padding-right: 150px;
+  padding-right: 152px;
+}
+#shiny-template #howtopay .col-txt img {
+  padding: 15px 0;
 }
 #shiny-template #modelamiento,
 #shiny-template #peel {
   background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
   background-size: cover;
-  padding-top: 350px;
-  padding-bottom: 80px;
+  padding-top: 800px;
+  padding-bottom: 90px;
 }
-#shiny-template #modelamiento .w-box,
-#shiny-template #peel .w-box {
-  width: 75%;
+#shiny-template #modelamiento .p56,
+#shiny-template #peel .p56 {
+  font-size: 77px;
+  font-weight: 600;
 }
 #shiny-template #modelamiento h2,
 #shiny-template #peel h2 {
-  padding-bottom: 0px;
+  padding-bottom: 10px;
+  font-size: 130px !important;
+}
+#shiny-template #modelamiento .btn-brown,
+#shiny-template #peel .btn-brown {
+  font-size: 36px;
+}
+#shiny-template #peel-des,
+#shiny-template #mc-des {
+  background-color: #508b86;
+}
+#shiny-template #peel-des p,
+#shiny-template #mc-des p {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 100%;
+}
+#shiny-template #peel-des p b,
+#shiny-template #mc-des p b {
+  color: #d6c780;
+}
+#shiny-template #peel-des .container,
+#shiny-template #mc-des .container {
+  height: 555px;
+  padding: 0px 20%;
+}
+#shiny-template #peel-des .col-type,
+#shiny-template #mc-des .col-type {
+  flex-direction: column;
+}
+#shiny-template #peel-des .center,
+#shiny-template #mc-des .center {
+  text-align: justify;
+  text-align-last: center;
 }
 #shiny-template #money-brown {
   background-color: #eee5bd !important;
@@ -977,15 +1020,22 @@
   padding: 55px 0;
 }
 #shiny-template #beneficios {
-  padding-top: 120px;
+  padding-top: 20px;
   background-color: #f8f5e9;
+}
+#shiny-template #beneficios #faces {
+  padding: 0 0 0 40px;
+  margin: 0;
+}
+#shiny-template #beneficios .col-txt {
+  padding-top: 200px;
 }
 #shiny-template #beneficios .col-txt .line {
   width: 95%;
   height: 7px;
 }
 #shiny-template #beneficios .col-txt img {
-  width: 120%;
+  width: 90%;
   height: auto;
 }
 #shiny-template #beneficios .col-txt li {
@@ -994,23 +1044,54 @@
 #shiny-template #beneficios .col-txt li p {
   margin-bottom: 5px !important;
 }
-#shiny-template #resultado h2 {
-  font-size: 50px;
-  padding-bottom: 40px;
+#shiny-template #resultado {
+  padding-top: 0;
 }
-#shiny-template #resultado h2 .big {
-  font-size: 66px;
+#shiny-template #resultado .flex {
+  width: 106%;
+  padding: 0;
+}
+#shiny-template #resultado .flex .col {
+  width: 50%;
+}
+#shiny-template #resultado .flex #bed {
+  width: 50%;
+  margin: 0;
+  background: url(../img/hollywood/bed-bodybalance.jpg) center no-repeat;
+  background-size: cover;
+}
+#shiny-template #resultado .container {
+  margin: 0;
+  padding: 0;
+}
+#shiny-template #resultado h2,
+#shiny-template #resultado h3 {
+  margin-top: 60px;
+  line-height: 190%;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+#shiny-template #resultado h2 .big,
+#shiny-template #resultado h3 .big {
+  font-size: 55px;
+  font-weight: 100;
+}
+#shiny-template #resultado h3 {
+  color: white;
+  padding-bottom: 20px;
+  margin-top: 0;
 }
 #shiny-template #resultado .col-txt {
-  padding-right: 66px;
-  padding-left: 15px;
+  padding-right: 75px;
+  padding-left: 30px;
 }
-#shiny-template #resultado .col-txt h2 {
+#shiny-template #resultado .col-txt h2,
+#shiny-template #resultado .col-txt h3 {
   font-size: 34px;
   font-weight: 600;
 }
 #shiny-template #resultado .col-txt p {
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
 #shiny-template .ejemplo {
   font-size: 18px;
@@ -1104,6 +1185,7 @@
 }
 #shiny-template #vision .flex h2,
 #shiny-template #mision .flex h2 {
+  line-height: 100%;
   font-size: 120px;
   font-weight: 100;
 }
@@ -1151,8 +1233,18 @@
   font-size: 35px;
 }
 #shiny-template #modelamiento {
-  padding-top: 280px;
+  padding-top: 0;
   background: url(../img/Tratamientos/banner.jpg) center no-repeat;
+  padding-bottom: 0px;
+}
+#shiny-template #modelamiento .container {
+  padding-top: 400px;
+}
+@media screen and (min-width: 1000px) {
+  #shiny-template #modelamiento {
+    height: 1000px !important;
+    max-height: 1020px !important;
+  }
 }
 #shiny-template #modelamiento h1 {
   font-size: 70px !important;

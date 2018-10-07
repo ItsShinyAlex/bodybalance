@@ -10,8 +10,8 @@
 <section class="template-section" id="t-depilaciones">
     
     <div class="container desktop-center">
-        <h1 class="saqua uptown">Depilación Definitiva con 
-            Láser Diodo en CDMX
+        <h1 class="saqua uptown">Depilación con 
+            Láser Diodo
             </h1>
         
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Tratamientos/light.png" alt="LightSheer">

@@ -10,19 +10,12 @@ echo "<section id ='shiny-template'>";
 <section class="template-section" id="peel">
     
     <div class="container">
+       <p class="white p56">Rejuvenece tu rostro</p>
         <h2 class="saqua uptown">Hollywood <span class="res-bigger">Peel</span> 
             </h2>
             
-        <div class="">
-            <div class="w-box">
-            <p>El tratamiento consiste en una crema de carbón superficial que sirve como un potenciado entre la piel y el láser
-                1064 nanometros: el carbón nano activo, vitamina b3, vitamina b5, aminoácidos y minerales marinos.
-            
-            <br><br>Este procedimiento ayuda al rejuvenecimiento del rostro,  es seguro y aplicable a la mayoría de los tipos de piel.  
-            
-            <br><br><b>No necesita tiempo de recuperación ya que no es invasivo, ni doloroso. </b></p>
-            
-            </div>
+        <div class="mov-hide">
+            <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
         </div>
         
         <div class="desktop-hide">
@@ -31,6 +24,19 @@ echo "<section id ='shiny-template'>";
         
     </div>
      
+</section>
+
+<section class="template-section mov-hide" id="peel-des">
+   <div class="center fcentered container col-type">
+       <p>El tratamiento consiste en una crema de carbón superficial que sirve como un potenciado entre la piel y el láser
+                1064 nanometros: el carbón nano activo, vitamina b3, vitamina b5, aminoácidos y minerales marinos.</p>
+            
+            <p>Este procedimiento ayuda al rejuvenecimiento del rostro,  es seguro y aplicable a la mayoría de los tipos de piel.  </p>
+            
+            <p><b>No necesita tiempo de recuperación ya que no es invasivo, ni doloroso. </b></p>
+       
+   </div>
+    
 </section>
 
 <section class="template-section" id="beneficios">
@@ -90,24 +96,25 @@ echo "<section id ='shiny-template'>";
 
 <section class="template-section" id="resultado">
   <div class="container">
-       <div class="relative-top">
-           <h2 class="uptown center">
-              El resultado final es un aspecto 
-                <br>
-               <span class="big">
-                   fresco y rejuvenecido de la piel.
-               </span>
-           </h2>
+       <div class="">
+           
             <div class="flex">
-                <div class="col">
-                   <div class="fcentered">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hollywood/despegar.jpg" alt="Mujer de piel perfecta">
-                   </div>
+                <div class="col" id="bed">
+                   
                    
                 </div>
                 
                 <div class="col col-txt">
-                    <h2>¿Cómo puede hacerse?</h2>
+                   
+                   <h2 class="">
+                      El resultado final es un aspecto 
+                        <br>
+                       <span class="big uptown">
+                           fresco y rejuvenecido de la piel.
+                       </span>
+                   </h2>
+                   
+                    <h3>¿Cómo puede hacerse?</h3>
                     <p>Para mejores resultados es conveniente realizar varias sesiones consecutivas (mínimo 4).</p>
                     <p>Las sesiones pueden ser cada semana dependiendo de tus necesidades.</p>
                     

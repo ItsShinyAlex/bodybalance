@@ -10,9 +10,9 @@ echo "<section id ='shiny-template'>";
 <section class="template-section" id="t-faciales">
     
     <div class="container flex">
-       <div class="center fcentered">
+       <div class="">
            
-                 <h1 class="saqua uptown">Faciales
+                 <h1 class="saqua uptown shadow">Faciales
                 </h1>
 
 
@@ -21,7 +21,7 @@ echo "<section id ='shiny-template'>";
 
                 </div>
                 
-                <div class="desktop-hide">
+                <div class="relaL">
                   <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
         </div>
         </div>

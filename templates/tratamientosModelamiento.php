@@ -17,12 +17,12 @@ echo "<section id ='shiny-template'>";
             <div class="w-box">
             <p>Para este tratamiento utilizamos ondas de choque con Cellactor SC1® de Storz Medical™  tecnología suiza con resultados rápidos y efectivos para reducción de medidas en todo el cuerpo.
             
-            <br><br><b>Con este tratamiento lograremos  erradicar celulitis,  mejorar el flujo sanguíneo, reducir la flacidez,  atenuar las estrías  y rejuvenecer el rostro.</b></p>
+            
             
             </div>
         </div>
         
-        <div class="desktop-hide">
+        <div class="relaL">
             <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
         </div>
         
@@ -30,6 +30,18 @@ echo "<section id ='shiny-template'>";
     </div>
      
 </section>
+
+
+
+<section class="template-section mov-hide" id="mc-des">
+   <div class="center fcentered container col-type">
+       <p>Con este tratamiento lograremos  erradicar celulitis,  mejorar el flujo sanguíneo, reducir la flacidez,  atenuar las estrías  y rejuvenecer el rostro.</p>
+       
+   </div>
+    
+</section>
+
+
 <section id="listar-servicios" class="plantilla-seccion">
    <h2 class="center uptown">¿Qué modelamiento corporal te interesa?</h2>
     <?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" dis_posts_total="50" arrow_icon_size="25px" arrow_bg_width="36x" arrow_border_width="0px" arrows_bg_show="n" arrow_icon_color_hover="rgba(0,0,0,0.75)" arrow_bg_color_hover="#34afbc" r_arrow_icon_paddings="0px 0px 0px 0px" r_arrow_v_offset="0px" l_arrow_icon_paddings="0px 0px 0px 0px" l_arrow_v_offset="0px" category_ids="16"][/vc_column][/vc_row]');
