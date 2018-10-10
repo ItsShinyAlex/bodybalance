@@ -50,6 +50,7 @@ echo "<section id ='shiny-template'>";
 
 <section id="utilizar" class="template-section">
      <div class="container">
+     <p class="intro">Los resultados son una mejora significativa de la piel de naranja, la elasticidad, firmeza y textura de la piel, la reduce la circunferencia de muslos y cadera, a la vez que mejora el edema y la activa la circulación.</p>
     <div class="grid">
         <div class="col">
            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/modelamiento/utilizar.png" alt="-----">

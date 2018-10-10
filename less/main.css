@@ -1341,6 +1341,12 @@
   left: 50px;
   margin-bottom: 30px;
 }
+#shiny-template #utilizar p.intro {
+  ext-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 40px;
+}
 #shiny-template #utilizar ul {
   position: relative;
   left: 50px;
