@@ -946,6 +946,22 @@
 #shiny-template #howtopay .col-txt img {
   padding: 15px 0;
 }
+#shiny-template #howtopay .video-responsive {
+  top: 20px;
+  max-width: 753px;
+  margin: 0 auto;
+  position: relative;
+  height: 0;
+  padding-bottom: 30.25%;
+}
+#shiny-template #howtopay .video-responsive iframe,
+#shiny-template #howtopay .video-responsive object,
+#shiny-template #howtopay .video-responsive embed {
+  position: absolute;
+  width: 100%;
+  height: 104%;
+  left: 0;
+}
 #shiny-template #modelamiento,
 #shiny-template #peel {
   background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
@@ -1232,9 +1248,17 @@
 #shiny-template #valores ul li p::before {
   font-size: 35px;
 }
+#shiny-template .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+#shiny-template .grid .col {
+  width: 50%;
+}
 #shiny-template #modelamiento {
+  background-color: #fdfdfd;
   padding-top: 0;
-  background: url(../img/Tratamientos/banner.jpg) center no-repeat;
+  background: url(../img/modelamiento/banner.png) center no-repeat;
   padding-bottom: 0px;
 }
 #shiny-template #modelamiento .container {
@@ -1249,6 +1273,117 @@
 #shiny-template #modelamiento h1 {
   font-size: 70px !important;
   font-weight: 100 !important;
+  color: #68aeaa;
+}
+#shiny-template #queson {
+  background-color: #f8f5e9;
+}
+#shiny-template #queson img {
+  position: relative;
+  float: right;
+  margin-top: 150px;
+}
+#shiny-template #queson h2 {
+  font-size: 1.9em;
+  font-weight: normal;
+  max-width: 280px;
+  position: relative;
+  left: 50px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+#shiny-template #queson h2 span.ondas {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+#shiny-template #queson h2 span.choque {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#shiny-template #queson p {
+  position: relative;
+  text-align: justify;
+  max-width: 400px;
+  font-size: 1.4em;
+  left: 50px;
+  margin-bottom: 60px;
+}
+#shiny-template #utilizar {
+  background-color: white;
+}
+#shiny-template #utilizar img {
+  position: relative;
+  float: left;
+  left: 70px;
+  margin-top: 80px;
+}
+#shiny-template #utilizar h2 {
+  font-size: 2.2em;
+  max-width: 400px;
+  position: relative;
+  left: 50px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+#shiny-template #utilizar h2 span.ondas {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+#shiny-template #utilizar h2 span.choque {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#shiny-template #utilizar p {
+  position: relative;
+  text-align: justify;
+  max-width: 400px;
+  font-size: 1.4em;
+  left: 50px;
+  margin-bottom: 30px;
+}
+#shiny-template #utilizar p.intro {
+  ext-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 40px;
+}
+#shiny-template #utilizar ul {
+  position: relative;
+  left: 50px;
+  color: #508b86;
+  font-size: 1.3em;
+  padding-bottom: 50px;
+}
+#shiny-template #utilizar ul li {
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+#shiny-template #utilizar ul li::before {
+  content: "•";
+  color: #d6c780;
+  padding-right: 10px;
+  position: absolute;
+  left: -15px;
+}
+#shiny-template #mejores {
+  background: url(../img/modelamiento/mejores.png) no-repeat center;
+  /* background-attachment: fixed; */
+  padding-bottom: 30px;
+}
+#shiny-template #mejores h2 {
+  position: relative;
+  left: 200px;
+  font-size: 2.5em;
+  max-width: 300px;
+  padding-top: 80px;
+}
+#shiny-template #mejores p {
+  position: relative;
+  left: 200px;
+  max-width: 300px;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
 #shiny-template .payschedule {
   background-color: #f8f5e9;
@@ -1605,10 +1740,18 @@
   }
 }
 #shiny-template #listar-servicios {
+  background-color: #68aeaa;
   padding: 50px 0;
 }
 #shiny-template #listar-servicios h2 {
   margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 4.1em;
+  padding-top: 50px;
+}
+#shiny-template #listar-servicios h2 span {
+  font-size: 0.6em;
 }
 #shiny-template #listar-servicios img.is-loaded {
   opacity: 1 !important;
@@ -1639,6 +1782,9 @@
   padding: 15px;
 }
 @media screen and (max-width: 650px) {
+  #shiny-template {
+    /*Esquema por defecto para las secciones*/
+  }
   #shiny-template .no-padding-mobile .container {
     padding-left: 0;
     padding-right: 0;
@@ -1654,6 +1800,7 @@
     padding-top: 200px !important;
     background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
     padding-bottom: 40px;
+    background-color: #fdfdfd;
   }
   #shiny-template #tumeta-online .container {
     padding-right: 0%;
@@ -1666,6 +1813,9 @@
     width: 95%;
     padding-left: 3%;
     text-shadow: 1px 3px 4px #626363;
+    color: #68aeaa;
+  }
+  #shiny-template #tumeta-online .container p {
     color: #68aeaa;
   }
   #shiny-template #tumeta-online .w-box {
@@ -2705,5 +2855,58 @@
     background: url(../img/Tratamientos/faceClean.jpg) center no-repeat;
     background-size: cover;
     display: none;
+  }
+  #shiny-template .grid .col {
+    width: 100%;
+  }
+  #shiny-template .grid .col2 {
+    width: 100%;
+  }
+  #shiny-template .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  #shiny-template .template-section a.btn {
+    margin: 0 auto;
+    display: block;
+  }
+  #shiny-template .template-section .col {
+    min-height: auto;
+    padding: 20px;
+  }
+  #shiny-template #queson img {
+    margin-top: 50px;
+    max-width: 100%;
+  }
+  #shiny-template #queson h2 {
+    left: 0px;
+  }
+  #shiny-template #queson p {
+    text-align: center;
+    max-width: 241px;
+    font-size: 1.2em;
+    left: 0;
+  }
+  #shiny-template #utilizar img {
+    max-width: 237%;
+    left: -40px;
+    margin-top: 50px;
+  }
+  #shiny-template #utilizar h2 {
+    left: 20px;
+    padding-top: 15px;
+  }
+  #shiny-template #utilizar p,
+  #shiny-template #utilizar ul {
+    left: 20px;
+  }
+  #shiny-template #mejores h2,
+  #shiny-template #mejores p {
+    left: 0px;
+  }
+  #shiny-template #listar-servicios h2 span {
+    font-size: 0.5em;
+  }
+  #shiny-template #howtopay .video-responsive {
+    padding-bottom: 54.25%;
   }
 }

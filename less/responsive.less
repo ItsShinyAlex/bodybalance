@@ -24,6 +24,7 @@
         padding-top: 200px !important;
         background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
         padding-bottom: 40px;
+        background-color: #fdfdfd;
 
         .container {
 
@@ -38,6 +39,9 @@
                 padding-left: 3%;
                 text-shadow: 1px 3px 4px #626363;
                 color: @aqua;
+            }
+            p {
+                color: #68aeaa;
             }
         }
 
@@ -1368,7 +1372,83 @@
 
     }
 
+    
+   // |||----------MODELAMIENTO---------------|||
+    
+     /*Esquema por defecto para las secciones*/
+    .grid {
+        .col {
+            width: 100%;
+        }
+        .col2 {
+            width: 100%;
+        }
+        
+        &.invertido{
+            flex-wrap: wrap-reverse;
+        } 
+    }
+    
+.template-section a.btn {
+    margin: 0 auto;
+    display: block;
+}
 
 
+    .template-section {
+        .col {
+            min-height: auto;
+            padding: 20px;
+        }
+    }
+    
+    #queson {
+        img {
+    
+    margin-top: 50px;
+    max-width: 100%;
+}
+        h2 {
+            left: 0px;
+        }
+        p {
+            text-align: center;
+    max-width: 241px;
+    font-size: 1.2em;
+    left: 0;
+        }
 
+    }
+    #utilizar{ img {
+
+    max-width: 237%;
+        left: -40px;
+    margin-top: 50px;
+}
+        h2 {
+    
+    left: 20px;
+    padding-top: 15px;
+   
+}
+        p,ul {
+            left: 20px;
+        }
+    }
+#mejores {
+    h2,p {
+   
+    left: 0px;
+    }
+    
+    }
+
+
+#listar-servicios h2 span {
+    font-size: 0.5em;
+}
+
+#howtopay .video-responsive{
+        padding-bottom: 54.25%;
+}
 }
