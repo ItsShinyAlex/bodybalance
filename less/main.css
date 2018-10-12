@@ -2465,11 +2465,43 @@
     width: 100%;
     padding-bottom: 25px;
   }
+  #shiny-template #office {
+    background: url(../img/whoweare/res-banner.jpg) center no-repeat;
+    padding-top: 100px;
+    min-height: 500px;
+    background-size: cover;
+  }
+  #shiny-template #office .uptown {
+    font-size: 48px !important;
+  }
+  #shiny-template #office h2 {
+    z-index: 999;
+    position: relative;
+    top: 112px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    line-height: 150%;
+  }
+  #shiny-template #office .container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #office .w-box {
+    margin-bottom: 40px;
+    width: 85% !important;
+  }
+  #shiny-template #office .w-box p {
+    padding-top: 80px !important;
+  }
   #shiny-template #queremos {
     padding-left: 0px;
   }
   #shiny-template #queremos .col {
-    text-align: center !important;
+    text-align: left!important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -2498,18 +2530,36 @@
     position: relative;
     top: 0px;
   }
+  #shiny-template #vision,
+  #shiny-template #mision {
+    height: 800px !important;
+  }
+  #shiny-template #vision #girl-mision,
+  #shiny-template #mision #girl-mision {
+    background: url(../img/whoweare/res-mision-girlRed.jpg) center no-repeat;
+    height: 400px !important;
+  }
+  #shiny-template #vision #boy-vision,
+  #shiny-template #mision #boy-vision {
+    background: url(../img/whoweare/res-vision-boySmile.jpg) center no-repeat;
+    height: 490px !important;
+  }
   #shiny-template #vision .flex,
   #shiny-template #mision .flex {
-    height: 550px;
+    height: 800px;
   }
   #shiny-template #vision .flex h2,
   #shiny-template #mision .flex h2 {
-    font-size: 52px;
+    font-size: 86px;
     font-weight: 100;
   }
   #shiny-template #vision .flex .col-txt,
   #shiny-template #mision .flex .col-txt {
     padding: 15px;
+  }
+  #shiny-template #vision .flex .fcentered,
+  #shiny-template #mision .flex .fcentered {
+    justify-content: flex-start;
   }
   #shiny-template #vision .container,
   #shiny-template #mision .container {
@@ -2517,10 +2567,9 @@
   }
   #shiny-template #vision .col,
   #shiny-template #mision .col {
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     width: 100%;
   }
@@ -2531,8 +2580,9 @@
     flex-wrap: wrap-reverse;
   }
   #shiny-template #valores {
+    padding-top: 20px;
     background: url(../img/whoweare/Responsive-brocoliCASABLANCA.jpg) center no-repeat;
-    background-size: 185%;
+    background-size: 122%;
   }
   #shiny-template #valores .container {
     padding: 20px 6%;
