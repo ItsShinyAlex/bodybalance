@@ -8,7 +8,7 @@ echo "<section id ='shiny-template'>";
 
 
 <section id="slider-home" >
-    <?php putRevSlider("home1", "home-new.php"); ?>
+    <?php //putRevSlider("home1", "home-new.php"); ?>
 </section>
 
 <section class="template-section" id="bodyb">

@@ -862,6 +862,15 @@
 #shiny-template #obtienes .col-txt ul li {
   padding-bottom: 20px;
 }
+#shiny-template #video {
+  padding: 120px 0;
+}
+#shiny-template #video h2 {
+  font-size: 60px;
+  margin-bottom: 25px;
+  background-color: #feed00;
+  padding: 15px;
+}
 #shiny-template #incluye .col-txt {
   width: 55%;
   background-color: #508b86;
@@ -2427,6 +2436,11 @@
   #shiny-template #beneficios .col-txt ul li,
   #shiny-template #obtienes .col-txt ul li {
     padding-bottom: 8px;
+  }
+  #shiny-template #video h2 {
+    text-align: center;
+    font-size: 38px;
+    padding: 8px;
   }
   #shiny-template #no-en,
   #shiny-template #resultado,
