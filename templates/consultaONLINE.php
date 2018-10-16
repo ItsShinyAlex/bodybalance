@@ -33,14 +33,19 @@ echo "<section id ='shiny-template'>";
               
                         <div class="flex">
                             <div class="col fcentered">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/001-skype.png" alt="Skype">
+                                <a href="https://m.me/bodybalance.cdmx?ref=consultaonline"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/001-skype.png" alt="Skype"></a>
                             </div>    
                             <div class="col fcentered">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/002-whatsapp.png" alt="WhatsApp">
+                                <a href="https://wa.me/525519587101"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/002-whatsapp.png" alt="WhatsApp"></a>
                             </div>
                             <div class="col fcentered">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/003-mobile-phone.png" alt="Teléfono">
+                                <a href="tel:5513282907"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/003-mobile-phone.png" alt="Teléfono"></a>
                             </div>
+                            
+                              <div class="col btn-col fcentered">
+                                <a href="https://bodybalance.mx/consulta-medico-nutricional-online/?add-to-cart=333" class="btn-saqua" target="_blank">¡COMPRAR!</a>
+                            </div>
+                            
                         </div>
                 </div>
             </div>
@@ -94,6 +99,28 @@ echo "<section id ='shiny-template'>";
            
         </div>
     </div>
+</section>
+
+<section class="template-section" id="video">
+    
+    <div class="container ">
+      
+       <div class="fcentered">
+           
+           
+            <h2 class="saqua uptown">¿Cómo Funciona?</h2>
+           
+       </div>
+       
+       <div class="fcentered">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/tW8xC-0IAzU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       </div>
+       
+            
+   
+        
+    </div>
+     
 </section>
 
 <section class="template-section" id="incluye">

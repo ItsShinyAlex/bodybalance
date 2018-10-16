@@ -8,7 +8,7 @@ echo "<section id ='shiny-template'>";
 
 
 <section id="slider-home" >
-    <?php putRevSlider("home1", "home-new.php"); ?>
+    <?php //putRevSlider("home1", "home-new.php"); ?>
 </section>
 
 <section class="template-section" id="bodyb">
@@ -46,19 +46,27 @@ echo "<section id ='shiny-template'>";
             <div class="col col-txt">
                 <h2 class="white">Consultas de Nutrición
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/w-bar.png" alt="----------">
+                <img class="line" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/w-bar.png" alt="----------">
                 <p class="white">
                     Te ofrecemos tu consulta médico nutricional personalizada, analizando composición corporal con tecnología InBody, estilo de vida y necesidades, para obtener la mejor opción de tratamiento.
                 </p>
                 <p class="white"><b>¡Te acompañaremos hasta alcanzar la meta deseada!</b></p>
-                 <a href="http://bodybalance.mx/consultas-de-nutricion/" class="btn-brown">¡Saber más!</a>
+                 <a  href="http://bodybalance.mx/consultas-de-nutricion/" class="btn-brown mov-hid">¡Saber más!</a>
             </div>
-            <div class="col">
+            <div class="col no-pad-bot">
                 <div class="relative-top">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/smileGeen.jpg" alt="Nutrióloga">
                 </div>
             </div>
+            
+            
+            
         </div>
+        
+        <div class="desktop-hide fcentered center">
+                <a href="https://bodybalance.mx/consultas-de-nutricion-presencial-cdmx/" class="btn-brown">¡Saber más!</a>
+            </div>
+        
     </div>
 </section>
 

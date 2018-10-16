@@ -80,9 +80,10 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ubicacion.png" alt="ubicación">
                     </div>
                     <div class="col txt fcentered">
-                        <p>Torre Médica Tuxpan Núm. 8, Col Roma Sur, CDMX, Piso 2
-                        C.P 06760 
-                        Estamos a 40 metros del Metro Chilpancingo</p>
+                                         
+                        <p>
+                            Torre Médica Tuxpan Núm. 8, Col Roma Sur, Ciudad de México (CDMX), Piso 2 C.P 06760 Estamos a 40 metros del Metro Chilpancingo
+                        </p>
                     </div>
                 </div>
                 
@@ -95,8 +96,12 @@
                        <a href="https://business.facebook.com/Body-Balance-2160952823945786/" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.png" alt="Facebook"></a>
                        
                     </div>
+                    <div class="col icon fcentered " id="youtube">
+                       <a href="https://www.youtube.com/channel/UCnfO3P1oyAz3mT7ZQdSugUg" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/youtube-symbol.svg" alt="YouTube"></a>
+                       
+                    </div>
                     <div class="col icon fcentered">
-                       <a href="https://www.instagram.com/bodybalance.mx/?hl=es-la" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram-logo.png" alt="Facebook"></a>
+                       <a href="https://www.instagram.com/bodybalance.mx/?hl=es-la" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram-logo.png" alt="Instagram"></a>
                        
                     </div>
                 </div>

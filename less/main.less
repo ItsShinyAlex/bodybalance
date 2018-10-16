@@ -213,7 +213,22 @@
             }
             min-width: 200px;
             .col {
-                width: 17%;
+                width: 15%;
+            }
+            .btn-col{
+                width: 55%;
+                //margin-left: 100px;
+                .btn-saqua{
+                    font-size: 30px;
+                    padding: 27px 36px;
+                    width: 40%;
+                    text-align: center;
+                    
+                         &:hover {
+                            background-color: @aqua;
+                            color: lightgoldenrodyellow;
+                        }
+                }
             }
         }
 
@@ -494,6 +509,9 @@
         font-size: 24px;
         font-family: 'Alte Haas Grotesk';
         text-decoration: none !important;
+        
+   
+        
     }
 
     .relative-top {
@@ -632,27 +650,40 @@
     }
 
     #bodyb {
+        
+        //background-color: white;
 
         .flex {
             padding-top: 70px;
+            //padding-top: 0px;
+            //flex-wrap: wrap-reverse;
         }
 
         h1 {
             color: @Saqua;
             font-size: 36px;
+            //font-size: 30px;
             line-height: 106%;
             padding-bottom: 60px;
             padding-right: 50px;
+            //text-align: justify !important;
+            //text-align-last: center;
+            //margin-top: 35px;
         }
 
         p {
             line-height: 128%;
             margin-bottom: 55px;
+            //font-size: @txt;
         }
 
         .col-txt {
             padding-right: 70px;
+            //padding-right: 0px;
             padding-top: 5px;
+            //padding: 0 !important;
+            //text-align: justify !important;
+            //text-align-last: center;
         }
 
         .relative-top {
@@ -668,10 +699,13 @@
     }
 
     #consultas {
-        .btn-brown:hover {
+        
+       .btn-brown:hover {
             background-color: @Saqua;
             color: lightgoldenrodyellow;
         }
+        
+        
     }
 
     #queremos,
@@ -842,19 +876,26 @@
 
         #followus {
             #siguenos {
-                width: 36%;
+                width: 35%;
                 p {
                     font-size: 32px !important;
                 }
             }
             .icon {
-                width: 17%;
+                width: 15%;
             }
 
             img {
+                transition: 0.3s;
                 &:hover {
                     transform: scale(1.2);
                     transition: 0.3s;
+                }
+            }
+            
+            #youtube{
+                img{
+                    width: 64px;
                 }
             }
 
@@ -1091,6 +1132,17 @@
                     padding-bottom: 20px;
                 }
             }
+        }
+    }
+    
+    #video{
+        padding: 120px 0;
+        
+        h2{
+            font-size: 60px;
+            margin-bottom: 25px;
+            background-color: #feed00;
+            padding: 15px;
         }
     }
 
@@ -1405,6 +1457,12 @@
         h2 {
             padding: 0;
             font-weight: 100;
+        }
+        
+        .relative-top{
+            margin-bottom: 20px; 
+            position: relative;
+            top: -10px;
         }
     }
 

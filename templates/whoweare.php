@@ -18,6 +18,12 @@ echo "<section id ='shiny-template'>";
             </div>
         </div>
         
+        <div class="fcentered">
+             <div class="desktop-hide relative-top">
+                <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+            </div>
+        </div>
+        
     </div>
      
 </section>
@@ -28,7 +34,7 @@ echo "<section id ='shiny-template'>";
             <div class="col fcentered">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/whoweare/green-healthy.jpg" alt="Dieta verde, ejercicio y programa">
             </div>
-            <div class="col fcentered">
+            <div class="col fcentered mov-hid">
                 <p>Atendido por médicos especializados en nutrición, nuestro centro es un espacio para perder peso y medidas, sin pasar hambre y sin poner en riesgo tu salud.  </p>
             </div>
         </div>
@@ -45,14 +51,20 @@ echo "<section id ='shiny-template'>";
                 <p class="">
                     Por eso te ayudamos con menús fáciles de cocinar, rápidos y deliciosos, fármacos (si los requieres) y asesoría de ejercicio físico, según tu edad, necesidades y limitaciones.
                 </p>
-                <p class=""><b>Además de la más alta tecnología en tratamientos de modelado corporal, faciales y depilación permanente. </b></p>
+                <p class=""><b>Además de la más alta tecnología en tratamientos de modelado corporal, faciales y depilación definitiva. </b></p>
               
             </div>
-            <div class="col">
+            <div class="col" id="team">
                 <div class="relative-top">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/whoweare/apple-smile.jpg" alt="Chica con manzana, agua y ropa deportiva">
                 </div>
             </div>
+            
+            <div class="col col-txt fcentered des-hid">
+                <p>Atendido por médicos especializados en nutrición, nuestro centro es un espacio para perder peso y medidas, sin pasar hambre y sin poner en riesgo tu salud.  </p>
+            </div>
+            
+            
         </div>
     </div>
 </section>
