@@ -701,9 +701,15 @@
 #shiny-template #contacto #followus .icon {
   width: 15%;
 }
+#shiny-template #contacto #followus img {
+  transition: 0.3s;
+}
 #shiny-template #contacto #followus img:hover {
   transform: scale(1.2);
   transition: 0.3s;
+}
+#shiny-template #contacto #followus #youtube img {
+  width: 64px;
 }
 #shiny-template #contacto .icons-bot {
   margin-bottom: 25px;

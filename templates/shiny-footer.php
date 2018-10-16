@@ -96,8 +96,8 @@
                        <a href="https://business.facebook.com/Body-Balance-2160952823945786/" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.png" alt="Facebook"></a>
                        
                     </div>
-                    <div class="col icon fcentered">
-                       <a href="https://www.youtube.com/channel/UCnfO3P1oyAz3mT7ZQdSugUg" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.png" alt="YouTube"></a>
+                    <div class="col icon fcentered " id="youtube">
+                       <a href="https://www.youtube.com/channel/UCnfO3P1oyAz3mT7ZQdSugUg" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/youtube-symbol.svg" alt="YouTube"></a>
                        
                     </div>
                     <div class="col icon fcentered">
