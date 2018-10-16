@@ -147,7 +147,20 @@
   transition: 0.3s !important;
 }
 #shiny-template #tumeta-online #call-icons .col {
-  width: 17%;
+  width: 15%;
+}
+#shiny-template #tumeta-online #call-icons .btn-col {
+  width: 55%;
+}
+#shiny-template #tumeta-online #call-icons .btn-col .btn-saqua {
+  font-size: 30px;
+  padding: 27px 36px;
+  width: 40%;
+  text-align: center;
+}
+#shiny-template #tumeta-online #call-icons .btn-col .btn-saqua:hover {
+  background-color: #68aeaa;
+  color: lightgoldenrodyellow;
 }
 #shiny-template #money {
   min-height: 780px;
