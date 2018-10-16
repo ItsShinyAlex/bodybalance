@@ -30,6 +30,21 @@ echo "<section id ='shiny-template'>";
      
 </section>
 
+<section class="template-section des-hid" id="t-faciales-mov">
+    
+    <div class="container">
+       <div class="center">
+           
+                 <p>Te ofrecemos diferentes tecnologías como  microdermoabrasión con punta diamante, USG, fototerapia, limpieza profunda y aplicación de mascarillas de acuerdo a las necesidades de tu piel.</p>
+      
+        </div>
+     </div>
+      
+     
+</section>
+
+
+
 <section id="listar-servicios" class="plantilla-seccion">
    <h2 class="center uptown">¿Qué facial te interesa?</h2>
     <?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" dis_posts_total="50" arrow_icon_size="25px" arrow_bg_width="36x" arrow_border_width="0px" arrows_bg_show="n" arrow_icon_color_hover="rgba(0,0,0,0.75)" arrow_bg_color_hover="#34afbc" r_arrow_icon_paddings="0px 0px 0px 0px" r_arrow_v_offset="0px" l_arrow_icon_paddings="0px 0px 0px 0px" l_arrow_v_offset="0px" category_ids="27"][/vc_column][/vc_row]');

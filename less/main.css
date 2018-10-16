@@ -1892,13 +1892,20 @@
     padding: 0px 15px;
     width: auto !important;
   }
+  #shiny-template .pork h2 {
+    margin-top: 40px;
+    font-size: 36px !important;
+    line-height: 111%;
+  }
   #shiny-template .pork .realtive-top {
     position: inherit!important;
+    margin-top: 40px;
   }
   #shiny-template .pork .flex .col {
     flex-direction: column !important;
     width: 100%;
-    margin: 30px 0px;
+    margin: 0;
+    padding-top: 0;
   }
   #shiny-template .pork .flex .col .uptown {
     font-size: 30px;
@@ -1917,13 +1924,19 @@
     font-weight: 600;
   }
   #shiny-template .pork .flex .col .small {
-    font-size: 18px;
+    font-size: 23px;
+    margin-top: 8px;
   }
   #shiny-template .pork .flex .col .smallest {
-    font-size: 14px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #shiny-template .pork .flex .col b {
+    font-size: 46px;
   }
   #shiny-template .pork .flex .col img {
-    width: 33%;
+    width: 65%;
+    padding-bottom: 30px;
   }
   #shiny-template #t-depilaciones {
     padding-top: 200px !important;
@@ -1998,6 +2011,15 @@
     display: none;
     width: 80% !important;
     margin-bottom: 20px !important;
+  }
+  #shiny-template #t-faciales-mov {
+    background-color: #508b86;
+  }
+  #shiny-template #t-faciales-mov p {
+    font-size: 22px;
+    color: white;
+    padding: 50px 0px;
+    margin: 0;
   }
   #shiny-template .mini-search {
     display: none !important;
@@ -2108,7 +2130,7 @@
   #shiny-template #tumeta .w-box p,
   #shiny-template #tumeta-online .w-box p,
   #shiny-template #byevello .w-box p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 130%;
     padding: 20px;
     z-index: 1 !important;
@@ -2613,6 +2635,7 @@
   }
   #shiny-template #howtopay .col-txt p {
     padding-right: 0px;
+    font-size: 22px;
   }
   #shiny-template #howtopay .col {
     text-align: center;
@@ -2623,8 +2646,8 @@
     width: 100%;
   }
   #shiny-template #howtopay .col img {
-    width: 60%;
-    margin: 15px 0px;
+    width: 100%;
+    margin: 0;
   }
   #shiny-template #modelamiento,
   #shiny-template #peel {

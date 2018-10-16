@@ -115,6 +115,12 @@
     }
 
     .pork {
+        
+        h2{
+            margin-top: 40px;
+            font-size: 36px !important;
+            line-height: 111%;
+        }
 
         padding: 0px 15px;
         width: auto !important;
@@ -122,14 +128,17 @@
 
         .realtive-top {
             position: inherit!important; //top: 18px;
+            margin-top: 40px;
         }
 
         .flex {
             .col {
+
                 flex-direction: column !important;
                 width: 100%;
 
-                margin: 30px 0px;
+                margin: 0;
+                padding-top: 0;
 
 
                 .uptown {
@@ -153,14 +162,22 @@
 
                 }
                 .small {
-                    font-size: 18px;
+                    font-size: 23px;
+                    margin-top: 8px;
                 }
                 .smallest {
-                    font-size: 14px;
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+                
+                b{
+                    font-size: 46px;
+      
                 }
 
                 img {
-                    width: 33%;
+                    width: 65%;
+                    padding-bottom: 30px;
                 }
             }
         }
@@ -259,6 +276,19 @@
             margin-bottom: 20px !important;
         }
     } /////////////////////////////////////////////////////////77----------->
+    
+    #t-faciales-mov{
+        background-color: @Saqua;
+        p{
+            font-size: @txtp;
+            color: white;
+            padding: 50px 0px;
+            margin: 0;
+        }
+        
+        
+    }
+    
     .mini-search {
         display: none !important;
     }
@@ -363,7 +393,7 @@
             //z-index: -1;
             p {
                 //color: white;
-                font-size: 18px;
+                font-size: @txt;
                 line-height: 130%;
                 padding: 20px;
                 z-index: 1 !important;
@@ -1036,14 +1066,15 @@
         .col-txt {
             p {
                 padding-right: 0px;
+                font-size: @txtp;
             }
         }
 
         .col {
             //flex-wrap: wrap-reverse;    
             img {
-                width: 60%;
-                margin: 15px 0px;
+                width: 100%;
+                margin: 0;
             }
             text-align: center; //THE
             display: flex; //SUPER
