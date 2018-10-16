@@ -507,34 +507,23 @@
   content: "";
   z-index: -1;
 }
-#shiny-template #bodyb {
-  background-color: white;
-}
 #shiny-template #bodyb .flex {
-  padding-top: 0px;
-  flex-wrap: wrap-reverse;
+  padding-top: 70px;
 }
 #shiny-template #bodyb h1 {
   color: #508b86;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 106%;
   padding-bottom: 60px;
   padding-right: 50px;
-  text-align: justify !important;
-  text-align-last: center;
-  margin-top: 35px;
 }
 #shiny-template #bodyb p {
   line-height: 128%;
   margin-bottom: 55px;
-  font-size: 20px;
 }
 #shiny-template #bodyb .col-txt {
-  padding-right: 0px;
+  padding-right: 70px;
   padding-top: 5px;
-  padding: 0 !important;
-  text-align: justify !important;
-  text-align-last: center;
 }
 #shiny-template #bodyb .relative-top {
   top: 100px;
@@ -542,43 +531,13 @@
 #shiny-template #bodyb a {
   font-size: 30px;
 }
-#shiny-template #consultas h2 {
-  font-size: 28px;
-  text-align: justify!important;
+#shiny-template #bodyb .btn-brown:hover {
+  background-color: #508b86;
+  color: lightgoldenrodyellow;
 }
-#shiny-template #consultas .col {
-  text-align: justify;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  flex-direction: column;
-}
-#shiny-template #consultas .col p {
-  text-align: justify;
-  text-align-last: left;
-  font-size: 20px;
-}
-#shiny-template #consultas .no-pad-bot {
-  padding-bottom: 0;
-}
-#shiny-template #consultas .line {
-  margin-right: 15%;
-  width: 85% !important;
-  padding-top: 5px !important;
-  padding-bottom: 40px !important;
-}
-#shiny-template #consultas .relative-top img {
-  width: 210% !important;
-  position: relative !important;
-  right: 50%;
-}
-#shiny-template #consultas .desktop-hide {
-  text-align: center !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-direction: column;
-  padding: 40px 0 ;
+#shiny-template #consultas .btn-brown:hover {
+  background-color: #508b86;
+  color: lightgoldenrodyellow;
 }
 #shiny-template #queremos,
 #shiny-template #consultas {
@@ -1843,6 +1802,7 @@
   padding: 15px;
 }
 @media screen and (min-width: 651px) {
+  #shiny-template .desktop-hide,
   #shiny-template .des-hid {
     display: none;
   }
@@ -2161,6 +2121,13 @@
     content: "";
     z-index: -1;
   }
+  #shiny-template #bodyb {
+    background-color: white;
+  }
+  #shiny-template #bodyb .flex {
+    padding-top: 0px;
+    flex-wrap: wrap-reverse;
+  }
   #shiny-template #bodyb .fcentered img {
     width: 100%;
   }
@@ -2168,11 +2135,13 @@
     width: 100%;
   }
   #shiny-template #bodyb h1 {
-    color: #508b86;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 106%;
     padding-bottom: 30px;
     padding-right: 0px;
+    text-align: justify !important;
+    text-align-last: center;
+    margin-top: 35px;
   }
   #shiny-template #bodyb .col-txt {
     padding-right: 0px;
@@ -2182,6 +2151,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  #shiny-template #bodyb p {
+    line-height: 128%;
+    margin-bottom: 55px;
+    font-size: 20px;
+  }
+  #shiny-template #bodyb .col-txt {
+    padding-right: 70px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding: 0 !important;
+    text-align: justify !important;
+    text-align-last: center;
   }
   #shiny-template #queremos .relative-top,
   #shiny-template #consultas .relative-top {
@@ -2210,6 +2192,44 @@
     width: 100%;
     padding: 22px 0px;
   }
+  #shiny-template #consultas h2 {
+    font-size: 28px;
+    text-align: justify!important;
+  }
+  #shiny-template #consultas .col {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  #shiny-template #consultas .col p {
+    text-align: justify;
+    text-align-last: left;
+    font-size: 20px;
+  }
+  #shiny-template #consultas .no-pad-bot {
+    padding-bottom: 0;
+  }
+  #shiny-template #consultas .line {
+    margin-right: 15%;
+    width: 85% !important;
+    padding-top: 5px !important;
+    padding-bottom: 40px !important;
+  }
+  #shiny-template #consultas .relative-top img {
+    width: 210% !important;
+    position: relative !important;
+    right: 50%;
+  }
+  #shiny-template #consultas .desktop-hide {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    padding: 40px 0 ;
+  }
   #shiny-template #servicios img {
     width: 100%;
   }
@@ -2236,6 +2256,9 @@
   }
   #shiny-template #servicios .col .fix-h {
     height: 300px;
+  }
+  #shiny-template #servicios .col p {
+    font-size: 20px;
   }
   #shiny-template #servicios .col a {
     align-self: flex-end;
