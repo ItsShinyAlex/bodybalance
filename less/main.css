@@ -507,23 +507,34 @@
   content: "";
   z-index: -1;
 }
+#shiny-template #bodyb {
+  background-color: white;
+}
 #shiny-template #bodyb .flex {
-  padding-top: 70px;
+  padding-top: 0px;
+  flex-wrap: wrap-reverse;
 }
 #shiny-template #bodyb h1 {
   color: #508b86;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 106%;
   padding-bottom: 60px;
   padding-right: 50px;
+  text-align: justify !important;
+  text-align-last: center;
+  margin-top: 35px;
 }
 #shiny-template #bodyb p {
   line-height: 128%;
   margin-bottom: 55px;
+  font-size: 20px;
 }
 #shiny-template #bodyb .col-txt {
-  padding-right: 70px;
+  padding-right: 0px;
   padding-top: 5px;
+  padding: 0 !important;
+  text-align: justify !important;
+  text-align-last: center;
 }
 #shiny-template #bodyb .relative-top {
   top: 100px;
@@ -531,13 +542,43 @@
 #shiny-template #bodyb a {
   font-size: 30px;
 }
-#shiny-template #bodyb .btn-brown:hover {
-  background-color: #508b86;
-  color: lightgoldenrodyellow;
+#shiny-template #consultas h2 {
+  font-size: 28px;
+  text-align: justify!important;
 }
-#shiny-template #consultas .btn-brown:hover {
-  background-color: #508b86;
-  color: lightgoldenrodyellow;
+#shiny-template #consultas .col {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+#shiny-template #consultas .col p {
+  text-align: justify;
+  text-align-last: left;
+  font-size: 20px;
+}
+#shiny-template #consultas .no-pad-bot {
+  padding-bottom: 0;
+}
+#shiny-template #consultas .line {
+  margin-right: 15%;
+  width: 85% !important;
+  padding-top: 5px !important;
+  padding-bottom: 40px !important;
+}
+#shiny-template #consultas .relative-top img {
+  width: 210% !important;
+  position: relative !important;
+  right: 50%;
+}
+#shiny-template #consultas .desktop-hide {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+  padding: 40px 0 ;
 }
 #shiny-template #queremos,
 #shiny-template #consultas {
@@ -652,13 +693,13 @@
   width: 20%;
 }
 #shiny-template #contacto #followus #siguenos {
-  width: 36%;
+  width: 35%;
 }
 #shiny-template #contacto #followus #siguenos p {
   font-size: 32px !important;
 }
 #shiny-template #contacto #followus .icon {
-  width: 17%;
+  width: 15%;
 }
 #shiny-template #contacto #followus img:hover {
   transform: scale(1.2);
@@ -1148,6 +1189,11 @@
 #shiny-template #office h2 {
   padding: 0;
   font-weight: 100;
+}
+#shiny-template #office .relative-top {
+  margin-bottom: 20px;
+  position: relative;
+  top: -10px;
 }
 #shiny-template #atendido {
   background-color: #f8f5e9;
@@ -1790,9 +1836,17 @@
   font-size: 1em;
   padding: 15px;
 }
+@media screen and (min-width: 651px) {
+  #shiny-template .des-hid {
+    display: none;
+  }
+}
 @media screen and (max-width: 650px) {
   #shiny-template {
     /*Esquema por defecto para las secciones*/
+  }
+  #shiny-template .mov-hid {
+    display: none !important;
   }
   #shiny-template .no-padding-mobile .container {
     padding-left: 0;
@@ -2239,17 +2293,18 @@
     width: 20%;
   }
   #shiny-template #contacto #followus {
-    padding: 0px 20%;
+    padding: 0px 5%;
   }
   #shiny-template #contacto #followus .col,
   #shiny-template #contacto #followus .txt {
     width: 100%;
   }
   #shiny-template #contacto #followus .icon {
-    width: 50%;
+    width: 33%;
   }
   #shiny-template #contacto #followus #siguenos {
     padding: 0;
+    margin-bottom: 20px;
     width: 100%;
   }
   #shiny-template #contacto #followus #siguenos p {
@@ -2618,16 +2673,20 @@
     padding-top: 0px;
   }
   #shiny-template #atendido p {
+    font-size: 20px;
     padding-right: 0px;
   }
   #shiny-template #atendido .col {
     text-align: center !important;
-    display: flex !important;
+    display: flex;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column !important;
     width: 100%;
     padding-bottom: 25px;
+  }
+  #shiny-template #atendido .col img {
+    width: 125%;
   }
   #shiny-template #office {
     background: url(../img/whoweare/res-banner.jpg) center no-repeat;
@@ -2660,35 +2719,47 @@
   }
   #shiny-template #office .w-box p {
     padding-top: 80px !important;
+    font-size: 20px;
   }
   #shiny-template #queremos {
     padding-left: 0px;
   }
   #shiny-template #queremos .col {
-    text-align: left!important;
-    display: flex !important;
+    text-align: left !important;
+    display: flex ;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column !important;
     width: 100%;
   }
+  #shiny-template #queremos #team {
+    padding: 0;
+    margin-bottom: 40px;
+  }
   #shiny-template #queremos h2 {
     padding-top: 0px;
     padding-bottom: 15px;
+    line-height: 115%;
   }
   #shiny-template #queremos .col-txt {
     padding-right: 0px;
   }
   #shiny-template #queremos .col-txt img {
-    padding-bottom: 10px;
-    width: 95%;
-    height: 7px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 5px;
   }
   #shiny-template #queremos .col-txt p {
-    padding-bottom: 25px;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  #shiny-template #queremos .col-txt p b {
+    font-weight: 400;
   }
   #shiny-template #queremos .col-txt h2 {
-    font-size: 30px;
+    font-size: 34px;
+    padding-bottom: 0;
   }
   #shiny-template #queremos .relative-top {
     position: relative;
@@ -2696,7 +2767,8 @@
   }
   #shiny-template #vision,
   #shiny-template #mision {
-    height: 800px !important;
+    height: auto !important;
+    min-height: 1100px;
   }
   #shiny-template #vision #girl-mision,
   #shiny-template #mision #girl-mision {
@@ -2719,7 +2791,7 @@
   }
   #shiny-template #vision .flex .col-txt,
   #shiny-template #mision .flex .col-txt {
-    padding: 15px;
+    padding: 40px;
   }
   #shiny-template #vision .flex .fcentered,
   #shiny-template #mision .flex .fcentered {
@@ -2737,7 +2809,12 @@
     flex-direction: column;
     width: 100%;
   }
+  #shiny-template #vision p,
+  #shiny-template #mision p {
+    font-size: 22px;
+  }
   #shiny-template #vision {
+    min-height: 800px;
     flex-wrap: wrap-reverse;
   }
   #shiny-template #vision .flex {

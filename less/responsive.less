@@ -1,5 +1,15 @@
 // main: main.less
+@media screen and (min-width:651px) {
+    .des-hid{
+        display: none;
+    }
+}
+
 @media screen and (max-width:650px) {
+    
+    .mov-hid{
+        display: none !important;
+    }
 
     .no-padding-mobile {
         .container {
@@ -585,16 +595,17 @@
         }
 
         #followus {
-            padding: 0px 20%;
+            padding: 0px 5%;
             .col,
             .txt {
                 width: 100%;
             }
             .icon {
-                width: 50%;
+                width: 33%;
             }
             #siguenos {
                 padding: 0;
+                margin-bottom: 20px;
                 width: 100%;
                 p {
                     font-size: 28px !important;
@@ -1066,17 +1077,23 @@
     #atendido {
         padding-top: 0px;
         p {
+            
+            font-size: @txt;
             padding-right: 0px;
         }
 
         .col {
             text-align: center !important; //THE
-            display: flex !important; //SUPER
+            display: flex; //SUPER
             justify-content: center !important; //RESPONSIVE
             align-items: center !important; //TOOL
             flex-direction: column !important; // OMEGA
             width: 100%;
             padding-bottom: 25px;
+            
+            img{
+                width: 125%;
+            }
 
         }
     }
@@ -1115,6 +1132,7 @@
             p {
                 //color: white;
               padding-top: 80px !important;
+                font-size: @txt;
           
             }
 
@@ -1127,8 +1145,8 @@
     #queremos {
 
         .col {
-            text-align: left!important; //THEasdfasdfasdf
-            display: flex !important; //SUPER
+            text-align: left !important; //THEasdfasdfasdf
+            display: flex ; //SUPER
             justify-content: center !important; //RESPONSIVE
             align-items: center !important; //TOOL
             flex-direction: column !important; // OMEGA
@@ -1136,25 +1154,39 @@
 
 
         }
+        
+        #team{
+            padding: 0;
+            margin-bottom: 40px;
+        }
 
         h2 {
+            
             padding-top: 0px;
             padding-bottom: 15px;
+            line-height: 115%;
         }
 
         padding-left: 0px;
         .col-txt {
             padding-right: 0px;
             img {
-                padding-bottom: 10px;
-                width: 95%;
-                height: 7px;
+                padding-top: 30px;
+                padding-bottom: 20px;
+                width: 100%;
+                height: 5px;
             }
             p {
-                padding-bottom: 25px;
+                font-size: @txt;
+                padding-bottom: 15px;
+                
+                b{
+                    font-weight: 400;
+                }
             }
             h2 {
-                font-size: 30px;
+                font-size: 34px;
+                padding-bottom: 0;
             }
         }
 
@@ -1168,7 +1200,8 @@
 
     #vision,
     #mision {
-        height: 800px !important;
+        height: auto !important;
+        min-height: 1100px;
         #girl-mision{
             background: url(../img/whoweare/res-mision-girlRed.jpg) center no-repeat;
              height: 400px !important;
@@ -1190,7 +1223,7 @@
             }
 
             .col-txt {
-                padding: 15px;
+                padding: 40px;
                 //min-height: 600px !important;
             }
             
@@ -1213,10 +1246,15 @@
             width: 100%;
 
         }
+        
+        p{
+            font-size: @txtp;
+        }
+        
     }
 
     #vision {
-        
+    min-height: 800px;  
        
         
         flex-wrap: wrap-reverse;
