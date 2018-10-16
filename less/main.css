@@ -1980,11 +1980,22 @@
   }
   #shiny-template #t-faciales {
     background: url(../img/Tratamientos/responsive-faciales-banner.jpg) center no-repeat !important;
-    background-size: 100% !important;
-    min-height: 400px !important;
-    height: 400px !important;
+    background-size: cover!important;
+    padding-top: 90% !important;
+  }
+  #shiny-template #t-faciales .flex {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+  }
+  #shiny-template #t-faciales .flex h1 {
+    margin-bottom: 40px;
   }
   #shiny-template #t-faciales .w-box {
+    display: none;
     width: 80% !important;
     margin-bottom: 20px !important;
   }
@@ -1998,11 +2009,11 @@
     font-size: 16px;
   }
   #shiny-template .btn-brown {
-    padding: 20px 36px;
+    padding: 22px 20px;
     font-size: 20px;
   }
   #shiny-template .btn-saqua {
-    padding: 20px 36px;
+    padding: 22px 20px;
     font-size: 20px;
   }
   #shiny-template #slider-home h2 {
@@ -2049,7 +2060,7 @@
   #shiny-template #tumeta .uptown,
   #shiny-template #tumeta-online .uptown,
   #shiny-template #byevello .uptown {
-    font-size: 48px !important;
+    font-size: 76px !important;
   }
   #shiny-template #t-faciales h2,
   #shiny-template #t-depilaciones h2,
