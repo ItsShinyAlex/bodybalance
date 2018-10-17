@@ -18,15 +18,20 @@ echo "<section id ='shiny-template'>";
             <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
         </div>
         
-        <div class="desktop-hide">
-            <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+        <div class="left desktop-hide" id="baseline">
+            
+            <div class="desktop-hide">
+                <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+            </div>
+                
         </div>
+        
         
     </div>
      
 </section>
 
-<section class="template-section mov-hide" id="peel-des">
+<section class="template-section" id="peel-des">
    <div class="center fcentered container col-type">
        <p>El tratamiento consiste en una crema de carbón superficial que sirve como un potenciado entre la piel y el láser
                 1064 nanometros: el carbón nano activo, vitamina b3, vitamina b5, aminoácidos y minerales marinos.</p>
@@ -43,7 +48,8 @@ echo "<section id ='shiny-template'>";
     <div class="container">
         <div class="flex ">
             <div class="col col-txt" id="faces">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hollywood/antesdespues.jpg" alt="Antes y después del tratamiento">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hollywood/antesdespues.jpg" alt="Máscara Hollywood peel" class="mov-hid">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hollywood/res-mask.jpg" alt="Máscara Hollywood peel" class="des-hid">
             </div>
            
             <div class="col col-txt">

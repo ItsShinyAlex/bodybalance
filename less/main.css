@@ -1827,7 +1827,8 @@
   #shiny-template {
     /*Esquema por defecto para las secciones*/
   }
-  #shiny-template .mov-hid {
+  #shiny-template .mov-hid,
+  #shiny-template .mov-hide {
     display: none !important;
   }
   #shiny-template .no-padding-mobile .container {
@@ -1911,7 +1912,21 @@
     display: flex;
   }
   #shiny-template #peel {
-    background: url(../img/Tratamientos/responsive-peel.jpg) center no-repeat;
+    background: url(../img/hollywood/Responsive-banner-mask.jpg) center no-repeat;
+    background-size: cover;
+  }
+  #shiny-template #peel .p56 {
+    font-size: 34px;
+    text-align: center !important;
+  }
+  #shiny-template #peel .container #baseline {
+    align-items: baseline !important;
+  }
+  #shiny-template #peel .left {
+    margin-left: 6%;
+  }
+  #shiny-template #peel .left a {
+    font-size: 28px;
   }
   #shiny-template #peel .container {
     padding-top: 400px !important;
@@ -1921,10 +1936,19 @@
     text-align: justify !important;
   }
   #shiny-template #peel h2 {
-    color: #68aeaa;
+    padding: 0 20px;
+    color: #3e7068;
   }
   #shiny-template #peel .res-bigger {
     font-size: 100px !important;
+  }
+  #shiny-template #peel-des p {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 111%;
+  }
+  #shiny-template #peel-des .container {
+    padding: 0px 7%;
   }
   #shiny-template #mapa iframe {
     display: none;
@@ -2138,7 +2162,7 @@
   #shiny-template #byevello h2 {
     padding-bottom: 30px;
     font-size: 30px;
-    line-height: 150%;
+    line-height: 125%;
   }
   #shiny-template #t-faciales .container,
   #shiny-template #t-depilaciones .container,
@@ -2152,7 +2176,6 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
   }
   #shiny-template #t-faciales .w-box,
@@ -2724,11 +2747,10 @@
   #shiny-template #modelamiento .container,
   #shiny-template #peel .container {
     padding: 100px 20px;
-    text-align: center !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    flex-direction: column !important;
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column ;
     width: 90% !important;
   }
   #shiny-template #modelamiento .w-box,
@@ -2741,8 +2763,13 @@
     padding-bottom: 0px;
   }
   #shiny-template #beneficios {
-    padding-top: 30px;
+    padding-top: 0px;
+    margin-top: 0;
     background-color: #f8f5e9;
+  }
+  #shiny-template #beneficios #faces img {
+    margin-top: 0 ;
+    width: 125%;
   }
   #shiny-template #beneficios .col-txt .line {
     width: 95%;
@@ -2766,6 +2793,7 @@
     font-size: 35px;
   }
   #shiny-template #resultado .col-txt {
+    width: 100%;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -2782,6 +2810,10 @@
   }
   #shiny-template #resultado .flex {
     padding-top: 0px;
+  }
+  #shiny-template #resultado .flex #bed {
+    width: 100%;
+    min-height: 400px;
   }
   #shiny-template .ejemplo {
     font-size: 13px;

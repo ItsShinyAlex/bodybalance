@@ -8,7 +8,7 @@
 
 @media screen and (max-width:650px) {
     
-    .mov-hid{
+    .mov-hid, .mov-hide{
         display: none !important;
     }
 
@@ -117,6 +117,30 @@
     }
 
     #peel {
+        
+        
+        
+        .p56{
+            font-size: 34px;
+            text-align: center !important;
+        }
+        
+        .container{
+              #baseline{
+                align-items: baseline !important;
+            }
+        }
+        
+      
+        
+        .left{
+            margin-left: 6%;;
+           
+            a{
+          
+                font-size: 28px;
+            }
+        }
 
         .container {
             padding-top: 400px !important;
@@ -125,17 +149,35 @@
         p {
             text-align: justify !important;
         }
-        background: url(../img/Tratamientos/responsive-peel.jpg) center no-repeat;
-
+        background: url(../img/hollywood/Responsive-banner-mask.jpg) center no-repeat;
+        background-size: cover;
         h2 {
+            padding: 0 20px;
             .uptown {
                 //font-size: 64px !important;
             }
-            color: @aqua;
+            color: @dark;
         }
         .res-bigger {
             font-size: 100px !important;
         }
+    }
+    
+    
+    #peel-des{
+         p{
+            margin-bottom: 30px;
+            font-size: @txtp;
+            line-height: 111%;
+
+        }
+        
+        .container{
+            //height: px;
+            padding: 0px 7%;
+        }
+        
+
     }
 
     #mapa {
@@ -411,14 +453,14 @@
         h2 {
             padding-bottom: 30px;
             font-size: 30px;
-            line-height: 150%;
+            line-height: 125%;
         }
         .container {
             width: 100%;
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center;
+            //align-items: center;
             flex-direction: column;
         }
         .w-box {
@@ -1143,11 +1185,11 @@
         .container {
             padding: 100px 20px;
 
-            text-align: center !important; //THE
-            display: flex !important; //SUPER
-            justify-content: center !important; //RESPONSIVE
-            align-items: center !important; //TOOL
-            flex-direction: column !important; // OMEGA
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center ; //RESPONSIVE
+            //align-items: center !important; //TOOL
+            flex-direction: column ; // OMEGA
             width: 90% !important;
 
         }
@@ -1171,7 +1213,17 @@
 
 
     #beneficios {
-        padding-top: 30px;
+        
+        #faces{
+        
+            img{
+                margin-top: 0 ;
+                width: 125%;
+            }
+        }
+        
+        padding-top: 0px;
+        margin-top: 0;
         background-color: @white;
 
         .col-txt {
@@ -1196,6 +1248,9 @@
 
 
     #resultado {
+        
+       
+        
         h2 {
             font-size: 26px;
             padding-bottom: 10px;
@@ -1205,6 +1260,7 @@
         }
 
         .col-txt {
+            width: 100%;
             padding-right: 0px;
             padding-left: 0px;
             h2 {
@@ -1224,6 +1280,10 @@
 
         .flex {
             padding-top: 0px;
+             #bed{
+                width: 100%;
+                 min-height: 400px;
+            }
         }
     }
 
