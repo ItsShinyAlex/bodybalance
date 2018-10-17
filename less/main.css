@@ -2792,24 +2792,36 @@
   #shiny-template #resultado h2 .big {
     font-size: 35px;
   }
+  #shiny-template #resultado h3 {
+    font-size: 25px !important;
+  }
   #shiny-template #resultado .col-txt {
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 25px !important;
   }
   #shiny-template #resultado .col-txt h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
+    line-height: 175%;
+  }
+  #shiny-template #resultado .col-txt h2 .uptown {
+    font-size: 36px;
+    padding: 0 10px;
   }
   #shiny-template #resultado .col-txt p {
     padding-bottom: 15px;
+    font-size: 22px !important;
   }
   #shiny-template #resultado img {
     width: 130% !important;
     padding: 30px 0px;
   }
   #shiny-template #resultado .flex {
+    width: 100%;
     padding-top: 0px;
+  }
+  #shiny-template #resultado .flex .col {
+    width: 100%;
   }
   #shiny-template #resultado .flex #bed {
     width: 100%;
