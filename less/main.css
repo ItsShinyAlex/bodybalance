@@ -157,8 +157,11 @@
   padding: 27px 36px;
   width: 40%;
   text-align: center;
+  transition: 0.3s;
 }
 #shiny-template #tumeta-online #call-icons .btn-col .btn-saqua:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
   background-color: #68aeaa;
   color: lightgoldenrodyellow;
 }
@@ -1839,10 +1842,15 @@
     width: 20px;
   }
   #shiny-template #tumeta-online {
-    padding-top: 200px !important;
-    background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
+    padding-top: 0px !important;
+    background: url(../img/consulta/online-bannerResponsive.jpg) center no-repeat !important;
+    background-size: cover;
+    max-height: 1060px !important;
     padding-bottom: 40px;
     background-color: #fdfdfd;
+  }
+  #shiny-template #tumeta-online .container {
+    max-height: 1060px !important;
   }
   #shiny-template #tumeta-online .container {
     padding-right: 0%;
@@ -1851,30 +1859,53 @@
     text-align: center;
   }
   #shiny-template #tumeta-online .container h1 {
-    font-size: 40px;
-    width: 95%;
-    padding-left: 3%;
-    text-shadow: 1px 3px 4px #626363;
+    margin-top: 370px;
+    font-size: 34px !important;
+    line-height: 111%;
+    width: 85%;
+    padding-left: 0%;
+    text-shadow: 1px 3px 4px transparent;
+    position: relative;
+    top: 107px;
     color: #68aeaa;
+    z-index: 999;
   }
   #shiny-template #tumeta-online .container p {
     color: #68aeaa;
   }
   #shiny-template #tumeta-online .w-box {
+    position: relative;
+    z-index: 1 !important;
     text-align: center;
-    width: 95% !important;
   }
   #shiny-template #tumeta-online .w-box p {
+    text-align: justify;
+    text-align-last: center;
     padding: 20px !important;
+    padding-top: 96px !important;
+    font-size: 22px !important;
+  }
+  #shiny-template #tumeta-online .w-box p::before {
+    opacity: 0.85 !important;
   }
   #shiny-template #tumeta-online #call-icons {
+    margin-top: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     min-width: 200px;
   }
+  #shiny-template #tumeta-online #call-icons .flex {
+    width: 70%;
+  }
   #shiny-template #tumeta-online #call-icons .col {
+    padding: 0 !important;
     width: 33%;
   }
   #shiny-template #tumeta-online #call-icons .col img {
-    width: 60%;
+    width: 75%;
   }
   #shiny-template .desktop-hide {
     display: flex;
@@ -2526,6 +2557,13 @@
     content: "";
     z-index: -1;
   }
+  #shiny-template #incluye #online-food,
+  #shiny-template #beneficios #online-food,
+  #shiny-template #obtienes #online-food {
+    background: url(../img/consulta/res-healthy-food.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 420px;
+  }
   #shiny-template #incluye .container,
   #shiny-template #beneficios .container,
   #shiny-template #obtienes .container {
@@ -2534,7 +2572,6 @@
   #shiny-template #incluye .col,
   #shiny-template #beneficios .col,
   #shiny-template #obtienes .col {
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2544,18 +2581,21 @@
   #shiny-template #incluye .col-txt,
   #shiny-template #beneficios .col-txt,
   #shiny-template #obtienes .col-txt {
+    text-align: left !important;
     padding: 45px 20px;
   }
   #shiny-template #incluye .col-txt h2,
   #shiny-template #beneficios .col-txt h2,
   #shiny-template #obtienes .col-txt h2 {
     font-size: 40px;
+    text-align: left !important;
   }
   #shiny-template #incluye .col-txt img,
   #shiny-template #beneficios .col-txt img,
   #shiny-template #obtienes .col-txt img {
     width: 95%;
     height: 7px;
+    margin: 2px 0;
   }
   #shiny-template #incluye .col-txt ul,
   #shiny-template #beneficios .col-txt ul,
@@ -2566,6 +2606,15 @@
   #shiny-template #beneficios .col-txt ul li,
   #shiny-template #obtienes .col-txt ul li {
     padding-bottom: 8px;
+  }
+  #shiny-template #incluye .col-txt ul li p,
+  #shiny-template #beneficios .col-txt ul li p,
+  #shiny-template #obtienes .col-txt ul li p {
+    font-size: 20px;
+    text-align: left;
+  }
+  #shiny-template #video {
+    padding: 40px 0;
   }
   #shiny-template #video h2 {
     text-align: center;
@@ -2616,6 +2665,11 @@
   #shiny-template #resultado .col img,
   #shiny-template #clock .col img {
     width: 40%;
+  }
+  #shiny-template #no-en,
+  #shiny-template #money-brown,
+  #shiny-template #money {
+    min-height: 666px;
   }
   #shiny-template #no-en .col-txt,
   #shiny-template #money-brown .col-txt,

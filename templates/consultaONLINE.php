@@ -28,6 +28,9 @@ echo "<section id ='shiny-template'>";
                  <b>Y está disponible para toda la República Mexicana via:</b>
               </p>
               
+              <div class="desktop-hide fcentered">
+                <a href="https://bodybalance.mx/consulta-medico-nutricional-online/?add-to-cart=333" class="btn-brown">¡ME INTERESA!</a>
+            </div>
               
                 <div id="call-icons">
               
@@ -42,7 +45,7 @@ echo "<section id ='shiny-template'>";
                                 <a href="tel:5513282907"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/003-mobile-phone.png" alt="Teléfono"></a>
                             </div>
                             
-                              <div class="col btn-col fcentered">
+                              <div class="col btn-col fcentered mov-hid">
                                 <a href="https://bodybalance.mx/consulta-medico-nutricional-online/?add-to-cart=333" class="btn-saqua" target="_blank">¡COMPRAR!</a>
                             </div>
                             
@@ -54,9 +57,7 @@ echo "<section id ='shiny-template'>";
         
       
         
-        <div class="desktop-hide">
-            <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
-        </div>
+        
         
     </div>
      
@@ -70,7 +71,7 @@ echo "<section id ='shiny-template'>";
             </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">Beneficios de tener una Nutrióloga en Línea</h2>
+                <h2 class="saqua">Beneficios <span class="mov-hid">de tener una Nutrióloga en Línea </span> </h2>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
                 <ul>
                     <li>
@@ -123,7 +124,7 @@ echo "<section id ='shiny-template'>";
      
 </section>
 
-<section class="template-section" id="incluye">
+<section class="template-section mov-hid" id="incluye">
     <div class="container">
         <div class="flex ">
            

@@ -32,8 +32,13 @@
 
 
     #tumeta-online {
-        padding-top: 200px !important;
-        background: url(../img/consulta/online-bannerResponsive2.jpg) center no-repeat !important;
+        padding-top: 0px !important;
+        background: url(../img/consulta/online-bannerResponsive.jpg) center no-repeat !important;
+        background-size: cover;
+        max-height: 1060px !important;
+        .container{
+            max-height: 1060px !important;
+        }
         padding-bottom: 40px;
         background-color: #fdfdfd;
 
@@ -45,11 +50,16 @@
 
             padding-right: 0%;
             h1 {
-                font-size: 40px;
-                width: 95%;
-                padding-left: 3%;
-                text-shadow: 1px 3px 4px #626363;
+                margin-top: 370px;
+                font-size: 34px !important;
+                line-height: 111%;
+                width: 85%;
+                padding-left: 0%;
+                text-shadow: 1px 3px 4px transparent;
+                position: relative;
+                top: 107px;
                 color: @aqua;
+                z-index: 999;
             }
             p {
                 color: #68aeaa;
@@ -57,21 +67,45 @@
         }
 
         .w-box {
+            
+            position: relative;
+            z-index: 1 !important;
             text-align: center;
-            width: 95% !important;
+            //width: 95% !important;
             p {
+                text-align: justify;
+                text-align-last: center;
                 padding: 20px !important;
+                padding-top: 96px !important;
+                font-size: @txtp !important;
+                
+                &::before{
+                    opacity: 0.85 !important;
+                }
             }
 
         }
 
         #call-icons {
+            
+            margin-top: 4px;
+            
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            
+            .flex{
+                width: 70%; //here
+            }
 
             min-width: 200px;
             .col {
+                padding: 0 !important;
                 width: 33%;
                 img {
-                    width: 60%;
+                    width: 75%;
                 }
             }
         }
@@ -936,13 +970,19 @@
     #incluye,
     #beneficios,
     #obtienes {
+        
+        #online-food {
+            background: url(../img/consulta/res-healthy-food.jpg) center no-repeat;
+            background-size: cover;
+            min-height: 420px;
+        }
 
         .container {
             padding: 0px;
         }
 
         .col {
-            text-align: center; //THE
+            //text-align: center; //THE
             display: flex; //SUPER
             justify-content: center; //RESPONSIVE
             align-items: center; //TOOL
@@ -951,28 +991,35 @@
         }
 
         .col-txt {
-
+            text-align: left !important;
             h2 {
                 font-size: 40px;
+                text-align: left !important;
             }
 
             padding: 45px 20px;
 
             img {
                 width: 95%;
-                height: 7px
+                height: 7px;
+                margin: 2px 0;
             }
 
             ul {
                 padding-top: 50px;
                 li {
                     padding-bottom: 8px;
+                    p{
+                        font-size: @txt;
+                        text-align: left;
+                    }
                 }
             }
         }
     }
     
     #video{
+        padding: 40px 0;
         h2{
             text-align: center;
             font-size: 38px;
@@ -1037,6 +1084,9 @@
     #no-en,
     #money-brown,
     #money {
+        
+        min-height: 666px;
+        
         .col-txt {
             padding-top: 3%;
         }
