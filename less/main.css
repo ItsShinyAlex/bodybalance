@@ -2106,22 +2106,26 @@
     padding: 22px 20px;
     font-size: 20px;
   }
-  #shiny-template #slider-home h2 {
-    font-size: 32px !important;
-    line-height: 40px !important;
-  }
-  #shiny-template #slider-home h2 .small {
+  #shiny-template #slider-home .btn-brown {
     font-size: 22px !important;
   }
-  #shiny-template #slider-home h2 .big {
+  #shiny-template #slider-home h2 {
+    color: #68aeaa;
     font-size: 40px !important;
+    line-height: 50px !important;
+  }
+  #shiny-template #slider-home h2 .small {
+    font-size: 40px !important;
+  }
+  #shiny-template #slider-home h2 .big {
+    font-size: 60px !important;
   }
   #shiny-template #slider-home .w-box {
     margin-bottom: 0px;
     width: 100%;
   }
   #shiny-template #slider-home .w-box p {
-    font-size: 18px !important;
+    font-size: 22px !important;
     line-height: 120%;
     padding: 15px;
   }
