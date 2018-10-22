@@ -353,7 +353,7 @@
         }
     } /////////////////////////////////////////////////////////77----------->
     
-    #t-faciales-mov{
+    #t-modela-mov, #t-faciales-mov{
         background-color: @Saqua;
         p{
             font-size: @txtp;
@@ -363,6 +363,11 @@
         }
         
         
+    }
+    
+    #t-modela-mov{
+        background-color: @aqua;
+       
     }
     
     .mini-search {
@@ -1682,6 +1687,25 @@
     
    // |||----------MODELAMIENTO---------------|||
     
+    #modelamiento{
+        min-height: 1000px;
+         background: url(../img/modelamiento/res-banner.jpg) center no-repeat;
+        
+        h1{
+            margin-top: 210px;
+            .mov-small{
+                font-size: 46px;
+            }
+            line-height: 90%;
+            margin-bottom: 66px;
+        }
+         .btn-brown{
+
+                font-size: 24px;
+            
+        }
+    }
+    
      /*Esquema por defecto para las secciones*/
     .grid {
         .col {
@@ -1710,20 +1734,26 @@
     }
     
     #queson {
+        
         img {
     
     margin-top: 50px;
     max-width: 100%;
 }
         h2 {
+            text-align: center;
             left: 0px;
         }
         p {
-            text-align: center;
-    max-width: 241px;
+            text-align: justify;
+            
+            margin-right: 0; //Alex changes
+    //max-width: 241px;
     font-size: 1.2em;
     left: 0;
         }
+        
+        
 
     }
     #utilizar{ img {
@@ -1741,19 +1771,46 @@
         p,ul {
             left: 20px;
         }
+        
+        .intro{
+             text-align: justify; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+            left: 0 !important;
+            text-align-last: center;
+        }
+        
+        p, h2{
+            left: 0 !important;
+        }
+        h2{
+            text-align: center;
+        }
+        
     }
 #mejores {
     h2,p {
-   
-    left: 0px;
+        
+       text-align: center;
+    left: 0 !important;
+        max-width: 100%;
     }
     
     }
 
 
 #listar-servicios h2 span {
-    font-size: 0.5em;
+    font-size: 0.44em;
 }
+    
+    #listar-servicios{
+        h2{
+            max-width: 100%;
+            padding: 0 15px;
+        }
+    }
 
 #howtopay .video-responsive{
         padding-bottom: 54.25%;

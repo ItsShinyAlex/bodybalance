@@ -10,26 +10,47 @@ echo "<section id ='shiny-template'>";
 <section class="template-section" id="modelamiento">
     
     <div class="container">
-        <h1 class="saqua uptown">Modelamiento Corporal
+        <h1 class="saqua uptown"><span class="mov-small">Modelamiento</span>  Corporal
             </h1>
             
-        <div class="">
+        <div class="mov-hide">
             <div class="w-box">
-            <p>Para este tratamiento utilizamos ondas de choque con Cellactor SC1® de Storz Medical™  tecnología suiza con resultados rápidos y efectivos para reducción de medidas en todo el cuerpo.
+                <p>Para este tratamiento utilizamos ondas de choque con Cellactor SC1® de Storz Medical™  tecnología suiza con resultados rápidos y efectivos para reducción de medidas en todo el cuerpo.</p>
+                
+                
             
             
             
             </div>
         </div>
         
-       <!-- <div class="relaL">
+      <div class="relaL">
             <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
-        </div>-->
+        </div>
         
         
     </div>
      
 </section>
+
+<section class="template-section des-hid" id="t-modela-mov">
+    
+    <div class="container">
+       <div class="center">
+           
+                 <p>Para este tratamiento utilizamos ondas de choque con Cellactor SC1® de Storz Medical™  tecnología suiza con resultados rápidos y efectivos para reducción de medidas en todo el cuerpo.<br><br>
+                 <b>Con este tratamiento lograremos  erradicar celulitis,  mejorar el flujo sanguíneo local, reducir la flacidez,  atenuar las estrías  y rejuvenecer el rostro.</b>
+                 </p>
+                 
+            
+      
+        </div>
+     </div>
+      
+     
+</section>
+
+
 
 <section id="queson" class="template-section">
      <div class="container">
@@ -135,7 +156,7 @@ echo "<section id ='shiny-template'>";
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
-                <div class="fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/modelamiento/tarjeta.png" alt="Tarjeta de crédito"></div>
+                <div class="fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/creditcard.png" alt="Tarjeta de crédito"></div>
             </div>
            
             <div class="col col-txt">

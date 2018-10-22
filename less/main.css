@@ -1294,7 +1294,7 @@
 #shiny-template #modelamiento {
   background-color: #fdfdfd;
   padding-top: 0;
-  background: url(../img/modelamiento/banner.png) center no-repeat;
+  background: url(../img/modelamiento/banner.jpg) center no-repeat;
   padding-bottom: 0px;
 }
 #shiny-template #modelamiento .container {
@@ -2080,14 +2080,19 @@
     width: 80% !important;
     margin-bottom: 20px !important;
   }
+  #shiny-template #t-modela-mov,
   #shiny-template #t-faciales-mov {
     background-color: #508b86;
   }
+  #shiny-template #t-modela-mov p,
   #shiny-template #t-faciales-mov p {
     font-size: 22px;
     color: white;
     padding: 50px 0px;
     margin: 0;
+  }
+  #shiny-template #t-modela-mov {
+    background-color: #68aeaa;
   }
   #shiny-template .mini-search {
     display: none !important;
@@ -3125,6 +3130,21 @@
     background-size: cover;
     display: none;
   }
+  #shiny-template #modelamiento {
+    min-height: 1000px;
+    background: url(../img/modelamiento/res-banner.jpg) center no-repeat;
+  }
+  #shiny-template #modelamiento h1 {
+    margin-top: 210px;
+    line-height: 90%;
+    margin-bottom: 66px;
+  }
+  #shiny-template #modelamiento h1 .mov-small {
+    font-size: 46px;
+  }
+  #shiny-template #modelamiento .btn-brown {
+    font-size: 24px;
+  }
   #shiny-template .grid .col {
     width: 100%;
   }
@@ -3147,11 +3167,12 @@
     max-width: 100%;
   }
   #shiny-template #queson h2 {
+    text-align: center;
     left: 0px;
   }
   #shiny-template #queson p {
-    text-align: center;
-    max-width: 241px;
+    text-align: justify;
+    margin-right: 0;
     font-size: 1.2em;
     left: 0;
   }
@@ -3168,12 +3189,34 @@
   #shiny-template #utilizar ul {
     left: 20px;
   }
+  #shiny-template #utilizar .intro {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0 !important;
+    text-align-last: center;
+  }
+  #shiny-template #utilizar p,
+  #shiny-template #utilizar h2 {
+    left: 0 !important;
+  }
+  #shiny-template #utilizar h2 {
+    text-align: center;
+  }
   #shiny-template #mejores h2,
   #shiny-template #mejores p {
-    left: 0px;
+    text-align: center;
+    left: 0 !important;
+    max-width: 100%;
   }
   #shiny-template #listar-servicios h2 span {
-    font-size: 0.5em;
+    font-size: 0.44em;
+  }
+  #shiny-template #listar-servicios h2 {
+    max-width: 100%;
+    padding: 0 15px;
   }
   #shiny-template #howtopay .video-responsive {
     padding-bottom: 54.25%;
