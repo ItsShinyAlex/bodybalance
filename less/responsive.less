@@ -353,7 +353,7 @@
         }
     } /////////////////////////////////////////////////////////77----------->
     
-    #t-modela-mov, #t-faciales-mov{
+    #t-consulta-mov, #t-modela-mov, #t-faciales-mov{
         background-color: @Saqua;
         p{
             font-size: @txtp;
@@ -397,7 +397,7 @@
         font-size: 20px;
 
     } //home------------------------------------------------------------
-    #slider-home {
+    #slider-static, #slider-home {
         
         .btn-brown{
             
@@ -1018,6 +1018,13 @@
 
 
     }
+    
+    #tumeta{
+        display: none;
+        
+    }
+    
+    
 
 
     #incluye,
@@ -1026,7 +1033,11 @@
         
         #online-food {
             background: url(../img/consulta/res-healthy-food.jpg) center no-repeat;
-            background-size: cover;
+           
+        }
+        
+        #pills{
+             background-size: cover;
             min-height: 420px;
         }
 
@@ -1068,6 +1079,13 @@
                     }
                 }
             }
+        }
+    }
+    
+    #incluye{
+        #food{
+            min-height: 369px;
+            width: 100%;
         }
     }
     
@@ -1807,10 +1825,13 @@
     
     #listar-servicios{
         h2{
+            font-size: 3em;
             max-width: 100%;
             padding: 0 15px;
         }
     }
+    
+    
 
 #howtopay .video-responsive{
         padding-bottom: 54.25%;

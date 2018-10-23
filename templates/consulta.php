@@ -5,7 +5,9 @@ echo "<section id ='shiny-template'>";
 ?>
 
 
-
+<section id="slider-static" class="desktop-hide">
+    <?php putRevSlider("con-mov", "consulta.php"); ?>
+</section>
 
 <section class="template-section" id="tumeta">
     
@@ -39,6 +41,20 @@ echo "<section id ='shiny-template'>";
     </div>
      
 </section>
+
+<section class="template-section des-hid" id="t-consulta-mov">
+    
+    <div class="container">
+       <div class="center">
+           
+                 <p>Te ofrecemos tu consulta médico nutricional personalizada, analizando composición corporal con tecnología InBody, estilo de vida y necesidades, para obtener la mejor opción de tratamiento (sólo en CDMX).
+                 </p>
+                 
+        </div>
+     </div>
+     
+</section>
+
 
 <section class="template-section" id="obtienes">
     <div class="container">
