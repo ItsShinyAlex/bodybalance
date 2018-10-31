@@ -92,6 +92,32 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
+
+
+
+
+<section class="template-section" id="video">
+    
+    <div class="container ">
+      
+       <div class="fcentered">
+           
+           
+            <h2 class="saqua uptown">¿Cómo Funciona?</h2>
+           
+       </div>
+       
+       <div class="fcentered">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/I6U3L10-mtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+       
+            
+   
+        
+    </div>
+     
+</section>
+
 <section class="template-section" id="incluye">
     <div class="container">
         <div class="flex ">
