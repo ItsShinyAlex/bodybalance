@@ -308,6 +308,9 @@
 #shiny-template .flex.nowrap {
   flex-wrap: nowrap;
 }
+#shiny-template .flex.reverse {
+  flex-wrap: wrap-reverse !important;
+}
 #shiny-template .flex .col {
   width: 50%;
   padding: 0px;
@@ -1291,6 +1294,53 @@
 }
 #shiny-template #valores ul li p::before {
   font-size: 35px;
+}
+#shiny-template .aqua-back {
+  background-color: #68aeaa !important;
+}
+#shiny-template .aqua-back h2,
+#shiny-template .aqua-back p {
+  color: white !important;
+}
+#shiny-template .masaje {
+  padding: 40px 10px;
+}
+#shiny-template .masaje .reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#shiny-template .masaje .relative-top {
+  position: relative;
+  top: 205%;
+  left: 8%;
+}
+#shiny-template .masaje .container .flex .col h2 {
+  font-size: 40px;
+  margin-top: 6%;
+  margin-bottom: 7%;
+}
+#shiny-template .masaje p {
+  text-align: justify;
+  margin-bottom: 6%;
+}
+#shiny-template .masaje .vcentered {
+  align-items: center;
+  display: flex;
+}
+#shiny-template .masaje .flex .col {
+  width: 25%;
+}
+#shiny-template .masaje .flex .txt,
+#shiny-template .masaje .flex .icon {
+  font-weight: 600;
+}
+#shiny-template .masaje .flex .col-txt,
+#shiny-template .masaje .flex .col-img {
+  width: 48%;
+  padding: 0 2%;
+}
+#shiny-template .masaje .flex .col-img img {
+  width: 100%;
 }
 #shiny-template .grid {
   display: flex;
