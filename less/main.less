@@ -611,6 +611,7 @@
     #t-depilaciones,
     #modelamiento,
     #office,
+    #artesanales,
     #peel,
     #tumeta,
     #tumeta-online,
@@ -1458,7 +1459,7 @@
     .pad-top-section {
         padding-top: 180px !important;
     } //WHO WE ARE QUIENES SOMOS --------------------------------------------------<>srtw$%yrtjfgyukrtytytawerfuyfd
-    #office {
+    #artesanales, #office {
         background: url(../img/whoweare/banner.jpg) center no-repeat;
         background-size: cover;
         .w-box {
@@ -1596,24 +1597,73 @@
                 p {
                     color: white !important;
                 }
+
             }
+    
+    .aqua-back, .saqua-back, .cream{
+        .btn-brown {
+            
+           
+
+            &:hover {
+                background-color: @dark;
+                color: aliceblue;
+                
+                  -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+                    box-shadow: 2px 2px 10px rgba(2, 2, 2, 0.4);
+                    z-index: 2;
+                
+            }
+            
+            
+            
+        }
+    }
+    
+    #artesanales{
+        background: url(../img/masaje/cover-masaje.jpg) center no-repeat;
+        background-size: cover;
+            .w-box {
+                width: 64% !important;
+                
+                b{
+                    font-size: 42px;
+                }
+            }
+
+
+
+        
+    }
+    
+
     
     .masaje{
         
-        padding: 40px 10px;
+        padding: 60px 10px;
         
         
-        .reverse{
-            display: flex;
-            //flex-wrap: wrap-reverse !important;
-            flex-direction: row-reverse;
-        }
+       
         
         .relative-top{
             position: relative;
-            top: 205%;
+            top: 270%;
             left: 8%;
         }
+        
+         .reverse{
+            display: flex;
+            //flex-wrap: wrap-reverse !important;
+            flex-direction: row-reverse;
+            .relative-top{
+                
+                left: 0%;
+            }
+            
+            
+        }
+        
         
         .container{
             .flex{
@@ -1661,6 +1711,27 @@
                 }
             }
         }
+        
+        
+        .center{
+            
+            margin-top: 3%;
+            
+            p{
+                margin-bottom: 20px;
+                text-align: center;
+                font-weight: 600;
+                .money{
+                    font-size: 36px;
+                }
+            }
+            
+            .reserva{
+                line-height: 0;
+                margin-bottom: 55px;
+            }
+        }
+        
     }
     
     

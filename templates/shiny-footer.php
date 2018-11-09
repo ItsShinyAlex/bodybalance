@@ -89,11 +89,11 @@
                 
                 <div class="flex mar-bot" id="followus">
                     <div class="col txt fcentered" id="siguenos">
-                       <a href="https://business.facebook.com/Body-Balance-2160952823945786/" target="_blank"><p><b>SÍGUENOS</b></p></a>
+                       <a href="https://www.facebook.com/bodybalance.cdmx/" target="_blank"><p><b>SÍGUENOS</b></p></a>
                         
                     </div>
                     <div class="col icon fcentered">
-                       <a href="https://business.facebook.com/Body-Balance-2160952823945786/" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.png" alt="Facebook"></a>
+                       <a href="https://www.facebook.com/bodybalance.cdmx/" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.png" alt="Facebook"></a>
                        
                     </div>
                     <div class="col icon fcentered " id="youtube">

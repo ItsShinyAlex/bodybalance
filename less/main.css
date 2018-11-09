@@ -450,6 +450,7 @@
 #shiny-template #t-depilaciones,
 #shiny-template #modelamiento,
 #shiny-template #office,
+#shiny-template #artesanales,
 #shiny-template #peel,
 #shiny-template #tumeta,
 #shiny-template #tumeta-online,
@@ -463,6 +464,7 @@
 #shiny-template #t-depilaciones .uptown,
 #shiny-template #modelamiento .uptown,
 #shiny-template #office .uptown,
+#shiny-template #artesanales .uptown,
 #shiny-template #peel .uptown,
 #shiny-template #tumeta .uptown,
 #shiny-template #tumeta-online .uptown,
@@ -473,6 +475,7 @@
 #shiny-template #t-depilaciones h2,
 #shiny-template #modelamiento h2,
 #shiny-template #office h2,
+#shiny-template #artesanales h2,
 #shiny-template #peel h2,
 #shiny-template #tumeta h2,
 #shiny-template #tumeta-online h2,
@@ -485,6 +488,7 @@
 #shiny-template #t-depilaciones .container,
 #shiny-template #modelamiento .container,
 #shiny-template #office .container,
+#shiny-template #artesanales .container,
 #shiny-template #peel .container,
 #shiny-template #tumeta .container,
 #shiny-template #tumeta-online .container,
@@ -495,6 +499,7 @@
 #shiny-template #t-depilaciones .w-box,
 #shiny-template #modelamiento .w-box,
 #shiny-template #office .w-box,
+#shiny-template #artesanales .w-box,
 #shiny-template #peel .w-box,
 #shiny-template #tumeta .w-box,
 #shiny-template #tumeta-online .w-box,
@@ -506,6 +511,7 @@
 #shiny-template #t-depilaciones .w-box p,
 #shiny-template #modelamiento .w-box p,
 #shiny-template #office .w-box p,
+#shiny-template #artesanales .w-box p,
 #shiny-template #peel .w-box p,
 #shiny-template #tumeta .w-box p,
 #shiny-template #tumeta-online .w-box p,
@@ -520,6 +526,7 @@
 #shiny-template #t-depilaciones .w-box p::before,
 #shiny-template #modelamiento .w-box p::before,
 #shiny-template #office .w-box p::before,
+#shiny-template #artesanales .w-box p::before,
 #shiny-template #peel .w-box p::before,
 #shiny-template #tumeta .w-box p::before,
 #shiny-template #tumeta-online .w-box p::before,
@@ -1171,17 +1178,21 @@
 #shiny-template .pad-top-section {
   padding-top: 180px !important;
 }
+#shiny-template #artesanales,
 #shiny-template #office {
   background: url(../img/whoweare/banner.jpg) center no-repeat;
   background-size: cover;
 }
+#shiny-template #artesanales .w-box,
 #shiny-template #office .w-box {
   width: 85% !important;
 }
+#shiny-template #artesanales h2,
 #shiny-template #office h2 {
   padding: 0;
   font-weight: 100;
 }
+#shiny-template #artesanales .relative-top,
 #shiny-template #office .relative-top {
   margin-bottom: 20px;
   position: relative;
@@ -1302,17 +1313,40 @@
 #shiny-template .aqua-back p {
   color: white !important;
 }
+#shiny-template .aqua-back .btn-brown:hover,
+#shiny-template .saqua-back .btn-brown:hover,
+#shiny-template .cream .btn-brown:hover {
+  background-color: #3e7068;
+  color: aliceblue;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 10px rgba(2, 2, 2, 0.4);
+  z-index: 2;
+}
+#shiny-template #artesanales {
+  background: url(../img/masaje/cover-masaje.jpg) center no-repeat;
+  background-size: cover;
+}
+#shiny-template #artesanales .w-box {
+  width: 64% !important;
+}
+#shiny-template #artesanales .w-box b {
+  font-size: 42px;
+}
 #shiny-template .masaje {
-  padding: 40px 10px;
+  padding: 60px 10px;
+}
+#shiny-template .masaje .relative-top {
+  position: relative;
+  top: 270%;
+  left: 8%;
 }
 #shiny-template .masaje .reverse {
   display: flex;
   flex-direction: row-reverse;
 }
-#shiny-template .masaje .relative-top {
-  position: relative;
-  top: 205%;
-  left: 8%;
+#shiny-template .masaje .reverse .relative-top {
+  left: 0%;
 }
 #shiny-template .masaje .container .flex .col h2 {
   font-size: 40px;
@@ -1341,6 +1375,21 @@
 }
 #shiny-template .masaje .flex .col-img img {
   width: 100%;
+}
+#shiny-template .masaje .center {
+  margin-top: 3%;
+}
+#shiny-template .masaje .center p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+#shiny-template .masaje .center p .money {
+  font-size: 36px;
+}
+#shiny-template .masaje .center .reserva {
+  line-height: 0;
+  margin-bottom: 55px;
 }
 #shiny-template .grid {
   display: flex;
