@@ -9,7 +9,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section" id="artesanales">
     
     <div class="container center">
-        <h2 class="saqua uptown">Masajes Artesanales</h2>
+        <h1 class="saqua uptown">Masajes Artesanales</h1>
             
         <div class="fcentered">
             <div class="w-box">
@@ -18,6 +18,10 @@ echo "<section id ='shiny-template'>";
              </p>
             </div>
         </div>
+        
+             <div class="desktop-hide fcentered">
+                <a href="https://bodybalance.mx/consulta-medico-nutricional-online/?add-to-cart=333" class="btn-brown">¡ME INTERESA!</a>
+            </div>
         
     <!--    <div class="fcentered">
              <div class="desktop-hide relative-top">
@@ -32,7 +36,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje cream" id="mas1">
   <div class="container">
       
-            <div class="flex">
+            <div class="flex mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje-espalda-dosmanos.jpg" alt="Masaje de espalda a dos manos">
@@ -63,20 +67,29 @@ echo "<section id ='shiny-template'>";
                                 <p>$550.00</p>
                             
                         </div>
+                        
+                        <div class="desktop-hide fcentered btn-div">
+                             <div class="relative">
+                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                            </div>
+                        </div>
+
                     </div>
                     
                 </div>
            </div>
-           <div class="flex">
+           <div class="flex mov-hide">
                <div class="col col-img"></div>
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar!</a>
+                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
                     </div>
                    
                </div>
            </div>
+           
+        
    
   </div>
 </section>
@@ -84,7 +97,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje aqua-back" id="mas2">
   <div class="container">
       
-            <div class="flex reverse">
+            <div class="flex reverse mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje-piernas.jpg" alt="Masaje pies y piernas">
@@ -115,16 +128,24 @@ echo "<section id ='shiny-template'>";
                                 <p>$950.00</p>
                             
                         </div>
+                        
+                        <div class="desktop-hide fcentered btn-div">
+                             <div class="relative">
+                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                            </div>
+                        </div>
+                        
                     </div>
+                    
                     
                 </div>
            </div>
-           <div class="flex reverse">
+           <div class="flex reverse mov-hid">
                <div class="col col-img"></div>
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar!</a>
+                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -136,7 +157,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje saqua-back" id="mas3">
   <div class="container">
       
-            <div class="flex">
+            <div class="flex mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje%20linf.jpg" alt="Masaje a talón y tobillo">
@@ -166,16 +187,25 @@ echo "<section id ='shiny-template'>";
                                 <p>$750.00</p>
                             
                         </div>
+                        
+                        
+                        <div class="desktop-hide fcentered btn-div">
+                             <div class="relative">
+                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                     
                 </div>
            </div>
-           <div class="flex">
+           <div class="flex mov-hid">
                <div class="col col-img"></div>
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar!</a>
+                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -188,7 +218,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje cream" id="mas4">
   <div class="container">
       
-            <div class="flex">
+            <div class="flex mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje-relaja.jpg" alt="Masaje en abdomen">
@@ -218,16 +248,23 @@ echo "<section id ='shiny-template'>";
                                 <p>$750.00</p>
                             
                         </div>
+                        
+                        <div class="desktop-hide fcentered btn-div">
+                             <div class="relative">
+                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                            </div>
+                        </div>
+                        
                     </div>
                     
                 </div>
            </div>
-           <div class="flex">
+           <div class="flex mov-hid">
                <div class="col col-img fcentered">
                    
                       
                     <div class="relative-top">
-                         <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar!</a>
+                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -244,7 +281,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje aqua-back" id="mas5">
   <div class="container">
       
-            <div class="flex reverse">
+            <div class="flex reverse mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje-relajante-plus.jpg" alt="Masaje en la sien">
@@ -274,16 +311,23 @@ echo "<section id ='shiny-template'>";
                                 <p>$950.00</p>
                             
                         </div>
+                        
+                        <div class="desktop-hide fcentered btn-div">
+                             <div class="relative">
+                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                            </div>
+                        </div>
+                        
                     </div>
                     
                 </div>
            </div>
-           <div class="flex reverse">
+           <div class="flex reverse mov-hid">
                <div class="col col-img"></div>
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar!</a>
+                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -296,7 +340,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje saqua-back" id="mas6">
   <div class="container">
       
-            <div class="flex">
+            <div class="flex mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje-descontrac.jpg" alt="masaje en articulaciones">
@@ -328,16 +372,23 @@ echo "<section id ='shiny-template'>";
                                 <p>$750.00</p>
                             
                         </div>
+                        
+                        <div class="desktop-hide fcentered btn-div">
+                             <div class="relative">
+                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                            </div>
+                        </div>
+                        
                     </div>
                     
                 </div>
            </div>
-           <div class="flex">
+           <div class="flex mov-hid">
                <div class="col col-img"></div>
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar!</a>
+                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -349,7 +400,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje cream" id="mas7">
   <div class="container">
       
-            <div class="flex">
+            <div class="flex mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje-deportivo-ondas.jpg" alt="Masaje en chamorro con dos dedos">
@@ -382,6 +433,13 @@ echo "<section id ='shiny-template'>";
                                 <p>$2500.00</p>
                             
                         </div>
+                        
+                        <div class="desktop-hide mov-hid fcentered btn-div">
+                             <div class="relative">
+                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                            </div>
+                        </div>
+                        
                     </div>
                     
                 </div>
@@ -392,7 +450,7 @@ echo "<section id ='shiny-template'>";
                <p>4 sesiones por tan sólo <span class="money">$8,500.00</span>  </p>
                <p class="reserva">¡Resérvalo ya!</p>
                 <div class="">
-                      <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar Paquete!</a>
+                      <a href="#contacto" class="btn-brown">¡Reservar Paquete!</a>
                 </div>
            </div>
 
@@ -403,7 +461,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section masaje aqua-back" id="mas8">
   <div class="container">
       
-            <div class="flex">
+            <div class="flex mov-reverse">
                 <div class="col-img">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/masaje/masaje-reductivo.jpg" alt="Reposo para masaje">
@@ -443,7 +501,7 @@ echo "<section id ='shiny-template'>";
                <p>6 sesiones por tan sólo <span class="money">$4,500.00</span> </p>
              <p class="reserva">¡Resérvalo ya!</p>
                 <div class="">
-                      <a href="http://bodybalance.mx/tratamientos/" class="btn-brown">¡Reservar Paquete!</a>
+                      <a href="#contacto" class="btn-brown">¡Reservar Paquete!</a>
                 </div>
            </div>
   

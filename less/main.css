@@ -1327,6 +1327,9 @@
   background: url(../img/masaje/cover-masaje.jpg) center no-repeat;
   background-size: cover;
 }
+#shiny-template #artesanales h1 {
+  margin-bottom: 20px;
+}
 #shiny-template #artesanales .w-box {
   width: 64% !important;
 }
@@ -3349,5 +3352,132 @@
   }
   #shiny-template #howtopay .video-responsive {
     padding-bottom: 54.25%;
+  }
+  #shiny-template #artesanales {
+    background: url(../img/masaje/mov-cover-masaje.jpg) center no-repeat;
+    background-size: cover;
+  }
+  #shiny-template #artesanales .container {
+    width: 85%;
+    max-width: 100%;
+    padding: 0;
+  }
+  #shiny-template #artesanales h1,
+  #shiny-template #artesanales .uptown {
+    font-size: 56px;
+    color: #68aeaa;
+    line-height: 105%;
+  }
+  #shiny-template #artesanales .w-box {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  #shiny-template #artesanales .w-box b {
+    font-size: 28px;
+  }
+  #shiny-template #artesanales .w-box p {
+    font-size: 24px;
+    padding: 10px;
+  }
+  #shiny-template .masaje {
+    padding: 0;
+  }
+  #shiny-template .masaje .btn-div {
+    width: 100%;
+  }
+  #shiny-template .masaje .btn-div .relative {
+    position: relative;
+    top: 69;
+    z-index: 9999;
+  }
+  #shiny-template .masaje .btn-div .relative .btn-brown {
+    padding: 20px 36px;
+    font-size: 24px;
+  }
+  #shiny-template .masaje .mov-reverse {
+    flex-direction: column-reverse;
+  }
+  #shiny-template .masaje .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  #shiny-template .masaje .relative-top {
+    position: relative;
+    top: 270%;
+    left: 8%;
+  }
+  #shiny-template .masaje .reverse {
+    display: flex;
+    flex-direction: row;
+  }
+  #shiny-template .masaje .reverse .relative-top {
+    left: 0%;
+  }
+  #shiny-template .masaje .container .flex .col h2 {
+    font-size: 32px;
+    margin-top: 6%;
+    margin-bottom: 7%;
+    text-align: center;
+  }
+  #shiny-template .masaje p {
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: 6%;
+  }
+  #shiny-template .masaje .vcentered {
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #shiny-template .masaje .flex .col {
+    width: 100%;
+  }
+  #shiny-template .masaje .flex .col-txt,
+  #shiny-template .masaje .flex .col-img {
+    width: 100%;
+    padding: 0;
+  }
+  #shiny-template .masaje .flex .col-txt p,
+  #shiny-template .masaje .flex .col-img p {
+    font-size: 22px;
+    margin: 0 8%;
+  }
+  #shiny-template .masaje .flex .col-img img {
+    width: 100%;
+  }
+  #shiny-template .masaje .flex .icon,
+  #shiny-template .masaje .flex .txt {
+    width: 50%;
+    padding: 5px;
+  }
+  #shiny-template .masaje .flex .icon p,
+  #shiny-template .masaje .flex .txt p {
+    font-size: 30px;
+  }
+  #shiny-template .masaje .flex .icon {
+    margin-left: 6%;
+    padding-left: 10%;
+    width: 25%;
+  }
+  #shiny-template .masaje .flex .icon img {
+    width: 100%;
+  }
+  #shiny-template .masaje .center {
+    margin-top: 3%;
+  }
+  #shiny-template .masaje .center p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+  }
+  #shiny-template .masaje .center p .money {
+    font-size: 36px;
+  }
+  #shiny-template .masaje .center .reserva {
+    line-height: 0;
+    margin-bottom: 55px;
   }
 }
