@@ -70,8 +70,8 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/clock.png" alt="horario">
                     </div>
                     <div class="col txt fcentered">
-                        <p >Lunes a Viernes de 9 a.m. 6 p.m. 
-                        Sábado de 8 a.m. a  3 p.m.</p>
+                        <p >Lunes a Viernes de 9 a.m. 8 p.m. 
+                        Sábado de 8 a.m. a  5 p.m.</p>
                     </div>
                 </div>
                 

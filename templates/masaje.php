@@ -5,7 +5,6 @@ echo "<section id ='shiny-template'>";
 ?>
 
 
-
 <section class="template-section" id="artesanales">
     
     <div class="container center">
@@ -20,18 +19,43 @@ echo "<section id ='shiny-template'>";
         </div>
         
              <div class="desktop-hide fcentered">
-                <a href="https://bodybalance.mx/consulta-medico-nutricional-online/?add-to-cart=333" class="btn-brown">¡ME INTERESA!</a>
+                <a href="#contacto" class="btn-brown" target="_blank">¡ME INTERESA!</a>
             </div>
         
     <!--    <div class="fcentered">
              <div class="desktop-hide relative-top">
-                <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+                <a href="#contacto" class="btn-brown" target="_blank">¡ME INTERESA!</a>
             </div>
         </div>-->
         
     </div> 
      
 </section>
+
+
+<section class="template-section" id="video">
+    
+    <div class="container ">
+      
+       <div class="fcentered">
+           
+           
+            <h2 class="saqua uptown">Beneficios</h2>
+           
+       </div>
+       
+       <div class="fcentered">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/z15vV2-8A3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       </div>
+       
+            
+   
+        
+    </div>
+     
+</section>
+
 
 <section class="template-section masaje cream" id="mas1">
   <div class="container">
@@ -70,7 +94,7 @@ echo "<section id ='shiny-template'>";
                         
                         <div class="desktop-hide fcentered btn-div">
                              <div class="relative">
-                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                                <a href="https://bodybalance.mx/tienda/masaje-antiestres-de-espalda/" class="btn-brown" target="_blank" target="_blank">¡Reservar!</a>
                             </div>
                         </div>
 
@@ -83,7 +107,7 @@ echo "<section id ='shiny-template'>";
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                         <a href="https://bodybalance.mx/tienda/masaje-antiestres-de-espalda/" class="btn-brown" target="_blank" target="_blank">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -131,7 +155,7 @@ echo "<section id ='shiny-template'>";
                         
                         <div class="desktop-hide fcentered btn-div">
                              <div class="relative">
-                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                                <a href="https://bodybalance.mx/tienda/masaje-piernas-cansadas/" class="btn-brown" target="_blank" target="_blank">¡Reservar!</a>
                             </div>
                         </div>
                         
@@ -145,7 +169,7 @@ echo "<section id ='shiny-template'>";
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                         <a href="https://bodybalance.mx/tienda/masaje-piernas-cansadas/" class="btn-brown" target="_blank" target="_blank">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -191,7 +215,7 @@ echo "<section id ='shiny-template'>";
                         
                         <div class="desktop-hide fcentered btn-div">
                              <div class="relative">
-                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                                <a href="https://bodybalance.mx/tienda/masaje-linfatico/" class="btn-brown" target="_blank" target="_blank">¡Reservar!</a>
                             </div>
                         </div>
                         
@@ -205,7 +229,7 @@ echo "<section id ='shiny-template'>";
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                         <a href="https://bodybalance.mx/tienda/masaje-linfatico/" class="btn-brown" target="_blank">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -251,7 +275,7 @@ echo "<section id ='shiny-template'>";
                         
                         <div class="desktop-hide fcentered btn-div">
                              <div class="relative">
-                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                                <a href="https://bodybalance.mx/tienda/masaje-relajante/" class="btn-brown" target="_blank">¡Reservar!</a>
                             </div>
                         </div>
                         
@@ -264,7 +288,7 @@ echo "<section id ='shiny-template'>";
                    
                       
                     <div class="relative-top">
-                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                         <a href="https://bodybalance.mx/tienda/masaje-relajante/" class="btn-brown" target="_blank">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -314,7 +338,7 @@ echo "<section id ='shiny-template'>";
                         
                         <div class="desktop-hide fcentered btn-div">
                              <div class="relative">
-                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                                <a href="https://bodybalance.mx/tienda/masaje-relajante-plus/" class="btn-brown" target="_blank">¡Reservar!</a>
                             </div>
                         </div>
                         
@@ -327,7 +351,7 @@ echo "<section id ='shiny-template'>";
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                         <a href="https://bodybalance.mx/tienda/masaje-relajante-plus/" class="btn-brown" target="_blank">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -375,7 +399,7 @@ echo "<section id ='shiny-template'>";
                         
                         <div class="desktop-hide fcentered btn-div">
                              <div class="relative">
-                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                                <a href="https://bodybalance.mx/tienda/masaje-descontracturante/" class="btn-brown" target="_blank">¡Reservar!</a>
                             </div>
                         </div>
                         
@@ -388,7 +412,7 @@ echo "<section id ='shiny-template'>";
                <div class="col col-txt">
                    
                     <div class="relative-top">
-                         <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                         <a href="https://bodybalance.mx/tienda/masaje-descontracturante/" class="btn-brown" target="_blank">¡Reservar!</a>
                     </div>
                    
                </div>
@@ -436,7 +460,7 @@ echo "<section id ='shiny-template'>";
                         
                         <div class="desktop-hide mov-hid fcentered btn-div">
                              <div class="relative">
-                                <a href="#contacto" class="btn-brown">¡Reservar!</a>
+                                <a href="https://bodybalance.mx/tienda/masaje-deportivo-ondas-vacum-ondas-vibratorias/ " class="btn-brown" target="_blank">¡Reservar!</a>
                             </div>
                         </div>
                         
@@ -450,7 +474,7 @@ echo "<section id ='shiny-template'>";
                <p>4 sesiones por tan sólo <span class="money">$8,500.00</span>  </p>
                <p class="reserva">¡Resérvalo ya!</p>
                 <div class="">
-                      <a href="#contacto" class="btn-brown">¡Reservar Paquete!</a>
+                      <a href="https://bodybalance.mx/tienda/masaje-deportivo-ondas-vacum-ondas-vibratorias/ " class="btn-brown" target="_blank">¡Reservar Paquete!</a>
                 </div>
            </div>
 
@@ -470,10 +494,10 @@ echo "<section id ='shiny-template'>";
                 
                 <div class="col col-txt">
                     <h2>
-                        Es un centro integral de nutrición y metabolismo.
+                        Masaje reductivo + drenaje linfático
                     </h2>
                     <p>
-                        Ofrecemos consulta  médico-nutricional, venta de suplementos  y  tratamientos complementarios cómo modelado corporal con ondas de choque tecnología suiza Cellactor SC1®, faciales y depilación laser diodo. 
+                        Aplicamos una técnica de masaje con deslizamientos, bombeos manuales y nudillos trabajando en áreas específicas de acumulación de tejido adiposo, flacidez y problemas de celulitis. Este masaje favorece la eliminación de líquidos de desecho y grasa corporal. 
                     </p>
                     
                     <div class="flex vcentered">
@@ -501,7 +525,7 @@ echo "<section id ='shiny-template'>";
                <p>6 sesiones por tan sólo <span class="money">$4,500.00</span> </p>
              <p class="reserva">¡Resérvalo ya!</p>
                 <div class="">
-                      <a href="#contacto" class="btn-brown">¡Reservar Paquete!</a>
+                      <a href="https://bodybalance.mx/tienda/masaje-reductivo-drenaje-linfatico/" class="btn-brown" target="_blank">¡Reservar Paquete!</a>
                 </div>
            </div>
   
