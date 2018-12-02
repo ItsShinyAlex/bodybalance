@@ -92,7 +92,7 @@ echo "<section id ='shiny-template'>";
                             </div>
                         </div>
                         
-                         <a href="http://bodybalance.mx/tratamientos/#modelamiento" class="btn-brown">¡Saber más!</a>
+                         <a href="https://bodybalance.mx/modelamiento-ondas-choque-cdmx/" class="btn-brown">¡Saber más!</a>
                         
                        
                     </div>
@@ -112,7 +112,7 @@ echo "<section id ='shiny-template'>";
                             </div>
                         
                          </div>
-                           <a href="http://bodybalance.mx/tratamientos/#depilacion" class="btn-brown">¡Saber más!</a>
+                           <a href="https://bodybalance.mx/depilaciones-laser-diodo-lightsheer-cdmx/" class="btn-brown">¡Saber más!</a>
                            
                     </div>
 
@@ -136,7 +136,7 @@ echo "<section id ='shiny-template'>";
                             
                         </div>
                         
-                        <a href="http://bodybalance.mx/tratamientos/#faciales" class="btn-brown">¡Saber más!</a>
+                        <a href="https://bodybalance.mx/tratamientos-faciales-cdmx/" class="btn-brown">¡Saber más!</a>
                         
                         
                     </div>

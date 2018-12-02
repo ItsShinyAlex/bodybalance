@@ -30,6 +30,24 @@
 .logo-box .preload-me {
   width: 90%;
 }
+.scroll-top {
+  display: none !important;
+}
+.scroll-top.a,
+.scroll-top a {
+  display: none;
+}
+.scroll-top a {
+  display: none;
+}
+#scroll-to-top {
+  display: none !important;
+  opacity: 0 !important;
+}
+a#scroll-to-top {
+  display: none !important;
+  opacity: 0 !important;
+}
 .mobile-header-bar .mobile-branding img {
   width: 80%;
 }
@@ -624,6 +642,18 @@
 #shiny-template #servicios .col .txt {
   padding: 20px 48px;
 }
+#shiny-template #news {
+  background-color: #f8f5e9;
+  padding-top: 100px;
+}
+#shiny-template #news h2 {
+  font-size: 4em;
+  padding-bottom: 15px;
+}
+#shiny-template #news iframe {
+  width: 90%;
+  height: 385px;
+}
 #shiny-template #contacto {
   background: url(../img/home/contacto.jpg) center no-repeat;
   background-size: cover;
@@ -906,10 +936,15 @@
   padding: 120px 0;
 }
 #shiny-template #video h2 {
+  line-height: 100%;
   font-size: 60px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   background-color: #feed00;
   padding: 15px;
+  text-align: center;
+}
+#shiny-template #video h2 .highl {
+  background-color: #feed00;
 }
 #shiny-template #incluye .col-txt {
   width: 55%;
@@ -1032,6 +1067,24 @@
 #shiny-template #peel .btn-brown {
   font-size: 36px;
 }
+#shiny-template #peel {
+  background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
+  height: 850px;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+#shiny-template #peel .p56 {
+  text-shadow: 1px 3px 4px #626363;
+}
+#shiny-template #peel h2 {
+  background-size: 90%;
+  padding-bottom: 10px;
+  font-size: 130px !important;
+}
+#shiny-template #peel .container {
+  top: 400px;
+  position: relative;
+}
 #shiny-template #peel-des,
 #shiny-template #mc-des {
   background-color: #508b86;
@@ -1071,6 +1124,10 @@
 #shiny-template #money-brown p,
 #shiny-template #money-brown h2 {
   color: #508b86;
+}
+#shiny-template #money-brown p.center,
+#shiny-template #money-brown h2.center {
+  padding: 40px 0;
 }
 #shiny-template #money-brown .pad-hz {
   padding: 40px 0px;
@@ -1511,6 +1568,15 @@
   padding-right: 10px;
   position: absolute;
   left: -15px;
+}
+#shiny-template #utilizar #section-title {
+  padding-top: 50px;
+  max-width: 100%;
+  left: 0;
+  font-size: 38px;
+}
+#shiny-template #utilizar #section-title .uptown {
+  font-size: 56px;
 }
 #shiny-template #mejores {
   background: url(../img/modelamiento/mejores.png) no-repeat center;
@@ -2495,6 +2561,17 @@
   #shiny-template #servicios .col .txt {
     padding: 20px 48px;
   }
+  #shiny-template #news {
+    padding-top: 80px;
+  }
+  #shiny-template #news h2 {
+    font-size: 2em;
+    padding-bottom: 15px;
+  }
+  #shiny-template #news iframe {
+    width: 100%;
+    height: 385px;
+  }
   #shiny-template #contacto {
     padding-top: 80px;
     padding-bottom: 40px;
@@ -2901,6 +2978,25 @@
   #shiny-template #modelamiento h2,
   #shiny-template #peel h2 {
     padding-bottom: 0px;
+  }
+  #shiny-template #peel {
+    height: 850px;
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+  #shiny-template #peel .p56 {
+    text-shadow: 1px 3px 4px #626363;
+  }
+  #shiny-template #peel h2 {
+    background-size: 90%;
+    padding-bottom: 10px;
+  }
+  #shiny-template #peel .uptown {
+    font-size: 62px !important;
+  }
+  #shiny-template #peel .container {
+    top: 0px;
+    position: relative;
   }
   #shiny-template #beneficios {
     padding-top: 0px;
@@ -3335,6 +3431,16 @@
   }
   #shiny-template #utilizar h2 {
     text-align: center;
+  }
+  #shiny-template #utilizar #section-title {
+    padding-top: 40px;
+    max-width: 100%;
+    left: 0;
+    font-size: 21px;
+    line-height: 145%;
+  }
+  #shiny-template #utilizar #section-title .uptown {
+    font-size: 35px;
   }
   #shiny-template #mejores h2,
   #shiny-template #mejores p {

@@ -1,4 +1,21 @@
-<section id="contacto">
+
+    <section id="news">
+
+       <div class="container">
+           <div class="center">
+              
+              <h2 class="uptown" >Recibe nuestras promociones</h2>
+              
+               <iframe src="https://my.sendinblue.com/users/subscribe/js_id/3qy1e/id/1" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;"></iframe>
+               
+               
+               
+           </div>
+       </div>
+
+   </section>
+
+   <section id="contacto">
     <div class="container">
         <div class="flex">
             <div class="col c-col">

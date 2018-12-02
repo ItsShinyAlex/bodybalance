@@ -19,7 +19,7 @@ echo "<section id ='shiny-template'>";
         </div>
         
              <div class="desktop-hide fcentered">
-                <a href="#contacto" class="btn-brown" target="_blank">¡ME INTERESA!</a>
+                <a href="#mas1" class="btn-brown" target="_blank">¡ME INTERESA!</a>
             </div>
         
     <!--    <div class="fcentered">

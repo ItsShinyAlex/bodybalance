@@ -44,6 +44,25 @@
     }
 } 
 
+.scroll-top{
+display: none !important;
+    
+    &.a, a{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+    
+}
+#scroll-to-top{
+    display: none !important;
+    opacity: 0 !important;
+}
+a#scroll-to-top{
+    display: none !important;
+     opacity: 0 !important;
+}
 
 .mobile-header-bar .mobile-branding img { 
     width: 80%;
@@ -82,6 +101,7 @@
 }
 
 #shiny-template {
+     
     //CUSTOM STYLE LAYER
     width: 100% !important;
 
@@ -791,6 +811,31 @@
             }
         }
     }
+    
+    
+    #news{
+        background-color: #f8f5e9;
+        padding-top: 100px;
+       
+        
+        h2{
+            font-size: 4em;
+            padding-bottom: 15px;
+        }
+
+        iframe{
+            width: 90%;
+            height: 385px;
+            .forms-builder-wrapper{
+                 .lbl-tinyltr{
+                        ///font-family: 'Avenir' !important;
+                    }
+            }
+
+
+        }
+
+    }
 
     #contacto {
         background: url(../img/home/contacto.jpg) center no-repeat;
@@ -1150,10 +1195,15 @@
         padding: 120px 0;
         
         h2{
+            line-height: 100%;
             font-size: 60px;
-            margin-bottom: 25px;
+            margin-bottom: 40px;
             background-color: #feed00;
             padding: 15px;
+            text-align: center;
+            .highl{
+                background-color: #feed00;
+            }
         }
     }
 
@@ -1284,6 +1334,31 @@
 
     }
     
+    #peel{
+        background: url(../img/hollywood/banner-mask.jpg) center no-repeat;
+        height: 850px;
+        padding-top: 0px;
+        padding-bottom: 0;
+        
+        
+        .p56{
+            text-shadow: 1px 3px 4px #626363;
+        }
+        h2 {
+            
+            
+            
+            background-size: 90%;     
+            padding-bottom: 10px;
+            font-size: 130px !important;
+        }
+        
+        .container{
+            top: 400px;
+            position: relative;
+        }
+    }
+    
     #peel-des, #mc-des{
         
         p{
@@ -1326,6 +1401,11 @@
         p,
         h2 {
             color: @Saqua;
+            
+            &.center{
+                padding: 40px 0;
+            }
+            
         }
 
         .pad-hz {
@@ -1892,6 +1972,18 @@
             }
         }
     }
+        
+        //alex changes
+        
+        #section-title{
+            padding-top: 50px;
+            max-width: 100%;
+            left: 0;
+            font-size: 38px;
+            .uptown{
+                font-size: 56px;
+            }
+        }
     
     }
     

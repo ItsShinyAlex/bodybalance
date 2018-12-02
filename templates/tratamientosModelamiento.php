@@ -69,8 +69,33 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
+<section class="template-section" id="video">
+    
+    <div class="container ">
+      
+       <div class="fcentered">
+           
+           
+            <h2 class="saqua uptown">¿Cómo Funciona?</h2>
+           
+       </div>
+       
+       <div class="fcentered">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/gmjcwEabYLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+       
+            
+   
+        
+    </div>
+     
+</section>
+
 <section id="utilizar" class="template-section">
      <div class="container">
+     
+     <h2 class="center" id="section-title" > <span class="uptown">Descubre el tratamiento definitivo</span><br>  para la celulitis, estrías, flacidez y rejuvenecer el rostro que llegó a la ciudad de México (CDMX)</h2>
+     
      <p class="intro">Los resultados son una mejora significativa de la piel de naranja, la elasticidad, firmeza y textura de la piel, la reduce la circunferencia de muslos y cadera, a la vez que mejora el edema y la activa la circulación.</p>
     <div class="grid">
         <div class="col">
@@ -78,17 +103,18 @@ echo "<section id ='shiny-template'>";
         </div>
          <div class="col">
             <h2>¿Y en que zonas puede utilizarse?</h2>
-       <p>Cellactor SC1 está indicado para tratar <strong>zonas con depósitos de grasa</strong> en:</p>
-       <ul>
-           <li>cara</li>
-           <li>brazos</li>
-           <li>abdomen</li>
-           <li>espalda alta y baja</li>
-           <li>flancos</li>
-           <li>glúteos</li>
-           <li>muslos anteriores y posteriores</li>
-           <li>pantorrillas</li>
-       </ul>
+               <p>Cellactor SC1 está indicado para tratar <strong>zonas con depósitos de grasa</strong> en:</p>
+               <ul>
+                   <li>cara</li>
+                   <li>brazos</li>
+                   <li>abdomen</li>
+                   <li>espalda alta y baja</li>
+                   <li>flancos</li>
+                   <li>glúteos</li>
+                   <li>muslos anteriores y posteriores</li>
+                   <li>pantorrillas</li>
+               </ul>
+               <p>Y es ideal para <b>erradicar celulitis,</b>  mejorar el flujo sanguíneo, reducir la flacidez,  atenuar las estrías  y rejuvenecer el rostro, con resultados desde la primera sesión. </p>
         </div>
     </div>
     </div>
@@ -168,11 +194,7 @@ echo "<section id ='shiny-template'>";
                 </p>
             </div>
             </div>
-            <pre>
-            
-            <div class="video-responsive" style=""><iframe   src="https://www.youtube.com/embed/gmjcwEabYLA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-            
-            </pre>
+           
            
         
     </div>

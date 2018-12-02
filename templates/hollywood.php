@@ -15,13 +15,13 @@ echo "<section id ='shiny-template'>";
             </h2>
             
         <div class="mov-hide">
-            <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+            <a href="#beneficios" class="btn-brown">¡ME INTERESA!</a>
         </div>
         
         <div class="left desktop-hide" id="baseline">
             
             <div class="desktop-hide">
-                <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+                <a href="#beneficios" class="btn-brown">¡ME INTERESA!</a>
             </div>
                 
         </div>
@@ -53,7 +53,7 @@ echo "<section id ='shiny-template'>";
             </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">Beneficios
+                <h2 class="saqua">Beneficios del Hollywood Peel
                 </h2>
                 <img class="line" src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
                 <ul>
@@ -123,6 +123,7 @@ echo "<section id ='shiny-template'>";
                     <h3>¿Cómo puede hacerse?</h3>
                     <p>Para mejores resultados es conveniente realizar varias sesiones consecutivas (mínimo 4).</p>
                     <p>Las sesiones pueden ser cada semana dependiendo de tus necesidades.</p>
+                    <p>Agenda hoy tu cita en nuestra clínica de rejuvenecimiento facial Body Balance y comprueba los resultados de este maravilloso tratamiento. </p>
                     
                 </div>
                 
@@ -205,7 +206,7 @@ echo "<section id ='shiny-template'>";
 
 <section class="plantilla-seccion" id="money-brown">
   <div class="container">
-      
+      <h2 class="center uptown"> Precios del Rejuvenecimiento Facial Hollywood Peel</h2>
       
             
             <div class="flex">
