@@ -95,7 +95,7 @@
     </div>
 
 </section>
-
+<!--
 <section class="template-section gris-faq padding-50 no-padding-mobile" id="faq">
     <div class="container">
       <h2>Preguntas <i>frecuentes</i></h2>
@@ -184,11 +184,29 @@
       <p>Si ya que el láser no es abrasivo y la depilación es personalizando parámetros para que sea segura para cada paciente.</p>
     </div>
   </article>
+  <article>
+    <h1 data-accordion-element-trigger> ¿Depilación brasileña que tan dolorosa es?    </h1>
+    <div data-accordion-element-content class="content">
+      <p>Es virtualmente sin dolor, no requiere de ningún tipo de anestecia.</p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> ¿Qúe garantía dan de los resultados?   </h1>
+    <div data-accordion-element-content class="content">
+      <p>En Body Balance contamos con tecnologia láser diodo LightSheer , la cuál integra métodos de enfriamiento y vacio para garantizar la seguridad del tratamiento, nuestro equipo es 75% más rápido en comparación con otros tipos de láser.</p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> ¿Es realmente láser o foto depilación?   </h1>
+    <div data-accordion-element-content class="content">
+      <p>Depilación con Láser Diodo LightSheer</p>
+    </div>
+  </article>
    </div>
     </div>
 </section>
-
-
+-->
+<?php echo do_shortcode( '[text_block id=981 description="faq_depilacion"]' ); ?>
 
 <section class="template-section blue-howtopay" id="howtopay">
     <div class="container">
