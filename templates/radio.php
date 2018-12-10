@@ -320,164 +320,72 @@ echo "<section id ='shiny-template'>";
 </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="template-section" id="atendido">
-    <div class="container">
-        <div class="flex">
-            <div class="col fcentered">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/whoweare/green-healthy.jpg" alt="Dieta verde, ejercicio y programa">
-            </div>
-            <div class="col fcentered mov-hid">
-                <p>Atendido por médicos especializados en nutrición, nuestro centro es un espacio para perder peso y medidas, sin pasar hambre y sin poner en riesgo tu salud.  </p>
-            </div>
-        </div>
-    </div>
+<section id="listar-servicios" class="plantilla-seccion">
+   <h2 class="center uptown">Costos y Paquetes de Radiofrecuencia</h2>
+    <?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" arrow_icon_size="25px" arrow_bg_width="36x" arrow_border_width="0px" arrows_bg_show="n" arrow_icon_color_hover="rgba(0,0,0,0.75)" arrow_bg_color_hover="#34afbc" r_arrow_icon_paddings="0px 0px 0px 0px" r_arrow_v_offset="0px" l_arrow_icon_paddings="0px 0px 0px 0px" l_arrow_v_offset="0px" category_ids="17"][/vc_column][/vc_row]');
+    ?>
+    
 </section>
 
-<section class="template-section" id="queremos">
+
+<section class="template-section pad-top-section saqua-back" id="howtopay">
     <div class="container">
-        <div class="flex">
+        <div class="flex ">
+            <div class="col" id="pills">
+                <div class="fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/creditcard.png" alt="Tarjeta de crédito"></div>
+            </div>
+           
             <div class="col col-txt">
-                <h2 class="">¡Queremos que lo logres!
+                <h2 class="">¿Cómo Pagar?
                 </h2>
-                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
-                <p class="">
-                    Por eso te ayudamos con menús fáciles de cocinar, rápidos y deliciosos, fármacos (si los requieres) y asesoría de ejercicio físico, según tu edad, necesidades y limitaciones.
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/w-bar.png" alt="-----">
+                <p>
+                    Efectivo, debito, crédito. 3 meses sin intereses todas las tarjetas de crédito y todos los bancos.
                 </p>
-                <p class=""><b>Además de la más alta tecnología en tratamientos de modelado corporal, faciales y depilación definitiva. </b></p>
-              
-            </div>
-            <div class="col" id="team">
-                <div class="relative-top">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/whoweare/apple-smile.jpg" alt="Chica con manzana, agua y ropa deportiva">
-                </div>
-            </div>
-            
-            <div class="col col-txt fcentered des-hid">
-                <p>Atendido por médicos especializados en nutrición, nuestro centro es un espacio para perder peso y medidas, sin pasar hambre y sin poner en riesgo tu salud.  </p>
             </div>
             
             
-        </div>
-    </div>
-</section>
-
-<section class="template-section" id="mision">
-    <div class="container">
-        <div class="flex">
            
-            <div id="girl-mision" class="col title fcentered">
-                
-            </div>
-            
-            <div class="col col-txt fcentered">
-                <div class="">
-                    <h2 class="uptown">Misión</h2>
-                    <p>Brindar a los pacientes consultas de nutrición clínica integral  para enseñarlos a comer de forma adecuada y lograr sus metas con seguridad sin riesgos en la salud. Ofreciendo al mismo tiempo tecnología de punta en tratamientos complementarios cómo modelado corporal, faciales y depilación definitiva.</p>
-                </div>
-                 
-
- 
-            </div>
         </div>
     </div>
 </section>
 
 
 
-<section class="template-section" id="vision">
-    <div class="container">
-        <div class="flex">
-           
-         
-            <div class="col col-txt fcentered">
-            <div class="">
-                
-                   <h2 class="uptown">Visión</h2>     
-                    <p>
-                    Ser el primer lugar en México especializado en el tratamiento de clínico integral de la obesidad mediante la nutrición celular, la instalación de hábitos alimenticios y auto cuidado para que nuestros pacientes puedan conseguir resultados efectivos y duraderos, causando un verdadero impacto en la salud.
-                    </p> 
-                
-            </div>
-         
-            </div>
-            
-            <div id="boy-vision" class="col title fcentered">
-                
-            </div>
-            
-            
-        </div>
-    </div>
-</section>
 
-<section class="template-section" id="valores">
-    <div class="container">
-        <div class="left">
-            <h2 class="uptown">Valores</h2>
-            <ul>
-                <li>
-                    <p>Honestidad</p>
-                </li>
 
-                <li>
-                    <p>Ética</p>
-                </li>
 
-                <li>
-                    <p>Profesionalismo</p>
-                </li>
-      
-                <li>
-                    <p>Amor</p>
-                </li>
-          
-                <li>
-                    <p>Respeto</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

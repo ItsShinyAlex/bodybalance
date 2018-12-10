@@ -1236,21 +1236,25 @@ a#scroll-to-top {
   padding-top: 180px !important;
 }
 #shiny-template #artesanales,
-#shiny-template #office {
+#shiny-template #office,
+#shiny-template .centered-white {
   background: url(../img/whoweare/banner.jpg) center no-repeat;
   background-size: cover;
 }
 #shiny-template #artesanales .w-box,
-#shiny-template #office .w-box {
+#shiny-template #office .w-box,
+#shiny-template .centered-white .w-box {
   width: 85% !important;
 }
 #shiny-template #artesanales h2,
-#shiny-template #office h2 {
+#shiny-template #office h2,
+#shiny-template .centered-white h2 {
   padding: 0;
   font-weight: 100;
 }
 #shiny-template #artesanales .relative-top,
-#shiny-template #office .relative-top {
+#shiny-template #office .relative-top,
+#shiny-template .centered-white .relative-top {
   margin-bottom: 20px;
   position: relative;
   top: -10px;
