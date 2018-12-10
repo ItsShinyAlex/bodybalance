@@ -7,7 +7,7 @@ echo "<section id ='shiny-template'>";
 
 
 
-<section class="template-section" id="office">
+<section class="template-section centered-banner" id="radiofrecuencia">
     
     <div class="container center">
         <h2 class="saqua uptown">Radiofrecuencia</h2>
@@ -31,17 +31,17 @@ echo "<section id ='shiny-template'>";
      
 </section>
 
-<section class="template-section" id="obtienes">
+<section class="template-section r-list" id="beneficios-radio">
     <div class="container">
         <div class="flex ">
-            <div class="col" id="pills">
+            <div class="col" id="">
                 <div class="fcentered">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/faceARROWS.jpg" alt="Cutis limpio">
                 </div>
             </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">¿Qué obtienes?
+                <h2 class="saqua">Beneficios
                 </h2>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
                 <ul>
@@ -84,7 +84,7 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section" id="servicios">
+<section class="template-section columns3" id="ademas">
     <div class="container">
        
         <div class="center">
@@ -108,7 +108,7 @@ echo "<section id ='shiny-template'>";
                             </div>
                         </div>
                         
-                         <a href="https://bodybalance.mx/modelamiento-ondas-choque-cdmx/" class="btn-brown ">¡Saber más!</a>
+                         <a href="https://bodybalance.mx/modelamiento-ondas-choque-cdmx/" class="btn-brown hide">¡Saber más!</a>
                         
                        
                     </div>
@@ -127,7 +127,7 @@ echo "<section id ='shiny-template'>";
                             </div>
                         
                          </div>
-                           <a href="https://bodybalance.mx/depilaciones-laser-diodo-lightsheer-cdmx/" class="btn-brown">¡Saber más!</a>
+                           <a href="https://bodybalance.mx/depilaciones-laser-diodo-lightsheer-cdmx/" class="btn-brown hide">¡Saber más!</a>
                            
                     </div>
 
@@ -151,7 +151,7 @@ echo "<section id ='shiny-template'>";
                             
                         </div>
                         
-                        <a href="https://bodybalance.mx/tratamientos-faciales-cdmx/" class="btn-brown">¡Saber más!</a>
+                        <a href="https://bodybalance.mx/tratamientos-faciales-cdmx/" class="btn-brown hide">¡Saber más!</a>
                         
                         
                     </div>
@@ -162,7 +162,7 @@ echo "<section id ='shiny-template'>";
 </section>
 
 
-<section class="template-section" id="incluye">
+<section class="template-section llist" id="cuantas-sesiones">
     <div class="container">
        
       
@@ -197,7 +197,7 @@ echo "<section id ='shiny-template'>";
 
 
 
-<section class="template-section" id="obtienes">
+<section class="template-section r-list" id="cuidados">
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
@@ -253,7 +253,7 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section" id="obtienes">
+<section class="template-section r-list" id="contra">
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">

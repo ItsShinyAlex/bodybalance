@@ -464,6 +464,7 @@ a#scroll-to-top {
   content: "";
   z-index: -1;
 }
+#shiny-template .centered-banner,
 #shiny-template #t-faciales,
 #shiny-template #t-depilaciones,
 #shiny-template #modelamiento,
@@ -478,6 +479,7 @@ a#scroll-to-top {
   background: url(../img/home/legs.jpg) center center no-repeat;
   background-size: cover;
 }
+#shiny-template .centered-banner .uptown,
 #shiny-template #t-faciales .uptown,
 #shiny-template #t-depilaciones .uptown,
 #shiny-template #modelamiento .uptown,
@@ -489,6 +491,7 @@ a#scroll-to-top {
 #shiny-template #byevello .uptown {
   font-size: 88px;
 }
+#shiny-template .centered-banner h2,
 #shiny-template #t-faciales h2,
 #shiny-template #t-depilaciones h2,
 #shiny-template #modelamiento h2,
@@ -502,6 +505,7 @@ a#scroll-to-top {
   font-size: 40px;
   line-height: 150%;
 }
+#shiny-template .centered-banner .container,
 #shiny-template #t-faciales .container,
 #shiny-template #t-depilaciones .container,
 #shiny-template #modelamiento .container,
@@ -513,6 +517,7 @@ a#scroll-to-top {
 #shiny-template #byevello .container {
   width: 75%;
 }
+#shiny-template .centered-banner .w-box,
 #shiny-template #t-faciales .w-box,
 #shiny-template #t-depilaciones .w-box,
 #shiny-template #modelamiento .w-box,
@@ -525,6 +530,7 @@ a#scroll-to-top {
   margin-bottom: 40px;
   width: 60%;
 }
+#shiny-template .centered-banner .w-box p,
 #shiny-template #t-faciales .w-box p,
 #shiny-template #t-depilaciones .w-box p,
 #shiny-template #modelamiento .w-box p,
@@ -540,6 +546,7 @@ a#scroll-to-top {
   z-index: 1 !important;
   position: relative;
 }
+#shiny-template .centered-banner .w-box p::before,
 #shiny-template #t-faciales .w-box p::before,
 #shiny-template #t-depilaciones .w-box p::before,
 #shiny-template #modelamiento .w-box p::before,
@@ -613,14 +620,17 @@ a#scroll-to-top {
 #shiny-template #consultas .col-txt p {
   padding-bottom: 35px;
 }
+#shiny-template .columns3,
 #shiny-template #servicios {
   padding-top: 80px;
   padding-bottom: 60px;
   background-color: #508b86;
 }
+#shiny-template .columns3 .container,
 #shiny-template #servicios .container {
   padding: 0;
 }
+#shiny-template .columns3 .col,
 #shiny-template #servicios .col {
   flex-direction: column;
   justify-content: space-between;
@@ -629,16 +639,20 @@ a#scroll-to-top {
   margin: 0px 10px;
   width: 33.3%;
 }
+#shiny-template .columns3 .col h2,
 #shiny-template #servicios .col h2 {
   color: #d6c780;
   padding-bottom: 30px;
 }
+#shiny-template .columns3 .col .fix-h,
 #shiny-template #servicios .col .fix-h {
   height: 300px;
 }
+#shiny-template .columns3 .col a,
 #shiny-template #servicios .col a {
   align-self: flex-end;
 }
+#shiny-template .columns3 .col .txt,
 #shiny-template #servicios .col .txt {
   padding: 20px 48px;
 }
@@ -887,34 +901,46 @@ a#scroll-to-top {
   content: "";
   z-index: -1;
 }
+#shiny-template .llist .container,
+#shiny-template .r-list .container,
 #shiny-template #incluye .container,
 #shiny-template #beneficios .container,
 #shiny-template #obtienes .container {
   padding: 0px;
   max-width: 2000px;
 }
+#shiny-template .llist #pills,
+#shiny-template .r-list #pills,
 #shiny-template #incluye #pills,
 #shiny-template #beneficios #pills,
 #shiny-template #obtienes #pills {
   background: url(../img/consulta/white-pills.jpg) center no-repeat;
   background-size: cover;
 }
+#shiny-template .llist #online-food,
+#shiny-template .r-list #online-food,
 #shiny-template #incluye #online-food,
 #shiny-template #beneficios #online-food,
 #shiny-template #obtienes #online-food {
   background: url(../img/consulta/healthy-food.jpg) center no-repeat;
   background-size: cover;
 }
+#shiny-template .llist .col-txt,
+#shiny-template .r-list .col-txt,
 #shiny-template #incluye .col-txt,
 #shiny-template #beneficios .col-txt,
 #shiny-template #obtienes .col-txt {
   padding: 85px 70px;
 }
+#shiny-template .llist .col-txt h2,
+#shiny-template .r-list .col-txt h2,
 #shiny-template #incluye .col-txt h2,
 #shiny-template #beneficios .col-txt h2,
 #shiny-template #obtienes .col-txt h2 {
   font-size: 40px;
 }
+#shiny-template .llist .col-txt img,
+#shiny-template .r-list .col-txt img,
 #shiny-template #incluye .col-txt img,
 #shiny-template #beneficios .col-txt img,
 #shiny-template #obtienes .col-txt img {
@@ -922,11 +948,15 @@ a#scroll-to-top {
   height: 7px;
   margin-top: 25px;
 }
+#shiny-template .llist .col-txt ul,
+#shiny-template .r-list .col-txt ul,
 #shiny-template #incluye .col-txt ul,
 #shiny-template #beneficios .col-txt ul,
 #shiny-template #obtienes .col-txt ul {
   padding-top: 50px;
 }
+#shiny-template .llist .col-txt ul li,
+#shiny-template .r-list .col-txt ul li,
 #shiny-template #incluye .col-txt ul li,
 #shiny-template #beneficios .col-txt ul li,
 #shiny-template #obtienes .col-txt ul li {
@@ -946,17 +976,22 @@ a#scroll-to-top {
 #shiny-template #video h2 .highl {
   background-color: #feed00;
 }
+#shiny-template .llist .col-txt,
 #shiny-template #incluye .col-txt {
   width: 55%;
   background-color: #508b86;
 }
+#shiny-template .llist .col-txt h2,
 #shiny-template #incluye .col-txt h2,
+#shiny-template .llist .col-txt p,
 #shiny-template #incluye .col-txt p {
   color: white;
 }
+#shiny-template .llist .col-txt ul,
 #shiny-template #incluye .col-txt ul {
   padding-top: 6px;
 }
+#shiny-template .llist #food,
 #shiny-template #incluye #food {
   width: 45%;
   background: url(../img/consulta/comida-sana.jpg) center no-repeat;
@@ -1237,24 +1272,24 @@ a#scroll-to-top {
 }
 #shiny-template #artesanales,
 #shiny-template #office,
-#shiny-template .centered-white {
+#shiny-template .centered-banner {
   background: url(../img/whoweare/banner.jpg) center no-repeat;
   background-size: cover;
 }
 #shiny-template #artesanales .w-box,
 #shiny-template #office .w-box,
-#shiny-template .centered-white .w-box {
+#shiny-template .centered-banner .w-box {
   width: 85% !important;
 }
 #shiny-template #artesanales h2,
 #shiny-template #office h2,
-#shiny-template .centered-white h2 {
+#shiny-template .centered-banner h2 {
   padding: 0;
   font-weight: 100;
 }
 #shiny-template #artesanales .relative-top,
 #shiny-template #office .relative-top,
-#shiny-template .centered-white .relative-top {
+#shiny-template .centered-banner .relative-top {
   margin-bottom: 20px;
   position: relative;
   top: -10px;
@@ -1454,6 +1489,37 @@ a#scroll-to-top {
 #shiny-template .masaje .center .reserva {
   line-height: 0;
   margin-bottom: 55px;
+}
+#shiny-template .hide {
+  display: none !important;
+}
+#shiny-template #radiofrecuencia {
+  background: url(../img/radio/bannerRADIO.jpg) center no-repeat;
+}
+#shiny-template #beneficios-radio {
+  padding: 180px 120px 0;
+}
+#shiny-template #beneficios-radio li {
+  padding-bottom: 0px;
+}
+#shiny-template #ademas {
+  padding-top: 80px;
+}
+#shiny-template #ademas h2 {
+  font-size: 54px;
+  position: relative;
+  right: 5px;
+  margin-bottom: 40px;
+}
+#shiny-template #ademas .col {
+  height: 500px;
+}
+#shiny-template #ademas p {
+  padding: 0 10px;
+  font-size: 32px;
+  line-height: 111%;
+  margin-top: 40px;
+  font-weight: 600;
 }
 #shiny-template .grid {
   display: flex;
