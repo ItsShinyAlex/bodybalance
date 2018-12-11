@@ -1497,12 +1497,16 @@ a#scroll-to-top {
   background: url(../img/radio/bannerRADIO.jpg) center no-repeat;
 }
 #shiny-template #beneficios-radio {
-  padding: 180px 120px 0;
+  padding: 180px 0 120px;
 }
 #shiny-template #beneficios-radio li {
   padding-bottom: 0px;
 }
+#shiny-template #beneficios-radio .col-txt {
+  padding-top: 20px;
+}
 #shiny-template #ademas {
+  background-color: #68aeaa;
   padding-top: 80px;
 }
 #shiny-template #ademas h2 {
@@ -1520,6 +1524,91 @@ a#scroll-to-top {
   line-height: 111%;
   margin-top: 40px;
   font-weight: 600;
+}
+#shiny-template #cuidados,
+#shiny-template #cuantas-sesiones {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background-color: #eee5bd !important;
+}
+#shiny-template #cuidados h2,
+#shiny-template #cuantas-sesiones h2,
+#shiny-template #cuidados p,
+#shiny-template #cuantas-sesiones p {
+  color: #508b86;
+}
+#shiny-template #cuidados p,
+#shiny-template #cuantas-sesiones p {
+  text-align: justify;
+  padding-right: 35px;
+}
+#shiny-template #cuidados .col-txt,
+#shiny-template #cuantas-sesiones .col-txt {
+  background-color: #eee5bd;
+  width: 49%;
+  padding-top: 20px;
+}
+#shiny-template #cuidados .col-txt img,
+#shiny-template #cuantas-sesiones .col-txt img {
+  margin-bottom: 40px;
+}
+#shiny-template #cuidados {
+  padding-bottom: 0px;
+}
+#shiny-template #cuidados ul {
+  padding-top: 0;
+}
+#shiny-template #cuidados ul li {
+  padding-bottom: 0;
+}
+#shiny-template #cuidados ul li p::before {
+  color: #68aeaa;
+}
+#shiny-template #secundarios {
+  padding: 110px 0;
+  background-color: #3e7068;
+}
+#shiny-template #secundarios h2,
+#shiny-template #secundarios p {
+  color: white;
+}
+#shiny-template #secundarios h2 {
+  width: 30%;
+  text-align: center;
+  align-self: center;
+  border-bottom: solid #eee5bd 6px;
+  padding-bottom: 9px;
+}
+#shiny-template #secundarios p {
+  margin-top: 45px;
+}
+#shiny-template .dark-back {
+  background-color: #3e7068 !important;
+}
+#shiny-template .dark-back p,
+#shiny-template .dark-back h2 {
+  color: white;
+}
+#shiny-template #contra {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #508b86;
+}
+#shiny-template #contra img {
+  max-width: 108%;
+}
+#shiny-template #contra h2,
+#shiny-template #contra p {
+  color: white;
+}
+#shiny-template #contra .col-txt {
+  padding-top: 0;
+}
+#shiny-template #contra .col-txt li {
+  padding-bottom: 0;
+}
+#shiny-template #contra .col-txt li p::before {
+  color: #d6c780;
 }
 #shiny-template .grid {
   display: flex;

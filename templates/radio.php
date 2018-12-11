@@ -178,7 +178,7 @@ echo "<section id ='shiny-template'>";
                 <p>Con el paso del tiempo, se favorece una regeneración celular profunda, mejorando la tensión y aspecto de la piel. </p>
             </div>
            
-            <div class="col" id="food">
+            <div class="col" id="">
                
                <div class="fcentered">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/BottomChange.jpg" alt="cambio en gluteos">
@@ -200,7 +200,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section r-list" id="cuidados">
     <div class="container">
         <div class="flex ">
-            <div class="col" id="pills">
+            <div class="col" id="">
                
                <div class="fcentered">
                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/Drink.jpg" alt="mujer tomando agua con limón">
@@ -243,10 +243,11 @@ echo "<section id ='shiny-template'>";
 <section class="template-section" id="secundarios">
     <div class="container center">
 
-    
+            <div class="fcentered">
                 <h2 class="saqua">Efectos Secundarios
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
+            </div>
+                
                   <p>Eritema (ligero enrojecimiento de la zona tratada, éste desaparece en minutos o en pocas horas.) También puede presentarse, edema, piel frágil, hematoma y dolor.   </p>
         
 
@@ -256,7 +257,7 @@ echo "<section id ='shiny-template'>";
 <section class="template-section r-list" id="contra">
     <div class="container">
         <div class="flex ">
-            <div class="col" id="pills">
+            <div class="col" id="">
                
                <div class="fcentered">
                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/cicatriz.jpg" alt="mujer con cicatriz">
@@ -269,7 +270,7 @@ echo "<section id ='shiny-template'>";
                 <h2 class="saqua">Contraindicaciones de
                 este tratamiento:
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/b-line.png" alt="-----">
                 <ul class="bluedots">
                     <li>
                         <p>Embarazo y lactancia.</p>
@@ -328,7 +329,7 @@ echo "<section id ='shiny-template'>";
 </section>
 
 
-<section class="template-section pad-top-section saqua-back" id="howtopay">
+<section class="template-section pad-top-section dark-back" id="howtopay">
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">

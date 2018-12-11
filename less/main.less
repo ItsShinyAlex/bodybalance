@@ -1835,15 +1835,21 @@ a#scroll-to-top{
     }
     
     #beneficios-radio{
-        padding: 180px 120px 0;
+        padding: 180px 0 120px;
         
         li{
             padding-bottom: 0px;;
+        }
+        
+        .col-txt{
+            padding-top: 20px;
         }
     }
     
     
     #ademas{
+        
+        background-color: @aqua;
         padding-top: 80px;
         h2{
             font-size: 54px;
@@ -1865,20 +1871,108 @@ a#scroll-to-top{
         }
     }
     
-    #cuantas-sesiones{
+    #cuidados, #cuantas-sesiones{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-color: @sand !important;
+        h2, p{
+            color: @Saqua;
+      
+        }
+        
+        p{
+
+            text-align: justify;
+            padding-right: 35px;
+        }
+        
+        .col-txt{
+            background-color: @sand;
+            width:49%;
+            padding-top: 20px;
+            
+            
+            img{
+                margin-bottom: 40px;
+            }
+            
+        }
         
     }
     
-    #cuidados{
+     #cuidados{
         
+        padding-bottom: 0px;
+        
+        ul{
+            padding-top: 0;
+            
+            li{
+                padding-bottom: 0;
+                
+                p::before{
+                    color: @aqua;
+                }
+                
+            }
+        }
     }
     
     #secundarios{
+        padding: 110px 0;
         
+        background-color: @dark;
+        h2, p{
+            color: white;
+        }
+        
+        h2{
+            width: 30%;
+            text-align: center;
+            align-self: center;
+            border-bottom: solid @sand 6px;
+            padding-bottom: 9px;
+        }
+        
+        p{
+            margin-top: 45px;
+        }
+    }
+    
+    .dark-back{
+        background-color: @dark !important;
+        
+        p,h2{
+            color: white;
+        }
     }
     
     #contra{
+        padding-top: 80px;
+        padding-bottom: 60px;
+        background-color: @Saqua;
         
+        img{
+            max-width: 108%;
+        }
+        
+        h2, p{
+            color: white;
+        }
+        
+        .col-txt{
+            padding-top: 0;
+            
+            li{
+                padding-bottom: 0;
+                
+                  p::before{
+                    color: @brown;
+                }
+                
+            }
+            
+        }
     }
     
     
