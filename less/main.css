@@ -3548,7 +3548,18 @@ a#scroll-to-top {
     display: none !important;
   }
   #shiny-template #radiofrecuencia {
-    background: url(../img/radio/bannerRADIO.jpg) center no-repeat;
+    background: url(../img/radio/rbannerRADIO.jpg) center no-repeat;
+  }
+  #shiny-template #radiofrecuencia h2 {
+    position: relative;
+    top: 15px;
+    padding-bottom: 0;
+    text-shadow: 0px 0px 12px white;
+  }
+  #shiny-template #radiofrecuencia .w-box p {
+    padding-top: 20px !important;
+    text-align: justify;
+    text-align-last: center;
   }
   #shiny-template #ventajas-crio,
   #shiny-template #beneficios-radio {
@@ -3562,25 +3573,25 @@ a#scroll-to-top {
   #shiny-template #beneficios-radio .col-txt {
     padding-top: 20px;
   }
-  #shiny-template #ademas {
-    background-color: #68aeaa;
-    padding-top: 80px;
+  #shiny-template #beneficios-radio {
+    padding-top: 20px;
   }
-  #shiny-template #ademas h2 {
-    font-size: 54px;
-    position: relative;
-    right: 5px;
-    margin-bottom: 40px;
+  #shiny-template #beneficios-radio .flex {
+    flex-direction: column;
+  }
+  #shiny-template #beneficios-radio .flex h2 {
+    text-align: center;
+  }
+  #shiny-template #beneficios-radio .flex li {
+    text-align: center;
   }
   #shiny-template #ademas .col {
-    height: 500px;
+    width: 100%;
+    height: 400px;
   }
-  #shiny-template #ademas p {
-    padding: 0 10px;
-    font-size: 32px;
-    line-height: 111%;
-    margin-top: 40px;
-    font-weight: 600;
+  #shiny-template #ademas .col p {
+    font-size: 26px;
+    margin-top: 15px;
   }
   #shiny-template #cuidados,
   #shiny-template #cuantas-sesiones {
@@ -3681,28 +3692,33 @@ a#scroll-to-top {
     color: #d6c780;
   }
   #shiny-template #cavitacion {
-    background: url(../img/cavita/banner.jpg) center no-repeat;
-    padding-top: 260px;
-  }
-  #shiny-template #cavitacion .container {
-    position: relative;
-    top: 140px;
+    background: url(../img/cavita/rbanner.jpg) center no-repeat;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 180px;
   }
   #shiny-template #cavitacion .toright {
+    text-align: center;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  #shiny-template #cavitacion .toright h2 {
-    padding-right: 5%;
+  #shiny-template #cavitacion h2 {
+    position: relative;
+    top: 20px;
+    padding-bottom: 0;
+    font-size: 58px !important;
   }
   #shiny-template #cavitacion .w-box {
-    width: 69% !important;
+    width: 89% !important;
   }
   #shiny-template #cavitacion .w-box p {
+    padding-top: 20px !important;
     padding: 20px 35px;
     text-align: justify;
-    text-align-last: left;
+    text-align-last: center;
   }
   #shiny-template #info p {
     padding: 70px 0;
@@ -3740,28 +3756,36 @@ a#scroll-to-top {
     text-align: justify;
     text-align-last: center;
   }
+  #shiny-template .r-list,
   #shiny-template #ventajas-crio {
     padding-top: 50px;
   }
+  #shiny-template .r-list .col,
   #shiny-template #ventajas-crio .col {
     width: 100%;
   }
+  #shiny-template .r-list .col p,
   #shiny-template #ventajas-crio .col p {
     margin-bottom: 0;
     font-size: 21px;
   }
+  #shiny-template .r-list .col p::before,
   #shiny-template #ventajas-crio .col p::before {
     font-size: 24px;
   }
+  #shiny-template .r-list .col ul,
   #shiny-template #ventajas-crio .col ul {
     padding-top: 30px;
   }
+  #shiny-template .r-list .col img,
   #shiny-template #ventajas-crio .col img {
     width: 100%;
   }
+  #shiny-template .r-list .flex,
   #shiny-template #ventajas-crio .flex {
     flex-direction: column-reverse;
   }
+  #shiny-template .r-list .col-txt,
   #shiny-template #ventajas-crio .col-txt {
     padding-top: 3.5%;
   }

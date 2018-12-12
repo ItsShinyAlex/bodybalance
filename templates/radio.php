@@ -84,7 +84,7 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section columns3" id="ademas">
+<section class="template-section columns3 mov-hide" id="ademas">
     <div class="container">
        
         <div class="center">
@@ -160,6 +160,101 @@ echo "<section id ='shiny-template'>";
         </div>
     </div>
 </section>
+
+
+
+<section class="template-section columns3 desktop-hide" id="ademas">
+    <div class="container">
+       
+        <div class="center">
+           <h2 class="uptown white">
+               Además...
+           </h2>
+       </div>
+       
+        <div class="flex">
+           <div class="fcentered">
+                   
+                    <div class="col center">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/puerco.png" alt="">
+                        <div class="fix-h">
+                            <div class="txt">
+
+                               
+                                <p class="white">Es aplicable en todo el cuerpo </p>
+
+
+                            </div>
+                        </div>
+                        
+                       
+                  </div>
+            </div>
+        </div>    
+
+        <div class="flex">
+           <div class="fcentered">
+
+                    <div class="col center">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/sosten.png" alt="">
+                        
+                          <div class="fix-h">
+                        
+                            <div class="txt">
+                                
+                                <p class="white">Es reafirmante y revitalizante </p>
+
+
+                            </div>
+                        
+                         </div>
+                           <a href="https://bodybalance.mx/depilaciones-laser-diodo-lightsheer-cdmx/" class="btn-brown hide">¡Saber más!</a>
+                           
+                    </div>
+                    
+                    
+        </div>
+        </div>  
+        
+        <div class="flex">
+           <div class="fcentered">
+
+
+                    <div class="col center">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio/gluteos.png" alt="">
+                        
+                        
+                        <div class="fix-h">
+                            
+                            <div class="txt">
+                           
+                                <p class="white">
+                                    Levanta y da forma a la zona
+                               </p>
+                                
+                            
+                            </div>
+                            
+                        
+                            
+                        </div>
+                        
+                        <a href="https://bodybalance.mx/tratamientos-faciales-cdmx/" class="btn-brown hide">¡Saber más!</a>
+                        
+                        
+                    </div>
+                    
+                    
+                    
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
 
 
 <section class="template-section llist" id="cuantas-sesiones">
