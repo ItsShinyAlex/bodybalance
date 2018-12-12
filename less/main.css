@@ -1497,6 +1497,10 @@ a#scroll-to-top {
 #shiny-template #radiofrecuencia {
   background: url(../img/radio/bannerRADIO.jpg) center no-repeat;
 }
+#shiny-template #radiofrecuencia h2 {
+  padding-top: 75px;
+  text-shadow: 0px 0px 12px white;
+}
 #shiny-template #ventajas-crio,
 #shiny-template #beneficios-radio {
   padding: 180px 0 120px;
@@ -3551,6 +3555,7 @@ a#scroll-to-top {
     background: url(../img/radio/rbannerRADIO.jpg) center no-repeat;
   }
   #shiny-template #radiofrecuencia h2 {
+    padding-top: 0;
     position: relative;
     top: 15px;
     padding-bottom: 0;

@@ -36,7 +36,7 @@ echo "<section id ='shiny-template'>";
         
         <div class="fcentered">
              <div class="desktop-hide relative-top">
-                <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
+                <a href="#ventajas-crio" class="btn-brown">¡ME INTERESA!</a>
             </div>
         </div>
         
