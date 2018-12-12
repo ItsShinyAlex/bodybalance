@@ -84,7 +84,8 @@ a#scroll-to-top {
 #shiny-template .wf-container-main {
   display: block !important;
 }
-#shiny-template .desktop-hide {
+#shiny-template .desktop-hide,
+#shiny-template .des-hide {
   display: none;
 }
 #shiny-template .uptown {
@@ -1496,12 +1497,15 @@ a#scroll-to-top {
 #shiny-template #radiofrecuencia {
   background: url(../img/radio/bannerRADIO.jpg) center no-repeat;
 }
+#shiny-template #ventajas-crio,
 #shiny-template #beneficios-radio {
   padding: 180px 0 120px;
 }
+#shiny-template #ventajas-crio li,
 #shiny-template #beneficios-radio li {
   padding-bottom: 0px;
 }
+#shiny-template #ventajas-crio .col-txt,
 #shiny-template #beneficios-radio .col-txt {
   padding-top: 20px;
 }
@@ -1589,26 +1593,141 @@ a#scroll-to-top {
 #shiny-template .dark-back h2 {
   color: white;
 }
-#shiny-template #contra {
+#shiny-template #contra,
+#shiny-template #contra2 {
   padding-top: 80px;
   padding-bottom: 60px;
   background-color: #508b86;
 }
-#shiny-template #contra img {
+#shiny-template #contra img,
+#shiny-template #contra2 img {
   max-width: 108%;
 }
 #shiny-template #contra h2,
-#shiny-template #contra p {
+#shiny-template #contra2 h2,
+#shiny-template #contra p,
+#shiny-template #contra2 p {
   color: white;
 }
-#shiny-template #contra .col-txt {
+#shiny-template #contra .col-txt,
+#shiny-template #contra2 .col-txt {
   padding-top: 0;
 }
-#shiny-template #contra .col-txt li {
+#shiny-template #contra .col-txt li,
+#shiny-template #contra2 .col-txt li {
   padding-bottom: 0;
 }
-#shiny-template #contra .col-txt li p::before {
+#shiny-template #contra .col-txt li p::before,
+#shiny-template #contra2 .col-txt li p::before {
   color: #d6c780;
+}
+#shiny-template #cavitacion {
+  background: url(../img/cavita/banner.jpg) center no-repeat;
+  padding-top: 260px;
+}
+#shiny-template #cavitacion .container {
+  position: relative;
+  top: 140px;
+}
+#shiny-template #cavitacion .toright {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+#shiny-template #cavitacion .toright h2 {
+  padding-right: 5%;
+}
+#shiny-template #cavitacion .w-box {
+  width: 69% !important;
+}
+#shiny-template #cavitacion .w-box p {
+  padding: 20px 35px;
+  text-align: justify;
+  text-align-last: left;
+}
+#shiny-template #info p {
+  padding: 120px 15%;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+#shiny-template #criolipo {
+  background: url(../img/crio/banner.jpg) center no-repeat;
+  padding-bottom: 180px;
+}
+#shiny-template #criolipo h2 {
+  position: relative;
+  left: 3%;
+}
+#shiny-template #criolipo .container {
+  position: relative;
+  top: 80px;
+}
+#shiny-template #criolipo .w-box {
+  width: 78% !important;
+}
+#shiny-template #criolipo .w-box p {
+  padding: 20px 35px;
+  text-align: justify;
+  text-align-last: left;
+}
+#shiny-template #ventajas-crio {
+  padding-top: 100px;
+}
+#shiny-template #ventajas-crio .col-txt {
+  padding-top: 3.5%;
+}
+#shiny-template .no-top p {
+  position: relative;
+  bottom: 70px;
+  padding-top: 0 !important;
+  padding-bottom: 30px !important;
+}
+#shiny-template #aplicaen {
+  padding-bottom: 90px;
+}
+#shiny-template #aplicaen h2 {
+  font-size: 60px !important;
+}
+#shiny-template #aplicaen p {
+  font-family: 'Uptown Market';
+  font-size: 32px;
+  line-height: 120%;
+}
+#shiny-template #aplicaen .flex {
+  margin-top: 40px;
+  flex-direction: row ;
+}
+#shiny-template #aplicaen .flex .fcentered {
+  width: 100%;
+}
+#shiny-template #aplicaen .col {
+  height: 350px;
+  margin: 0;
+  width: 20% ;
+}
+#shiny-template #aplicaen .col img {
+  width: 95%;
+}
+#shiny-template #aplicaen .col .txt {
+  padding: 20px;
+}
+#shiny-template .sand-back {
+  background-color: #eee5bd !important;
+}
+#shiny-template .sand-back p,
+#shiny-template .sand-back h2 {
+  color: #508b86;
+}
+#shiny-template #contra2 .col-txt {
+  padding-top: 5%;
+}
+#shiny-template #contra2 p {
+  padding-top: 30px;
+}
+#shiny-template #contra2 .flex .col img {
+  width: 90%;
 }
 #shiny-template .grid {
   display: flex;
@@ -2154,7 +2273,8 @@ a#scroll-to-top {
 }
 @media screen and (min-width: 651px) {
   #shiny-template .desktop-hide,
-  #shiny-template .des-hid {
+  #shiny-template .des-hid,
+  #shiny-template .des-hide {
     display: none;
   }
 }
@@ -2243,7 +2363,8 @@ a#scroll-to-top {
   #shiny-template #tumeta-online #call-icons .col img {
     width: 75%;
   }
-  #shiny-template .desktop-hide {
+  #shiny-template .desktop-hide,
+  #shiny-template .des-hid {
     display: flex;
   }
   #shiny-template #peel {
@@ -2676,7 +2797,8 @@ a#scroll-to-top {
     position: relative !important;
     right: 50%;
   }
-  #shiny-template #consultas .desktop-hide {
+  #shiny-template #consultas .desktop-hide,
+  #shiny-template #consultas .des-hid {
     text-align: center !important;
     display: flex !important;
     justify-content: center !important;
@@ -3257,15 +3379,18 @@ a#scroll-to-top {
   #shiny-template #atendido .col img {
     width: 125%;
   }
+  #shiny-template .centered-banner,
   #shiny-template #office {
     background: url(../img/whoweare/res-banner.jpg) center no-repeat;
     padding-top: 100px;
     min-height: 500px;
     background-size: cover;
   }
+  #shiny-template .centered-banner .uptown,
   #shiny-template #office .uptown {
     font-size: 48px !important;
   }
+  #shiny-template .centered-banner h2,
   #shiny-template #office h2 {
     z-index: 999;
     position: relative;
@@ -3274,6 +3399,7 @@ a#scroll-to-top {
     font-size: 30px;
     line-height: 150%;
   }
+  #shiny-template .centered-banner .container,
   #shiny-template #office .container {
     width: 100%;
     padding: 0;
@@ -3282,10 +3408,12 @@ a#scroll-to-top {
     align-items: center;
     flex-direction: column;
   }
+  #shiny-template .centered-banner .w-box,
   #shiny-template #office .w-box {
     margin-bottom: 40px;
     width: 85% !important;
   }
+  #shiny-template .centered-banner .w-box p,
   #shiny-template #office .w-box p {
     padding-top: 80px !important;
     font-size: 20px;
@@ -3415,6 +3543,283 @@ a#scroll-to-top {
   }
   #shiny-template #valores ul li p::before {
     font-size: 32px;
+  }
+  #shiny-template .hide {
+    display: none !important;
+  }
+  #shiny-template #radiofrecuencia {
+    background: url(../img/radio/bannerRADIO.jpg) center no-repeat;
+  }
+  #shiny-template #ventajas-crio,
+  #shiny-template #beneficios-radio {
+    padding: 180px 0 120px;
+  }
+  #shiny-template #ventajas-crio li,
+  #shiny-template #beneficios-radio li {
+    padding-bottom: 0px;
+  }
+  #shiny-template #ventajas-crio .col-txt,
+  #shiny-template #beneficios-radio .col-txt {
+    padding-top: 20px;
+  }
+  #shiny-template #ademas {
+    background-color: #68aeaa;
+    padding-top: 80px;
+  }
+  #shiny-template #ademas h2 {
+    font-size: 54px;
+    position: relative;
+    right: 5px;
+    margin-bottom: 40px;
+  }
+  #shiny-template #ademas .col {
+    height: 500px;
+  }
+  #shiny-template #ademas p {
+    padding: 0 10px;
+    font-size: 32px;
+    line-height: 111%;
+    margin-top: 40px;
+    font-weight: 600;
+  }
+  #shiny-template #cuidados,
+  #shiny-template #cuantas-sesiones {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  #shiny-template #cuidados .flex .col,
+  #shiny-template #cuantas-sesiones .flex .col {
+    width: 100%;
+  }
+  #shiny-template #cuidados .fcentered img,
+  #shiny-template #cuantas-sesiones .fcentered img {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  #shiny-template #cuidados p,
+  #shiny-template #cuantas-sesiones p {
+    text-align: justify;
+    padding-right: 0px;
+  }
+  #shiny-template #cuidados .col-txt p,
+  #shiny-template #cuantas-sesiones .col-txt p {
+    font-size: 22px;
+  }
+  #shiny-template #cuidados .col-txt img,
+  #shiny-template #cuantas-sesiones .col-txt img {
+    margin-bottom: 27px;
+    width: 100%;
+  }
+  #shiny-template #cuidados {
+    padding-bottom: 0px;
+  }
+  #shiny-template #cuidados ul {
+    padding-top: 0;
+  }
+  #shiny-template #cuidados ul li {
+    padding-bottom: 0;
+  }
+  #shiny-template #cuidados ul li p::before {
+    color: #68aeaa;
+  }
+  #shiny-template #secundarios {
+    padding: 50px 0;
+  }
+  #shiny-template #secundarios h2 {
+    width: 98%;
+  }
+  #shiny-template #secundarios p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #shiny-template .dark-back {
+    background-color: #3e7068 !important;
+  }
+  #shiny-template .dark-back p,
+  #shiny-template .dark-back h2 {
+    color: white;
+  }
+  #shiny-template #contra,
+  #shiny-template #contra2 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #508b86;
+  }
+  #shiny-template #contra h2,
+  #shiny-template #contra2 h2 {
+    font-size: 30px;
+    line-height: 110%;
+  }
+  #shiny-template #contra .flex .col,
+  #shiny-template #contra2 .flex .col {
+    width: 100%;
+  }
+  #shiny-template #contra img,
+  #shiny-template #contra2 img {
+    max-width: 108%;
+  }
+  #shiny-template #contra .col-txt,
+  #shiny-template #contra2 .col-txt {
+    padding-top: 0;
+  }
+  #shiny-template #contra .col-txt p,
+  #shiny-template #contra2 .col-txt p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  #shiny-template #contra .col-txt img,
+  #shiny-template #contra2 .col-txt img {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  #shiny-template #contra .col-txt li,
+  #shiny-template #contra2 .col-txt li {
+    padding-bottom: 0;
+  }
+  #shiny-template #contra .col-txt li p::before,
+  #shiny-template #contra2 .col-txt li p::before {
+    color: #d6c780;
+  }
+  #shiny-template #cavitacion {
+    background: url(../img/cavita/banner.jpg) center no-repeat;
+    padding-top: 260px;
+  }
+  #shiny-template #cavitacion .container {
+    position: relative;
+    top: 140px;
+  }
+  #shiny-template #cavitacion .toright {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  #shiny-template #cavitacion .toright h2 {
+    padding-right: 5%;
+  }
+  #shiny-template #cavitacion .w-box {
+    width: 69% !important;
+  }
+  #shiny-template #cavitacion .w-box p {
+    padding: 20px 35px;
+    text-align: justify;
+    text-align-last: left;
+  }
+  #shiny-template #info p {
+    padding: 70px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 0;
+  }
+  #shiny-template #criolipo {
+    background: url(../img/crio/rbanner.jpg) center no-repeat;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 180px;
+  }
+  #shiny-template #criolipo .toright {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #shiny-template #criolipo h2 {
+    position: relative;
+    top: 20px;
+    padding-bottom: 0;
+    font-size: 54px !important;
+  }
+  #shiny-template #criolipo .w-box {
+    width: 89% !important;
+  }
+  #shiny-template #criolipo .w-box p {
+    padding-top: 20px !important;
+    padding: 20px 35px;
+    text-align: justify;
+    text-align-last: center;
+  }
+  #shiny-template #ventajas-crio {
+    padding-top: 50px;
+  }
+  #shiny-template #ventajas-crio .col {
+    width: 100%;
+  }
+  #shiny-template #ventajas-crio .col p {
+    margin-bottom: 0;
+    font-size: 21px;
+  }
+  #shiny-template #ventajas-crio .col p::before {
+    font-size: 24px;
+  }
+  #shiny-template #ventajas-crio .col ul {
+    padding-top: 30px;
+  }
+  #shiny-template #ventajas-crio .col img {
+    width: 100%;
+  }
+  #shiny-template #ventajas-crio .flex {
+    flex-direction: column-reverse;
+  }
+  #shiny-template #ventajas-crio .col-txt {
+    padding-top: 3.5%;
+  }
+  #shiny-template .no-top p {
+    position: relative;
+    bottom: 70px;
+    padding-top: 0 !important;
+    padding-bottom: 30px !important;
+  }
+  #shiny-template #aplicaen {
+    padding: 20px 0 60px 0;
+  }
+  #shiny-template #aplicaen .container {
+    padding: 0 20px;
+  }
+  #shiny-template #aplicaen h2 {
+    font-size: 50px !important;
+  }
+  #shiny-template #aplicaen p {
+    font-size: 28px;
+    line-height: 100%;
+  }
+  #shiny-template #aplicaen .flex {
+    margin-top: 40px;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+  #shiny-template #aplicaen .flex .fcentered {
+    width: 100%;
+  }
+  #shiny-template #aplicaen .col {
+    padding: 2.5px;
+    height: 225px;
+    margin: 0;
+    width: 50%;
+  }
+  #shiny-template #aplicaen .col img {
+    width: 95%;
+  }
+  #shiny-template #aplicaen .col .txt {
+    padding: 12px 0;
+  }
+  #shiny-template .sand-back {
+    background-color: #eee5bd !important;
+  }
+  #shiny-template .sand-back p,
+  #shiny-template .sand-back h2 {
+    color: #508b86;
+  }
+  #shiny-template #contra2 .col-txt {
+    padding-top: 5%;
+  }
+  #shiny-template #contra2 p {
+    padding-top: 30px;
+  }
+  #shiny-template #contra2 .flex .col img {
+    width: 90%;
   }
   #shiny-template .payschedule {
     background-color: #f8f5e9;

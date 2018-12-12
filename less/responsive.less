@@ -1,6 +1,6 @@
 // main: main.less
 @media screen and (min-width:651px) {
-    .desktop-hide, .des-hid{
+    .desktop-hide, .des-hid, .des-hide{
         display: none;
     }
     
@@ -112,7 +112,7 @@
 
     }
 
-    .desktop-hide {
+    .desktop-hide, .des-hid {
         display: flex;
     }
 
@@ -452,6 +452,7 @@
     #t-depilaciones,
     #modelamiento,
     #office,
+    //.centered-banner,
     #peel,
     #tumeta,
     #tumeta-online,
@@ -650,7 +651,7 @@
             
         }
         
-        .desktop-hide{
+        .desktop-hide, .des-hid{
               text-align: center !important; //THE
             display: flex !important; //SUPER
             justify-content: center !important; //RESPONSIVE
@@ -1436,7 +1437,7 @@
         }
     }
     
-    #office{
+    .centered-banner, #office{
         
         background: url(../img/whoweare/res-banner.jpg) center no-repeat;
         
@@ -1631,7 +1632,420 @@
             }
 
         }
-    } //////////////// TRATAMIENTO //////////////////////////////////////------------**************[][][][][]
+    }
+    
+    
+      ///////////////////////// RADIOFRECUENCIA -----------------------------////////////////////////////////////
+    
+    
+    .hide{
+        display: none !important;
+    }
+    
+    #radiofrecuencia{
+        background: url(../img/radio/bannerRADIO.jpg) center no-repeat;
+    }
+    
+    #ventajas-crio, #beneficios-radio{
+        padding: 180px 0 120px;
+        
+        li{
+            padding-bottom: 0px;;
+        }
+        
+        .col-txt{
+            padding-top: 20px;
+        }
+    }
+    
+    
+    #ademas{
+        
+        background-color: @aqua;
+        padding-top: 80px;
+        h2{
+            font-size: 54px;
+            position: relative;
+            right: 5px;
+            margin-bottom: 40px;
+        }
+        
+        .col{
+            height: 500px;
+        }
+        
+        p{
+            padding: 0 10px;
+            font-size: 32px;
+            line-height: 111%;
+            margin-top: 40px;
+            font-weight: 600;
+        }
+    }
+    
+    #cuidados, #cuantas-sesiones{
+        
+        .flex{
+            //flex-direction: column-reverse;
+            .col{
+                width: 100%;
+            }
+        }
+        
+        .fcentered{
+            img{
+                width: 100%;
+                padding-bottom: 0;
+            }
+        }
+        
+        padding-top: 40px;
+        padding-bottom: 0px;
+
+        
+        p{
+
+            text-align: justify;
+            padding-right: 0px;
+        }
+        
+        .col-txt{
+            p{
+                font-size: 22px;
+            }
+            
+            
+            img{
+                margin-bottom: 27px;
+                width: 100%;
+            }
+            
+        }
+        
+    }
+    
+     #cuidados{
+        
+        padding-bottom: 0px;
+        
+        ul{
+            padding-top: 0;
+            
+            li{
+                padding-bottom: 0;
+                
+                p::before{
+                    color: @aqua;
+                }
+                
+            }
+        }
+    }
+    
+    #secundarios{
+        padding: 50px 0;
+        
+
+        
+        h2{
+            width: 98%;
+
+        }
+        
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        
+    }
+    
+    .dark-back{
+        background-color: @dark !important;
+        
+        p,h2{
+            color: white;
+        }
+    }
+    
+    #contra, #contra2{
+        
+        h2{
+            font-size: 30px;
+            line-height: 110%;
+        }
+        
+        .flex{
+            .col{
+                width: 100%;
+                
+            }
+        }
+        
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background-color: @Saqua;
+        
+        img{
+            max-width: 108%;
+        }
+        
+        
+        
+        .col-txt{
+            
+            p{
+                font-size: 20px;
+                padding-top: 10px;
+            }
+            
+            img{
+                width: 100% !important;
+                margin-top: 20px;
+            }
+            
+            padding-top: 0;
+            
+            li{
+                padding-bottom: 0;
+                
+                  p::before{
+                    color: @brown;
+                }
+                
+            }
+            
+        }
+    }
+    
+    
+    //////////////////////////////////////////////// CAVITACIÓN /////////////////////////////////////////////////
+    
+    #cavitacion{
+        background: url(../img/cavita/banner.jpg) center no-repeat;
+        padding-top: 260px;
+        
+        .container{
+            position: relative;
+            top: 140px;
+        }
+        
+        .toright{
+            
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            
+            h2{
+                //width: 100%;
+                padding-right: 5%;
+            }
+            
+        }
+        
+        .right{
+            //text-align: right;
+            //position: relative;
+            
+        }
+        
+        .w-box{
+            width: 69% !important;
+            //position: relative;
+            //left: 10%;
+            
+            
+            p{
+                padding: 20px 35px;
+                text-align: justify;
+                text-align-last: left;
+            }
+        }
+    }
+    
+    #info{
+        p{
+            padding: 70px 0;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 120%;
+            margin-bottom: 0;
+        }
+    }
+    
+    
+    ///////////////////////////////////// CRIOLIPOLISIS ////////////////////////////////// ----------------------------------
+    
+    #criolipo{
+        background: url(../img/crio/rbanner.jpg) center no-repeat;
+        
+        
+        .toright{
+            text-align: center; //THE
+            display: flex; //SUPER
+            justify-content: center; //RESPONSIVE
+            align-items: center; //TOOL
+            flex-direction: column; // OMEGA
+        }
+
+        
+        h2{
+            position: relative;
+            top: 20px;
+            padding-bottom: 0;
+            font-size: 54px !important;
+            
+        }
+        padding: 0;
+    max-width: 100%;
+        
+        width: 100%;
+        
+
+        
+        .w-box{
+            
+            width: 89% !important;
+            
+            p{
+                padding-top: 20px !important;
+                padding: 20px 35px;
+                text-align: justify;
+                text-align-last: center;
+            }
+        }
+        
+        
+        padding-bottom: 180px;
+    }
+    
+    
+    #ventajas-crio{
+        
+        .col{
+            width: 100%;
+            p{
+                margin-bottom: 0;
+                font-size: 21px;
+                
+                &::before{
+                    font-size: 24px;
+                }
+            }
+            ul{
+                padding-top: 30px;
+            }
+            
+            img{
+                width: 100%;
+            }
+        }
+        
+        .flex{
+            //flex-wrap: wrap-reverse;
+            flex-direction: column-reverse;
+        }
+        
+        padding-top: 50px;
+        .col-txt{
+            padding-top: 3.5%;
+        }
+    }
+    
+    .no-top{
+        p{ 
+                position: relative;
+                bottom: 70px;
+                padding-top: 0 !important;
+                padding-bottom: 30px !important;
+        }
+    }
+    
+    #aplicaen{
+        padding: 20px 0 60px 0;
+        
+        .container{
+            padding: 0 20px;
+        }
+        
+        
+        
+        h2{
+            font-size: 50px !important;
+        }
+        
+        p{
+            font-size: 28px;
+            line-height: 100%;
+            
+        }
+        
+        .flex{
+            margin-top: 40px;
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            flex-flow: column;
+            
+            .fcentered{
+                width: 100%;
+            }
+        }
+        
+        .col{
+            padding: 2.5px;
+            height: 225px;
+            
+            margin: 0;
+            width: 50%;
+            img{
+                width: 95%;
+            }
+            
+            .txt{
+                padding: 12px 0;
+            }
+        }
+        
+    }
+    
+    .sand-back{
+        background-color: @sand !important;
+        
+        p, h2{
+            color: @Saqua;
+        }
+    }
+    
+    #contra2{
+        
+        .col-txt{
+            padding-top: 5%;
+        }
+        
+        p{
+            padding-top: 30px;
+        }
+        
+        .flex{
+            .col{
+                img{
+                    width: 90%;
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //////////////// TRATAMIENTO //////////////////////////////////////------------**************[][][][][]
     .payschedule {
         // min-height: 600px;
         .container {
