@@ -68,6 +68,7 @@ a#scroll-to-top {
 }
 #shiny-template {
   width: 100% !important;
+  /**************RETO*******/
 }
 #shiny-template .wf-container-main {
   background-color: #f8f5e9 !important;
@@ -2275,6 +2276,113 @@ a#scroll-to-top {
   font-size: 1em;
   padding: 15px;
 }
+#shiny-template .btn-amarillo {
+  background-color: #efd445;
+  padding: 20px 36px;
+  border-radius: 8px;
+  color: #bc2a6d;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none !important;
+}
+#shiny-template .btn-amarillo:hover {
+  background-color: #68aeaa;
+  color: lightgoldenrodyellow;
+}
+#shiny-template #reto {
+  background: url(../img/reto/banner.png) center no-repeat;
+  font-family: 'Alte Haas Grotesk';
+  text-align: center;
+}
+#shiny-template #reto h2 {
+  font-weight: bold;
+  text-shadow: 0px 0px 12px white;
+}
+#shiny-template #reto p {
+  margin-top: 10px;
+}
+#shiny-template #reto .transformate {
+  color: #bc2a6d;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+#shiny-template #beneficios {
+  background: url(../img/reto/beneficios.png) center no-repeat;
+  font-family: 'Alte Haas Grotesk';
+}
+#shiny-template #beneficios h2 {
+  font-weight: bold;
+  padding-top: 75px;
+  text-shadow: 0px 0px 12px white;
+  text-align: center;
+}
+#shiny-template #beneficios img {
+  position: relative;
+  float: right;
+  right: 130px;
+}
+#shiny-template #beneficios ul {
+  padding-top: 80px;
+  font-size: 24px;
+  list-style: initial;
+  color: #bc2a6d;
+}
+#shiny-template #beneficios ul span {
+  color: #508b86;
+}
+#shiny-template #beneficios ul li {
+  margin-top: 30px;
+}
+#shiny-template #momento {
+  background: url(../img/reto/momento.png) center no-repeat;
+  font-family: 'Alte Haas Grotesk';
+}
+#shiny-template #momento h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 12px white;
+}
+#shiny-template #momento p {
+  max-width: 400px;
+}
+#shiny-template #momento p strong {
+  color: #bc2b6d;
+}
+#shiny-template #momento p strong.quince {
+  color: #508b86;
+}
+#shiny-template #momento p.dejes {
+  text-decoration: underline;
+  color: #bc2b6d;
+  font-weight: bold;
+  line-height: 1px;
+  margin-top: 40px;
+}
+#shiny-template #momento img {
+  position: relative;
+  top: 15px;
+}
+#shiny-template #sesiones {
+  background: url(../img/reto/sesiones.png) center no-repeat;
+  font-family: 'Alte Haas Grotesk';
+}
+#shiny-template #sesiones h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#shiny-template #sesiones h2,
+#shiny-template #sesiones p {
+  max-width: 400px;
+}
+#shiny-template #sesiones p {
+  margin-bottom: 20px;
+}
+#shiny-template #sesiones p.ventaja {
+  margin-bottom: 40px;
+}
+#shiny-template #sesiones .btn-amarillo {
+  margin-top: 10px;
+}
 @media screen and (min-width: 651px) {
   #shiny-template .desktop-hide,
   #shiny-template .des-hid,
@@ -2284,6 +2392,7 @@ a#scroll-to-top {
 }
 @media screen and (max-width: 650px) {
   #shiny-template {
+    /******************RETO*****/
     /*Esquema por defecto para las secciones*/
   }
   #shiny-template .mov-hid,
@@ -3849,6 +3958,94 @@ a#scroll-to-top {
   }
   #shiny-template #contra2 .flex .col img {
     width: 90%;
+  }
+  #shiny-template #reto {
+    background: url(../img/reto/banner_responsive.png) no-repeat;
+    background-size: cover;
+    text-align: right;
+  }
+  #shiny-template #reto .col {
+    width: 100%;
+  }
+  #shiny-template #reto .btn-amarillo {
+    margin: 0 auto;
+    display: block;
+  }
+  #shiny-template #reto h2 {
+    max-width: 251px;
+    margin-top: -135px;
+    margin-left: 69px;
+    text-align: right;
+  }
+  #shiny-template #reto p {
+    margin-top: 80px;
+    max-width: 251px;
+    margin-left: 72px;
+    text-shadow: 0px 0px 12px white;
+  }
+  #shiny-template #reto .transformate {
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  #shiny-template #reto img {
+    margin-top: -130px;
+    max-width: 100%;
+  }
+  #shiny-template #beneficios {
+    background: url(../img/reto/beneficios_responsive.png) no-repeat;
+    background-size: cover;
+  }
+  #shiny-template #beneficios .invertido {
+    flex-wrap: wrap-reverse;
+  }
+  #shiny-template #beneficios .col {
+    width: 100%;
+  }
+  #shiny-template #beneficios ul {
+    margin-left: 30px;
+  }
+  #shiny-template #beneficios img {
+    position: relative;
+    width: 50%;
+    float: right;
+    right: 0;
+    left: 99px;
+    margin-top: -57px;
+  }
+  #shiny-template #momento {
+    background: url(../img/reto/momento_responsive.png) center no-repeat;
+    background-size: cover;
+  }
+  #shiny-template #momento .col {
+    width: 100%;
+    margin-top: -76px;
+  }
+  #shiny-template #momento ul {
+    margin-left: 30px;
+  }
+  #shiny-template #momento h2 {
+    margin-top: -98px;
+  }
+  #shiny-template #momento .solo {
+    margin-top: 98px;
+  }
+  #shiny-template #sesiones {
+    background: url(../img/reto/sesiones_responsive.png) center no-repeat;
+    background-size: cover;
+  }
+  #shiny-template #sesiones .col {
+    width: 100%;
+    margin-top: -76px;
+  }
+  #shiny-template #sesiones ul {
+    margin-left: 30px;
+  }
+  #shiny-template #sesiones h2 {
+    margin-top: -149px;
+    margin-bottom: 100px;
+  }
+  #shiny-template #sesiones p.ventaja {
+    margin-bottom: 147px;
   }
   #shiny-template .payschedule {
     background-color: #f8f5e9;
