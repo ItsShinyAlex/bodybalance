@@ -23,6 +23,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.menu-text {
+  TEXT-ALIGN: left !important;
+}
 .branding a img,
 .branding img {
   width: 270px;
