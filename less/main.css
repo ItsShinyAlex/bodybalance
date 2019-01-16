@@ -23,6 +23,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.menu-text {
+  TEXT-ALIGN: left !important;
+}
 .branding a img,
 .branding img {
   width: 270px;
@@ -68,6 +71,7 @@ a#scroll-to-top {
 }
 #shiny-template {
   width: 100% !important;
+  /***********BOTOX****/
   /**************RETO*******/
 }
 #shiny-template .wf-container-main {
@@ -2275,6 +2279,141 @@ a#scroll-to-top {
 #shiny-template #listar-servicios .add_to_cart_button {
   font-size: 1em;
   padding: 15px;
+}
+#shiny-template #botox2 h1 {
+  font-weight: bold;
+  font-size: 70px !important;
+  font-weight: 100 !important;
+  color: #508b86;
+}
+#shiny-template #botox2 .ponle {
+  font-family: 'Alte Haas Grotesk';
+  font-size: 60px!important;
+}
+#shiny-template #botox2 .mov-small {
+  display: block;
+}
+#shiny-template #botox2 .botox {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#shiny-template #botox2 p::before {
+  content: "";
+}
+#shiny-template #funcion {
+  padding: 50px 0;
+  background-color: #f8f5e9;
+  text-align: center;
+}
+#shiny-template #funcion h2,
+#shiny-template #funcion p {
+  font-weight: bold;
+  color: #68aeaa;
+}
+#shiny-template #funcion h2 {
+  font-family: 'Uptown Market';
+  font-size: 60px!important;
+  margin-bottom: 20px;
+}
+#shiny-template #aplicacion {
+  text-align: center;
+  padding-top: 50px;
+}
+#shiny-template #aplicacion .btn-brown {
+  position: absolute;
+  margin-left: -123px;
+  margin-top: -78px;
+}
+#shiny-template #aplicacion h2 {
+  font-size: 60px!important;
+  font-family: 'Uptown Market';
+  font-weight: bold;
+  color: #68aeaa;
+  margin-bottom: 20px;
+}
+#shiny-template #aplicacion img {
+  width: 100%;
+  height: auto;
+}
+#shiny-template #actua {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #68aeaa;
+}
+#shiny-template #actua .col {
+  width: 25%;
+}
+#shiny-template #actua h2,
+#shiny-template #actua h3,
+#shiny-template #actua p {
+  color: white;
+}
+#shiny-template #actua h2 {
+  font-family: 'Uptown Market';
+  font-size: 60px!important;
+  margin-bottom: 20px;
+}
+#shiny-template #actua p {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 300px;
+}
+#shiny-template #manera {
+  padding: 50px 0;
+  background-color: #508b86;
+}
+#shiny-template #manera h3,
+#shiny-template #manera img {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+#shiny-template #manera h2,
+#shiny-template #manera p {
+  color: white;
+  margin-bottom: 30px;
+}
+#shiny-template #manera .resultado {
+  margin-top: 30px;
+  text-align: center;
+}
+#shiny-template #manera h3 {
+  color: white;
+  font-weight: normal;
+}
+#shiny-template #manera .col2 {
+  width: 33%;
+}
+#shiny-template #manera .col1 {
+  width: 70%;
+  max-width: 500px;
+  margin-left: 268px;
+}
+#shiny-template #manera .col3 {
+  width: 30%;
+}
+#shiny-template #costo {
+  padding: 50px 0;
+}
+#shiny-template #costo h2 {
+  margin-top: 30px;
+  font-family: 'Uptown Market';
+  font-size: 60px!important;
+  margin-bottom: 30px;
+}
+#shiny-template #costo p {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+#shiny-template #costo strong {
+  font-size: 40px;
+}
+#shiny-template #costo strong .rostro {
+  font-size: 24px;
+}
+#shiny-template #costo img {
+  float: right;
+  position: relative;
+  right: 60px;
 }
 #shiny-template .btn-amarillo {
   background-color: #efd445;
