@@ -109,12 +109,7 @@
                 
                 <div class="mar-bot pad-left">
                     <a href="https://goo.gl/maps/GapxsnfqX7y" class="btn-saqua" target="_blank">¿Cómo llegar?</a>    
-                </div>
-                
-                
-                <div class="fcentered">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d940.7823156044791!2d-99.16812294669649!3d19.406820165643005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff154ab64aa3%3A0xe5ddf2cd58d48680!2sTuxpan+8%2C+Roma+Sur%2C+06760+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1536244758591" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
+                </div>           
             </div>
             
             
