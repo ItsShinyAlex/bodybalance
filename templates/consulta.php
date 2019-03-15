@@ -1,5 +1,5 @@
 <?php
-    /* Template Name:  Consulta Nutri*/ 
+    /* Template Name:  Consulta Nutri*/
 echo "<section id ='shiny-template'>";
     get_header();
 ?>
@@ -10,16 +10,16 @@ echo "<section id ='shiny-template'>";
 </section>
 
 <section class="template-section" id="tumeta">
-    
+
     <div class="container center desktop-r-space">
         <h2 class="saqua uptown">¡Queremos que<br>
             <span class="big">logres tu meta!</span></h2>
-            
+
         <div class="fcentered">
             <div class="w-box">
             <p>Te ofrecemos tu consulta médico nutricional
-             personalizada, analizando composición corporal con tecnología InBody,
-              estilo de vida y necesidades, 
+             personalizada, analizando composición corporal,
+              estilo de vida y necesidades,
               para obtener la mejor opción de tratamiento.
               <br>
                 <br>
@@ -28,31 +28,31 @@ echo "<section id ='shiny-template'>";
               <br>
               La consulta presencial (sólo en CDMX) y la consulta online disponible para toda la República Mexicana. Ambas tienen los mismos beneficios.  <b>¡Elige la que más te convenga!</b>
               </p>
-              
-              
-              
+
+
+
             </div>
         </div>
-        
+
         <div class="desktop-hide">
             <a href="#contacto" class="btn-brown">¡ME INTERESA!</a>
         </div>
-        
+
     </div>
-     
+
 </section>
 
 <section class="template-section des-hid" id="t-consulta-mov">
-    
+
     <div class="container">
        <div class="center">
-           
-                 <p>Te ofrecemos tu consulta médico nutricional personalizada, analizando composición corporal con tecnología InBody, estilo de vida y necesidades, para obtener la mejor opción de tratamiento (sólo en CDMX).
+
+                 <p>Te ofrecemos tu consulta médico nutricional personalizada, analizando composición corporal, estilo de vida y necesidades, para obtener la mejor opción de tratamiento (sólo en CDMX).
                  </p>
-                 
+
         </div>
      </div>
-     
+
 </section>
 
 
@@ -60,9 +60,9 @@ echo "<section id ='shiny-template'>";
     <div class="container">
         <div class="flex ">
             <div class="col" id="pills">
-                
+
             </div>
-           
+
             <div class="col col-txt">
                 <h2 class="saqua">¿Qué obtienes?
                 </h2>
@@ -85,9 +85,9 @@ echo "<section id ='shiny-template'>";
                     </li>
                 </ul>
             </div>
-            
-            
-           
+
+
+
         </div>
     </div>
 </section>
@@ -97,31 +97,31 @@ echo "<section id ='shiny-template'>";
 
 
 <section class="template-section" id="video">
-    
+
     <div class="container ">
-      
+
        <div class="fcentered">
-           
-           
+
+
             <h2 class="saqua uptown">¿Cómo Funciona?</h2>
-           
+
        </div>
-       
+
        <div class="fcentered">
            <iframe width="560" height="315" src="https://www.youtube.com/embed/I6U3L10-mtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        </div>
-       
-            
-   
-        
+
+
+
+
     </div>
-     
+
 </section>
 
 <section class="template-section" id="incluye">
     <div class="container">
         <div class="flex ">
-           
+
            <div class="col col-txt">
                 <h2 class="saqua">¿Qué incluye la consulta presencial y en línea?
                 </h2>
@@ -174,15 +174,15 @@ echo "<section id ='shiny-template'>";
                     </li>
                 </ul>
             </div>
-           
+
             <div class="col" id="food">
-                
+
             </div>
-           
-            
-            
-            
-           
+
+
+
+
+
         </div>
     </div>
 </section>
@@ -206,9 +206,9 @@ echo "<section id ='shiny-template'>";
                    <div class="fcentered">
                         <img src="<?php //echo get_stylesheet_directory_uri(); ?>/img/consulta/clock.png" alt="Reloj">
                    </div>
-                   
+
                 </div>
-                
+
                 <div class="col col-txt fcentered">
                     <ul>
                         <li>
@@ -221,7 +221,7 @@ echo "<section id ='shiny-template'>";
                 </div>
             </div>
        </div>
-   
+
   </div>
 </section>
 -->
@@ -229,14 +229,14 @@ echo "<section id ='shiny-template'>";
    <h2 class="center uptown">¿Qué consulta médica nutricional o suplemento te interesa?</h2>
     <?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" arrow_icon_size="25px" arrow_bg_width="36x" arrow_border_width="0px" arrows_bg_show="n" arrow_icon_color_hover="rgba(0,0,0,0.75)" arrow_bg_color_hover="#34afbc" r_arrow_icon_paddings="0px 0px 0px 0px" r_arrow_v_offset="0px" l_arrow_icon_paddings="0px 0px 0px 0px" l_arrow_v_offset="0px" category_ids="17"][/vc_column][/vc_row]');
     ?>
-    
+
 </section>
 
 <section class="template-section" id="money">
   <div class="container">
-      
+
        <div class="relative-top">
-           
+
            <h2 id="clock-in" class="uptown center">
               ¡Y te acompañaremos  hasta
                 <br>
@@ -244,12 +244,12 @@ echo "<section id ='shiny-template'>";
                    lograr la meta deseada!
                </span>
            </h2>
-            
+
             <div class="flex">
-           
+
                 <div class="col col-txt">
                    <div class="fcentered">
-                       
+
                     <ul>
                         <li>
                             <p><b>Primera Consulta Médico Nutricional: </b><br>800 MXN</p>
@@ -271,32 +271,32 @@ echo "<section id ='shiny-template'>";
                         <div class="pad-top">
                             <a href="https://bodybalance.mx/tienda/consulta-nutricional/" class="btn-brown">¡ME INTERESA!</a>
                         </div>
-                        
+
                     </ul>
-                    
-                    
+
+
                    </div>
-                   
+
                    <div class="fcentered">
-                       
+
                    </div>
-                   
-                   
-                    
-                   
-                    
+
+
+
+
+
                 </div>
-                
+
                 <div class="col">
                    <div class="fcentered">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/money.png" alt="Dinero en efectivo">
                    </div>
-                   
+
                 </div>
-                
+
             </div>
        </div>
-   
+
   </div>
 </section>
 
@@ -306,7 +306,7 @@ echo "<section id ='shiny-template'>";
             <div class="col" id="pills">
                 <div class="fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/creditcard.png" alt="Tarjeta de crédito"></div>
             </div>
-           
+
             <div class="col col-txt">
                 <h2 class="">¿Cómo Pagar?
                 </h2>
@@ -315,9 +315,9 @@ echo "<section id ='shiny-template'>";
                     Efectivo, debito, crédito. 3 meses sin intereses todas las tarjetas de crédito y todos los bancos.
                 </p>
             </div>
-            
-            
-           
+
+
+
         </div>
     </div>
 </section>
@@ -327,8 +327,7 @@ echo "<section id ='shiny-template'>";
 
 
 
-<?php 
+<?php
     include("shiny-footer.php");
     get_footer();
 ?>
-
