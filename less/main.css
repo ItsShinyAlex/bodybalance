@@ -777,6 +777,19 @@ a#scroll-to-top {
   font-size: 24px;
   font-weight: 900;
 }
+#shiny-template #contacto .col #cform .caldera-grid .form-control {
+  width: 100%;
+  height: 66px !important;
+  padding: 6px 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
 #shiny-template #contacto .col #cform #caldera_form_1 select {
   border-width: 3px !important;
   border-color: white !important;
@@ -808,7 +821,7 @@ a#scroll-to-top {
   background: transparent !important;
   color: white !important;
   font-family: "Alte Haas Grotesk" !important;
-  padding: 23px;
+  padding: 60px;
   font-size: 20px;
 }
 #shiny-template #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control::-webkit-input-placeholder,

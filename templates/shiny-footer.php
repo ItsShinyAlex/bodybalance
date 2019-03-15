@@ -133,6 +133,12 @@
                 </div>
             </div>
             
+            <h1>¿Quiéres aprender español
+            en tan sólo <span class="pink">2 semanas?</span></h1>
+            
+            <a href="#somos" class="btn">
+                   ¡Contáctenos!
+               </a>
             
             
         </div>
