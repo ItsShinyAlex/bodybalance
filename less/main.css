@@ -818,15 +818,13 @@ a#scroll-to-top {
   border-width: 3px !important;
   border-color: white !important;
   border-radius: 8px;
-  background: transparent !important;
-  color: white !important;
   font-family: "Alte Haas Grotesk" !important;
   padding: 60px;
   font-size: 20px;
 }
 #shiny-template #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control::-webkit-input-placeholder,
 #shiny-template #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control::-webkit-input-placeholder {
-  color: white !important;
+  color: #68aeaa !important;
 }
 #shiny-template #contacto .caldera-grid .checkbox label,
 #shiny-template #contacto .caldera-grid .radio label {
