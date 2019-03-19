@@ -1741,6 +1741,123 @@ a#scroll-to-top {
 #shiny-template #contra2 .flex .col img {
   width: 90%;
 }
+#shiny-template .txtmarbot h1,
+#shiny-template .txtmarbot h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#shiny-template .txtmarbot p {
+  margin-bottom: 30px;
+}
+#shiny-template .padimg img {
+  padding: 80px 0;
+}
+#shiny-template .darkback {
+  background-color: #3e7068 !important;
+}
+#shiny-template .aquaback {
+  background-color: #68aeaa !important;
+}
+#shiny-template .saquaback {
+  background-color: #508b86 !important;
+}
+#shiny-template .brownback {
+  background-color: #d6c780 !important;
+}
+#shiny-template .centered-and-title {
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+#shiny-template .centered-and-title .contain {
+  padding: 0 10%;
+}
+#shiny-template .centered-and-title h1,
+#shiny-template .centered-and-title h2 {
+  padding-bottom: 60px !important;
+  text-align: center;
+  font-size: 82px !important;
+}
+#shiny-template .centered-and-title p {
+  text-align: center;
+  font-size: 24px !important;
+}
+#shiny-template .whitetxt h1,
+#shiny-template .whitetxt h2,
+#shiny-template .whitetxt p,
+#shiny-template .whitetxt li {
+  color: white !important;
+}
+#shiny-template .brown {
+  color: #d6c780 !important;
+}
+#shiny-template #accent-contras .fcentered img,
+#shiny-template #accent-cuidados .fcentered img,
+#shiny-template #accent-beneficios .fcentered img {
+  padding: 120px 20px;
+}
+#shiny-template #accent-contras h2,
+#shiny-template #accent-cuidados h2,
+#shiny-template #accent-beneficios h2 {
+  padding-top: 60px;
+}
+#shiny-template #accent-contras li,
+#shiny-template #accent-cuidados li,
+#shiny-template #accent-beneficios li {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#shiny-template #attention,
+#shiny-template .packs {
+  padding: 120px 0;
+}
+#shiny-template #attention h2,
+#shiny-template .packs h2 {
+  font-size: 48px;
+}
+#shiny-template #attention p,
+#shiny-template .packs p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+#shiny-template #attention img,
+#shiny-template .packs img {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+#shiny-template #accent-cuidados .container {
+  padding: 0 10%;
+}
+#shiny-template #accent-cuidados .col {
+  padding: 40px 20px;
+}
+#shiny-template #accent-cuidados .fcentered img {
+  padding: 20px 20px;
+}
+#shiny-template #accent-contras .container h2 {
+  padding-top: 0;
+}
+#shiny-template #accent-contras .container .fcentered {
+  margin-top: 10%;
+}
+#shiny-template #accent-contras .container img {
+  width: 85%;
+}
+#shiny-template #attention h2 {
+  line-height: 120%;
+  padding: 0 12%;
+}
+#shiny-template #attention h2 .brown {
+  font-size: 60px;
+}
+#shiny-template #attention p {
+  font-weight: 400;
+  line-height: 110%;
+}
+#shiny-template #attention p .brown {
+  font-weight: 600;
+  text-decoration: none;
+}
 #shiny-template .grid {
   display: flex;
   flex-wrap: wrap;
@@ -4601,5 +4718,172 @@ a#scroll-to-top {
   #shiny-template .masaje .center .reserva {
     line-height: 0;
     margin-bottom: 55px;
+  }
+  #shiny-template .txtmarbot h1,
+  #shiny-template .txtmarbot h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+  #shiny-template .txtmarbot p {
+    margin-bottom: 30px;
+  }
+  #shiny-template .padimg img {
+    padding: 80px 0;
+  }
+  #shiny-template .centered-and-title {
+    padding-top: 80px;
+    padding-bottom: 140px;
+  }
+  #shiny-template .centered-and-title .contain {
+    padding: 0 10%;
+  }
+  #shiny-template .centered-and-title h1,
+  #shiny-template .centered-and-title h2 {
+    padding-bottom: 60px !important;
+    text-align: center;
+    font-size: 50px !important;
+  }
+  #shiny-template .centered-and-title p {
+    text-align: center;
+    font-size: 20px !important;
+  }
+  #shiny-template #accent-how-it-works .flex {
+    flex-direction: column;
+  }
+  #shiny-template #accent-how-it-works h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+  #shiny-template #accent-how-it-works p {
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: 20px;
+  }
+  #shiny-template #accent-how-it-works img {
+    padding: 0;
+  }
+  #shiny-template #accent-contras .fcentered img,
+  #shiny-template #accent-cuidados .fcentered img,
+  #shiny-template #accent-beneficios .fcentered img {
+    padding: 120px 20px;
+  }
+  #shiny-template #accent-contras h2,
+  #shiny-template #accent-cuidados h2,
+  #shiny-template #accent-beneficios h2 {
+    padding-top: 60px;
+  }
+  #shiny-template #accent-contras li,
+  #shiny-template #accent-cuidados li,
+  #shiny-template #accent-beneficios li {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  #shiny-template #accent-contras,
+  #shiny-template #accent-beneficios {
+    padding-top: 0;
+  }
+  #shiny-template #accent-contras .flex,
+  #shiny-template #accent-beneficios .flex {
+    flex-direction: column;
+  }
+  #shiny-template #accent-contras .flex .col,
+  #shiny-template #accent-beneficios .flex .col {
+    padding: 0;
+  }
+  #shiny-template #accent-contras .flex .col-txt,
+  #shiny-template #accent-beneficios .flex .col-txt {
+    padding: 30px;
+  }
+  #shiny-template #accent-contras .flex h2,
+  #shiny-template #accent-beneficios .flex h2 {
+    padding-top: 0;
+  }
+  #shiny-template #accent-contras .flex img,
+  #shiny-template #accent-beneficios .flex img {
+    width: 100%;
+    padding: 0;
+  }
+  #shiny-template #attention,
+  #shiny-template .packs {
+    padding: 80px 0;
+  }
+  #shiny-template #attention h2,
+  #shiny-template .packs h2 {
+    font-size: 40px;
+  }
+  #shiny-template #attention p,
+  #shiny-template .packs p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 45px;
+    line-height: 111%;
+    padding: 0 20px;
+  }
+  #shiny-template #attention img,
+  #shiny-template .packs img {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  #shiny-template #accent-cuidados {
+    padding-bottom: 40px;
+  }
+  #shiny-template #accent-cuidados .container {
+    padding: 0 10%;
+  }
+  #shiny-template #accent-cuidados .col {
+    padding: 0;
+  }
+  #shiny-template #accent-cuidados h2 {
+    font-size: 40px;
+  }
+  #shiny-template #accent-cuidados h2,
+  #shiny-template #accent-cuidados li,
+  #shiny-template #accent-cuidados p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  #shiny-template #accent-cuidados .fcentered img {
+    padding: 0;
+  }
+  #shiny-template #accent-contras {
+    padding-bottom: 40px;
+  }
+  #shiny-template #accent-contras .container h2 {
+    padding-top: 0;
+    font-size: 28px;
+    line-height: 111%;
+  }
+  #shiny-template #accent-contras .container .fcentered {
+    margin-top: 10%;
+  }
+  #shiny-template #accent-contras .container .col-txt img {
+    width: 100%;
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #shiny-template #accent-contras .container img {
+    width: 85%;
+  }
+  #shiny-template #attention h2 {
+    line-height: 122%;
+    padding: 0;
+    font-size: 20px;
+  }
+  #shiny-template #attention h2 .brown {
+    font-size: 40px;
+  }
+  #shiny-template #attention p {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 110%;
+  }
+  #shiny-template #attention p .brown {
+    font-weight: 600;
+    text-decoration: none;
   }
 }
