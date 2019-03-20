@@ -15,13 +15,23 @@ echo "<section id ='shiny-template'>";
 
 
 
-<section class="template-section r-list darkback padimg txtmarbot"  id="accent-how-it-works">
+<section class="template-section r-list almost-whiteback padimg txtmarbot"  id="cool-how-it-works">
     <div class="container">
-        <div class="flex whitetxt">
+        <div class="flex">
            
+           
+           
+            
+             <div class="col" id="">
+                <div class="fcentered">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/comofunciona.jpg" alt="Cambios visibles de coolifting">
+                </div>
+            </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">¿Cómo funciona?
+                <h2 class="saqua"><span class="small">¿Cómo</span>
+                    <br>
+                  funciona?
                 </h2>
 
                 <p>
@@ -41,12 +51,7 @@ echo "<section id ='shiny-template'>";
                 </p>
 
             </div>
-            
-             <div class="col" id="">
-                <div class="fcentered">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/accentprime/comoFunciona.jpg" alt="Bodybalance, maquina para accent prime">
-                </div>
-            </div>
+           
             
            
         </div>
@@ -54,7 +59,7 @@ echo "<section id ='shiny-template'>";
 </section>
 
 
-<section class="template-section r-list" id="accent-beneficios">
+<section class="template-section r-list whiteback closed justify-allp" id="cool-beneficios">
     <div class="container">
         <div class="flex ">
           
@@ -62,7 +67,7 @@ echo "<section id ='shiny-template'>";
             <div class="col col-txt">
                 <h2 class="saqua">Beneficios 
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
+               
                 <ul>
                     <li>
                         <p>Alisa e ilumina el rostro. </p>
@@ -92,7 +97,7 @@ echo "<section id ='shiny-template'>";
             
               <div class="col" id="">
                 <div class="fcentered">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/accentprime/gluteos.jpg" alt="Gluteos">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/bennefits.png" alt="Gluteos">
                 </div>
             </div>
             
@@ -101,27 +106,92 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section id="listar-servicios" class="plantilla-seccion">
-   <h2 class="center uptown">Zonas de aplicación <br> <span class="normal">Especialmente creado para rejuvenecer el rostro aplicándose en las zonas más deterioradas por las arrugas:</span> </h2>
-    <?php echo do_shortcode('[vc_row][vc_column][dt_products_carousel show_products="categories_products" order="asc" orderby="title" arrow_icon_size="25px" arrow_bg_width="36x" arrow_border_width="0px" arrows_bg_show="n" arrow_icon_color_hover="rgba(0,0,0,0.75)" arrow_bg_color_hover="#34afbc" r_arrow_icon_paddings="0px 0px 0px 0px" r_arrow_v_offset="0px" l_arrow_icon_paddings="0px 0px 0px 0px" l_arrow_v_offset="0px" category_ids="17"][/vc_column][/vc_row]');
-    ?>
+<section id="cool-zonas" class="plantilla-seccion aquaback">
+  
+  
+  <div class="container whitetxt">
+      
+       <h2 class="center ">Zonas de aplicación  </h2>
+       
+        <p class="normal">Especialmente creado para rejuvenecer el rostro aplicándose en las zonas más deterioradas por las arrugas:</p>
+       
+       <div class="flex flex-triple">
+           
+           <div class="col ">
+            <div class="fcentered">
+                
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/0contorni.png" alt="Contorno de ojo">
+                
+                
+            </div>
+             
+               <p>Contorno de ojos</p>
+               
+           </div>
+           <div class="col">
+               
+               
+               <div class="fcentered">
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/1ojos.png" alt="Chica señalando su frente">
+                 </div>
+               <p>Frente</p>
+               
+           </div>
+           <div class="col">
+               
+               
+               <div class="fcentered">
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/2entrecejo.png" alt="Entrecejo">
+                 </div>
+               <p>Entrecejo</p>
+               
+           </div>
+           
+       </div>
+       
+       <div class="flex">
+           
+            <div class="col">
+               
+               
+               <div class="fcentered">
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/3mejillas.png" alt="Mejillas">
+                 </div>
+               <p>Mejillas</p>
+               
+           </div>
+           <div class="col">
+               
+               
+               <div class="fcentered">
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/4zonalabial.jpg" alt="Zona labial">
+                 </div>
+               <p>Zona labial</p>
+               
+           </div>
+           
+       </div>
+       
+      
+      
+      
+  </div>
+  
+  
     
-    <div class="center">
-        *Se recomienda un mínimo 4 sesiones para resultados <br>
-            considerables y duraderos.  
-    </div>
+
     
 </section>
 
 
 
-<section class="template-section r-list saquaback" id="accent-cuidados">
+<section class="template-section r-list grayback closed justify-allp" id="cool-cuidados">
     <div class="container">
-        <div class="flex whitetxt">
+        <div class="flex">
            
            
             <div class="col col-txt">
-                <h2 class="saqua">Cuidados Posteriores
+                <h2 class="saqua">Cuidados posteriores
                 </h2>
                 
                 <p>
@@ -133,7 +203,7 @@ echo "<section id ='shiny-template'>";
             
              <div class="col" id="">
                 <div class="fcentered">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/accentprime/cuidadosPosteriores.jpg" alt="Gluteos">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/cuidadosposteriori.png" alt="Cara con bloqueador solar">
                 </div>
             </div>
             
@@ -143,58 +213,38 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section r-list" id="accent-contras">
+<section class="template-section r-list whiteback closed justify-allp" id="cool-contras">
     <div class="container">
         <div class="flex ">
             <div class="col" id="">
                 <div class="fcentered">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/accentprime/contras.jpg" alt="Accent Prime en bodybalance">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coolifting/contras.png" alt="Accent Prime en bodybalance">
                 </div>
             </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">Contraindicaciones de
-                este tratamiento:
+                <h2 class="saqua">Contraindicaciones
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
+
                 
                 <p>
-                    Este tratamiento no puede aplicarse en personas que: 
+                    Este tratamiento no puede aplicarse en:
                 </p>
                 
                 <ul>
                     <li>
-                        <p>Tengan marcapasos y/o enfermedades cardiacas (hipertensión, angina de pecho, insuficiencia cardíaca). </p>
+                        <p>Personas con enfermedades de la piel, como psoriasis, acné activo, inflamación o quistes. </p>
                     </li>
                     <li>
-                        <p>Presenten tumores o  cáncer en la piel. </p>
+                        <p>Mujeres embarazadas o en periodo de lactancia.  </p>
                     </li>
                     <li>
-                        <p>Padezcan enfermedades autoinmunes o
-                           trastornos psiquiátricos.</p>
+                        <p>Personas con piel muy sensible.</p>
                     </li>
                     <li>
-                        <p>Muestren enfermedades en la piel 
-                           (acné, ezcema, psoriasis). </p>
+                        <p>Zonas del rostro donde se haya aplicado recientemente botox o rellenos de ácido hialurónico.</p>
                     </li>
-                    <li>
-                        <p>Posean prótesis metálicas o implantes
-                           permanentes (aceite de silicona, PMMA)
-                           en el área de tratamiento.</p>
-                    </li>
-                    <li>
-                        <p>Consuman fármacos fotosensibilizantes
-                           como Roaccutane™. </p>
-                    </li>
-                    <li>
-                        <p>Estén embarazadas. </p>
-                    </li>
-                    <li>
-                        <p>Tengan la menstruación (contraindicado
-                            solamente en el abdomen) <br>
-                           *Tampoco puede aplicarse en el
-                            párpado superior</p>
-                    </li>
+                
                 </ul>
             </div>
             
@@ -202,17 +252,21 @@ echo "<section id ='shiny-template'>";
            
         </div>
     </div>
+</section>
     
     
-    <section class="template-section r-list brownback" id="accent-contras">
+
+
+
+
+    <section class="template-section  almost-whiteback closed" id="cool-sesiones">
     <div class="container">
         <div class="flex ">
-            <div class="col" id="">
+            <div class="col col-txt" >
 
-                    <h2 class="saqua">Contraindicaciones de
-                este tratamiento:
+                    <h2 class="saqua">Sesiones
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/lineaCAFE.png" alt="-----">
                 
                  <p>
                     Resultados desde la 1era sesión (Mínimo 8 sesiones para resultados duraderos).   
@@ -222,17 +276,16 @@ echo "<section id ='shiny-template'>";
             </div>
            
             <div class="col col-txt">
-                <h2 class="saqua">Contraindicaciones de
-                este tratamiento:
+                <h2 class="saqua">Precio
                 </h2>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consulta/a-line.png" alt="-----">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/lineaCAFE.png" alt="-----">
                 
                 <p>
                    Una sesión:	$1,800 MXN <br>
                     4 sesiones:	$7,200 MXN
                 </p>
                 
-                <p>Si compras en este momento, te damos 25% de descuento.  </p>
+                <p> <b>Si compras en este momento, te damos 25% de descuento.</b></p>
                 
 
             </div>
@@ -245,6 +298,9 @@ echo "<section id ='shiny-template'>";
     
     
 </section>
+
+
+
 
 
 
